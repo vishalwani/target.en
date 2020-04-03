@@ -269,7 +269,7 @@ When a visitor opens Page1 in a browser, he or she is redirected to Page2. Becau
 
 If the redirect page and the activity URL belong to the same property, clicktracks work as expected. For more information, see [Click tracking](/help/c-activities/r-success-metrics/click-tracking.md).
 
-## Training video: Enterprise Permissions Training Video {#section_2FA080303A064242B63FF16CFA6DB31D} ![Overview badge](/help/assets/overview.png)
+## Training video: Enterprise Permissions Training Video ![Overview badge](/help/assets/overview.png)
 
 Learning objectives:
 
