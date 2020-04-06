@@ -12,10 +12,6 @@ uuid: 8755e622-8a31-4106-ba90-b1128a0cf89c
 
 **Last Updated: April 2, 2020 ( [See What Changed](r-release-notes/doc-change.md) )**
 
->[!IMPORTANT]
->
->Adobe Summit has become a virtual event! Adobe is pulling out all of the stops with a live digital experience! This live experience will include our main-stage Keynote address, mini-keynotes featuring the latest trends and advancements, insights into industry leaders’ success, and breakout sessions. To register for free access to the entire digital event, go to [The Digital Experience Conference: Summit](https://www.adobe.com/summit.html) page.
-
 The following sections point you to useful links in this guide, arranged by intended audience based on typical job functions:
 
 - [All Target users](#all)
