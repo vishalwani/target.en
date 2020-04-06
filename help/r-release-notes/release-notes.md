@@ -24,16 +24,6 @@ These release notes provide information about features, enhancements, and fixes 
 >
 >* The issue numbers in parentheses are for internal [!DNL Adobe] use.
 
-## Summit Live: The Digital Experience Conference {#summit}
-
-Adobe Summit has become a virtual event! Adobe is pulling out all of the stops with a live digital experience starting March 31, 2020. This live experience will include our main-stage Keynote address, mini-keynotes featuring the latest trends and advancements, insights into industry leaders’ success, and breakout sessions. 
-
-* **Watch the keynote live**: Hear about trends and new products that are transforming industries from the comfort of your wherever.
-* **Explore 100+ breakouts on demand:** Get free access to over a hundred on-demand breakout sessions from Adobe, customers, and partners.
-* **Sneak a peak at the future**: Join special guest Chelsea Handler for a look at the latest experimental tech from our labs — at Adobe Sneaks.
-
-To register for free access to the entire digital event, go to [The Digital Experience Conference: Summit](https://www.adobe.com/summit.html) page.
-
 ## Target at.js (March 25, 2020)
 
 The following new versions of the Target at.js JavaScript libraries are available:
