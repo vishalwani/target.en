@@ -14,6 +14,7 @@ This page lists important changes made to the [!DNL Adobe Target] product docume
 
 |Date|Topic|Changes|
 | --- | --- | --- |
+|April 7|[Lift and confidence - A4T FAQ](/help/c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-lift-and-confidence.md#lift-condidence)|Updated text for "Why can't I see lift and confidence on calculated metrics?"|
 |April 2|[Profile and variable glossary](/help/c-target/c-visitor-profile/variables-profiles-parameters-methods.md)|Added information about using `user.header('x-forwarded-for')` with newer AWS edges to retrieve users' IP addresses.|
 ||[Upgrading from at.js 1.*x* to at.js 2.*x*](/help/c-implementing-target/c-implementing-target-for-client-side-web/upgrading-from-atjs-1x-to-atjs-20.md)|Added following note:<ul><li>After installing the ECID library v4.3.0+ and at.js 2.*x*, you will be able to create activities that span unique domains as well as track users. It is important to note that this functionality works only after the session expires.</li></ul>|
 |March 30|[Known issues and resolved issues](/help/r-release-notes/known-issues-resolved-issues.md#atjs)|Added a known issues that affects at.js versions prior to at.js 2.2.0. This issue caused click tracking to not report conversions in Analytics for Target (A4T) when Adobe Analytics code was not present on page elements.|
