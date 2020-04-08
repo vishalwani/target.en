@@ -10,7 +10,7 @@ uuid: 35ecabbe-b8b4-479b-9266-4823c831d79a
 
 This article contains prerelease information. Release dates, features, and other information are subject to change without notice. 
 
-**Last Updated: March 25, 2020**
+**Last Updated: April 8, 2020**
 
 To view information about the current release, see [Target Release Notes](release-notes.md). The information on these pages might be the same, depending on the timing of releases. The issue numbers in parentheses are for internal [!DNL Adobe] use.
 
@@ -22,43 +22,18 @@ To view information about the current release, see [Target Release Notes](releas
 >
 >   By moving all customers to at.js, our engineers and support staff will be able to provide you with new functionality and offer the support you have come to expect from Adobe.
 
-## Target at.js (March 25, 2020)
-
-The following new versions of the Target at.js JavaScript libraries are available:
-
-* at.js version 2.3.0
-* at.js version 1.8.1
-
-For more information, see [at.js version details](/help/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md).
-
-## Target Standard/Premium 20.2.1 (March 23, 2020)
-
->[!IMPORTANT]
->
->See the information above about the deprecation of mbox.js.
+## Target Standard/Premium 20.4.1 (April 27, 2020)
 
 This release contains the following enhancements, fixes, and changes:
 
-* Fixed an issue that prevented customers from selecting a collection when performing a catalog search. (TGT-36230)
-* Fixed an issue in which a criteria created via API, but not referenced by an activity created in the Target UI, could be erroneously deleted from the UI. (TGT-35917)
-* Implemented security improvements to the Content Security Policy (CSP). (TGT-36190)
-* Fixed an issue that caused "NaN%" to display when sliding the Attribute Weighting percentage bar to the far left. (TGT-36211)
-* Resolved localization issues so that UI text in various languages displays correctly.
-* We’ve standardized the list of available metrics from Adobe Analytics for Target (A4T) activities by deprecating Adobe Analytics metrics not supported in the current version of Adobe Analytics APIs. This will enable us to extend our A4T support in future Adobe Target releases. 
-
-  The following changes have been made:
-
-  * "Average Time Spent on Page" has been replaced by "Average Time Spent on Site." Any activities using this as metric the Primary Goal Metric will have "Average Time Spent on Site" (note: measured in minutes rather than seconds) selected as the Primary Goal Metric the next time the activity is edited.
-  * "Visitors" has been replaced by "Unique Visitors." Any activities using this metric as the Primary Goal Metric will have "Unique Visitors" selected as the Primary Goal Metric the next time the activity is edited.
-
-* The following metrics have been deprecated and can no longer be selected as the Primary Goal Metric when creating a new A4T activity.
-
-  |Deprecated Metric(s)|Suggested Replacement Metric(s)|
-  |--- |--- |
-  |Daily Visitors, Hourly Visitors, Monthly Visitors, Quarterly Visitors, Weekly Visitors, Yearly Visitors|Unique Visitors|
-  |Average Visit Depth|n/a. Not suggested as a primary goal metric|
-  |Bots|n/a. Not suggested as a primary goal metric|
-  |Mobile Crash Rate, Mobile Avg Prev Session Length, Mobile App Store Avg Rank, Mobile App Performance Crash Rate, Mobile App Store Avg Rating|n/a. Not suggested as a primary goal metric|
+* Fixed an issue that incorrectly qualified a device and browser type for an audience. (TGT-36266)
+* Fixed an issue that prevented report data from displaying when viewed on screens less than 963 pixels wide. (TGT-36549)
+* Fixed an issue that caused Auto Personalization reports to not render correctly. (TGT-36619)
+* Fixed an issue that caused certain options in the Visual Experience Composer (VEC) to not display correctly. (TGT-36571)
+* Fixed an issue in the Target UI that caused other Recommendations offer previews to display the edited content after a user replaced the content in a single experience. (TGT-36053)
+* Fixed an issue that prevented some users from deleting items from a Recommendations catalog. (TGT-36455)
+* Fixed an issue that prevented users from saving Recommendations criteria on a multi-page activity. (TGT-36249)
+* Fixed a display issue that caused a Recommendations algorithm to display "fetching results" for an extended period. (TGT-36550 & TGT-36551)
 
 ## Prerelease information {#section_7B9D4AAFC6A74388B9D7DEF0658D8B63} 
 
