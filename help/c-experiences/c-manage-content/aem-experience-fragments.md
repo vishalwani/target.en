@@ -72,7 +72,7 @@ Depending on your [!DNL AEM] version, see the following links for step-by-step i
 * **[!DNL AEM] 6.4**: [Exporting an Experience Fragment to Target](https://docs.adobe.com/content/help/en/experience-manager-64/administering/integration/experience-fragments-target.html) in the *Adobe Experience Manager 6.4* documentation.
 * **[!DNL AEM] 6.5**: [Exporting an Experience Fragment to Target](https://helpx.adobe.com/experience-manager/6-5/sites/administering/using/experience-fragments-target.html) in the *Adobe Experience Manager 6.5* documentation.
 
-## Using experience fragments in [!DNL Target] activities {#section_17CE4BE6B2B74CCEBAE0C68DEB84ABB9}
+## Using experience fragments in DNL Target activities {#section_17CE4BE6B2B74CCEBAE0C68DEB84ABB9}
 
 After performing the preceding tasks, the experience fragment displays on the [!UICONTROL Offers] page in [!DNL Target].
 
