@@ -95,12 +95,6 @@ For GET requests, although the limit on the back end is 5 KB, due to the fact th
 
 Values longer than this get truncated.
 
-## In-mbox profiles in an mbox request
-
-**Limit**: 50 profiles.
-
-All profiles after 50 are ignored.
-
 ## In-mbox profile names
 
 **Limit**: 128 characters.
