@@ -266,6 +266,34 @@ Although these examples use JavaScript code, all this can be simplified if you a
 
 If the preceding steps are followed you should have a robust A4T solution for SPAs.
 
+## Implementation Best Practice
+
+AT.js 2.x APIs provide you with the capability of customizing your Adobe Target implementation in many ways, but it is important that you take care of the order of operations when doing that.
+
+Below you will see the order of operations that you must follow when loading a Single Page Application for the first time in a browser and for any view change that happens afterwards.
+
+### Order of operations for initial page load
+
+|Step|Action|Details|
+| --- | --- | --- |
+|1|Load VisitorAPI JS|This library is responsible for assigning an ECID to the visitor, this ID will be later consumed by other Adobe solutions on the webpage|
+|2|Load AT.js 2.x|This will load all the necessary APIs that you use to implement Target requests and views|
+|3|Execute Target request|If you have a Data Layer, it is recommended that you load critical data that is required to send to Adobe Target before executing Target request. This will enable you to use targetPageParams to send any data you wish to use for targeting. You will need to ensure that you request for execute > pageLoad as well as prefetch > views in this API call. if you have set "pageLoadEnabled" and "viewsEnabled", then both execute > pageLoad and prefetch > views will be automatically happen with Step 2, otherwise you need to use getOffers() API to make this request.|
+|4|Call triggerView()|Since the Target request you initiated on Step 3 could bring back experiences for both Page Load execution as well as Views, it is necessary that ensure triggerView() is called after Target request comes back and finish applying the offers in the cache. You must execute this step only once per view.|
+|5|Call Analytics page view beacon|This will send the SDID associated with Step 3/4 to Analytics for data stitching.|
+|6|Call additional triggerView({"page": false})|This is an optional step for SPA frameworks which could potentially re-render certain components on the page without a view change happening. On such occasions, it is important that you invoke this API to ensure that Target experiences are re-applied after the SPA framework has re-rendered the components. You can execute this step as many times as you want to ensure that Target experiences are persisting in your SPA views.|
+
+### Order of operations for SPA view change (No full page reload)
+
+|Step|Action|Details|
+| --- | --- | --- |
+|1|Call visitor.resetState() API|This will ensure that the SDID is re-generated for the new view that is getting loaded.|
+|2|Update cache by calling getOffer() API|This is an optional step to take if you believe that this view change has a potential to qualify the current visitor for more Target Activities or disqualify them from Activities, at this point,you can also choose to send additional data to Target for enabling further targeting capabilities.|
+|3|Call triggerView()|if you have executed Step 2, then you must wait for the Target request to come back and apply the offers to cache before execute this step. You must execute this step only once per view. |
+|4|Call triggerView()|if you have not executed Step 2, then you can execute this step as soon as you have done with Step 1. if you have executed, Step 2 and 3, then you should skip this step. You must execute this step only once per view.|
+|5|Call Analytics page view beacon|This will send the SDID associated with Step 2/3/4 to Analytics for data stitching.|
+|6|Call additional triggerView({"page": false})|This is an optional step for SPA frameworks which could potentially re-render certain components on the page without a view change happening. On such occasions, it is important that you invoke this API to ensure that Target experiences are re-applied after the SPA framework has re-rendered the components. You can execute this step as many times as you want to ensure that Target experiences are persisting in your SPA views.|
+
 ## Training videos
 
 The following videos contain more information:
