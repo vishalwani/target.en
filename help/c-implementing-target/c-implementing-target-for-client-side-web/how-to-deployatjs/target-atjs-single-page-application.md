@@ -266,7 +266,7 @@ Although these examples use JavaScript code, all this can be simplified if you a
 
 If the preceding steps are followed you should have a robust A4T solution for SPAs.
 
-## Implementation best practices
+## Implementation best practices {#bp}
 
 at.js 2.x APIs let you customize your [!DNL Target] implementation in many ways, but it is important to follow the correct order of operations during this process.
 
