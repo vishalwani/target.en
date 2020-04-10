@@ -268,7 +268,7 @@ If the preceding steps are followed you should have a robust A4T solution for SP
 
 ## Implementation best practices
 
-at.js 2.x APIs let you customize your [!DNL Target] implementation in many ways, but it is important follow the correct order of operations during this process.
+at.js 2.x APIs let you customize your [!DNL Target] implementation in many ways, but it is important to follow the correct order of operations during this process.
 
 The following information describes the order of operations that you must follow when loading a Single Page Application for the first time in a browser and for any view change that happens afterwards.
 
@@ -279,7 +279,7 @@ The following information describes the order of operations that you must follow
 |1|Load VisitorAPI JS|This library is responsible for assigning an ECID to the visitor. This ID is later consumed by other [!DNL Adobe] solutions on the web page.|
 |2|Load at.js 2.x|at.js 2.x loads all the necessary APIs that you use to implement [!DNL Target] requests and views.|
 |3|Execute [!DNL Target] request|If you have a data layer, we recommend that you load critical data that is required to send to [!DNL Target] before executing a [!DNL Target] request. This lets you use `targetPageParams` to send any data you want to use for targeting. You must ensure that you request for execute > pageLoad as well as prefetch > views in this API call. if you have set `pageLoadEnabled` and `viewsEnabled`, then both execute > pageLoad and prefetch > views automatically happen with Step 2; otherwise, you need to use the `getOffers()` API to make this request.|
-|4|Call `triggerView()`|Because the [!DNL Target] request you initiated in Step 3 could return experiences for both Page Load execution as well as Views, ensure that `triggerView()` is called after the [!DNL Target] request is returned and finishes applying the offers in the cache. You must execute this step only once per view.|
+|4|Call `triggerView()`|Because the [!DNL Target] request you initiated in Step 3 could return experiences for both Page Load execution as well as Views, ensure that `triggerView()` is called after the [!DNL Target] request is returned and finishes applying the offers to cache. You must execute this step only once per view.|
 |5|Call the [!DNL Analytics] page view beacon|This beacon sends the SDID associated with Step 3 and 4 to [!DNL Analytics] for data stitching.|
 |6|Call additional `triggerView({"page": false})`|This is an optional step for SPA frameworks that could potentially re-render certain components on the page without a view change happening. On such occasions, it is important that you invoke this API to ensure that [!DNL Target] experiences are re-applied after the SPA framework has re-rendered the components. You can execute this step as many times as you want to ensure that [!DNL Target] experiences persist in your SPA views.|
 
@@ -288,7 +288,7 @@ The following information describes the order of operations that you must follow
 |Step|Action|Details|
 | --- | --- | --- |
 |1|Call `visitor.resetState()`|This API ensures that the SDID is re-generated for the new view as it loads.|
-|2|Update cache by calling the `getOffer()` API|This is an optional step to take if this view change has a potential to qualify the current visitor for more [!DNL Target] activities or disqualify them from activities. At this point, you can also choose to send additional data to [!DNL Target] for enabling further targeting capabilities.|
+|2|Update cache by calling the `getOffers()` API|This is an optional step to take if this view change has a potential to qualify the current visitor for more [!DNL Target] activities or disqualify them from activities. At this point, you can also choose to send additional data to [!DNL Target] for enabling further targeting capabilities.|
 |3|Call `triggerView()`|If you have executed Step 2, then you must wait for the [!DNL Target] request and apply the offers to cache before execute this step. You must execute this step only once per view.|
 |4|Call `triggerView()`|If you have not executed Step 2, then you can execute this step as soon as you complete Step 1. If you have executed Step 2 and Step 3, then you should skip this step. You must execute this step only once per view.|
 |5|Call the [!DNL Analytics] page view beacon|This beacon sends the SDID associated with Step 2, 3, and 4 to [!DNL Analytics] for data stitching.|
