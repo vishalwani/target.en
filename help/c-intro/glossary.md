@@ -325,6 +325,10 @@ All referring page and page URL variables are automatically passed to an mbox wh
 
 ## V {#section_0B85CE959BA948CDAC3BAEFB4EEDFAD2}
 
+**visit**
+
+A visit is sometimes called a session. A visit ends after 30 minutes of inactivity, meaning at least 30 minutes have passed between server requests to Target.
+
 **visitor**
 
 A visitor is any person who accesses your site. A visitor is evaluated against activity criteria to determine whether the visitor is included in an activity. See *entrant*.
