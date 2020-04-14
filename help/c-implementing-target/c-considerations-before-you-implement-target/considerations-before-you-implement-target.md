@@ -24,3 +24,4 @@ This section includes information for developers specific to their implementatio
 - [Supported browsers](supported-browsers.md)
 - [TLS (Transport Layer Security) encryption changes](tls-transport-layer-security-encryption.md)
 - [CNAME and Adobe Target](implement-cname-support-in-target.md)
+- [Whitelist Target edge nodes](/help/c-implementing-target/c-considerations-before-you-implement-target/white-list-edges.md)
