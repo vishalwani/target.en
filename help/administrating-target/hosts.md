@@ -10,10 +10,6 @@ uuid: c7682269-4ec2-4a0f-b053-7e0ec77f4604
 
 Organize your sites and pre-production environments for easy management and separated reporting.
 
-## Hosts {#concept_516BB01EBFBD4449AB03940D31AEB66E}
-
-Organize your sites and pre-production environments for easy management and separated reporting. 
-
 The primary goal of host management is to ensure that no inactive content accidentally appears on websites. Host management also lets you separate report data by environment.
 
 A host is any web server (or web domain) from where you serve content during any stage of your project. Any host serving an mbox is recognized.
