@@ -82,7 +82,7 @@ There are multiple ways to reach the [!UICONTROL Create Criteria Sequence] scree
 
    For more information about recommendation logic options, see [Criteria](../../c-recommendations/c-algorithms/algorithms.md#concept_4BD01DC437F543C0A13621C93A302750).
 
-## Training video: Create criteria in Recommendations (12:33) ![Tutorial badge](/help/assets/tutorial.png
+## Training video: Create criteria in Recommendations (12:33) ![Tutorial badge](/help/assets/tutorial.png)
 
 This video contains the following information:
 

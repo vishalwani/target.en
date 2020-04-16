@@ -114,7 +114,7 @@ This video explains how to use Adobe Analytics as a reporting source in Adobe Ta
 
 >[!VIDEO](https://video.tv.adobe.com/v/17384)
 
-### Analytics / Target Integration (A4T) (40:33) ![Tutorial badge](/help/assets/tutorial.png
+### Analytics / Target Integration (A4T) (40:33) ![Tutorial badge](/help/assets/tutorial.png)
 
 This video is a recording of " [Office Hours](../../cmp-resources-and-contact-information.md#concept_58EA30379D3B48C4848BA2A8C464A5B7)," an initiative led by the Adobe Customer Care team.
 
