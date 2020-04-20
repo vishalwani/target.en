@@ -10,7 +10,11 @@ uuid: 8755e622-8a31-4106-ba90-b1128a0cf89c
 
 [!DNL Adobe Target] is the [!DNL Adobe Experience Cloud] solution that provides everything you need to tailor and personalize your customers' experience so you can maximize revenue on your web and mobile sites, apps, social media, and other digital channels.
 
-**Last Updated: April 14, 2020 ( [See What Changed](r-release-notes/doc-change.md) )**
+**Last Updated: April 20, 2020 ( [See What Changed](r-release-notes/doc-change.md) )**
+
+>[!NOTE]
+>
+>With the upcoming deprecation of mbox.js on August 30, 2020, David Son, Adobe Target Product Manager is hosting a developer chat to discuss the benefits of migrating mbox.js to at.js. For more information, see [Adobe Target Skill Builder: Developer chat, migrate Adobe Target's mbox.js to at.js](/help/r-release-notes/release-notes.md#skill-builder). 
 
 The following sections point you to useful links in this guide, arranged by intended audience based on typical job functions:
 

@@ -14,6 +14,7 @@ This page lists important changes made to the [!DNL Adobe Target] product docume
 
 |Date|Topic|Changes|
 | --- | --- | --- |
+|April 20|[Target release notes (current)](/help/r-release-notes/release-notes.md)|Added new section: *Adobe Target Skill Builder: Developer chat, migrate Adobe Target's mbox.js to at.js.*|
 |April 14|[Whitelist Target edge hosts](/help/c-implementing-target/c-considerations-before-you-implement-target/white-list-edges.md)|New topic.|
 |April 10|[Single Page Application implementation](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/target-atjs-single-page-application.md#bp)|Added new section: "Implementation best practices."|
 |April 7|[Lift and confidence - A4T FAQ](/help/c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-lift-and-confidence.md#lift-condidence)|Updated text for "Why can't I see lift and confidence on calculated metrics?"|
