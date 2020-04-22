@@ -14,6 +14,7 @@ This page lists important changes made to the [!DNL Adobe Target] product docume
 
 |Date|Topic|Changes|
 | --- | --- | --- |
+|April 22|[Target release notes (prerelease)](/help/r-release-notes/target-release-notes.md)|Added new section: *Profile Batch Status API v2 changes (May 4, 2020).*|
 |April 20|[Target release notes (current)](/help/r-release-notes/release-notes.md)|Added new section: *Adobe Target Skill Builder: Developer chat, migrate Adobe Target's mbox.js to at.js.*|
 |April 14|[Whitelist Target edge hosts](/help/c-implementing-target/c-considerations-before-you-implement-target/white-list-edges.md)|New topic.|
 |April 10|[Single Page Application implementation](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/target-atjs-single-page-application.md#bp)|Added new section: "Implementation best practices."|
