@@ -53,13 +53,11 @@ The previous and new API responses are as follows:
 http://<<edge>>/m2/<<client>>/profile/batchStatus?batchId=<batchid>`
 
 **Currently we see the response as:**
- 
-`https://mboxedge17.tt.omtrdc.net/m2/amazonwebservicesinc/v2/profile/batchStatus?batchId=amazonwebservicesinc-1585929692655-59449976`
 
 ```
 <response>
  
-    <batchId>amazonwebservicesinc-1585929692655-59449976</batchId>
+    <batchId>samplebatch-1585929692655-59449976</batchId>
  
     <status>complete</status>
  
@@ -97,7 +95,7 @@ http://<<edge>>/m2/<<client>>/profile/batchStatus?batchId=<batchid>`
 ```
 <response>
  
-    <batchId>amazonwebservicesinc-1585929692655-59449976</batchId>
+    <batchId>samplebatch-1585929692655-59449976</batchId>
  
     <status>complete</status>
  
