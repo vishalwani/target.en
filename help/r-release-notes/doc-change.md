@@ -10,6 +10,12 @@ uuid: 6fba75e2-0a93-488d-9010-fffa423600c0
 
 This page lists important changes made to the [!DNL Adobe Target] product documentation.
 
+## Adobe Target Standard/Premium 20.4.1 (April 27, 2020)
+
+|Date|Topic|Changes|
+| --- | --- | --- |
+|April 27|[Release Notes](/help/r-release-notes/release-notes.md): 20.4.1|This release includes enhancements and fixes. You can read about them and link to the documentation from the Release Notes. This release also includes many documentation updates throughout the help.|
+
 ## Adobe Target Standard/Premium 20.2.1 (February 19, 2020)
 
 |Date|Topic|Changes|
