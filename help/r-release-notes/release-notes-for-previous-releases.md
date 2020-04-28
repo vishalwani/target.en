@@ -16,66 +16,6 @@ Release notes for previous Target releases, including release notes for Target S
 
 ## Release notes - 2020
 
-## Target at.js (March 25, 2020)
-
-The following new versions of the Target at.js JavaScript libraries are available:
-
-* at.js version 2.3.0
-* at.js version 1.8.1
-
-For more information, see [at.js version details](/help/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md).
-
-## Target Standard/Premium 20.2.1 (March 23, 2020)
-
-This release contains the following enhancements, fixes, and changes:
-
-* Fixed an issue that prevented customers from selecting a collection when performing a catalog search. (TGT-36230)
-* Fixed an issue in which a criteria created via API, but not referenced by an activity created in the Target UI, could be erroneously deleted from the UI. (TGT-35917)
-* Implemented security improvements to the Content Security Policy (CSP). (TGT-36190)
-* Fixed an issue that caused "NaN%" to display when sliding the Attribute Weighting percentage bar to the far left. (TGT-36211)
-* Resolved localization issues so that UI text in various languages displays correctly.
-* We’ve standardized the list of available metrics from Adobe Analytics for Target (A4T) activities by deprecating Adobe Analytics metrics not supported in the current version of Adobe Analytics APIs. This will enable us to extend our A4T support in future Adobe Target releases. 
-
-  The following changes have been made:
-
-  * "Average Time Spent on Page" has been replaced by "Average Time Spent on Site." Any activities using this as metric the Primary Goal Metric will have "Average Time Spent on Site" (note: measured in minutes rather than seconds) selected as the Primary Goal Metric the next time the activity is edited.
-  * "Visitors" has been replaced by "Unique Visitors." Any activities using this metric as the Primary Goal Metric will have "Unique Visitors" selected as the Primary Goal Metric the next time the activity is edited.
-
-* The following metrics have been deprecated and can no longer be selected as the Primary Goal Metric when creating a new A4T activity.
-
-  |Deprecated Metric(s)|Suggested Replacement Metric(s)|
-  |--- |--- |
-  |Daily Visitors, Hourly Visitors, Monthly Visitors, Quarterly Visitors, Weekly Visitors, Yearly Visitors|Unique Visitors|
-  |Average Visit Depth|n/a. Not suggested as a primary goal metric|
-  |Bots|n/a. Not suggested as a primary goal metric|
-  |Mobile Crash Rate, Mobile Avg Prev Session Length, Mobile App Store Avg Rank, Mobile App Performance Crash Rate, Mobile App Store Avg Rating|n/a. Not suggested as a primary goal metric|
-
-## Adobe Experience Cloud navigation (February 22, 2019)
-
-* When you log in to the [!DNL Adobe Experience Cloud], you will be taken to the new header navigation. It looks very similar to the previous navigation with the black bar at the top, but it provides the following improvements:
-
-  * Easier switching between [!DNL Identity Management System] (IMS) organizations or to a different solution.
-  * Improved user help: Search results include results from the [!DNL Target] product documentation, as well as community forums and more video content, giving you easier access to more content to help get the most out [!DNL Target]. We’ve also added a feedback mechanism right in the [!UICONTROL Help] menu, making it easier to report issues or to share your ideas.
-
-  * Improved Net Promoter Score (NPS) feedback functionality, so the survey modal doesn’t disturb your flow of work.
-  * Improved log-in flow. Previously, all [!DNL Target] customers landed on the Target landing page after clicking the [!DNL Target] icon in the header. This page then allowed customers to proceed forward with [!DNL Target Standard/Premium], [!DNL Search&Promote], or [!DNL Recommendations Classic],  as shown below:
-
-    ![Landing page](/help/r-release-notes/assets/landing.png)
-  
-    We eliminated this landing page for all our customers. You are now always taken directly to the [!UICONTROL Activities List] page by clicking the [!DNL Target] icon in the new header navigation bar. 
-    
-    If you use [!DNL Recommendations Classic], you can either go directly to the solution or you can go from the short link created on the [!UICONTROL Recommendations] tab, as shown below:
-
-    ![Recs Classic deep link](/help/r-release-notes/assets/recs-classic.png)
-    
-    If you use [!DNL Search&Promote], you need to go directly to the [Search&Promote URL](https://center.atomz.com/center/?ims=1) (https://center.atomz.com/center/?ims=1). The path to reach [!DNL Search&Promote] from inside of [!DNL Adobe Target] has been removed completely.
-    
-  * Notifications for [!DNL Target] are not currently available in the [!UICONTROL Notifications] drop-down in the header.
-
-  >[!NOTE]
-  >
-  >As part of the rollout of the new navigation bar, you will also notice some URL changes. All previous bookmarked links continue to work but we encourage you to bookmark new links for faster opening.
-
 ### Target Standard/Premium 20.1.1 (February 4, 2020)
 
 The Target Standard/Premium 20.1.1 release is a maintenance release and includes backend enhancements and improvements. In addition, the following fixes are included:
