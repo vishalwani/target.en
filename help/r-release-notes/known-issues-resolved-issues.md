@@ -17,6 +17,20 @@ Information about known issues for this release of Target. Also includes informa
 
 The following sections list the known issues for [!DNL Target]:
 
+### Reporting and extreme orders
+
+From November 25, 2019 until April 26, 2020, one Target server experienced an issue that led extreme order values to be counted in revenue-based report metrics (AOV, RPV). From December 19, 2019 until April 23, 2020, another server experienced the same issue. This issue did not affect all Target servers or all Target customers.
+
+You were *not* affected if:
+
+* Your Target implementation uses different servers.
+* Your reports did not exclude extreme orders.
+* You used a conversion metric to measure your activities.
+* Your Target activities use Analytics for Target (A4T).
+* You are located the Asia-Pacific (APAC) region.
+
+To determine if this issue impacted your Target implementation, reach out to [Client Care](/help/cmp-resources-and-contact-information.md#concept_34A1CA16F2244D42930BB77846A5ABBB).
+
 ### Page delivery {#page-delivery}
 
 If you add a template rule, such as URL contains (/checkout, /cart) in [page delivery](/help/c-activities/t-experience-target/t-xt-create/xt-activity-url.md), extra spaces are prefixed to your rules. This is a cosmetic issue and does not affect audience-definition creation and offer delivery. (TGT-35916)
