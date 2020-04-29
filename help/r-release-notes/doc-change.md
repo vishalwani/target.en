@@ -14,6 +14,7 @@ This page lists important changes made to the [!DNL Adobe Target] product docume
 
 |Date|Topic|Changes|
 | --- | --- | --- |
+|April 29|[Known issues and resolved issues](/help/r-release-notes/known-issues-resolved-issues.md)|Added known issue for reporting with extreme orders.|
 |April 28|[Profile and variable glossary](/help/c-target/c-visitor-profile/variables-profiles-parameters-methods.md)|Removed information about using `user.header('x-forwarded-for')` with newer AWS edges to retrieve users' IP addresses. This command now works with newer AWS edges.|
 ||[Target release notes (prerelease)](/help/r-release-notes/target-release-notes.md)|Changed date of the Target Standard/Premium release (20.4.1) to May 6.|
 |April 23|[CNAME and Adobe Target](/help/c-implementing-target/c-considerations-before-you-implement-target/implement-cname-support-in-target.md)|Updated topic.|
