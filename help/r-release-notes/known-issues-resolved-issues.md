@@ -29,7 +29,7 @@ You were *not* affected if:
 * Your Target activities use Analytics for Target (A4T).
 * You are located the Asia-Pacific (APAC) region.
 
-To determine if this issue impacted your Target implementation, reach out to [Client Care](/help/cmp-resources-and-contact-information.md#concept_34A1CA16F2244D42930BB77846A5ABBB).
+To determine if this issue impacted your Target reporting, reach out to [Client Care](/help/cmp-resources-and-contact-information.md#concept_34A1CA16F2244D42930BB77846A5ABBB).
 
 ### Page delivery {#page-delivery}
 
