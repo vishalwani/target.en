@@ -260,6 +260,6 @@ The following HTML snippet replaces the existing HTML portion in the 4x2 default
             #set($count = $count + 1) 
         #end 
     #end
-    </div>
   </div>
-  ```
+</div>
+```
