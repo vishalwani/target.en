@@ -109,7 +109,7 @@ Dependent on your solution configuration, some options described in this documen
 
 ### Feedback {#section_8154D6D712054220A90D85FA8E92933E}
 
-We welcome any suggestions or feedback regarding this solution. Enhancement ideas and suggestions for the Analytics suite [can be added to our Customer Idea Exchange](https://my.omniture.com/login/?r=%2Fp%2Fsuite%2Fcurrent%2Findex.html%3Fa%3DIdeasExchange.Redirect%26redirectreason%3Dnotregistered%26referer%3Dhttp%253A%252F%252Fideas.omniture.com%252Ft5%252FAdobe-Idea-Exchange-for-Omniture%252Fidb-p%252FIdeaExchange3).
+We welcome any suggestions or feedback regarding this solution. Enhancement ideas and suggestions can be added to the [Adobe Target Experience League Community](https://experienceleaguecommunities.adobe.com/t5/adobe-target/ct-p/adobe-target-community). Click the [!UICONTROL Ideas] tab.
 
 ### Legal {#section_A6E1844D4AC2485CADBF6D05116E3D59}
 
