@@ -14,6 +14,7 @@ This page lists important changes made to the [!DNL Adobe Target] product docume
 
 |Date|Topic|Changes|
 | --- | --- | --- |
+|May 4|[Reporting FAQ](/help/c-reports/reporting-frequently-asked-questions.md#uneven)|Added new FAQ: "Why is the traffic split between my experiences uneven in my A/B or MVT activity?"|
 |April 29|[Known issues and resolved issues](/help/r-release-notes/known-issues-resolved-issues.md)|Added known issue for reporting with extreme orders.|
 |April 28|[Profile and variable glossary](/help/c-target/c-visitor-profile/variables-profiles-parameters-methods.md)|Removed information about using `user.header('x-forwarded-for')` with newer AWS edges to retrieve users' IP addresses. This command now works with newer AWS edges.|
 ||[Target release notes (prerelease)](/help/r-release-notes/target-release-notes.md)|Changed date of the Target Standard/Premium release (20.4.1) to May 6.|
