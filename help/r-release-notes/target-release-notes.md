@@ -10,7 +10,7 @@ uuid: 35ecabbe-b8b4-479b-9266-4823c831d79a
 
 This article contains prerelease information. Release dates, features, and other information are subject to change without notice. 
 
-**Last Updated: April 28, 2020**
+**Last Updated: May 4, 2020**
 
 To view information about the current release, see [Target Release Notes](release-notes.md). The information on these pages might be the same, depending on the timing of releases. The issue numbers in parentheses are for internal [!DNL Adobe] use.
 
@@ -46,7 +46,7 @@ This release contains the following enhancements, fixes, and changes:
 * Fixed a display issue that caused a Recommendations algorithm to display "fetching results" for an extended period. (TGT-36550 & TGT-36551)
 * Updated many UI strings localized in various languages.
 
-## Profile Batch Status API v2 changes (May 4, 2020)
+## Profile Batch Status API v2 changes (May 12, 2020)
 
 With the May 4 release, Profile Batch status will return only row-level failure data going forward (success data will not be returned). Failed profile IDs will be returned by the API going forward. 
 
