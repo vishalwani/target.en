@@ -48,12 +48,13 @@ Before you can use a redirector, you must create it.
 
       Redirectors function differently from other mboxes, but appear just as any other mbox in your account. Name the redirector so it is easily distinguished them from the standard type mboxes in your account.  As best practice, begin the mbox name with 'redirectorlink'.
 
-   * Where `http%3A%2F%2Fwww%2Eyourcompany%2Ecom%2Fusualdestination%2Ehtm` is the default destination.
+   * Where `http%3A%2F%2Fwww%2Eyourcompany%2Ecom%2Fusualdestination%2Ehtm` is the default destination. Please note that with Redirector one can be exposed to a risk of Open Redirect Vulenarbility. In order to avoid the unauthorized use of redirector links by third parties, Adobe advises customers to use "Authorized Hosts" to whitelist the default redirect url domains. Adobe Target already has a feature to white list such domains that you wish to allow redirects to. Please refer to documentation here | 'docs.adobe.com/content/help/en/target/using/administer/hosts.html' | 
 
      This must be URL encoded and must be an absolute reference. You can use the [HTML URL Encoding Reference](https://www.w3schools.com/tags/ref_urlencode.asp) to quickly encodes your URLs.|
 
 
 1. Validate the Redirector.
+   1. Ensure that the domain used in the redirector is whitelisted as indicated above. If you use domain that is not listed in whitelist, Adobe will block any such calls to protect your reputation and to prevent malicious actors from using the reidrector to redirect to potentially malicious domains. 
    1. Insert the Redirector URL into a browser and refresh.
    1. Log in to your account, refresh your mbox list and verify the new Redirector is listed as an mbox.
 1. If you will test different destinations for one ad, create [Redirect Offers](../../c-experiences/c-visual-experience-composer/redirect-offer.md#task_9578678D42784F5EB9638F8AC8C911FA) for each version.
