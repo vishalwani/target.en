@@ -29,4 +29,4 @@ AdBox ads and Redirector can be used with any kind of activity. The following ta
 * To use 1st-party cookies on the AdBox itself, you will need to pass the mBox session in the URL. Talk to your account representative to do this. 
 * To use 1st-party cookies to track ad clicks, pass the mbox session in the URL. Talk to your account representative to do this. 
 * To use more than one AdBox on the same page, you must pass the Mbox session in the URL. Talk to your account representative to do this. You might have one AdBox and one Redirector link on the same page (because the Redirector is actually on a second page).
-
+* Please note that with Redirector one can be exposed to a risk of Open Redirect vulenarbility. In order to avoid the unauthorized use of redirector links by third parties, Adobe advises customers to use "Authorized Hosts" to whitelist the default redirect url domains. Adobe Target already has a feature to white list such domains that you wish to allow redirects to. Please refer to documentation here | 'docs.adobe.com/content/help/en/target/using/administer/hosts.html' |     
