@@ -1,5 +1,5 @@
 ---
-keywords: serverstate;targetGlobalSettings;targetglobalsettings;globalSettings;globalsettings;global settings;at.js;functions;function;clientCode;clientcode;serverDomain;serverdomain;cookieDomain;cookiedomain;crossDomain;crossdomain;timeout;globalMboxAutoCreate;visitorApiTimeout;defaultContentHiddenStyle;defaultContentVisibleStyle;bodyHiddenStyle;bodyHidingEnabled;imsOrgId;secureOnly;overrideMboxEdgeServer;overrideMboxEdgeServerTimeout;optoutEnabled;optout;opt out;selectorsPollingTimeout;dataProviders
+keywords: serverstate;targetGlobalSettings;targetglobalsettings;globalSettings;globalsettings;global settings;at.js;functions;function;clientCode;clientcode;serverDomain;serverdomain;cookieDomain;cookiedomain;crossDomain;crossdomain;timeout;globalMboxAutoCreate;visitorApiTimeout;defaultContentHiddenStyle;defaultContentVisibleStyle;bodyHiddenStyle;bodyHidingEnabled;imsOrgId;secureOnly;overrideMboxEdgeServer;overrideMboxEdgeServerTimeout;optoutEnabled;optout;opt out;selectorsPollingTimeout;dataProviders;Hybrid Personalization
 description: Information about the targetGlobalSettings() function for the Adobe Target at.js JavaScript library.
 title: Information about the targetGlobalSettings() function for the Adobe Target at.js JavaScript library.
 subtopic: Getting Started
@@ -18,7 +18,7 @@ You can override the following settings:
 
 | Settings | Type | Default Value | Description |
 |--- |--- |--- |--- |
-|serverState|See "serverState" below.|See "serverState" below.|See "serverState" below.|
+|serverState|See "Hybrid personalization" below.|See "Hybrid personalization" below.|See "Hybrid personalization" below.|
 |clientCode|String|Value set via UI|Represents client code|
 |serverDomain|String|Value set via UI|Represents Target edge server|
 |cookieDomain|String|If possible set to top level domain|Represents the domain used when saving cookies|
@@ -197,7 +197,7 @@ window.targetGlobalSettings = {
 
 After `cspScriptNonce` and `cspStyleNonce` settings are specified, at.js 2.3.0+ sets these as nonce attributes on all SCRIPT and STYLE tags that it appends to the DOM when applying Target offers.
 
-## serverState {#server-state}
+## Hybrid personalization {#server-state}
 
 `serverState` is a setting available in at.js v2.2+ that can be used to optimize page performance when a hybrid integration of Target is implemented. Hybrid integration means that you are using both at.js v2.2+ on the client-side and the delivery API or a Target SDK on the server-side to deliver experiences. `serverState` gives at.js v2.2+ the ability to apply experiences directly from content fetched on the server side and returned to the client as part of the page being served.
 
