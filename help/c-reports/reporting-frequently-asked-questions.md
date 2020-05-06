@@ -48,13 +48,11 @@ For more information about environments, see [Hosts](../administrating-target/ho
 
 ## Why is the traffic split between my experiences uneven in my A/B or MVT activity? {#uneven}
 
-For example, I set the traffic split to be 50/50 or 33/33/33 but I'm seeing a vastly different distribution between experiences in the reporting.
-
-There are a number of explainable reasons for uneven traffic splits in [!DNL Target] reporting:
+For example, I set the traffic split to be 50/50 or 25/25/25/25 but I'm seeing a vastly different distribution between experiences in the reporting. There are a number of explainable reasons for uneven visitor counts in [!DNL Target] reporting:
 
 * When a [!DNL Target] activity is first launched, the traffic distribution might be uneven because of the edge node architecture that [!DNL Target] uses to optimize experience delivery. The best practice is to give an activity some time to collect additional data and the distribution will normalize. For more information on [!DNL Adobe Target] architecture and Edge nodes, see [How Adobe Target works](/help/c-intro/how-target-works.md).
-* Which normalizing metric are you using? If you are in [!DNL Target] or [!DNL Analytics] and you're using the **[!UICONTROL Visits]** metric, remember that [!DNL Target] is a visitor-based system and the traffic distribution for an A/B or MVT test is assigned at the visitor level. Thus, if you examine activity results using the **[!UICONTROL Visits]** metric, the traffic distribution might appear uneven because certain visitors might have multiple visits.
-* The best practice for A/B and MVT tests is to keep traffic splits even. Changing the traffic distribution between experiences (say from 90/10 to 50/50) during a test can lead to uneven visitors across experiences.  
+* If you are in [!DNL Target] or [!DNL Analytics] and you're using the **[!UICONTROL Visits]** metric, remember that [!DNL Target] is a visitor-based system and the traffic distribution for an A/B or MVT test is assigned at the visitor level. Thus, if you examine activity results using the **[!UICONTROL Visits]** metric, the traffic distribution may appear uneven because certain visitors might have multiple visits. Visitors is the standard normalizing metric when evaluating activity performance.
+* The best practice for A/B and MVT tests is to keep traffic splits even. Changing the traffic distribution between experiences (say from 90/10 to 50/50) during a test can lead to uneven visitors across experiences. The lower traffic experience may never "catch up."
 * If you are following the above best practices and the traffic split does not normalize over time, you should check the following:
 
   * Are you using the latest at.js library? For more information about the current version and associated release notes, see [at.js version details](/help/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md).
