@@ -37,9 +37,9 @@ In a Safari browser, navigate to your website on which you have a [!DNL Target] 
 
 If you are using the Experience Cloud ID (ECID) library in addition to the Target JavaScript library, your implementation will be impacted in the ways listed in this article: [Safari ITP 2.1 Impact on Adobe Experience Cloud and Experience Platform Customers](https://medium.com/adobetech/safari-itp-2-1-impact-on-adobe-experience-cloud-customers-9439cecb55ac).
 
-## How can I mitigate the impact of ITP 2.1, ITP 2.2, and future ITP releases to [!DNL Target]?
+## How can I mitigate the impact of future ITP 2.x releases to Target?
 
-To mitigate the impact of ITP 2.1, ITP 2.2, ITP 2.3 and future ITP releases to [!DNL Target], complete the following tasks:
+To mitigate the impact of future ITP 2.x releases to Target, complete the following tasks:
 
 1. Deploy the Experience Cloud ID (ECID) library to your pages.
 

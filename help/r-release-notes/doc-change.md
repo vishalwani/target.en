@@ -14,6 +14,9 @@ This page lists important changes made to the [!DNL Adobe Target] product docume
 
 |Date|Topic|Changes|
 | --- | --- | --- |
+|May 7|[Target release notes (current)](/help/r-release-notes/release-notes.md)|With the upcoming deprecation of mbox.js on August 30, 2020, David Son, Adobe Target Product Manager recently hosted a developer chat to discuss the benefits of migrating mbox.js to at.js. There is a link where you can watch the webinar for the next 30 days.|
+||[Activity QA](/help/c-activities/c-activity-qa/activity-qa.md)|Updated the "Considerations" section.|
+||[targetGlobalSettings()](/help/c-implementing-target/c-implementing-target-for-client-side-web/targetgobalsettings.md)|Updated "overrideMboxEdgeServer" row under "Settings."|
 |May 6|[Apple Intelligent Tracking Prevention (ITP) 2.x](/help/c-implementing-target/c-considerations-before-you-implement-target/c-privacy/apple-itp-2x.md)|Added information about ITP 2.3.|
 |May 4|[Reporting FAQ](/help/c-reports/reporting-frequently-asked-questions.md#uneven)|Added new FAQ: "Why is the traffic split between my experiences uneven in my A/B or MVT activity?"|
 |April 29|[Known issues and resolved issues](/help/r-release-notes/known-issues-resolved-issues.md)|Added known issue for reporting with extreme orders.|
