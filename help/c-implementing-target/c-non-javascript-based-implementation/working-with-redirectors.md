@@ -25,7 +25,7 @@ Use the Redirector to do the following:
 
 For help deciding the right setup see [Non-JavaScript-Based Implementations](../../c-implementing-target/c-non-javascript-based-implementation/non-javascript-based-implementation.md#concept_4799C58B081A43F6B3B8CC25A8D5D7C4). 
 
-## Create a Redirector {#task_76608B0F73FC45C4A9F125B894DCF821}
+## Create a redirector {#task_76608B0F73FC45C4A9F125B894DCF821}
 
 Before you can use a redirector, you must create it.
 
@@ -50,7 +50,7 @@ Before you can use a redirector, you must create it.
 
    * Where `http%3A%2F%2Fwww%2Eyourcompany%2Ecom%2Fusualdestination%2Ehtm` is the default destination.
 
-     Note that with Redirector you can be exposed to a risk of an Open Redirect Vulnerability. To avoid the unauthorized use of Redirector links by third parties, we recommend you use "authorized hosts" to whitelist the default redirect URL domains. Target uses hosts to whitelist domains to which you want to allow redirects. For more information, see [Hosts](/help/administrating-target/hosts.md).
+     Note that with Redirector you can be exposed to a risk of an Open Redirect Vulnerability. To avoid the unauthorized use of Redirector links by third parties, we recommend you use "authorized hosts" to whitelist the default redirect URL domains. Target uses hosts to whitelist domains to which you want to allow redirects. For more information, see [Create Whitelists that specify hosts that are authorized to send mbox calls to Target](/help/administrating-target/hosts.md#whitelist) in *Hosts*.
 
      This must be URL encoded and must be an absolute reference. You can use the [HTML URL Encoding Reference](https://www.w3schools.com/tags/ref_urlencode.asp) to quickly encodes your URLs.|
 
@@ -82,7 +82,7 @@ Before you can use a redirector, you must create it.
 
 1. Submit the full Redirector URL to your Display Ad Network as the ad destination.
 
-## Use a Redirector to Pass Costs per Click and Revenue Per Click {#concept_3078EF48E9C44B34992D62AAB9628853}
+## Use a redirector to pass Costs per Click and Revenue Per Click {#concept_3078EF48E9C44B34992D62AAB9628853}
 
 Information about using a redirector to pas costs per click and revenue per click.
 
