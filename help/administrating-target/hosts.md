@@ -118,7 +118,7 @@ To create a whitelist:
 
 If an mbox call is made on an unauthorized host, the call will respond with `/* no display - unauthorized mbox host */`.
 
-IF you use ubox functionality of [!DNL Target], note that this whitelist will also control the list of domains to which your [redirectors](/help/c-implementing-target/c-non-javascript-based-implementation/working-with-redirectors.md) can navigate. Ensure that you add any domains to which you want to redirect when you use ubox as a part of your implementation. If the whitelist is left unspecified, Adobe will not be able to verify the redirect URLs and protect from potential malicious redirects.
+If you use ubox functionality of [!DNL Target], note that this whitelist will also control the list of domains to which your [redirectors](/help/c-implementing-target/c-non-javascript-based-implementation/working-with-redirectors.md) can navigate. Ensure that you add any domains to which you want to redirect when you use ubox as a part of your implementation. If the whitelist is left unspecified, Adobe will not be able to verify the redirect URLs and protect from potential malicious redirects.
 
 The whitelist takes precedence over environments. You should clear out all hosts before using the whitelist feature, then only the hosts allowed by the whitelist appear in your hosts list. You can then move the hosts into the desired environment.
 
