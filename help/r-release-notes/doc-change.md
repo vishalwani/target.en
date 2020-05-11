@@ -14,6 +14,10 @@ This page lists important changes made to the [!DNL Adobe Target] product docume
 
 |Date|Topic|Changes|
 | --- | --- | --- |
+|May 11|[Hosts](/help/administrating-target/hosts.md)|Added information about using the ubox functionality with redirects and whitelists.|
+||[Work with redirectors](/help/c-implementing-target/c-non-javascript-based-implementation/working-with-redirectors.md)|Added information about using hosts to avoid Open Redirect Vulnerabilities.|
+||[Integrate Recommendations with email](/help/c-recommendations/c-recommendations-faq/integrating-recs-email.md)|Added information about using hosts to avoid Open Redirect Vulnerabilities.|
+||[Email: implement Target](/help/c-implementing-target/c-non-javascript-based-implementation/non-javascript-based-implementation.md)|Added information about using hosts to avoid Open Redirect Vulnerabilities.|
 |May 7|[Target release notes (current)](/help/r-release-notes/release-notes.md)|With the upcoming deprecation of mbox.js on August 30, 2020, David Son, Adobe Target Product Manager recently hosted a developer chat to discuss the benefits of migrating mbox.js to at.js. There is a link where you can watch the webinar for the next 30 days.|
 ||[Activity QA](/help/c-activities/c-activity-qa/activity-qa.md)|Updated the "Considerations" section.|
 ||[targetGlobalSettings()](/help/c-implementing-target/c-implementing-target-for-client-side-web/targetgobalsettings.md)|Updated "overrideMboxEdgeServer" row under "Settings."|
