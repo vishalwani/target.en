@@ -10,7 +10,7 @@ uuid: 6fba75e2-0a93-488d-9010-fffa423600c0
 
 This page lists important changes made to the [!DNL Adobe Target] product documentation.
 
-## Adobe Target Standard/Premium 20.2.1 (February 19, 2020)
+## Adobe Target Standard/Premium 20.4.1 (May 6, 2020)
 
 |Date|Topic|Changes|
 | --- | --- | --- |
@@ -22,6 +22,12 @@ This page lists important changes made to the [!DNL Adobe Target] product docume
 ||[Activity QA](/help/c-activities/c-activity-qa/activity-qa.md)|Updated the "Considerations" section.|
 ||[targetGlobalSettings()](/help/c-implementing-target/c-implementing-target-for-client-side-web/targetgobalsettings.md)|Updated "overrideMboxEdgeServer" row under "Settings."|
 |May 6|[Apple Intelligent Tracking Prevention (ITP) 2.x](/help/c-implementing-target/c-considerations-before-you-implement-target/c-privacy/apple-itp-2x.md)|Added information about ITP 2.3.|
+||[Release Notes](/help/r-release-notes/release-notes.md): 20.4.1|This release includes enhancements and fixes. You can read about them and link to the documentation from the Release Notes. This release also includes many documentation updates throughout the help.|
+
+## Adobe Target Standard/Premium 20.2.1 (February 19, 2020)
+
+|Date|Topic|Changes|
+| --- | --- | --- |
 |May 4|[Reporting FAQ](/help/c-reports/reporting-frequently-asked-questions.md#uneven)|Added new FAQ: "Why is the traffic split between my experiences uneven in my A/B or MVT activity?"|
 |April 29|[Known issues and resolved issues](/help/r-release-notes/known-issues-resolved-issues.md)|Added known issue for reporting with extreme orders.|
 |April 28|[Profile and variable glossary](/help/c-target/c-visitor-profile/variables-profiles-parameters-methods.md)|Removed information about using `user.header('x-forwarded-for')` with newer AWS edges to retrieve users' IP addresses. This command now works with newer AWS edges.|
