@@ -63,12 +63,12 @@ Set up a [!DNL Recommendations] activity in [!DNL Adobe Target], using the [Form
 
 The email system you use should be capable of handling these scenarios:
 
-### A valid response is received, but no recommendations are present.
+### A valid response is received, but no recommendations are present
 
 * In this case, the response will be whatever is set as the mboxDefault parameter value. See explanation below on this parameter.
 * The email provider should have a default HTML block of recommendations to use in this case.
 
-### The Target server times out and returns without data.
+### The Target server times out and returns without data
 
 * In this case, the Target server will return the following content:
 
