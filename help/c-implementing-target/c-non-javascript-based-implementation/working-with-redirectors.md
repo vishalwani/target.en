@@ -25,7 +25,7 @@ Use the Redirector to do the following:
 
 For help deciding the right setup see [Non-JavaScript-Based Implementations](../../c-implementing-target/c-non-javascript-based-implementation/non-javascript-based-implementation.md#concept_4799C58B081A43F6B3B8CC25A8D5D7C4). 
 
-## Create a redirector {#task_76608B0F73FC45C4A9F125B894DCF821}
+## Create a redirector {#redirector}
 
 Before you can use a redirector, you must create it.
 
@@ -50,13 +50,14 @@ Before you can use a redirector, you must create it.
 
    * Where `http%3A%2F%2Fwww%2Eyourcompany%2Ecom%2Fusualdestination%2Ehtm` is the default destination.
 
-     Note that with Redirector you can be exposed to a risk of an Open Redirect Vulnerability. To avoid the unauthorized use of Redirector links by third parties, we recommend you use "authorized hosts" to whitelist the default redirect URL domains. Target uses hosts to whitelist domains to which you want to allow redirects. For more information, see [Create Whitelists that specify hosts that are authorized to send mbox calls to Target](/help/administrating-target/hosts.md#whitelist) in *Hosts*.
+     This must be URL encoded and must be an absolute reference. You can use the [HTML URL Encoding Reference](https://www.w3schools.com/tags/ref_urlencode.asp) to quickly encodes your URLs.
 
-     This must be URL encoded and must be an absolute reference. You can use the [HTML URL Encoding Reference](https://www.w3schools.com/tags/ref_urlencode.asp) to quickly encodes your URLs.|
-
+     >[!IMPORTANT]
+     >
+     >Note that with Redirector you can be exposed to a risk of an Open Redirect Vulnerability. To avoid the unauthorized use of Redirector links by third parties, we recommend you use "authorized hosts" to whitelist the default redirect URL domains. Target uses hosts to whitelist domains to which you want to allow redirects. For more information, see [Create Whitelists that specify hosts that are authorized to send mbox calls to Target](/help/administrating-target/hosts.md#whitelist) in *Hosts*.
 
 1. Validate the Redirector.
-   1. Ensure that the domain used in the Redirector is whitelisted, as indicated above. If you use a domain that is not whitelisted, Adobe will block any calls to that domain to prevent malicious actors from using the Redirector to redirect to potentially malicious domains.
+   1. *Security best practice*: Ensure that the domain used in the Redirector is whitelisted, as indicated above. If you use a domain that is not whitelisted, Adobe will block any calls to that domain to prevent malicious actors from using the Redirector to redirect to potentially malicious domains.
    1. Insert the Redirector URL into a browser and refresh.
    1. Log in to your account, refresh your mbox list and verify the new Redirector is listed as an mbox.
 1. If you will test different destinations for one ad, create [Redirect Offers](../../c-experiences/c-visual-experience-composer/redirect-offer.md#task_9578678D42784F5EB9638F8AC8C911FA) for each version.

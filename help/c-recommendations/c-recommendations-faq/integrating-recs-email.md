@@ -63,12 +63,12 @@ Set up a [!DNL Recommendations] activity in [!DNL Adobe Target], using the [Form
 
 The email system you use should be capable of handling these scenarios:
 
-**A valid response is received, but no recommendations are present.**
+### A valid response is received, but no recommendations are present.
 
 * In this case, the response will be whatever is set as the mboxDefault parameter value. See explanation below on this parameter.
 * The email provider should have a default HTML block of recommendations to use in this case.
 
-**The Target server times out and returns without data.**
+### The Target server times out and returns without data.
 
 * In this case, the Target server will return the following content:
 
@@ -80,13 +80,13 @@ The email system you use should be capable of handling these scenarios:
   * Toss out that particular email and continue to the next one.
   * Queue that particular email and re-run failed emails as a batch at the end of the initial run.
 
-**Sample request URL:**
+### Sample request URL
 
 ```
 https://client_code.tt.omtrdc.net/m2/client_code/ubox/raw?mbox=mbox_name&mboxSession=1396032094853-955654&mboxPC=1396032094853-955654&mboxXDomain=disabled&entity.event.detailsOnly=true&mboxDefault=nocontent&mboxNoRedirect=1&entity.id=2A229&entity.categoryId=5674
 ```
 
-**Required parameters:**
+### Required parameters: {#reqparams}
 
 >[!NOTE]
 >
@@ -100,11 +100,11 @@ https://client_code.tt.omtrdc.net/m2/client_code/ubox/raw?mbox=mbox_name&mboxSes
 |`entity.id`<br>(Required for certain types of criteria: view/view, view/bought, bought/bought)|*entity_id*|The productId the recommendation is based on, such as an abandoned product in the cart, or a previous purchase.<br>If required by the criteria, the rawbox call must include the `entity.id`.||
 |`entity.event.detailsOnly`|true|If `entity.id` is passed, it is highly recommended to also pass this parameter to prevent the request from incrementing the number of tallied page views for an item, so as not to skew product view-based algorithms.||
 |`entity.categoryId`<br>(Required for certain types of criteria: most viewed by category and top sellers by category)|*category_id*|The category the recommendation is based on, such as top sellers in a category.<br>If required by the criteria, the rawbox call must include the `entity.categoryId`.||
-|`mboxDefault`|*`https://www.default.com`*|If the `mboxNoRedirect` parameter is not present, `mboxDefault` should be an absolute URL that will return default content if no recommendation is available. This can be an image or other static content.<br>If the `mboxNoRedirect` parameter is present, `mboxDefault` can be any text indicating there are no recommendations, for example `no_content`.<br>The email provider will need to handle the case where this value is returned and insert default HTML into the email. <br> Note that if the domain used in the `mboxDefault` URL is not whitelisted, you can be exposed to a risk of an Open Redirect Vulnerability. To avoid the unauthorized use of Redirector links or `mboxDefault` by third parties, we recommend you use "authorized hosts" to whitelist the default redirect URL domains. Target uses hosts to whitelist domains to which you want to allow redirects. For more information, see [Create Whitelists that specify hosts that are authorized to send mbox calls to Target](/help/administrating-target/hosts.md#whitelist) in *Hosts*.||
+|`mboxDefault`|*`https://www.default.com`*|If the `mboxNoRedirect` parameter is not present, `mboxDefault` should be an absolute URL that will return default content if no recommendation is available. This can be an image or other static content.<br>If the `mboxNoRedirect` parameter is present, `mboxDefault` can be any text indicating there are no recommendations, for example `no_content`.<br>The email provider will need to handle the case where this value is returned and insert default HTML into the email. <br> *Security best practice*: Note that if the domain used in the `mboxDefault` URL is not whitelisted, you can be exposed to a risk of an Open Redirect Vulnerability. To avoid the unauthorized use of Redirector links or `mboxDefault` by third parties, we recommend you use "authorized hosts" to whitelist the default redirect URL domains. Target uses hosts to whitelist domains to which you want to allow redirects. For more information, see [Create Whitelists that specify hosts that are authorized to send mbox calls to Target](/help/administrating-target/hosts.md#whitelist) in *Hosts*.||
 |`mboxHost`|*mbox_host*|This is the domain that is added to the default environment (host group) when the call fires.||
 |`mboxPC`|Empty|(Required for recommendations that use a visitor's profile.)<br>If no “thirdPartyId” was provided, a new tntId is generated and returned as part of the response. Otherwise remains empty.<br>**Note**: Be sure to provide a unique value of `mboxSession` and `mboxPC` for each email recipient (i.e., for each API call). If you do not provide unique values for these fields, API response might slow or fail due to the large number of events generated within a single profile.|1 < Length < 128<br>Cannot contain more than a single “.” (dot).<br>The only dot allowed is for profile location suffix.|
 
-**Optional parameters**:
+### Optional parameters
 
 | Parameter | Value | Description | Validation |
 |--- |--- |--- |--- |
@@ -112,7 +112,7 @@ https://client_code.tt.omtrdc.net/m2/client_code/ubox/raw?mbox=mbox_name&mboxSes
 |`mboxNoRedirect`<br>(Optional)|1|By default, the caller is redirected when no deliverable content is found. Use to disable the default behavior.||
 |`mbox3rdPartyId`|*xxx*|Use this if you have your own custom visitor ID to use for profile targeting.||
 
-**Potential Target server responses**:
+### Potential Target server responses
 
 | Response | Description |
 |--- |--- |

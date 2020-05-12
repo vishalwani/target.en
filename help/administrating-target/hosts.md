@@ -118,9 +118,11 @@ To create a whitelist:
 
 If an mbox call is made on an unauthorized host, the call will respond with `/* no display - unauthorized mbox host */`.
 
-If you use ubox functionality of [!DNL Target], note that this whitelist will also control the list of domains to which your [redirectors](/help/c-implementing-target/c-non-javascript-based-implementation/working-with-redirectors.md) can navigate. Ensure that you add any domains to which you want to redirect when you use ubox as a part of your implementation. If the whitelist is left unspecified, Adobe will not be able to verify the redirect URLs and protect from potential malicious redirects.
-
-The whitelist takes precedence over environments. You should clear out all hosts before using the whitelist feature, then only the hosts allowed by the whitelist appear in your hosts list. You can then move the hosts into the desired environment.
+>[!IMPORTANT]
+>
+>*Security best practices*: If you use ubox functionality of [!DNL Target], note that this whitelist will also control the list of domains to which your [redirectors](/help/c-implementing-target/c-non-javascript-based-implementation/working-with-redirectors.md) can navigate. Ensure that you add any domains to which you want to redirect when you use ubox as a part of your implementation. If the whitelist is left unspecified, Adobe will not be able to verify the redirect URLs and protect from potential malicious redirects.
+>
+>The whitelist takes precedence over environments. You should clear out all hosts before using the whitelist feature, then only the hosts allowed by the whitelist appear in your hosts list. You can then move the hosts into the desired environment.
 
 Sometimes domains from other sites appear in your environments. A domain appears in the list if the domain makes a call to your mbox.js. For example, if somebody copies one of your web pages to their server, that domain appears in your environment. You might also see domains from spider engines, language translator sites, or local disk drives.
 
