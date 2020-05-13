@@ -26,23 +26,11 @@ To view information about the current release, see [Target Release Notes](releas
 
 With the upcoming deprecation of mbox.js on August 30, 2020, David Son, Adobe Target Product Manager recently hosted a developer chat to discuss the benefits of migrating mbox.js to at.js. For the next 30 days you can [view the webinar recording](https://seminars.adobeconnect.com/ptdo6mfo6qn6/?proto=true).
 
-## Target Standard/Premium 20.4.1 (May 6, 2020)
+## Target Standard/Premium 20.5.1 (June 10, 2020)
 
-This release contains the following enhancements, fixes, and changes:
+Details of this release will be published here.
 
-* Fixed an issue that incorrectly qualified a device and browser type for an audience. (TGT-36266)
-* Fixed an issue that prevented report data from displaying when viewed on screens less than 963 pixels wide. (TGT-36549)
-* Fixed an issue that caused Auto Personalization reports to not render correctly. (TGT-36619)
-* Fixed an issue that allowed incompatible metrics to be selected in Auto-Allocate and Auto-Target activities that use Analytics for Target (A4t). (TGT-36646)
-* Fixed an issue that caused certain options in the Visual Experience Composer (VEC) to not display correctly. (TGT-36571)
-* Fixed an issue in the Target UI that caused other Recommendations offer previews to display the edited content after a user replaced the content in a single experience. (TGT-36053 & TGT-36894)
-* Fixed an issue that prevented some users from deleting items from a Recommendations catalog. (TGT-36455)
-* Fixed an issue that prevented users from saving Recommendations criteria on a multi-page activity. (TGT-36249)
-* Fixed an issue that caused the behavioral data source radio buttons to disappear when editing the criteria for a second consecutive time. (TGT-36796)
-* Fixed a display issue that caused a Recommendations algorithm to display "fetching results" for an extended period. (TGT-36550 & TGT-36551)
-* Updated many UI strings localized in various languages.
-
-## Profile Batch Status API v2 changes (May 12, 2020)
+## Profile Batch Status API v2 changes (Date TBD)
 
 With the May 4 release, Profile Batch status will return only row-level failure data going forward (success data will not be returned). Failed profile IDs will be returned by the API going forward. 
 
