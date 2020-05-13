@@ -145,3 +145,8 @@ Use the following set of commands (in the MacOs or Linux command-line terminal, 
    >[!NOTE]
    >
    >If this command fails but the `validateEdgeFpsslSni` command above succeeds, you might need to wait for your DNS updates to fully propagate. DNS records have an associated [TTL (time-to-live)](https://en.wikipedia.org/wiki/Time_to_live#DNS_records) that dictates cache expiration time for DNS replies of those records, so you may need to wait at least as long as your TTLs. You can use the `dig target.example.com` command or [the G Suite Toolbox](https://toolbox.googleapps.com/apps/dig/#CNAME) to look up your specific TTLs.
+
+## Known limitations
+
+* QA mode will not be sticky when you have CNAME and at.js 1.x because it is based on a third-party cookie. The workaround is to add the preview parameters to each URL you navigate to. QA mode is sticky when you have CNAME and at.js 2.x.
+* Currently the `overrideMboxEdgeServer` setting doesn't work properly with CNAME. This should be set as `false` in order to avoid failing requests.
