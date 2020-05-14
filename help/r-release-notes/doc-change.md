@@ -14,6 +14,7 @@ This page lists important changes made to the [!DNL Adobe Target] product docume
 
 |Date|Topic|Changes|
 | --- | --- | --- |
+|May 14|[Target release notes (current)](/help/r-release-notes/release-notes.md)|Added information about Profile Batch Status API v2 changes.|
 |May 13|[CNAME and Adobe Target](/help/c-implementing-target/c-considerations-before-you-implement-target/implement-cname-support-in-target.md)|Added "Known limitations" section.|
 |May 11|[Hosts](/help/administrating-target/hosts.md)|Added information about using the ubox functionality with redirects and whitelists.|
 ||[Work with redirectors](/help/c-implementing-target/c-non-javascript-based-implementation/working-with-redirectors.md)|Added information about using hosts to avoid Open Redirect Vulnerabilities.|
