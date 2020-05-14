@@ -34,7 +34,7 @@ Perform the following steps to request CNAME support in [!DNL Target]:
 
      To expedite the DCV email process, DigiCert provides the following recommendation:
 
-     "Please verify that your registrar/WHOIS provider has not masked or removed [relevant email addresses]. If they are, find out if they provide a way (e.g., anonymized email address, web form) for you to allow [certificate authorities] to access your domain’s WHOIS data."
+     "Please verify that your registrar/WHOIS provider has not masked or removed relevant email addresses. If they are, find out if they provide a way (e.g., anonymized email address, web form) for you to allow certificate authorities to access your domain’s WHOIS data."
 
 1. Create a CNAME record on your domain's DNS pointing to your regular hostname `clientcode.tt.omtrdc.net`. For example, if your client code is cnamecustomer and your proposed hostname is `target.example.com`, your DNS CNAME record should look something like this:
 
