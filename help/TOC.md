@@ -29,9 +29,14 @@ solution: Target
 + Administer Target {#administer}
    + [Administer Target Overview](administrating-target/administrating-target.md)
    + [Administrator first steps](administrating-target/start-target.md)
-   + Set preferences {#preferences}
-      + [Preferences](administrating-target/r-target-account-preferences/target-account-preferences.md)
+   + [Configure the Visual Experience Composer](/help/administrating-target/visual-experience-composer-set-up.md)
+   + [Configure reporting](/help/administrating-target/reporting.md)
       + [Estimate lift in revenue](administrating-target/r-target-account-preferences/estimating-lift-in-revenue.md)
+   + [Dynamic Media Classic integration](administrating-target/scene7-settings.md)
+   + [Implementation](/help/administrating-target/implementation.md)
+   + [Hosts](administrating-target/hosts.md)
+   + [Environments](/help/administrating-target/environments.md)
+   + [Response tokens](administrating-target/response-tokens.md)
    + Manage users {#manage-users}
       + [User management](administrating-target/c-user-management/user-management.md)
       + Users {#users}
@@ -41,9 +46,6 @@ solution: Target
          + [Enterprise user permissions](administrating-target/c-user-management/property-channel/property-channel.md)
          + [Configure enterprise permissions](administrating-target/c-user-management/property-channel/properties-overview.md)
          + [Grant Adobe I/O integrations access to workspaces and assign roles](administrating-target/c-user-management/property-channel/configure-adobe-io-integration.md)
-   + [Dynamic Media Classic integration](administrating-target/scene7-settings.md)
-   + [Hosts](administrating-target/hosts.md)
-   + [Response tokens](administrating-target/response-tokens.md)
 + Implement Target {#implement-target}
    + [Implement Target overview](c-implementing-target/implementing-target.md)
    + Before you implement {#before-implement}
