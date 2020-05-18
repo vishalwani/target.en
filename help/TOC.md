@@ -30,8 +30,9 @@ solution: Target
    + [Administer Target Overview](administrating-target/administrating-target.md)
    + [Administrator first steps](administrating-target/start-target.md)
    + [Configure the Visual Experience Composer](/help/administrating-target/visual-experience-composer-set-up.md)
-   + [Configure reporting](/help/administrating-target/reporting.md)
-      + [Estimating Lift in Revenue](/help/administrating-target/r-target-account-preferences/estimating-lift-in-revenue.md)
+   + Reporting {#manage-users}
+      + [Configure reporting](/help/administrating-target/reporting.md)
+         + [Estimating Lift in Revenue](/help/administrating-target/r-target-account-preferences/estimating-lift-in-revenue.md)
    + [Dynamic Media Classic integration](administrating-target/scene7-settings.md)
    + [Implementation](/help/administrating-target/implementation.md)
    + [Hosts](administrating-target/hosts.md)
