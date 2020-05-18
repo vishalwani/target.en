@@ -445,7 +445,7 @@ This release includes the following features and enhancements:
   </tr> 
   <tr> 
    <td colname="col1"> <p>Reporting source for activities </p> </td> 
-   <td colname="col2"> <p>In <span class="wintitle"> Setup </span> &gt; <span class="wintitle"> Preferences </span>, you can select the reporting source for your activities, either <span class="keyword"> Target </span> or <span class="keyword"> Adobe Analytics </span>. You can also choose to select your reporting source per activity. </p> <p>Starting with this release, there are some important workflow considerations you should be aware of when you choose the reporting source in <span class="wintitle"> Preferences </span> or per activity. </p> <p>See <a href="https://docs.adobe.com/content/help/en/target/using/administer/preferences/target-account-preferences.html" format="html" scope="external"> Preferences </a>. </p> </td> 
+   <td colname="col2"> <p>In <span class="wintitle"> Setup </span> &gt; <span class="wintitle"> Preferences </span>, you can select the reporting source for your activities, either <span class="keyword"> Target </span> or <span class="keyword"> Adobe Analytics </span>. You can also choose to select your reporting source per activity. </p> <p>Starting with this release, there are some important workflow considerations you should be aware of when you choose the reporting source in <span class="wintitle"> Preferences </span> or per activity.</p></td> 
   </tr> 
  </tbody> 
 </table>
@@ -3389,7 +3389,7 @@ This release includes the following new features and enhancements:
  <tbody> 
   <tr> 
    <td colname="col1"> Estimate revenue lift </td> 
-   <td colname="col2"> <p>Target can estimate the revenue lift you would attain if all users view the winning experience. </p> <p>This estimate calculates the amount of lift achieved by the winning experience and your total number of visitors over the life of the test, and shows the lift you might achieve if every visitor sees the winning experience, if the trends continue as they have during the test. </p> <p> The accuracy of the estimate depends on a number of factors, including projected figures if current trends continue. These values are estimates based on past performance and should not be used for financial guidance. Future results may vary. </p> <p>See <a href="../administrating-target/r-target-account-preferences/estimating-lift-in-revenue.md#concept_32F875D8F91349CE86AF391F65BEAEEE" format="dita" scope="local"> Estimating Lift in Revenue </a>. </p> </td> 
+   <td colname="col2"> <p>Target can estimate the revenue lift you would attain if all users view the winning experience. </p> <p>This estimate calculates the amount of lift achieved by the winning experience and your total number of visitors over the life of the test, and shows the lift you might achieve if every visitor sees the winning experience, if the trends continue as they have during the test. </p> <p> The accuracy of the estimate depends on a number of factors, including projected figures if current trends continue. These values are estimates based on past performance and should not be used for financial guidance. Future results may vary. </p></td> 
   </tr> 
   <tr> 
    <td colname="col1"> Undo/Redo </td> 

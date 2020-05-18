@@ -15,7 +15,7 @@ The Activity URL determines the page that is used in the Experience Targeting (X
    >
    >[!DNL Target] does not differentiate between URL protocols ( [!DNL https] and [!DNL http]). As a result, [!DNL `https://www.adobe.com`] and [!DNL `http://www.adobe.com`] both match.
    >
-   >By default, the VEC or Form-Based Experience Composer opens the page that is specified in your [Account Preferences](/help/administrating-target/r-target-account-preferences/target-account-preferences.md). You can specify a different page during activity creation.
+   >By default, the VEC or Form-Based Experience Composer opens the page that is specified in your [Visual Experience Composer settings](/help/administrating-target/visual-experience-composer-set-up.md). You can specify a different page during activity creation.
    >
    >If you specify a URL for a site that does not include the Target Standard JavaScript code, you cannot select page elements.
 

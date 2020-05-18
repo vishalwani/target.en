@@ -1,6 +1,6 @@
 ---
 description: Target Standard can be integrated with Adobe Dynamic Media Classic (formerly Scene7) to provide Digital Asset Management (DAM) in the Content Library.
-title: Dynamic Media Classic integration
+title: Dynamic Media Classic integration configuration integration
 subtopic: Getting Started
 topic: Standard
 uuid: 4b06a3ed-0e87-4e49-874f-2e479324f81c
@@ -8,7 +8,7 @@ uuid: 4b06a3ed-0e87-4e49-874f-2e479324f81c
 
 # Dynamic Media Classic integration{#scene-settings}
 
-Target Standard can be integrated with Adobe Dynamic Media Classic (formerly Scene7) to provide Digital Asset Management (DAM) in the Content Library.
+Target can be integrated with Adobe Dynamic Media Classic (formerly Scene7) to provide Digital Asset Management (DAM) in the Content Library.
 
 >[!NOTE]
 >
@@ -22,9 +22,10 @@ If you want to reference a public image URL directly in an offer or custom code 
 
 Note that the storage URL and the final publish URLs of images from Dynamic Media are different and one must NOT create offers using the storage link of images as delivery will not work in such cases. One must use the image offers capability as explained in our help documentation.
 
-To integrate with Dynamic Media Classic (Scene7), you need to specify some the following information. 
+To integrate with Dynamic Media Classic (Scene7), you need to specify the following information. 
 
-1. Click **[!UICONTROL Setup]** > **[!UICONTROL Scene7 Settings]**.
+1. Click **[!UICONTROL Administration]** > **[!UICONTROL Scene7 Settings]**.
+
 1. Specify the following Dynamic Media Classic account information:
 
    **Region:** The region for your Dynamic Media account: North America, Europe, or Asia.
@@ -33,5 +34,6 @@ To integrate with Dynamic Media Classic (Scene7), you need to specify some the f
 
    **Email address:** The email address used to log in to Dynamic Media Classic (Scene7).
 
-   **Password:** The password used to log in to Dynamic Media Classic (Scene7). 
+   **Password:** The password used to log in to Dynamic Media Classic (Scene7).
+
 1. Click **[!UICONTROL Submit]**.
