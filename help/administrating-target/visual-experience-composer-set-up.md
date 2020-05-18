@@ -60,7 +60,7 @@ Click **[!UICONTROL Add]**, specify a descriptive name for the mobile viewport, 
 
 For information about how to add a mobile viewport, see [Mobile Viewport Configuration](/help/c-experiences/c-visual-experience-composer/mobile-viewports.md).
 
-## CSS Selectors
+## CSS Selectors {#css}
 
 Specify how [!DNL Target] generates CSS selectors.
 

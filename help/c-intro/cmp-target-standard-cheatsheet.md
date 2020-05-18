@@ -249,7 +249,7 @@ We have [Redirect URL feature](../c-experiences/c-manage-content/offer-redirect.
 
 **Why is content delivery not happening in my QA process?**
 
-It's possible that your site might have dynamic IDs, duplicate IDs, or dynamic classes on elements. You might have to evaluate the site preference options at the account level (or at activity level if the issue is specific to a domain or a page). See [CSS Selectors](../administrating-target/r-target-account-preferences/target-account-preferences.md#section_8155EDBF449E4198863235F94D1EA872).
+It's possible that your site might have dynamic IDs, duplicate IDs, or dynamic classes on elements. You might have to evaluate the site preference options at the account level (or at activity level if the issue is specific to a domain or a page). See [CSS Selectors](/help/administrating-target/visual-experience-composer-set-up.md#css).
 
 **Why am I not seeing the desired offer/experience and am instead seeing some other activity?**
 

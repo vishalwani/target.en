@@ -18,7 +18,8 @@ When prompted during activity creation, specify the activity URL. Type the compl
 
 ## Specify a different URL
 
-By default, the [!UICONTROL Visual Experience Composer] opens the page that is specified in your [Target Account Preferences](/help/administrating-target/r-target-account-preferences/target-account-preferences.md). You can specify a different page during activity creation.
+By default, the [!UICONTROL Visual Experience Composer] opens the page that is specified in your [Visual Experience Composer settings](/help/administrating-target/visual-experience-composer-set-up.md)
+. You can specify a different page during activity creation.
 
 To display a different page after the [!UICONTROL Visual Experience Composer] opens, click the **[!UICONTROL Configure]** gear icon, then select **[!UICONTROL Page Delivery]**. Enter the URL in the Activity URL field.
 

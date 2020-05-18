@@ -46,7 +46,7 @@ For more information about Experience Targeting, a use-case scenario, and traini
 
 1. Specify your [activity URL](../../../c-activities/t-experience-target/t-xt-create/xt-activity-url.md#concept_D28549AAA0A14E3BB5F05F32BE8ABC90), then click **[!UICONTROL Next]**.
 
-   If your account is [configured with a default URL](/help/administrating-target/r-target-account-preferences/target-account-preferences.md), that URL appears by default. You can change from the default to another URL, if necessary.
+   If your account is [configured with a default URL](/help/administrating-target/visual-experience-composer-set-up.md), that URL appears by default. You can change from the default to another URL, if necessary.
 
    The VEC opens, showing the page specified in the URL.
 
