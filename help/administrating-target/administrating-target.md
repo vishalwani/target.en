@@ -19,7 +19,7 @@ To access the [!UICONTROL Setup] menu items, click **[!UICONTROL Administration]
 * [Implementation](/help/c-implementing-target/implementing-target.md)
 * [Properties](/help/administrating-target/c-user-management/property-channel/property-channel.md)
 * [Hosts](/help/administrating-target/hosts.md)
-* [Environments](/help/administrating-target/environments.md)s
+* [Environments](/help/administrating-target/environments.md)
 * [Response Tokens](/help/administrating-target/response-tokens.md)
 * [Users](/help/administrating-target/c-user-management/user-management.md)
 
