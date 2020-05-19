@@ -8,92 +8,89 @@ uuid: 1961730d-2357-406f-acac-a36b7a63bd35
 
 # ![PREMIUM](/help/assets/premium.png) Enterprise user permissions{#enterprise-user-permissions}
 
-Enterprise user permissions is a means of formal administering enterprise-wide user access to Target. Add users to Target, assign permissions based on their roles, and create workspaces for teams based on different departments, global locations, channel, and other logical groupings. You can assign users the roles of Observer, Editor, or Approver.
+Enterprise user permissions is a means of formal administering enterprise-wide user access to [!DNL Target]. Add users to [!DNL Target], assign permissions based on their roles, and create workspaces for teams based on different departments, global locations, channels, and other logical groupings. You can assign users the roles of [!UICONTROL Observer], [!UICONTROL Editor], or [!UICONTROL Approver].
 
-## Determine Whether You Have Access to Enterprise User Permissions
+## Determine whether you have access to enterprise user permissions
 
 >[!NOTE]
 >
->Properties and Permissions functionality is available as part of the Target Premium solution. They are not available in Target Standard without a Target Premium license.
+>Properties and Permissions functionality is available as part of the [!DNL Target] Premium solution. They are not available in [!DNL Target] Standard without a [!DNL Target] Premium license.
 >
->Your Target implementation can be using any version of at.js or mbox.js.
+>Your [!DNL Target] implementation can be using any version of at.js or mbox.js.
 
-You can tell whether your organization has a Standard or Premium license by clicking the [!UICONTROL Setup] link at the top of the [!DNL Target] UI.
+You can tell whether your organization has a Standard or Premium license by clicking the [!UICONTROL Administration] link at the top of the [!DNL Target] UI.
 
-* **[!DNL Target Standard] Customers**: If you see the [!UICONTROL Users] tab ([!UICONTROL Setup > Users]), your organization has a [!DNL Target Standard] license. [!DNL Target Standard]customers should follow the instructions in [Users](/help/administrating-target/c-user-management/c-user-management/user-management.md) to add users and assign permissions in the Adobe Admin Console.
+* **[!DNL Target Standard] Customers**: If you see the [!UICONTROL Users] tab ([!UICONTROL Adminitration > Users]) (and not the [!UICONTROL Properties] tab), your organization has a [!DNL Target Standard] license. [!DNL Target Standard]customers should follow the instructions in [Users](/help/administrating-target/c-user-management/c-user-management/user-management.md) to add users and assign permissions in the [!DNL Adobe Admin Console].
 
-  [!DNL Target Standard] users see the following error message when clicking the [!UICONTROL Properties] tab. There is nothing wrong with [!DNL Target]. [!DNL Target Standard] users do not have access to the [!DNL Target Premium] [!UICONTROL Enterprise Permissions] functionality.
+* **[!DNL Target Premium] Customers**: If you see the [!UICONTROL Properties] tab ([!UICONTROL Setup > Properties]) and the [!UICONTROL Users] tab, your organization has a [!DNL Target Premium] license. [!DNL Target Premium] customers should follow the instructions in this article and in [Configure enterprise permissions](/help/administrating-target/c-user-management/property-channel/properties-overview.md).
 
-  ![Error message](/help/administrating-target/c-user-management/property-channel/assets/sorry.png)
-
-* **[!DNL Target Premium] Customers**: If you see the [!UICONTROL Properties] tab ([!UICONTROL Setup > Properties]), your organization has a [!DNL Target Premium] license. [!DNL Target Premium] customers should follow the instructions in this article and in [Configure enterprise permissions](/help/administrating-target/c-user-management/property-channel/properties-overview.md).
-
-## Before You Get Started with Enterprise Permissions
+## Before you get started with enterprise permissions
 
 >[!IMPORTANT]
 >
->Ensure that you read the [Caveats](../../../administrating-target/c-user-management/property-channel/property-channel.md#section_9714311B1CD9497A86F4910F8AE635E2) section below before proceeding with Enterprise Permissions.
+>Ensure that you read the [Caveats](../../../administrating-target/c-user-management/property-channel/property-channel.md#section_9714311B1CD9497A86F4910F8AE635E2) section below before proceeding with enterprise permissions.
 
-## Terms and Definitions Used in this Section {#section_F8D229544FEA41C3BC2EFD1F95AA0116}
+## Terms and definitions used in this section {#section_F8D229544FEA41C3BC2EFD1F95AA0116}
 
-The following terms are used throughout this section and might be new to users wanting to use the Properties and Permissions functionality in Target Premium.
+The following terms are used throughout this section and might be new to users wanting to use the Properties and Permissions functionality in [!DNL Target] Premium.
 
 ### Property
 
-Properties are similar in nature to those within Dynamic Tag Management (Activation) in that they use a unique snippet of code to differentiate them.
+Properties are similar in nature to those within [!DNL Adobe Platform Launch] in that they use a unique snippet of code to differentiate them.
 
 A web property is a library of rules and one embed code. A web property can be any grouping of one or more domains and subdomains.
 
-Properties are enabled by adding a specific name/value pair as a parameter with any call (mbox, api, etc.) to Target.
+Properties are enabled by adding a specific name/value pair as a parameter with any call (mbox, api, etc.) to [!DNL Target].
+
 Properties belong to specific channels (Web, Mobile, Email, or API/Other).
 
 ### Workspace (Product Profile)
 
-A workspace lets an organization assign a specific set of users to a specific set of properties. In many ways, a workspace is similar to a report suite in Adobe Analytics.
+A workspace lets an organization assign a specific set of users to a specific set of properties. In many ways, a workspace is similar to a report suite in [!DNL Adobe Analytics].
 
-Note: Workspaces are known as Product Profiles in the Adobe Admin Console for Enterprise.
+Note: Workspaces are known as [!UICONTROL Product Profiles] in the [!DNL Adobe Admin Console for Enterprise].
 
 If you are part of a multi-national organization, you might have a workspace for your European web pages, properties, or sites and another workspace for your American web pages, properties, or sites. If you are part of a multi-brand organization, you might have a separate workspace for each of your brands.
 
 Users can be part of multiple workspaces and can even have different roles within each workspace.
 
-Users can have different views of Adobe Target by moving between workspaces, similar to how Analytics users have different views of Analytics by moving between Report Suites.
+Users can have different views of [!DNL Adobe Target] by moving between workspaces, similar to how [!DNL Analytics] users have different views of [!DNL Analytics] by moving between Report Suites.
 
 Workspaces can include complete different audiences, code offers, and activities.
 
 All audiences and activities created before the new Enterprise Permissions model migration will be grouped together in the "Default Workspace," discussed below.
 
-All activities created via Adobe Experience Manager (AEM), Adobe Mobile Services, and Adobe Target Classic will be part of the "Default Workspace."
+All activities created via [!DNL Adobe Experience Manager] (AEM), [!DNL Adobe Mobile Services], and [!DNL Adobe Target Classic] will be part of the "Default Workspace."
 
-### Default Workspace
+### Default workspace
 
-All existing workspaces (product profiles) within Admin Console are merged into a single workspace called "Default Workspace" during your organization's migration to the new Enterprise Permissions model.
+All existing workspaces (product profiles) within [!DNL Admin Console] are merged into a single workspace called "Default Workspace" during your organization's migration to the new Enterprise Permissions model.
 
 >[!IMPORTANT]
 >
 >Do not delete the Default Workspace.
 
-All user roles and access to all Target functionality remains exactly the same as they were prior to the migration to the new Enterprise Permissions model.
+All user roles and access to all [!DNL Target] functionality remains exactly the same as they were prior to the migration to the new Enterprise Permissions model.
 
-### User Groups
+### User groups
 
 You can create user groups, such as Developers, Analysts, Marketers, Executives, etc., and then assign privileges across multiple Adobe products and workspaces. Assigning a new team member all the appropriate privileges across different Adobe products can be as easy as adding them to a specific user group.
 
-### Roles and Permissions
+### Roles and permissions
 
-Roles and permissions determine the access levels that users have to create and manage activities in your Target implementation. In Target, roles include the following:
+Roles and permissions determine the access levels that users have to create and manage activities in your [!DNL Target] implementation. In [!DNL Target], roles include the following:
 
-* Observer: Can view activities, but cannot create or edit them.
-* Editor: Can create and edit activities before they are live, but cannot approve the launch of an activity.
-* Approver: Can create, edit, and activate or stop activities.
+* **[!UICONTROL Observer]**: Can view activities, but cannot create or edit them.
+* **[!UICONTROL Editor]**: Can create and edit activities before they are live, but cannot approve the launch of an activity.
+* **[!UICONTROL Approver]**: Can create, edit, and activate or stop activities.
 
 ### Channel
 
-Channel refers to the content type of where your Target activities are delivered: webpages, mobile apps, email messages,and so forth.
+Channel refers to the content type of where your [!DNL Target] activities are delivered: webpages, mobile apps, email messages,and so forth.
 
 When you create a new activity, it is created in the currently selected workspace. You'll see channel selection options in the first dialog box that lets you choose the desired channel for the activity: Web, Mobile App, Email, or Other/API.
 
-## Permissions Overview {#section_DC2172520DA84605B218A5E9FB6D187A}
+## Permissions overview {#section_DC2172520DA84605B218A5E9FB6D187A}
 
 The following information explains the way permissions were enforced previously in [!DNL Target] and how they are enforced using the [!UICONTROL Properties] and [!UICONTROL Permissions] functionality.
 
@@ -131,7 +128,7 @@ Furthermore, Jan won't be able to see pages, properties, or sites in [!DNL Targe
 
 In this example, Jan cannot see the Product Pages, Russia Site, and the Careers Site.
 
-## Use Case Scenarios {#section_F3CE8576959E4F4CB13BEEED38311DD8}
+## Use-case scenarios {#section_F3CE8576959E4F4CB13BEEED38311DD8}
 
 The following use cases might be helpful to understand how properties, projects, roles, and permissions can help you achieve your marketing goals with [!DNL Target]:
 
@@ -178,7 +175,7 @@ After a reorganization, using the personas in the illustrations above, you might
 
 * **Diana**: Diana is now an Analyst for the organization and has been granted Observer permissions for the Hospital Site and the Consumer Site that give her read-only access to activities. Diana can view activities, but cannot create or edit them.
 
-## Target UI Property and Permissions Touchpoints {#section_3414371393BB42999A268628B5456EC9}
+## Target UI Property and Permissions touchpoints {#section_3414371393BB42999A268628B5456EC9}
 
 The new Permissions functionality can be seen in various places in the [!DNL Target] UI.
 
@@ -192,13 +189,13 @@ The new Permissions functionality can be seen in various places in the [!DNL Tar
 
 * **Audience Creation:** When you create a new audience, it is created in the currently selected workspace. 
 * **Offer Creation:** When you create a new offer, it is created in the currently selected workspace. 
-* **Properties page (Setup > Properties):** You can use the [!UICONTROL Search] box, the [!UICONTROL Channel], and [!UICONTROL Product Profile] options to filter the [!UICONTROL Property] List.
+* **Properties page (Setup > Properties):** You can use the [!UICONTROL Search] box to search the [!UICONTROL Property] list.
 
   ![](assets/properties_list.png)
 
 ## Caveats {#section_9714311B1CD9497A86F4910F8AE635E2}
 
-Consider the following when using or configuring properties and permissions in Target Premium:
+Consider the following when using or configuring properties and permissions in [!DNL Target] Premium:
 
 * **Important**: Do not delete workspaces with activities. If this happens, work with client care to recover those activities.
 * When using the All My Workspaces view:
@@ -208,12 +205,17 @@ Consider the following when using or configuring properties and permissions in T
     * When creating an activity, audience, or offer in the All My Workspaces view, you must select the workspace where the item is to be created. Only those workspaces can be selected for which you have the Editor or Approver permission. 
     * When copying an activity, audience, or offer in the All My Workspaces view, you must select the workspace where the item is to be copied. Only those workspaces can be selected for which you have the Editor or Approver permission.
 
-* Any setting on the following the Setup pages can be controlled by any Approver in any workspace:
+* Any setting on the following the Administration pages can be controlled by any Approver in any workspace:
 
-    * Preferences 
-    * Implementation 
-    * Scene7 Settings 
-    * Hosts
+    * Visual Experience Composer 
+    * Reporting
+    * Scene7 Settings
+    * Implementation
+    * Properties
+    * Hosts 
+    * Environments 
+    * Response Tokens
+    * Users
 
 * Users cannot move resources from one workspace (product profile) to another. Copy, however, is supported. 
 * When viewing audiences from the [!DNL Audiences] page, the page loads slower than expected. If you interact with the search bar in any way, audiences display faster. This is a known issue and will be fixed in an upcoming update. This issue does not affect selecting audiences during the activity-creation workflow. 
@@ -233,7 +235,7 @@ Consider the following when using or configuring properties and permissions in T
   * Image offers (assets stored under `https://[tenantName].marketing.adobe.com/content/mac/[tenantName]/target/offers.html#image-library` cannot be controlled by the Enterprise Permissions model at this time.
   * clickTracking and redirects will only work when the destination link or destination page are part of a property that is included in the activity. Additionally, clickTracking may not work when using the `targetPageParams()` function. The `targetPageParamsAll()` is the recommended function.
 
-  Target currently requires an `at_property` token to be present on any page where tracking occurs. In the event that the token is (1) not present, (2) not detected at the time of activity setup (within the VEC), or (3) not passed to the clickTracking mbox via the `targetPageParamsAll()` function, the metric will not be incremented and will appear as "0."
+  [!DNL Target] currently requires an `at_property` token to be present on any page where tracking occurs. In the event that the token is (1) not present, (2) not detected at the time of activity setup (within the VEC), or (3) not passed to the clickTracking mbox via the `targetPageParamsAll()` function, the metric will not be incremented and will appear as "0."
 
   The same applies for activities using redirects. The destination page must have an `at_property` token and be recognized at the time of setup within the VEC.
 
