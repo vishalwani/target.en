@@ -249,7 +249,6 @@ solution: Target
       + [Use Activity QA with server-side delivery](c-activities/c-activity-qa/use-qa-mode-with-server-side-delivery.md)
 + Audiences {#audiences}
    + [Audiences overview](c-target/target.md)
-   + [How targeting works](c-target/target-how-target-works.md)
    + Create audiences {#create-audiences}
       + [Create](c-target/c-audiences/audiences.md)
       + [Build audiences in Target](c-target/c-audiences/create-audience.md)
