@@ -30,14 +30,6 @@ No, you don’t need at.js to use the mobile SDKs. at.js is the [!DNL Target] Ja
 
 For Adobe Target Standard customers, you can use our Mobile SDKs for A/B Test and Experience Targeting (XT) activities only. If you want to use Recommendations or AI-powered features in the mobile app, you need an [Adobe Target Premium](/help/c-intro/intro.md#premium) license.
 
-## Can I leverage audiences from Adobe Audience Manager (AAM) in the VEC for Mobile Apps? 
-
-Yes, Adobe Experience Platform Mobile SDKs are built for [Audience Manager](https://docs.adobe.com/content/help/en/audience-manager/user-guide/aam-home.html), [Analytics](https://docs.adobe.com/content/help/en/analytics/landing/home.html), [Campaign](https://docs.adobe.com/content/help/en/campaign-standard/using/campaign-standard-home.html), and Target. Your audiences in Audience Manager are shared with [!DNL Target].
-
 ## Is there a mobile app integration between Adobe Experience Manager (AEM) and Target mobile activities?
 
 It is on our roadmap but there is no timeline yet. Currently, you can share JSON [Experience Fragments](/help/c-experiences/c-manage-content/aem-experience-fragments.md) from AEM to Target and there might be potential to then use them in a mobile app activity.  
-
-## Can I add more images using the VEC or only change existing images?
-
-You can currently change existing images only.
