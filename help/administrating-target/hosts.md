@@ -95,6 +95,10 @@ In cases where `mboxHost` is passed in an API call, conversion is recorded for t
 
 You can also create a blacklist that specifies hosts (domains) than cannot send mbox calls to [!DNL Target] by adding the desired hosts in the [!UICONTROL Host Does Not Contain] box.
 
+>[!NOTE]
+>
+>Because the Authorized Hosts list is used for both mbox hosts and default redirect hosts, you must add all existing domains approved to use the Adobe Target Javascript SDK (at.js) *AND* all domains used in ubox default redirect urls. You must also add any new similar domains to the whitelist in the future.
+
 ## Delete a host {#section_F56355BA4BC54B078A1A8179BC954632}
 
 You can delete a host when it is no longer needed.
