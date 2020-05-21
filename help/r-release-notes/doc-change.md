@@ -14,6 +14,7 @@ This page lists important changes made to the [!DNL Adobe Target] product docume
 
 |Date|Topic|Changes|
 | --- | --- | --- |
+|May 21|[Whitelist Target edge nodes](/help/c-implementing-target/c-considerations-before-you-implement-target/white-list-edges.md)|Added `mboxedge30.tt.omtrdc.net` to the list.|
 |May 20|[Target release notes (prerelease)](/help/r-release-notes/target-release-notes.md)|Added information about the upcoming Target Standard/Premium 20.6.1 (June 10, 2020) release.|
 ||[Hosts](/help/administrating-target/hosts.md)|Added note to the "Security best practices" section.|
 |May 14|[Target release notes (current)](/help/r-release-notes/release-notes.md)|Added information about Profile Batch Status API v2 changes.|

@@ -26,6 +26,7 @@ The following list includes the current hosts:
 * `mboxedge26.tt.omtrdc.net`
 * `mboxedge28.tt.omtrdc.net`
 * `mboxedge29.tt.omtrdc.net`
+* `mboxedge30.tt.omtrdc.net`
 * `mboxedge31.tt.omtrdc.net`
 * `mboxedge32.tt.omtrdc.net`
 * `mboxedge34.tt.omtrdc.net`
