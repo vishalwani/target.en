@@ -9,48 +9,48 @@ uuid: 616798a6-1587-410f-9ac6-473beb39e3fc
 
 # Adobe Analytics as the reporting source for Adobe Target (A4T){#adobe-analytics-as-the-reporting-source-for-adobe-target-a-t}
 
-Adobe "Analytics for Target" (A4T) is a cross-solution integration that lets you create activities based on Analytics conversion metrics and audience segments. The A4T integration lets you use Analytics reports to examine your results. If you use Analytics as the reporting source for an activity, all reporting and segmentation for that activity is based on Analytics data collection.
+[!DNL Adobe Analytics for Target] (A4T) is a cross-solution integration that lets you create activities based on [!DNL Analytics] conversion metrics and audience segments. The A4T integration lets you use [!DNL Analytics] reports to examine your results. If you use [!DNL Analytics] as the reporting source for an activity, all reporting and segmentation for that activity is based on [!DNL Analytics] data collection.
 
-## A4T Overview {#section_92B66069210C40DBA937790E8CC596CF}
+## A4T overview {#section_92B66069210C40DBA937790E8CC596CF}
 
-The Analytics for Target integration between Analytics and Target provides powerful analysis and timesaving tools for your optimization program.
+The [!DNL Analytics for Target] integration between [!DNL Analytics] and [!DNL Target] provides powerful analysis and timesaving tools for your optimization program.
 
-The three primary benefits of using Analytics data in Target are:
+The three primary benefits of using [!DNL Analytics] data in [!DNL Target] are:
 
-* Marketers can dynamically apply Analytics success metrics or reporting segments to Target activity reports at any time. It is not required to specify everything before running the activity. 
+* Marketers can dynamically apply [!DNL Analytics] success metrics or reporting segments to [!DNL Target] activity reports at any time. It is not required to specify everything before running the activity. 
 * A single source of data eliminates the variance that occurs when collecting data in two separate systems. 
-* Your existing Adobe Analytics implementation collects all required data. There is no need to implement mboxes on pages for the sole purpose of collecting data for reports. Although, it is still recommended that you implement an order confirmation mbox for Automated Personalization (AP) activities.
+* Your existing [!DNL Analytics] implementation collects all required data. There is no need to implement mboxes on pages for the sole purpose of collecting data for reports. Although, it is still recommended that you implement an order confirmation mbox for [Automated Personalization](/help/c-activities/t-automated-personalization/automated-personalization.md) (AP) activities.
 
 >[!IMPORTANT]
 >
 >Before you can begin using A4T, you need to request that your account be provisioned for the integration. Use [this form](https://www.adobe.com/go/audiences) to request to be provisioned.
 >
->The integration that enables Adobe Analytics as the data source for Adobe Target (A4T) represents the next generation of the Test&Target to SiteCatalyst plug-in. This plug-in has been deprecated, but is still supported for customers who already use it.
+>The integration that enables [!DNL Analytics] as the data source for [!DNL Target] (A4T) represents the next generation of the Test&Target to SiteCatalyst plug-in. This plug-in has been deprecated, but is still supported for customers who already use it.
 
-If you use Analytics as the reporting source for an activity, all reporting and segmentation for that activity is based on Analytics.
+If you use [!DNL Analytics] as the reporting source for an activity, all reporting and segmentation for that activity is based on [!DNL Analytics].
 
-All Analytics metrics, including calculated metrics, are available in Target Standard/Premium and the Target Activities report in Analytics. Likewise, any segment available in Analytics can be applied to both solutions. You can apply the metric or audience to the report in Target Standard/Premium after the test has started, or even after the test has completed.
+All [!DNL Analytics] metrics, including calculated metrics, are available in [!DNL Target] and the [!UICONTROL Target Activities] report in [!DNL Analytics]. Likewise, any segment available in [!DNL Analytics] can be applied to both solutions. You can apply the metric or audience to the report in [!DNL Target] after the activity has started, or even after the activity has completed.
 
-Every metric is included, including any customer or calculated metrics that are built-in in Analytics.
+Every metric is included, including any customer or calculated metrics that are built-in in [!DNL Analytics].
 
 After the classification period, data appears in these reports approximately an hour after it is collected from the website. All metrics, segments, and values in the reports come from the report suite you selected when you set up the activity.
 
 Keep the following points in mind when considering using A4T:
 
-* To use Adobe Analytics as the reporting source for Adobe Target, both you and your company must have access to Adobe Analytics and to Adobe Target. [Contact your account representative](../../cmp-resources-and-contact-information.md#concept_34A1CA16F2244D42930BB77846A5ABBB) if you need either solution. 
-* The reporting source is set for each activity. Target continues to collect data to use in reporting and Target data is still available if you prefer to base an activity on data collected by Target. 
+* To use [!DNL Analytics] as the reporting source for [!DNL Target], both you and your company must have access to [!DNL Analytics] and to [!DNL Target]. [Contact your account representative](../../cmp-resources-and-contact-information.md#concept_34A1CA16F2244D42930BB77846A5ABBB) if you need either solution. 
+* The reporting source is set for each activity. [!DNL Target] continues to collect data to use in reporting and [!DNL Target] data is still available if you prefer to base an activity on data collected by [!DNL Target]. 
 * You must use one reporting source or the other. You cannot collect data for a single activity from both sources. 
-* When using A4T, all success metrics available to your activities are Analytics metrics. However, your goal metric can be based on an mbox call. For example, you can use Target's out-of-the-box click-tracking capabilities with A4T instead of having to implement Analytics click-tracking code. 
-* When viewing reporting of an A4T activity in the Target UI, you are viewing Analytics data. For example, if you use the Visitor metric in Target, you are using the Analytics Visitor metric, not the Target Visitors metric, which is now called Entrants. This difference is especially important for basic traffic metrics (Visitors, Visits, Page Views) and conversion metrics. 
-* Any existing Target activities continue to use Target data collection and are not affected by enabling A4T. 
-* Only one mbox-based metric is allowed when using Analytics as the reporting source. 
-* A server-to-server call from Target to Analytics sends activity and experience information to Analytics. This integration does not result in additional server calls for either Target or Analytics. 
+* When using A4T, all success metrics available to your activities are [!DNL Analytics] metrics. However, your goal metric can be based on an mbox call. For example, you can use Target's out-of-the-box click-tracking capabilities with A4T instead of having to implement [!DNL Analytics] click-tracking code. 
+* When viewing reporting of an A4T activity in the [!DNL Target] UI, you are viewing [!DNL Analytics] data. For example, if you use the [!UICONTROL Visitor] metric in [!DNL Target], you are using the [!DNL Analytics] [!UICONTROL Visitor] metric, not the [!DNL Target] [!UICONTROL Visitors] metric, which is now called [!UICONTROL Entrants]. This difference is especially important for basic traffic metrics ([!UICONTROL Visitors], [!UICONTROL Visits], [!UICONTROL Page Views]) and conversion metrics. 
+* Any existing [!DNL Target] activities continue to use [!DNL Target] data collection and are not affected by enabling A4T. 
+* Only one mbox-based metric is allowed when using [!DNL Analytics] as the reporting source. 
+* A server-to-server call from [!DNL Target] to [!DNL Analytics] sends activity and experience information to [!DNL Analytics]. This integration does not result in additional server calls for either [!DNL Target] or [!DNL Analytics]. 
 
-  In some situations, the classification call from Target to Analytics might fail and activities do not show data in Analytics. If this happens, see [Troubleshoot the Analytics and Target integration (A4T)](/help/c-integrating-target-with-mac/a4t/c-a4t-troubleshooting/a4t-troubleshooting.md). You can also [contact Client Care](/help/cmp-resources-and-contact-information.md#concept_34A1CA16F2244D42930BB77846A5ABBB) for further assistance.
+  In some situations, the classification call from [!DNL Target] to [!DNL Analytics] might fail and activities do not show data in [!DNL Analytics]. If this happens, see [Troubleshoot the Analytics and Target integration (A4T)](/help/c-integrating-target-with-mac/a4t/c-a4t-troubleshooting/a4t-troubleshooting.md). You can also [contact Client Care](/help/cmp-resources-and-contact-information.md#concept_34A1CA16F2244D42930BB77846A5ABBB) for further assistance.
 
-## Supported Activity Types {#section_F487896214BF4803AF78C552EF1669AA}
+## Supported activity types {#section_F487896214BF4803AF78C552EF1669AA}
 
-The following table shows you which activity types support Analytics as the reporting source (A4T):
+The following table shows you which activity types support [!DNL Analytics] as the reporting source in [!DNL Target] (A4T):
 
 | Activity Types | A4T Compatible? | Notes, if applicable |
 |--- |--- |--- |
@@ -58,29 +58,29 @@ The following table shows you which activity types support Analytics as the repo
 |A/B activity with Auto-Allocate|No||
 |A/B activity with Auto-Target|No||
 |Experience Targeting (XT)|Yes||
-|Multivariate test (MVT)|Yes|Requires mbox-based goal metric goal to get the Element Contribution report.  The Element Contribution Report does not currently support Analytics metrics.|
+|Multivariate test (MVT)|Yes|Requires mbox-based goal metric goal to get the [!UICONTROL Element Contribution] report.  The [!UICONTROL Element Contribution] report does not currently support [!DNL Analytics] metrics.|
 |Automated Personalization (AP) activity|No||
 |Recommendations activity|Yes||
-|Mobile App|Yes|Supported with the  Mobile Services SDK, version 4.13.1 or later.  For more information, see the [Mobile Services documentation](https://docs.adobe.com/content/help/en/mobile-services/using/home.html).|
+|Mobile App|Yes|Supported with the Mobile Services SDK, version 4.13.1 or later.  For more information, see the [Mobile Services documentation](https://docs.adobe.com/content/help/en/mobile-services/using/home.html).|
 |Email|No||
 |Server Side Delivery API|Yes|For more information, see [Server Side: implement Target](/help/c-implementing-target/c-api-and-sdk-overview/api-and-sdk-overview.md).|
 |NodeJS SDK|Yes|For more information, see [Server Side: implement Target](/help/c-implementing-target/c-api-and-sdk-overview/api-and-sdk-overview.md).|
 |AEM 6.1 (or earlier) Cloud Service Integration|No||
-|AEM 6.2 (or later) Cloud Service Integration|Yes|For more information, see [Integrating with Adobe Target](https://helpx.adobe.com/experience-manager/6-2/sites/administering/using/target.html) in the Adobe Experience Manager 6.2 documentation.|
-|Any activity using a Redirect offer|Yes|There are stricter minimum requirements for using redirect offers with A4T. For more information, see [Redirect Offers - A4T FAQ](/help/c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-redirect-offers.md).|
+|AEM 6.2 (or later) Cloud Service Integration|Yes|For more information, see [Integrating with Adobe Target](https://helpx.adobe.com/experience-manager/6-2/sites/administering/using/target.html) in the [!DNL Adobe Experience Manager] 6.2 documentation.|
+|Any activity using a redirect offer|Yes|There are stricter minimum requirements for using redirect offers with A4T. For more information, see [Redirect Offers - A4T FAQ](/help/c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-redirect-offers.md).|
 |Node.JS|Yes||
 
-Because all activity types do not yet support A4T, it is recommended that you keep or implement important conversion mboxes, such as the "orderConfirmPage" mbox.
+Because all activity types do not yet support A4T, it is recommended that you keep or implement important conversion mboxes, such as the `orderConfirmPage` mbox.
 
-## Examples of A4T Reports {#section_F0A43A1CB2F04E8282B909E4D7034361}
+## Examples of A4T reports {#section_F0A43A1CB2F04E8282B909E4D7034361}
 
-To view A4T reports in [!DNL Target], click **[!UICONTROL Activities]**, click the desired activity from the list that uses [!DNL Analytics] as its reporting source > then click the **[!UICONTROL Reports]** tab.
+To view A4T reports in [!DNL Target], click **[!UICONTROL Activities]**, click the desired activity from the list that uses [!DNL Analytics] as its reporting source, then click the **[!UICONTROL Reports]** tab.
 
 >[!NOTE]
 >
 >You can use the [!UICONTROL Reporting Source] drop-down list at the top of the [!UICONTROL Activities] page to display only activities that use [!DNL Analytics] as the reporting source.
 
-You can toggle between the Table View and [!UICONTROL Graph View] of the report by clicking the appropriate icon at the top right side of the report.
+You can toggle between the [!UICONTROL Table View] and [!UICONTROL Graph View] of the report by clicking the appropriate icon at the top right side of the report.
 
 The following illustration shows the [!UICONTROL Graph View] of an A4T report with the [!UICONTROL Report Metric] drop-down list displaying the available [!DNL Analytics] goal metrics:
 
@@ -98,15 +98,15 @@ To view the report in [!DNL Analytics] rather than in [!DNL Target], click **[!U
 
 ## Analytics & Target: Best Practices for Analysis Tutorial {#section_3438E6E77A464424B717A4FD333B84B2}
 
-Open the [Analytics & Target: Best Practices for Analysis](https://spark.adobe.com/page/Lo3Spm4oBOvwF/) tutorial, provided by Adobe Experience League.
+Open the [Analytics & Target: Best Practices for Analysis](https://spark.adobe.com/page/Lo3Spm4oBOvwF/) tutorial, provided by [!DNL Adobe Experience League].
 
 ## Training videos:
 
-The following videos contain more information about the concepts discussed in this article.
+The following videos contain more information about the concepts discussed in this topic.
 
 ### Analytics for Target (A4T) (4:32) ![Overview badge](/help/assets/overview.png)
 
-This video explains how to use Adobe Analytics as a reporting source in Adobe Target to drive the analysis of your optimization program.
+This video explains how to use [!DNL Analytics] as a reporting source in [!DNL Target] to drive the analysis of your optimization program.
 
 * Explain what A4T is and why you would use it 
 * Explain how A4T works 

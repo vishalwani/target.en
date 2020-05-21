@@ -31,20 +31,19 @@ You must be a member of one or more [!DNL Experience Cloud] groups that have acc
 
 For more information, see [Manage Experience Cloud users and products](https://docs.adobe.com/content/help/en/core-services/interface/manage-users-and-products/admin-getting-started.html).
 
-
 ## Adobe Analytics {#section_8F404FDE9A634534AB0AA4CB3075582B}
 
 Complete the following tasks in [!DNL Adobe Analytics]:
 
 ### Configure access to the Analytics report suite
 
-Before creating or viewing reports for an Analytics-powered activity, you must be a member of the **[!UICONTROL All Report Access]** group, or a member of a group that has access to at least one report in the report suite that you want to use. If you are unable to view reports, make sure you are a member of one of these groups.
+Before creating or viewing reports for an [!DNL Analytics]-powered activity, you must be a member of the **[!UICONTROL All Report Access]** group, or a member of a group that has access to at least one report in the report suite that you want to use. If you are unable to view reports, make sure you are a member of one of these groups.
 
 For more information, see [Product profiles and groups](https://docs.adobe.com/content/help/en/core-services/interface/manage-users-and-products/admin-getting-started.html#section_AB50558124D541CF80A0D3D76D35A4BF). 
 
 ### Configure access to the Web Services Access Group
 
-You must belong to the Web Services Access group in [!DNL Adobe Analytics] to be able to use [!DNL Analytics] as the reporting source for [!DNL Target].
+You must belong to the Web Services Access group in [!DNL Analytics] to be able to use [!DNL Analytics] as the reporting source for [!DNL Target].
 
 ## Adobe Target {#section_26BA212D8D40443E9EE2AB327091425C}
 
