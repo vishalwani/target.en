@@ -71,6 +71,8 @@ Keep the following information in mind:
 * Save variables that may be accessed the next time the script is run (on the next mbox request) with `user.setLocal('variable_name', 'value')`. Reference the variable with `user.getLocal('variable_name')`. This is useful for situations where you want to reference the date and time of the last request. 
 * Parameters and values are case sensitive. Match the case of the parameters and values you will receive during the activity or test. 
 * See the "JavaScript reference for script profile parameters" section below for more JavaScript syntax.
+* The parameter remains in the profile after disabling the script. Users whose profiles already contain a parameter that is used in an activity's audience will qualify in that activity.
+* Profile scripts cannot be deleted while they're being used in an activity.
 
 ## Viewing profile script information cards {#section_18EA3B919A8E49BBB09AA9215E1E3F17}
 
