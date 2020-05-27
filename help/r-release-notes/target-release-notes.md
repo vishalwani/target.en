@@ -10,7 +10,7 @@ uuid: 35ecabbe-b8b4-479b-9266-4823c831d79a
 
 This article contains prerelease information. Release dates, features, and other information are subject to change without notice. 
 
-**Last Updated: May 20, 2020**
+**Last Updated: May 27, 2020**
 
 To view information about the current release, see [Target Release Notes](release-notes.md). The information on these pages might be the same, depending on the timing of releases. The issue numbers in parentheses are for internal [!DNL Adobe] use.
 
@@ -30,6 +30,7 @@ With the upcoming deprecation of mbox.js on August 30, 2020, David Son, Adobe Ta
 
 |Feature / Enhancement|Description|
 | --- | --- |
+|Analytics for Target (A4T) support for Auto-Allocate activities|With the June release, Auto-Allocate tests will support [Analytics for Target](/help/c-integrating-target-with-mac/a4t/a4t.md). This integration allows you to use Auto-Allocate’s multi-armed bandit capability to drive traffic to winning experiences, while using an Adobe Analytics goal metric and/or Adobe Analytics reporting and analysis capabilities. If you’ve already [implemented A4T](/help/c-integrating-target-with-mac/a4t/a4timplementation.md) for use with A/B Test and Experience Targeting activities, you’re all set! |
 |Publisher role|This new role is similar to the current Observer role (can view activities, but cannot create or edit them). However, the Publisher role has the additional permission to active activities.|
 |Administration page<br>Formerly "Setup."|The Setup page has been renamed "Administration" and the UI for all menu items has been updated to improve the workflow and ease-of-use.<br>Available menu items include:<ul><li>Visual Experience Composer</li><li>Reporting</li><li>Scene7 Settings</li><li>Implementation</li><li>Properties</li><li>Hosts</li><li>Environments</li><li>Response Tokens</li><li>Users</li></ul>|
 
