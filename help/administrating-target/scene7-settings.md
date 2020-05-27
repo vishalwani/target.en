@@ -26,6 +26,8 @@ To integrate with Dynamic Media Classic (Scene7), you need to specify the follow
 
 1. Click **[!UICONTROL Administration]** > **[!UICONTROL Scene7 Settings]**.
 
+   ![Scene7 page](/help/administrating-target/assets/scene7.png)
+
 1. Specify the following Dynamic Media Classic account information:
 
    **Region:** The region for your Dynamic Media account: North America, Europe, or Asia.
