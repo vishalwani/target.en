@@ -10,7 +10,7 @@ uuid: 35ecabbe-b8b4-479b-9266-4823c831d79a
 
 This article contains prerelease information. Release dates, features, and other information are subject to change without notice. 
 
-**Last Updated: May 14, 2020**
+**Last Updated: May 20, 2020**
 
 To view information about the current release, see [Target Release Notes](release-notes.md). The information on these pages might be the same, depending on the timing of releases. The issue numbers in parentheses are for internal [!DNL Adobe] use.
 
@@ -26,9 +26,12 @@ To view information about the current release, see [Target Release Notes](releas
 
 With the upcoming deprecation of mbox.js on August 30, 2020, David Son, Adobe Target Product Manager recently hosted a developer chat to discuss the benefits of migrating mbox.js to at.js. For the next 30 days you can [view the webinar recording](https://seminars.adobeconnect.com/ptdo6mfo6qn6/?proto=true).
 
-## Target Standard/Premium 20.5.1 (June 10, 2020)
+## Target Standard/Premium 20.6.1 (June 10, 2020)
 
-Details of this release will be published here.
+|Feature / Enhancement|Description|
+| --- | --- |
+|Publisher role|This new role is similar to the current Observer role (can view activities, but cannot create or edit them). However, the Publisher role has the additional permission to active activities.|
+|Administration page<br>Formerly "Setup."|The Setup page has been renamed "Administration" and the UI for all menu items has been updated to improve the workflow and ease-of-use.<br>Available menu items include:<ul><li>Visual Experience Composer</li><li>Reporting</li><li>Scene7 Settings</li><li>Implementation</li><li>Properties</li><li>Hosts</li><li>Environments</li><li>Response Tokens</li><li>Users</li></ul>|
 
 ## Prerelease information {#section_7B9D4AAFC6A74388B9D7DEF0658D8B63} 
 

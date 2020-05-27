@@ -16,7 +16,7 @@ This function lets you apply more than one offer that was retrieved by `adobe.ta
 
 |Key|Type|Required?|Description|
 | --- | --- | --- | --- |
-|selector|String|No|HTML element or CSS selector used to identify the HTML element where [!DNL Target] should place the offer content. If a selector is not provided, [!DNL Target] assumes that the HTML element to should use is HTML HEAD.|
+|selector|String|No|HTML element or CSS selector used to identify the HTML element where [!DNL Target] should place the offer content. If a selector is not provided, [!DNL Target] assumes that the HTML element to use is HTML HEAD.|
 |Response|Object|Yes|Response object from `getOffers()`.<br>See Requests table below.|
 
 ## Response
