@@ -1,5 +1,5 @@
 ---
-keywords: troubleshooting;metric discrepancies;FAQ;reports
+keywords: troubleshooting;metric discrepancies;FAQ;reports;new visitor;new visitors;returning visitor;returning visitors;return visit;new visit
 description: List of frequently asked questions about reporting in Adobe Target.
 title: Reporting FAQ for Adobe Target
 topic: Standard
@@ -9,6 +9,27 @@ uuid: 0be40d3f-3274-493d-899b-cb7bb3612baf
 # Reporting FAQ{#reporting-faq}
 
 List of frequently asked questions about reporting in [!DNL Target].
+
+## How are the New Visitors and Returning Visitors metrics counted?
+
+Consider the following:
+
+**New Visitors**: A visitor is included in the New Visitors segment if one of the following conditions is met:
+
+* It is the visitor’s first time visiting the site.
+* It is the visitor's first time visiting the site since clearing cookies.
+* It is the visitor’s first time visiting the site since the [Visitor profile lifetime](/help/c-target/c-visitor-profile/visitor-profile-lifetime.md) has expired.
+
+**Returning Visitors**: The visitor is included in the Returning Visitors segment if the user previously visited the site, left for at least 30 minutes, and returned to the site again with the same cookies. As long as a visitor returns within their profile lifetime, they will be a returning visitor.
+
+If these two segments are applied to an activity, the New Visitors segment and the Returning Visitors segment do not always add up to the total number of visitors.
+
+Consider the following example, considering the conditions mentioned above for New Visitors and Returning Visitors:
+
+* A visitor visits the site for the first time and is counted as a New Visitor.
+* The visitor returns to the site after the conditions are met for Returning Visitors and is counted as a Returning Visitor.
+
+This visitor is counted as a single visitor in the activity’s overall visitor count even though being counted in both the New Visitors and Returning Visitors segments.
 
 ## Why do my [!UICONTROL Experience Targeting] (XT) reports contain metrics for control experiences?
 
