@@ -12,7 +12,7 @@ List of frequently asked questions about reporting in [!DNL Target].
 
 ## How are the New Visitors and Returning Visitors metrics counted?
 
-Consider the following:
+The following information explains how New Visitors and Returning Visitors are counted and provide examples of why the sum of these two segments don't always add up to the number of total visitors.
 
 **New Visitors**: A visitor is included in the New Visitors segment if one of the following conditions is met:
 
@@ -24,16 +24,16 @@ Consider the following:
 
 If these two segments are applied to an activity, the New Visitors segment and the Returning Visitors segment do not always add up to the total number of visitors.
 
-Consider the following example, considering the conditions mentioned above for New Visitors and Returning Visitors:
+Consider the following example, taking in the conditions mentioned above for New Visitors and Returning Visitors:
 
 * A visitor visits the site for the first time and is counted as a New Visitor.
 * The visitor returns to the site after the conditions are met for Returning Visitors and is counted as a Returning Visitor.
 
 This visitor is counted as a single visitor in the activity’s overall visitor count even though being counted in both the New Visitors and Returning Visitors segments.
 
-Discrepancies between the counts for New Visitors and Returning Visitors also depend on how you configure the activity's [success metrics](/help/c-activities/r-success-metrics/success-metrics.md):
+Discrepancies between the counts for New Visitors and Returning Visitors also depend on how you configure the activity's [success metrics](/help/c-activities/r-success-metrics/success-metrics.md).
 
-Consider the following example:
+For example:
 
 A number of new visitors visit your site and are qualified for an activity. These new visitors are counted towards the New Visitors segment. All of these visitors also recorded a visit into that activity.
 
