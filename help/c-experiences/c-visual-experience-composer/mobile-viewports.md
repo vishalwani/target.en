@@ -38,7 +38,7 @@ Below are the viewports and resolutions for some popular devices. Remember to us
 |  Google Pixel  | 411w x 731h  | 1080w x 1920h  |
 |  Google Pixel XL  | 411w x 731h  | 1440w x 2560h  |
 |  Google Pixel 2  | 411w x 731h  | 1080w x 1920h  |
-|  Google Pixel 2 XL  | 411w x 731h  | 1440w x 2560h  |
+|  Google Pixel 2 XL  | 411w x 823h  | 1440w x 2880h  |
 |  Samsung Galaxy Note 5  | 480w x 853h  | 1440w x 2560h  |
 |  LG G5  | 480w x 853h  | 1440w x 2560h  |
 |  One Plus 3  | 480w x 853h  | 1080w x 1920h  |
