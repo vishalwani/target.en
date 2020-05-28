@@ -72,7 +72,7 @@ Depending on your [!DNL AEM] version, see the following links for step-by-step i
 * **[!DNL AEM] 6.4**: [Exporting an Experience Fragment to Target](https://docs.adobe.com/content/help/en/experience-manager-64/administering/integration/experience-fragments-target.html) in the *Adobe Experience Manager 6.4* documentation.
 * **[!DNL AEM] 6.5**: [Exporting an Experience Fragment to Target](https://helpx.adobe.com/experience-manager/6-5/sites/administering/using/experience-fragments-target.html) in the *Adobe Experience Manager 6.5* documentation.
 
-## Using experience fragments in DNL Target activities {#section_17CE4BE6B2B74CCEBAE0C68DEB84ABB9}
+## Using experience fragments in [!DNL Target] activities {#section_17CE4BE6B2B74CCEBAE0C68DEB84ABB9}
 
 After performing the preceding tasks, the experience fragment displays on the [!UICONTROL Offers] page in [!DNL Target].
 
@@ -138,7 +138,7 @@ You can consume experience fragments in [!DNL Target] activities using the [Visu
 * The experience fragment is currently imported into [!DNL Target] as an HTML offer. Note that the experience fragment "master" version remains in [!DNL AEM]. You cannot edit the experience fragment in [!DNL Target].
 * You can import JSON offers as experience fragments into [!DNL Target]. However, these offers are imported as HTML offers. JSON offers (experience fragments) are currently not fully supported in the [!DNL Target] UI.
 
-## Training video: Using DNL AEM experience fragments with Adobe Target {#section_C0EDC54063464F41A182492D2045BC64} ![Tutorial badge](/help/assets/overview.png) 
+## Training video: Using [!DNL AEM] experience fragments with Adobe Target {#section_C0EDC54063464F41A182492D2045BC64} ![Tutorial badge](/help/assets/overview.png) 
 
 The following video shows you how to set up and use experience fragments: 
 
