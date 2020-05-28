@@ -31,6 +31,14 @@ Consider the following example, considering the conditions mentioned above for N
 
 This visitor is counted as a single visitor in the activity’s overall visitor count even though being counted in both the New Visitors and Returning Visitors segments.
 
+Discrepancies between the counts for New Visitors and Returning Visitors also depend on how you configure the activity's [success metrics](/help/c-activities/r-success-metrics/success-metrics.md):
+
+Consider the following example:
+
+A number of new visitors visit your site and are qualified for an activity. These new visitors are counted towards the New Visitors segment. All of these visitors also recorded a visit into that activity.
+
+Some visitors hit the conversion metric, which was configured as "Increment count, release user, and allow reentry." Suppose some of these users hit the conversion metric multiple times, the conversion metric won't increase. Given that setup, however, some users might hit the conversion metric and then navigate back to the home page, qualifying into the activity again to record a new visit.
+
 ## Why do my [!UICONTROL Experience Targeting] (XT) reports contain metrics for control experiences?
 
 XT activities should always have a control experience. If you are using an XT activity in a similar manner to an [!UICONTROL A/B Test] activity, which is a fairly common scenario, the control experience data is useful. You can ignore the control experience data if you find it not useful in your reports.
