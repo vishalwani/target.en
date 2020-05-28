@@ -14,6 +14,7 @@ This page lists important changes made to the [!DNL Adobe Target] product docume
 
 |Date|Topic|Changes|
 | --- | --- | --- |
+|May 28|[Reporting FAQ](/help/c-reports/reporting-frequently-asked-questions.md)|Added the following new FAQ: <ul><li>How are the New Visitors and Returning Visitors metrics counted?</li></ul>|
 |May 27|[Target release notes (prerelease)](/help/r-release-notes/target-release-notes.md)|Added information about Analytics for Target (A4T) support for Auto-Allocate activities.|
 |May 26|[Profile attributes](/help/c-target/c-visitor-profile/profile-parameters.md)|Added following information: "The parameter remains in the profile after disabling the script. Users whose profiles already contain a parameter that is used in an activity's audience will qualify in that activity."|
 |May 21|[Whitelist Target edge nodes](/help/c-implementing-target/c-considerations-before-you-implement-target/white-list-edges.md)|Added `mboxedge30.tt.omtrdc.net` to the list.|
