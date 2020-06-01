@@ -14,7 +14,7 @@ uuid: 8755e622-8a31-4106-ba90-b1128a0cf89c
 
 >[!NOTE]
 >
->With the upcoming deprecation of mbox.js on August 30, 2020, David Son, Adobe Target Product Manager recently hosted a developer chat to discuss the benefits of migrating mbox.js to at.js. For the next 30 days you can [view the webinar recording](https://seminars.adobeconnect.com/ptdo6mfo6qn6/?proto=true).
+>See the Target announcements page for information about upcoming events, including Target Skill Builder sessions, developer chats, webinars, and Target Coffee Break sessions. For more information, see [Target announcements](/help/r-release-notes/target-announcements.md).
 
 The following sections point you to useful links in this guide, arranged by intended audience based on typical job functions:
 

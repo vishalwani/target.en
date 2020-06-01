@@ -10,6 +10,7 @@ solution: Target
 
 + [Adobe Target product documentation](target-home.md)
 + Target release notes {#release-notes}
+   + [Target announcements](/help/r-release-notes/target-announcements.md)
    + [Target release notes (current)](r-release-notes/release-notes.md)
    + [Target release notes (prerelease)](r-release-notes/target-release-notes.md)
    + [Target Insider newsletter](/help/r-release-notes/target-insider-newsletter.md)
