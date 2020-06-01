@@ -14,15 +14,28 @@ List of frequently asked questions about reporting in [!DNL Target].
 
 The following information explains how New Visitors and Returning Visitors are counted and provide examples of why the sum of these two segments don't always add up to the number of total visitors.
 
-**New Visitors**: A visitor is included in the New Visitors segment if one of the following conditions is met:
+### New Visitors
+
+A visitor is included in the New Visitors segment if one of the following conditions is met:
 
 * It is the visitor’s first time visiting the site.
 * It is the visitor's first time visiting the site since clearing cookies.
 * It is the visitor’s first time visiting the site since the [Visitor profile lifetime](/help/c-target/c-visitor-profile/visitor-profile-lifetime.md) has expired.
 
-**Returning Visitors**: The visitor is included in the Returning Visitors segment if the user previously visited the site, left for at least 30 minutes, and returned to the site again with the same cookies. As long as a visitor returns within their profile lifetime, they will be a returning visitor.
+### Returning Visitors 
 
-If these two segments are applied to an activity, the New Visitors segment and the Returning Visitors segment do not always add up to the total number of visitors.
+The visitor is included in the Returning Visitors segment if the user previously visited the site, left for at least 30 minutes, and returned to the site again with the same cookies. As long as a visitor returns within their profile lifetime, they will be a returning visitor.
+
+Suppose your profile lifetime is set for 14 days (the default). A visitor is included in the Returning Visitors segment if the following conditions are met:
+
+* A visitor visits the site for the first time and is recorded as a New Visitor.
+* The visitor leaves the site, but returns six days later.
+
+Because the profile lifetime is set for 14 days, this visitor is included in the Returning Visitors segment. Note that if the visitor has deleted cookies within that six-day period, that visitor will be included in the New Visitors segment.
+
+### Examples that explain discrepancies between metric counts 
+
+**Example 1**: If these two segments are applied to an activity, the New Visitors segment and the Returning Visitors segment do not always add up to the total number of visitors.
 
 Consider the following example, taking in the conditions mentioned above for New Visitors and Returning Visitors:
 
@@ -31,13 +44,13 @@ Consider the following example, taking in the conditions mentioned above for New
 
 This visitor is counted as a single visitor in the activity’s overall visitor count even though being counted in both the New Visitors and Returning Visitors segments.
 
-Discrepancies between the counts for New Visitors and Returning Visitors also depend on how you configure the activity's [success metrics](/help/c-activities/r-success-metrics/success-metrics.md).
+**Example 2**: Discrepancies between the counts for New Visitors and Returning Visitors also depend on how you configure the activity's [success metrics](/help/c-activities/r-success-metrics/success-metrics.md).
 
 For example:
 
 A number of new visitors visit your site and are qualified for an activity. These new visitors are counted towards the New Visitors segment. All of these visitors also recorded a visit into that activity.
 
-Some visitors hit the conversion metric, which was configured as "Increment count, release user, and allow reentry." Suppose some of these users hit the conversion metric multiple times, the conversion metric won't increase. Given that setup, however, some users might hit the conversion metric and then navigate back to the home page, qualifying into the activity again to record a new visit.
+Some visitors hit the conversion metric, which was configured as "Increment Count & Keep User in Activity." Suppose some of these users hit the conversion metric multiple times, the conversion metric won't increase. Given that setup, however, some users might hit the conversion metric and then navigate back to the home page, qualifying into the activity again to record a new visit.
 
 ## Why do my [!UICONTROL Experience Targeting] (XT) reports contain metrics for control experiences?
 
