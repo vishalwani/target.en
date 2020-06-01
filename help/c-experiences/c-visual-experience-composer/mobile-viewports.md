@@ -26,8 +26,10 @@ Below are the viewports and resolutions for some popular devices. Remember to us
 |  iPhone 8  | 375w x 667h  | 750w x 1334h  |
 |  iPhone 7 Plus  | 414w x 736h  | 1080w x 1920h  |
 |  iPhone 7  | 375w x 667h  | 750w x 1334h  |
+|  iPhone 6s Plus  | 414w x 736h  | 1080w x 1920h  |
+|  iPhone 6s  | 375w x 667h  | 750w x 1334h  |
+|  iPhone 6 Plus  | 414w x 736h  | 1080w x 1920h  |
 |  iPhone 6  | 375w x 667h  | 750w x 1334h  |
-|  iPhone 6s  | 414w x 736h  | 1080w x 1920h  |
 |  iPad Pro  | 1024w x 1366h  | 2048w x 2732h  |
 |  iPad Third & Fourth Generation  | 768w x 1024h  | 1536w x 2048h  |
 |  iPad Air 1 & 2  | 768w x 1024h  | 1536w x 2048h  |
