@@ -17,12 +17,10 @@ These release notes provide information about features, enhancements, and fixes 
 >   Although, mbox.js is currently supported, we have not provided feature updates to this library since July 2017. The newer at.js provides many advantages over mbox.js. Among other benefits, at.js improves page load times for web implementations, improves security, and provides better implementation options for single page applications.
 >
 >   By moving all customers to at.js, our engineers and support staff will be able to provide you with new functionality and offer the support you have come to expect from Adobe.
+>
+>* **Target Announcements**: See the Target announcements page for information about upcoming events, including Target Skill Builder sessions, developer chats, webinars, and Target Coffee Break sessions. For more information, see [Target announcements](/help/r-release-notes/target-announcements.md).
 
 The issue numbers in parentheses are for internal [!DNL Adobe] use.
-
-## Adobe Target Skill Builder: Developer chat, migrate Adobe Target's mbox.js to at.js {#skill-builder}
-
-With the upcoming deprecation of mbox.js on August 30, 2020, David Son, Adobe Target Product Manager recently hosted a developer chat to discuss the benefits of migrating mbox.js to at.js. For the next 30 days you can [view the webinar recording](https://seminars.adobeconnect.com/ptdo6mfo6qn6/?proto=true).
 
 ## Profile Batch Status API v2 changes (May 14, 2020)
 
