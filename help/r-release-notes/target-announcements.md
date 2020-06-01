@@ -11,7 +11,11 @@ Information about upcoming events, including Target Skill Builder sessions, deve
 
 ## Adobe Target Skill Builder: How `Adobe.com` uses Adobe Sensei AI to Personalize Experiences
 
-As one of the largest B2E sites on the internet, `Adobe.com` has fully embraced its role as "Customer Zero" for Adobe Experience Cloud, adopting every solution for both B2B and B2C use cases globally. As a digital destination that serves a myriad of personas, including hands-on creatives, nontechnical marketers, and deeply technical IT buyers, personalization is crucial to the success of Adobe.com.
+**Thursday, June 4, 2020**
+
+**10:00 a.m. to 10:45 a.m. (EST)**
+
+As one of the largest B2E sites on the internet, `Adobe.com` has fully embraced its role as "Customer Zero" for Adobe Experience Cloud, adopting every solution for both B2B and B2C use cases globally. As a digital destination that serves a myriad of personas, including hands-on creatives, nontechnical marketers, and deeply technical IT buyers, personalization is crucial to the success of `Adobe.com`.
 
 Join product managers Tamer Mina and Mark Tuyay as they showcase true stories of how personalization works on `Adobe.com`. In this webinar you will learn how to:
 
@@ -19,10 +23,6 @@ Join product managers Tamer Mina and Mark Tuyay as they showcase true stories of
 * Use fluid experiences to scale recommended content across `Adobe.com`
 * Automate content ingestion into Target Recommendations
 * Track performance of the recommended content and how it correlates to lead generation
-
-**Thursday, June 4, 2020**
-
-**10:00 a.m. to 10:45 a.m. (EST)**
 
 To register visit the [registration page on the Adobe Experience League website](https://atskillbuilder-senseiai.experienceleague.adobeevents.com/).
 
