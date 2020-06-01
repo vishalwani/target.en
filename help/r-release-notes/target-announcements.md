@@ -20,8 +20,9 @@ Join product managers Tamer Mina and Mark Tuyay as they showcase true stories of
 * Automate content ingestion into Target Recommendations
 * Track performance of the recommended content and how it correlates to lead generation
 
-Thursday, June 4, 2020
-10:00 a.m. to 10:45 a.m. (EST)
+**Thursday, June 4, 2020**
+
+**10:00 a.m. to 10:45 a.m. (EST)**
 
 To register visit the [registration page on the Adobe Experience League website](https://atskillbuilder-senseiai.experienceleague.adobeevents.com/).
 
