@@ -14,6 +14,7 @@ This page lists important changes made to the [!DNL Adobe Target] product docume
 
 |Date|Topic|Changes|
 | --- | --- | --- |
+|June 1|[Mobile Viewports for Responsive Experiences](/help/c-experiences/c-visual-experience-composer/mobile-viewports.md)|Updated viewport dimensions and resolutions for Apple iPhone 11, Apple iPhone SE, and Google Pixel 2 XL models.|
 |May 28|[Reporting FAQ](/help/c-reports/reporting-frequently-asked-questions.md)|Added the following new FAQ: <ul><li>How are the New Visitors and Returning Visitors metrics counted?</li></ul>|
 |May 27|[Target release notes (prerelease)](/help/r-release-notes/target-release-notes.md)|Added information about Analytics for Target (A4T) support for Auto-Allocate activities.|
 |May 26|[Profile attributes](/help/c-target/c-visitor-profile/profile-parameters.md)|Added following information: "The parameter remains in the profile after disabling the script. Users whose profiles already contain a parameter that is used in an activity's audience will qualify in that activity."|
