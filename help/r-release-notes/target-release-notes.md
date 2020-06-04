@@ -10,7 +10,7 @@ uuid: 35ecabbe-b8b4-479b-9266-4823c831d79a
 
 This article contains prerelease information. Release dates, features, and other information are subject to change without notice. 
 
-**Last Updated: June 3, 2020**
+**Last Updated: June 4, 2020**
 
 To view information about the current release, see [Target Release Notes](release-notes.md). The information on these pages might be the same, depending on the timing of releases. The issue numbers in parentheses are for internal [!DNL Adobe] use.
 
@@ -24,7 +24,7 @@ To view information about the current release, see [Target Release Notes](releas
 >
 >* **Target Announcements**: See the Target announcements page for information about upcoming events, including Target Skill Builder sessions, developer chats, webinars, and Target Coffee Break sessions. For more information, see [Target announcements](/help/r-release-notes/target-announcements.md).
 
-## Target Standard/Premium 20.5.1 (June 10, 2020)
+## Target Standard/Premium 20.5.1 (June 17, 2020)
 
 |Feature / Enhancement|Description|
 | --- | --- |
