@@ -44,7 +44,7 @@ In [!DNL Analytics], there are several dimensions and metrics made available aft
 * [!UICONTROL Activity Impressions] - Matches the [!UICONTROL Entrants] number in the [!DNL Target] report.
 * [!UICONTROL Activity Conversions] - Matches the [!UICONTROL Custom Conversions] number in the [!DNL Target] report.
 
-In [!DNL Analysis Workspace], use the [!UICONTROL Analytics for Target] panel to analyze your [!DNL Target] activities and experiences with lift & confidence. For more information, see [Analytics for Target (A4T) Panel](/https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/panels/a4t-panel.html) in the *Analytics Tools Guide*.
+In [!DNL Analysis Workspace], use the [!UICONTROL Analytics for Target] panel to analyze your [!DNL Target] activities and experiences with lift & confidence. For more information, see [Analytics for Target (A4T) Panel](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/panels/a4t-panel.html) in the *Analytics Tools Guide*.
 
 >[!IMPORTANT]
 >
