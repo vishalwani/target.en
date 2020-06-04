@@ -27,22 +27,30 @@ When the [!UICONTROL Select] operation is used and you sort on *Entrants*, then 
 >
 >Reports powered by [!DNL Target] have a latency of four minutes. For activities powered by A4T, in both the [!DNL Target] and [!DNL Analytics] reports, it can take up to 24 hours after the activity is initially saved before the report data can be broken down by experiences. The data collected in that first 24 hours is still accurate and is assigned to the right experience.
 
-## Reports in Analytics {#section_F6884872DC864AE7913587FAED4CD11C}
+## Reports in Analytics {#analytics}
 
-In [!DNL Analytics], click **[!UICONTROL Target]** > **[!UICONTROL Target Activities]** in the left menu. In [!DNL Target], the activity's reports automatically show [!DNL Analytics] data, metrics, and segments. Data appears in these reports approximately an hour after it is collected from the site. All metrics, audiences, and values in the reports come from the report suite you selected when you set up the activity.
+In [!DNL Analytics], there are several dimensions and metrics made available after the A4T integration is enabled.
 
-In [!DNL Analytics], use the [!UICONTROL Target Activities] report to view the results of your [!DNL Target] activity. Test&Target (Legacy) Reports provides information about your old Test&Target plug-in style page integrations and does not include [!DNL Analytics] for [!DNL Target] data. In the [!UICONTROL Activities] report, view information about your [!DNL Target] experiences. Click **[!UICONTROL Metrics]**, then select the **[!UICONTROL Target]** metric type. Two metrics are available for your report:
+### Dimensions
 
-* **Activity Entries:** Matches the Entrants number in the [!DNL Target] report. 
-* **Activity Conversions:** Matches the Custom Conversions number in the [!DNL Target] report.
+* [!UICONTROL Analytics for Target] - The parent ID that is passed in through the integration. The format of this dimension is `Activity ID:Experience ID:3rd ID`. The dimensions below are classifications of this dimension.
+* [!UICONTROL Target Activities]
+* [!UICONTROL Target Experiences]
+* [!UICONTROL Target Activity] > [!UICONTROL Experience]
+* [!UICONTROL 3rd ID] - can be ignored
 
->[!NOTE]
->
->[!DNL Target] lift and confidence details are also available in [!DNL Analytics]. For more information, see [Target Lift and Confidence](https://docs.adobe.com/content/help/en/analytics/components/variables/dimensions-reports/report-target-lift-confidence.html) in the *Analytics Components Guide*.
+### Metrics
+
+* [!UICONTROL Activity Impressions] - Matches the [!UICONTROL Entrants] number in the [!DNL Target] report.
+* [!UICONTROL Activity Conversions] - Matches the [!UICONTROL Custom Conversions] number in the [!DNL Target] report.
+
+In [!DNL Analysis Workspace], use the [!UICONTROL Analytics for Target] panel to analyze your [!DNL Target] activities and experiences with lift & confidence. For more information, see [Analytics for Target (A4T) Panel](/https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/panels/a4t-panel.html) in the *Analytics Tools Guide*.
 
 >[!IMPORTANT]
 >
 >If your [!UICONTROL Target Activities] report in [!DNL Analytics] lists "unspecified" instead of listing your activities, an update is required to your provisioned account. Please contact Customer Care to resolve this issue.
+
+For detailed information and examples, open the [Analytics & Target: Best Practices for Analysis](https://spark.adobe.com/page/Lo3Spm4oBOvwF/) tutorial, provided by Adobe Experience League.
 
 ## Reports in Target {#section_C0D1F17F88374B6690BF904D7B83B42E}
 
@@ -58,12 +66,6 @@ When [!DNL Analytics] is used as the reporting source, reports in [!DNL Target] 
 You can apply the metric or audience to the report in [!DNL Target] after the activity has started, or even after the test has completed. You don't have to know exactly what you want to measure beforehand.
 
 Click to view the full [!DNL Analytics] report directly from the activity report page.
-
-## Reports in Analysis Workspace {#reports-in-analysis-workspace}
-
-You can use [!DNL Adobe Analysis Workspace] to dig deeper and to visualize the data or uncover insights hidden beneath the surface.
-
-For detailed information and examples, open the [Analytics & Target: Best Practices for Analysis tutorial](https://spark.adobe.com/page/Lo3Spm4oBOvwF/), provided by [!DNL Adobe Experience League].
 
 ## Activity creation {#section_311586E3FF5541E7A91D1A3CE5F9ACE3}
 
