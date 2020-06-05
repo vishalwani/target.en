@@ -26,11 +26,12 @@ The confidence level is the probability that the measured conversion rate differ
 
 Calculated metrics are not currently supported in lift and confidence functions. This is due to the fact that Analytics calculates metrics at an aggregate-level, rather than at a visitor-level. Confidence, in particular, is a visitor-level calculation. 
 
-Non-calculated (standard) events are supported in lift and confidence. They become the numerator in the lift function; the numerator cannot be a calculation itself. The denominator is the normalizing metrics (impressions, visits, or visitors). Some examples of standard events include orders, revenue, Activity conversions, custom events 1-1000, etc. This means that common optimization metrics such as conversation rate (Orders/Visitor) and RPV (Revenue/Visitor) are supported in lift and confidence.
+Non-calculated (standard) events are supported in lift and confidence. They become the numerator in the lift function; the numerator cannot be a calculation itself. The denominator is the normalizing metrics (impressions, visits, or visitors). Some examples of standard events include orders, revenue, activity conversions, custom events 1-1000, etc. This means that common optimization metrics, such as conversation rate (Orders/Visitor) and RPV (Revenue/Visitor) are supported in lift and confidence.
 
-Examples of unsupported metrics or use cases are:
-* Average Order Value (Revenue/Order, per Visitor). AOV is not supported because the numerator is a calculated metric itself. Instead, the recommendation is to keep an eye on the two influencing metrics of AOV - Revenue Per Visitors and Conversion Rate.
-* Calculated metrics that are the sum of standard events. For example, you might track 10 different lead forms into 10 separate events, and then add them together to get total lead submissions. A recommended way to track these events instead are to implement a single lead submission event in Analytics and then use an eVar to collect the type of lead form. Using this method requires fewer variables and ensures that you can use the single lead submission metric in lift and confidence functions.
+Examples of unsupported metrics or use cases include:
+
+* Average Order Value (Revenue/Order, per Visitor). AOV is not supported because the numerator is a calculated metric. Instead, the recommendation is to consider the two influencing metrics of AOV - Revenue Per Visitors and Conversion Rate.
+* Calculated metrics that are the sum of standard events. For example, you might track ten different lead forms into ten separate events, and then add them together to get total lead submissions. A recommended method to track these events is to implement a single lead submission event in Analytics and then use an eVar to collect the type of lead form. Using this method requires fewer variables and ensures that you can use the single lead submission metric in lift and confidence functions.
 
 ## How does A4T handle confidence calculations? {#section_66115EAF1BA34F7A8FCED7B08DA4F99C}
 
