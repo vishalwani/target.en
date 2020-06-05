@@ -21,7 +21,7 @@ David Son, [!DNL Target] Product Manager, will be answering all of your question
 
 * at.js
 * Mobile
-* Alloy
+* Adobe Experience Platform - AEP Web SDK (Alloy)
 * APIs
 
 But feel free to ask any Target-related questions.
