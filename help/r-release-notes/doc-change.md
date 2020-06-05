@@ -14,6 +14,7 @@ This page lists important changes made to the [!DNL Adobe Target] product docume
 
 |Date|Topic|Changes|
 | --- | --- | --- |
+|June 5|[Target announcements and events](/help/r-release-notes/target-announcements.md)|Added information about the June 10 Adobe Target Coffee Break.|
 |June 4|[A4T reporting](/help/c-integrating-target-with-mac/a4t/reporting.md)|Updated the "Reports in Analytics" section.|
 |June 1|[Target announcements](/help/r-release-notes/target-announcements.md)|Added new page to announce upcoming Target events.|
 ||[Mobile Viewports for Responsive Experiences](/help/c-experiences/c-visual-experience-composer/mobile-viewports.md)|Updated viewport dimensions and resolutions for Apple iPhone 11, Apple iPhone SE, and Google Pixel 2 XL models.|
