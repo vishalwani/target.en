@@ -1,5 +1,5 @@
 ---
-keywords: environment;troubleshooting;best practices;ubox;redirects;redirect;whitelist
+keywords: environment;troubleshooting;best practices;ubox;redirects;redirect;whitelist;blacklist;blocklist;allowlist
 description: Organize your sites and pre-production environments for easy management and separated reporting.
 title: Environments
 topic: Standard
@@ -20,7 +20,7 @@ One environment, the default environment, is pre-named [!UICONTROL Production]. 
 
 When an mbox request is received from new websites or domains, these new domains always appear in the [!UICONTROL Production] environment. The [!UICONTROL Production] environment cannot have its settings changed, so unknown or new sites are guaranteed to see only content that is active and ready. Host management also lets you easily ensure the quality of new activities and content in your test, staging, and development environments before you activate the activities.
 
-[!DNL Target] does not limit a host that can send and receive mboxes, so when new servers or domains come up, they automatically work (unless you've set up a whitelist or blacklist). This also enables ad testing on different domains you don't know or can't anticipate.
+[!DNL Target] does not limit a host that can send and receive mboxes, so when new servers or domains come up, they automatically work (unless you've set up an allowlist or blocklist). This also enables ad testing on different domains you don't know or can't anticipate.
 
 To manage environments, click **[!UICONTROL Administration]** > **[!UICONTROL Environments]**.
 

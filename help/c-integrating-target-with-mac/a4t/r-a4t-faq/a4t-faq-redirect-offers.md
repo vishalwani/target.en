@@ -69,7 +69,7 @@ These parameters are automatically added to the redirect URLs when using the bui
 
 ## My web servers are stripping these parameters from my URLs, what should I do? {#section_0C2DDB72939F4875B6D0428B8DCB38E5}
 
-You will need to work with your IT team to have these parameters ( `adobe_mc_sdid` and `adobe_mc_ref`) whitelisted.
+You will need to work with your IT team to have these parameters ( `adobe_mc_sdid` and `adobe_mc_ref`) allowlisted.
 
 ## What if I am not using A4T with my redirect activity and don't want to have these extra parameters added to my URLs? {#section_9E608D75FF9349FE96C65FEDD7539F45}
 
@@ -83,7 +83,7 @@ If you use A4T and redirect offers, Target appends the `adobe_mc_ref` and `adobe
 
 Because of this double encoding when the Visitor API tries to decode the `adobe_mc_sdid` value, it can't extract the SDID value and generates a new SDID. This leads to incorrect SDID values being sent to Target and Analytics and you'll see uneven split for redirects in Analytics reports.
 
-We recommend that you talk to their IT team to ensure that `adobe_mc_ref` and `adobe_mc_sdid` are white-listed so that these values are not transformed in any way.
+We recommend that you talk to their IT team to ensure that `adobe_mc_ref` and `adobe_mc_sdid` are allowlisted so that these values are not transformed in any way.
 
 ## Why does the referring URL need to be passed to the new page? {#section_91AB8B0891F6416CBF7E973DCAF54EB5}
 

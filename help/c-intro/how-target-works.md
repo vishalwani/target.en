@@ -103,7 +103,7 @@ Rather than respond to all targeting requests from a single location, requests a
 >
 >[!DNL Adobe Target] currently doesn’t have an Edge network in China and the end-user performance will continue to be limited for [!DNL Target] customers in China. Because of the firewall and the lack of Edge nodes within the country, the experiences of sites with [!DNL Target] deployed will be slow to render and page loads will be affected. Also, marketers might experience latency when using the [!DNL Target] authoring UI.
 
-You can whitelist Target edge notes, if desired. For more information, see [Whitelist Target edge nodes](/help/c-implementing-target/c-considerations-before-you-implement-target/white-list-edges.md).
+You can allowlist Target edge notes, if desired. For more information, see [allowlist Target edge nodes](/help/c-implementing-target/c-considerations-before-you-implement-target/white-list-edges.md).
 
 ## Protected User Experience {#concept_40A5E781D90A41E4955F80EA9E5F8F96}
 

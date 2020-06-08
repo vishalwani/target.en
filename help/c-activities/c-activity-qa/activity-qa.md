@@ -76,7 +76,7 @@ Activity QA lets you fully test your Target activities prior to launching them l
 
   We recommend that you talk to your IT team to ensure that all preview parameters are white-listed so that these values are not transformed in any way.
 
-  The following table lists the parameters that can be whitelisted in your domain:
+  The following table lists the parameters that can be allowlisted in your domain:
 
   | Parameter | Type | Value | Description |
   |--- |--- |--- |--- |

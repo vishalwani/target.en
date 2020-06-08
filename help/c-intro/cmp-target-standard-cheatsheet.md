@@ -183,7 +183,7 @@ Try out the [troubleshooting information](../c-experiences/c-visual-experience-c
 
 We also have [form-based approach](../c-experiences/form-experience-composer.md#task_FAC842A6535045B68B4C1AD3E657E56E) which can unblock you.
 
-Also read when and why the [Enhanced Experience Composer](../c-experiences/experiences.md#section_34265986611B4AB8A0E4D6ACC25EF91D) can be useful. You might have to reach out to your IT department to [whitelist Adobe's proxy servers](../c-experiences/c-visual-experience-composer/experience-composer-best-practices.md#concept_E284B3F704C04406B174D9050A2528A6) as well.
+Also read when and why the [Enhanced Experience Composer](../c-experiences/experiences.md#section_34265986611B4AB8A0E4D6ACC25EF91D) can be useful. You might have to reach out to your IT department to [allowlist Adobe's proxy servers](../c-experiences/c-visual-experience-composer/experience-composer-best-practices.md#concept_E284B3F704C04406B174D9050A2528A6) as well.
 
 **I have a responsive site. While creating an activity, how can I be sure that I am considering key devices?**
 

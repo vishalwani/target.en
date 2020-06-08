@@ -28,9 +28,9 @@ To enable the Enhanced Experience Composer at the account level, click [!UICONTR
 
 To enable the Enhanced Experience Composer at the activity level while creating an activity in the Visual Experience Composer, click [!UICONTROL Configure > URL], then toggle the switch to the On position.
 
-**You can whitelist certain IP addresses if the Enhanced Visual Experience Composer won't load on secure pages on your site.**
+**You can allowlist certain IP addresses if the Enhanced Visual Experience Composer won't load on secure pages on your site.**
 
-Problems loading the Enhanced Visual Experience Composer can be resolved by whitelisting the following IP addresses. These IP addresses are for Adobe's server used for the Enhanced Experience Composer proxy. They are only required for activity editing. Visitors to your site do not need these IP addresses whitelisted.
+Problems loading the Enhanced Visual Experience Composer can be resolved by allowlisting the following IP addresses. These IP addresses are for Adobe's server used for the Enhanced Experience Composer proxy. They are only required for activity editing. Visitors to your site do not need these IP addresses allowlisted.
 
 United States: 52.55.99.45, 54.80.158.92, and 54.204.197.253
 

@@ -54,10 +54,10 @@ Before you can use a redirector, you must create it.
 
      >[!IMPORTANT]
      >
-     >Note that with Redirector you can be exposed to a risk of an Open Redirect Vulnerability. To avoid the unauthorized use of Redirector links by third parties, we recommend you use "authorized hosts" to whitelist the default redirect URL domains. Target uses hosts to whitelist domains to which you want to allow redirects. For more information, see [Create Whitelists that specify hosts that are authorized to send mbox calls to Target](/help/administrating-target/hosts.md#whitelist) in *Hosts*.
+     >Note that with Redirector you can be exposed to a risk of an Open Redirect Vulnerability. To avoid the unauthorized use of Redirector links by third parties, we recommend you use "authorized hosts" to allowlist the default redirect URL domains. Target uses hosts to allowlist domains to which you want to allow redirects. For more information, see [Create Allowlists that specify hosts that are authorized to send mbox calls to Target](/help/administrating-target/hosts.md#whitelist) in *Hosts*.
 
 1. Validate the Redirector.
-   1. *Security best practice*: Ensure that the domain used in the Redirector is whitelisted, as indicated above. If you use a domain that is not whitelisted, Adobe will block any calls to that domain to prevent malicious actors from using the Redirector to redirect to potentially malicious domains.
+   1. *Security best practice*: Ensure that the domain used in the Redirector is allowlisted, as indicated above. If you use a domain that is not allowlisted, Adobe will block any calls to that domain to prevent malicious actors from using the Redirector to redirect to potentially malicious domains.
    1. Insert the Redirector URL into a browser and refresh.
    1. Log in to your account, refresh your mbox list and verify the new Redirector is listed as an mbox.
 1. If you will test different destinations for one ad, create [Redirect Offers](../../c-experiences/c-visual-experience-composer/redirect-offer.md#task_9578678D42784F5EB9638F8AC8C911FA) for each version.
