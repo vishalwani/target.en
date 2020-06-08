@@ -12,21 +12,21 @@ This topic contains answers to questions that are frequently asked about viewing
 
 ## Can I view my Target activity data in Analysis Workspace? {#workspace}
 
-You can use Analysis Workspace to analyze your Adobe Target activities and experiences. The [Analytics for Target panel](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/panels/a4t-panel.html) enables you to see lift & confidence for up to 3 success metrics. You can also dig deeper using tables and visualizations.
+You can use Analysis Workspace to analyze your Adobe Target activities and experiences. The [Analytics for Target panel](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/panels/a4t-panel.html) lets you see lift & confidence for up to three success metrics. You can also dig deeper using tables and visualizations.
 
 For detailed information and examples, open the [Analytics & Target: Best Practices for Analysis tutorial](https://spark.adobe.com/page/Lo3Spm4oBOvwF/), provided by Adobe Experience League.
 
 ## Where can segments be applied in Analysis Workspace? {#segmentation}
 
-Segments are most commonly applied to the top of a panel in the segment drop zone. The segment is applied to all tables and visualizations in the panel. This technique is most useful for seeing how a the test affects a subset of people (for example, how did this test perform for people in the UK?
+Segments are most commonly applied to the top of a panel in the segment drop zone. The segment is applied to all tables and visualizations in the panel. This technique is most useful for seeing how the test affects a subset of people (for example, how did this test perform for people in the UK)?
 
 ## When I apply a hit segment for a specific Target activity, why do I see unrelated experiences returned? {#activity-segmentation}
 
-The [!DNL Target] variable sent to [!DNL Analytics] has a default 90-day expiration period (Note: this expiration period can be adjusted by Customer Care if needed). As a visitor navigates the site throughout this expiration window, they will be part of many Target activities, all of which collect in the dimension. 
+The [!DNL Target] variable sent to [!DNL Analytics] has a default 90-day expiration period. (Note: this expiration period can be adjusted by Customer Care if needed). As visitors navigate the site throughout this expiration window, they will be part of many Target activities, all of which collect in the dimension. 
 
 As a result, when you segment for an activity to be present in a hit, you will get all the experiencs that are part of that activity PLUS any other experiences that are persisting on that hit. 
 
-## Should I use visitors, visits or activity impressions as my normalizing metric (i.e. counting methodology)? {#metrics}
+## Should I use visitors, visits, or activity impressions as my normalizing metric (i.e. counting methodology)? {#metrics}
 
 There are several options for normalizing metrics in A4T reporting. This metric, also referred to as the counting methodology, becomes the denominator of the lift calculation. It also affects how the data is aggregated before the confidence calculation is applied.
 
@@ -43,9 +43,9 @@ Consider the following:
 
 ## Why are "activity impressions" and "activity conversions" higher in Analysis Workspace than Reports & Analytics? {#sametouch}
 
-Reports & Analytics applies a same touch attribution model to "activity impressions" and "activity conversions", whereas Analysis Workspace displays the raw metrics, which can appear inflated due to persistence of the Target dimension.
+Reports & Analytics applies a same touch attribution model to "activity impressions" and "activity conversions," whereas Analysis Workspace displays the raw metrics, which can appear inflated due to persistence of the Target dimension.
 
-In order to evaluate accurate [!UICONTROL Activity Impressions] and [!UICONTROL Activity Conversions] metrics in [!DNL Analysis Workspace], ensure that both metrics have [!UICONTROL Same Touch] attribution models applied. Models can be applied by clicking the column settings gear, enabling [!UICONTROL Non-default attribution models], then selecting [!UICONTROL Same Touch]. Learn more about attribution in [Attributes IQ overview](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/panels/attribution.html) in the *Analytics Tools Guide*.
+To evaluate accurate [!UICONTROL Activity Impressions] and [!UICONTROL Activity Conversions] metrics in [!DNL Analysis Workspace], ensure that both metrics have [!UICONTROL Same Touch] attribution models applied. Models can be applied by clicking the column settings gear, enabling [!UICONTROL Non-default attribution models], then selecting [!UICONTROL Same Touch]. Learn more about attribution in [Attributes IQ overview](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/panels/attribution.html) in the *Analytics Tools Guide*.
 
 ## What does "activity conversions" mean if the marketer picks an Analytics metric during activity setup? {#section_F3EBACF85AF846E9B366A549AAB64356}
 
