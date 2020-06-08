@@ -10,34 +10,29 @@ uuid: d51991f7-cdda-4a59-b64c-7ef1c3f8380d
 
 This topic contains answers to questions that are frequently asked about viewing reports when using Analytics as the reporting source for Target (A4T).
 
-## What is the counting methodology and how do I use it? {#section_E9C21C47B5BE4E54BABF0CD7F03D3945}
+## Can I view my Target activity data in Analysis Workspace? {#workspace}
 
-The counting methodology specifies what Target uses as the denominator for the conversion rates. The choices are:
+You can use Analysis Workspace to analyze your Adobe Target activities and experiences. The [Analytics for Target panel](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/panels/a4t-panel.html) lets you see lift & confidence for up to three success metrics. You can also dig deeper using tables and visualizations.
 
-* impressions 
-* visitors 
-* visits
+For detailed information and examples, open the [Analytics & Target: Best Practices for Analysis tutorial](https://spark.adobe.com/page/Lo3Spm4oBOvwF/), provided by Adobe Experience League.
 
-## Can I set a default metric for the Target reports? {#section_50C20D286AA042CCA958184C9C0767DD}
+## Where can segments be applied in Analysis Workspace? {#segmentation}
 
-For the Activities report, Admins can change the default metric so every time they run the report it shows the same metrics. Otherwise, the report defaults to the last metric you applied to your last report.
+Segments are most commonly applied to the top of a panel in the segment drop zone. The segment is applied to all tables and visualizations in the panel. This technique is most useful for seeing how the test affects a subset of people (for example, how did this test perform for people in the UK)?
 
-For more information, see [Select default report metrics](https://docs.adobe.com/content/help/en/analytics/analyze/reports-analytics/metrics.html) in the *Analytics Analyze Guide*.
+## When I apply a hit segment for a specific Target activity, why do I see unrelated experiences returned? {#activity-segmentation}
 
-## When do I apply a segment to the metric (with a calculated metric) versus applying the segment to the report? {#section_BC29DEE6D2734911A5CD6FBF1189EB89}
+The [!DNL Target] variable sent to [!DNL Analytics] has a default 90-day expiration period. (Note: this expiration period can be adjusted by Customer Care if needed). As visitors navigate the site throughout this expiration window, they will be part of many Target activities, all of which collect in the dimension. 
 
-Segments applied to the reports are like applying segments in Target classic. This technique is most useful for seeing how a the test affects a subset of people (for example, how did this test perform for people in the UK?).
+As a result, when you segment for an activity to be present in a hit, you will get all the experiencs that are part of that activity PLUS any other experiences that are persisting on that hit. 
 
-It is possible to apply segments to metrics with a calculated metric. This is generally done when you want to create a new type of success event. For example, if you want to see how many return visitors your activity generated, or how many visitors made it to a certain page who see your test. Please note that lift and confidence cannot currently be generated for calculated metrics.
+## Should I use visitors, visits, or activity impressions as my normalizing metric (i.e. counting methodology)? {#metrics}
 
-## Should I use visitors, activity impressions, or visits when viewing reports? {#metrics}
-
-There are several options, each with its own advantages:
+There are several options for normalizing metrics in A4T reporting. This metric, also referred to as the counting methodology, becomes the denominator of the lift calculation. It also affects how the data is aggregated before the confidence calculation is applied.
 
 * ***Unique visitors*** increment once when a user first qualifies for an activity. 
 * ***Visits*** increment for each session once a user (Unique Visitor) enters an activity, even if the activity is not viewed in subsequent visits. 
 * ***Activity impressions*** increment each time activity content is served. (Measured by Target) 
-* ***Instances*** increment once per page when activity content is served. (Measured by Analytics)
 
 When a visitor views a page that contains an activity, a variable is set for that visitor that contains the name of that activity. See the detailed scenarios below for how each counting methodology compares.
 
@@ -45,7 +40,12 @@ Consider the following:
 
 * All of the above metrics trigger when a user qualifies for an activity and content is returned from [!DNL Target]. This does not necessarily mean that the user saw the offer. If an activity experience is below the fold and the user does not scroll down the page, then the offer was served by [!DNL Target] but not seen by the user. 
 * [!UICONTROL Activity Impressions] (measured by [!DNL Target]) and [!UICONTROL Instances] (measured by [!DNL Analytics]) are equal, unless there are multiple mbox calls on the same page in the same activity. This causes multiple [!UICONTROL Activity Impressions] to be counted, but only a single [!UICONTROL Instance]. 
-* When using [!UICONTROL Activity Impressions] and [!UICONTROL Activity Conversions] metrics in [!DNL Analysis Workspace], ensure that both metrics have [!UICONTROL Same Touch] attribution models applied. Models can be applied by clicking the column settings gear, enabling [!UICONTROL Non-default attribution models], then selecting [!UICONTROL Same Touch]. Learn more about attribution in [Attributes IQ overview](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/panels/attribution.html) in the *Analytics Tools Guide*.
+
+## Why are "activity impressions" and "activity conversions" higher in Analysis Workspace than Reports & Analytics? {#sametouch}
+
+Reports & Analytics applies a same touch attribution model to "activity impressions" and "activity conversions," whereas Analysis Workspace displays the raw metrics, which can appear inflated due to persistence of the Target dimension.
+
+To evaluate accurate [!UICONTROL Activity Impressions] and [!UICONTROL Activity Conversions] metrics in [!DNL Analysis Workspace], ensure that both metrics have [!UICONTROL Same Touch] attribution models applied. Models can be applied by clicking the column settings gear, enabling [!UICONTROL Non-default attribution models], then selecting [!UICONTROL Same Touch]. Learn more about attribution in [Attributes IQ overview](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/panels/attribution.html) in the *Analytics Tools Guide*.
 
 ## What does "activity conversions" mean if the marketer picks an Analytics metric during activity setup? {#section_F3EBACF85AF846E9B366A549AAB64356}
 
@@ -53,15 +53,13 @@ Consider the following:
 
 ## Why do I see "unspecified" in the Analytics reports? What does it mean? {#unspecified}
 
-![](assets/unspecified.png)
-
 In other reports, "unspecified" means data did not meet a classification rule, but in A4T this should never happen. If you see "unspecified," then the classification service hasn't run yet. It generally takes between 24 to 72 hours for activity data to appear in the reports. Even though the activities do not appear in this report until that time, all visitor data tied to those activities is captured and will appear when the classification is complete.
 
 After the classification period, data appears in these reports approximately an hour after it is collected from the website. All metrics, segments, and values in the reports come from the report suite you selected when you set up the activity.
 
 ## Why are Target metrics sent to Analytics even after the activity has been deactivated? {#section_38AA8380A4D54A18972F1EF3E73E22EF}
 
-The [!DNL Target] variable sent to [!DNL Analytics] has a default 90-day expiration period. This expiration period can be adjusted by Client Care if needed. This setting is global for all activities, however, so it should not be adjusted for one case.
+The [!DNL Target] variable sent to [!DNL Analytics] has a default 90-day expiration period. This expiration period can be adjusted by Customer Care if needed. This setting is global for all activities, however, so it should not be adjusted for one case.
 
 You might see Target variables sent to Analytics after the expiration period because the expiration is 90 days, but only if that user never sees another A4T-enabled Target activity. If a user comes back to the site on day 45 and sees another activity, the entire A4T eVar value has its counter reset to 90 days. That means the first campaign from day 1 now could be persisting for up to 45 + 90 = 135 days. If the user keeps coming back, you might get to the point where you see metrics sent to Analytics in your reporting from much older activities. As users delete cookies and don’t return to the site, the numbers in that activity will drop, but you’ll still see them.
 
@@ -132,9 +130,3 @@ Virtual report suites are *not* included in the Report Suite list and audiences 
 Changing the traffic allocation percentage in an activity after activation can cause inconsistent reporting in Analytics because the change impacts only new visitors. Returning visitors are not impacted. 
 
 As best practice, you should stop the existing activity and then create a new activity instead of changing the percentage after activation. Reporting for the new activity starts with new visitors and data from returning visitors will not cause inconsistent reporting.
-
-## Can I view my Target activity data in Adobe Analysis Workspace?
-
-You can use [!DNL Adobe Analysis Workspace] to dig deeper and to visualize the data or uncover insights hidden beneath the surface.
-
-For detailed information and examples, open the [Analytics & Target: Best Practices for Analysis tutorial](https://spark.adobe.com/page/Lo3Spm4oBOvwF/), provided by Adobe Experience League.
