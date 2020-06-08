@@ -24,7 +24,7 @@ AdBox ads and Redirector can be used with any kind of activity. The following ta
 
 ## Security best practices {#security}
 
-Note that with Redirector, you can be exposed to a risk of an Open Redirect Vulnerability. To avoid the unauthorized use of Redirector links by third parties, we recommend you use "authorized hosts" to whitelist the default redirect URL domains. Target uses hosts to whitelist domains to which you want to allow redirects. For more information, see [Create Whitelists that specify hosts that are authorized to send mbox calls to Target](/help/administrating-target/hosts.md#whitelist) in *Hosts*.
+Note that with Redirector, you can be exposed to a risk of an Open Redirect Vulnerability. To avoid the unauthorized use of Redirector links by third parties, we recommend you use "authorized hosts" to allowlist the default redirect URL domains. Target uses hosts to allowlist domains to which you want to allow redirects. For more information, see [Create Allowlists that specify hosts that are authorized to send mbox calls to Target](/help/administrating-target/hosts.md#whitelist) in *Hosts*.
 
 ## Constraints {#section_38F559DCF1324271926608BCD4AB1227}
 

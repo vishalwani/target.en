@@ -1,5 +1,5 @@
 ---
-keywords: host;hosts;host group;troubleshooting;best practices;ubox;redirects;redirect;whitelist
+keywords: host;hosts;host group;troubleshooting;best practices;ubox;redirects;redirect;whitelist;allowlist;blacklist;blocklist
 description: Organize your sites and pre-production environments for easy management and separated reporting.
 title: Hosts
 topic: Standard
@@ -20,7 +20,7 @@ One environment, the default environment, is pre-named [!UICONTROL Production]. 
 
 When an mbox request is received from new websites or domains, these new domains always appear in the [!UICONTROL Production] environment. The [!UICONTROL Production] environment cannot have its settings changed, so unknown or new sites are guaranteed to see only content that is active and ready. Host management also lets you easily ensure the quality of new activities and content in your test, staging, and development environments before you activate the activities.
 
-[!DNL Target] does not limit a host that can send and receive mboxes, so when new servers or domains come up, they automatically work (unless you've set up a whitelist or blacklist). This also enables ad testing on different domains you don't know or can't anticipate.
+[!DNL Target] does not limit a host that can send and receive mboxes, so when new servers or domains come up, they automatically work (unless you've set up an allowlist or blocklist). This also enables ad testing on different domains you don't know or can't anticipate.
 
 To manage hosts, click **[!UICONTROL Administration]** > **[!UICONTROL Hosts]**.
 
@@ -63,11 +63,11 @@ To sort the [!UICONTROL Hosts] list, click any column header ([!UICONTROL Name],
 
 To search the [!UICONTROL Hosts] list, type a search term in the [!UICONTROL Search Hosts] box.
 
-## Create whitelists that specify hosts that are authorized to send mbox calls to Target. {#whitelist}
+## Create allowlists that specify hosts that are authorized to send mbox calls to Target. {#whitelist}
 
-You can create a whitelist that specifies hosts (domains) that are authorized to send mbox calls to [!DNL Target]. All other hosts generating calls will get a commented-out authorization error response. By default, any host that contains an mbox call registers with [!DNL Target] in the Production environment and has access to all active and approved activities. If this is not the desired approach, you can instead use the whitelist to record specific hosts that are eligible to make mbox calls and receive [!DNL Target] content. All hosts will continue to display in the [!UICONTROL Hosts] list, and environments can still be used to group these hosts and assign different levels to each, such as whether the host can see active and/or inactive campaigns.
+You can create an allowlist that specifies hosts (domains) that are authorized to send mbox calls to [!DNL Target]. All other hosts generating calls will get a commented-out authorization error response. By default, any host that contains an mbox call registers with [!DNL Target] in the Production environment and has access to all active and approved activities. If this is not the desired approach, you can instead use the allowlist to record specific hosts that are eligible to make mbox calls and receive [!DNL Target] content. All hosts will continue to display in the [!UICONTROL Hosts] list, and environments can still be used to group these hosts and assign different levels to each, such as whether the host can see active and/or inactive campaigns.
 
-To create a whitelist:
+To create an allowlist:
 
 1. From the [!UICONTROL Hosts] list, click **[!UICONTROL Authorize Hosts]**. 
 1. Enable the **[!UICONTROL Enable Authorized Hosts for content delivery]** toggle. 
@@ -85,9 +85,9 @@ If an mbox call is made on an unauthorized host, the call will respond with `/* 
 
 >[!IMPORTANT]
 >
->**Security best practices**: If you use ubox functionality of [!DNL Target], note that this whitelist will also control the list of domains to which your [redirectors](/help/c-implementing-target/c-non-javascript-based-implementation/working-with-redirectors.md) can navigate. Ensure that you add any domains to which you want to redirect when you use ubox as a part of your implementation. If the whitelist is left unspecified, Adobe will not be able to verify the redirect URLs and protect from potential malicious redirects.
+>**Security best practices**: If you use ubox functionality of [!DNL Target], note that this allowlist will also control the list of domains to which your [redirectors](/help/c-implementing-target/c-non-javascript-based-implementation/working-with-redirectors.md) can navigate. Ensure that you add any domains to which you want to redirect when you use ubox as a part of your implementation. If the allowlist is left unspecified, Adobe will not be able to verify the redirect URLs and protect from potential malicious redirects.
 >
->The whitelist takes precedence over environments. You should clear out all hosts before using the whitelist feature, then only the hosts allowed by the whitelist appear in your hosts list. You can then move the hosts into the desired environment.
+>The allowlist takes precedence over environments. You should clear out all hosts before using the allowlist feature, then only the hosts allowed by the allowlist appear in your hosts list. You can then move the hosts into the desired environment.
 
 Sometimes domains from other sites appear in your environments. A domain appears in the list if the domain makes a call to your at.js or mbox.js. For example, if somebody copies one of your web pages to their server, that domain appears in your environment. You might also see domains from spider engines, language translator sites, or local disk drives.
 
@@ -97,7 +97,7 @@ You can also create a blacklist that specifies hosts (domains) than cannot send 
 
 >[!NOTE]
 >
->Because the Authorized Hosts list is used for both mbox hosts and default redirect hosts, you must add all existing domains approved to use the Adobe Target Javascript SDK (at.js) *AND* all domains used in ubox default redirect urls. You must also add any new similar domains to the whitelist in the future.
+>Because the Authorized Hosts list is used for both mbox hosts and default redirect hosts, you must add all existing domains approved to use the Adobe Target Javascript SDK (at.js) *AND* all domains used in ubox default redirect urls. You must also add any new similar domains to the allowlist in the future.
 
 ## Delete a host {#section_F56355BA4BC54B078A1A8179BC954632}
 
