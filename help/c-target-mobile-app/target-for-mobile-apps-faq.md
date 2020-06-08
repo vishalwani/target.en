@@ -28,7 +28,7 @@ No, you don’t need at.js to use the mobile SDKs. at.js is the [!DNL Target] Ja
 
 ## Is Target Mobile a functionality of Adobe Target Premium Product SKU only?
 
-For Adobe Target Standard customers, you can use our Mobile SDKs for A/B Test and Experience Targeting (XT) activities only. If you want to use Recommendations or AI-powered features in the mobile app, you need an [Adobe Target Premium](/help/c-intro/intro.md#premium) license.
+No. For [!DNL Adobe Target Standard] customers, you can use our Mobile SDKs for A/B Test and Experience Targeting (XT) activities only with the [!DNL Target Standard] Mobile App add-on. If you want to use Recommendations or AI-powered features in the mobile app, you need an [Adobe Target Premium](/help/c-intro/intro.md#premium) license.
 
 ## Is there a mobile app integration between Adobe Experience Manager (AEM) and Target mobile activities?
 
