@@ -14,6 +14,8 @@ This page lists important changes made to the [!DNL Adobe Target] product docume
 
 |Date|Topic|Changes|
 | --- | --- | --- |
+|June 8|[Target for mobile apps FAQ](/help/c-target-mobile-app/target-for-mobile-apps-faq.md)|Updated text for the following FAQ: "Is Target Mobile a functionality of Adobe Target Premium Product SKU only?"|
+||[View reports - A4T FAQ](/help/c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-viewing-reports.md)|Updated entire topic.|
 |June 5|[Target announcements and events](/help/r-release-notes/target-announcements.md)|Added information about the June 10 Adobe Target Coffee Break.|
 ||[Lift and confidence - A4T FAQ](/help/c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-lift-and-confidence.md)|Updated text for the following FAQ: "Why can't I see lift and confidence on calculated metrics?"|
 |June 4|[A4T reporting](/help/c-integrating-target-with-mac/a4t/reporting.md)|Updated the "Reports in Analytics" section.|
