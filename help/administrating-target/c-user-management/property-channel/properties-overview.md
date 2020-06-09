@@ -166,22 +166,28 @@ To use the [!DNL Target] user-permissions functionality, you must add the `at_pr
 
 1. In the Admin Console, click **[!UICONTROL Products]**, then select the name of the desired product.
 
-   ![Workspace](/help/administrating-target/c-user-management/c-user-management/assets/workspace-new.png)
+   ![Workspace](/help/administrating-target/c-user-management/c-user-management/assets/workspace-publisher.png)
 
-1. Click the name of the desired profile. 
+1. Click the name of the desired profile (for example, Default Workspace).
+
+   ![Default Workspace](/help/administrating-target/c-user-management/c-user-management/assets/default-workspace-new.png)
+
 1. Click **[!UICONTROL Users]**.
 
    The [!UICONTROL Users] tab displays all of the users in that workspace.
 
-   ![Configure users](/help/administrating-target/c-user-management/property-channel/assets/configuration_users_new.png)
+   ![configuration users](/help/administrating-target/c-user-management/c-user-management/assets/configuration_users-new-publisher.png)
 
-1. Select the desired permissions role (Approver, Editor, or Observer) by using the drop-down list for each user in the [!UICONTROL Product Role] column.
+1. Select the desired permissions role (Approver, Editor, Observer, or Publisher) by using the drop-down list for each user in the [!UICONTROL Product Role] column.
+
+   ![Product Role drop-down list](/help/administrating-target/c-user-management/c-user-management/assets/product-role-new.png)
 
    | Role | Description |
    |--- |--- |
-   |Observer|Can view activities, but cannot create or edit them.|
-   |Editor|Can create and edit activities before they are live, but cannot approve the launch of an activity.|
    |Approver|Can create, edit, and activate or stop activities.|
+   |Editor|Can create and edit activities before they are live, but cannot approve the launch of an activity.|
+   |Observer|Can view activities, but cannot create or edit them.|
+   |Publisher|Similar to the Observer role (can view activities, but cannot create or edit them). However, the Publisher role has the additional permission to activate activities.|
 
    For more information, see [Manage Product Permissions and Roles in the Admin Console](https://helpx.adobe.com/enterprise/help/manage-permissions-and-roles.html) in the *Enterprise User Guide*.
 

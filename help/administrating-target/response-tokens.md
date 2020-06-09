@@ -30,9 +30,9 @@ A key difference between plug-ins and response tokens is that while plug-ins del
 
    For more information, see [Download at.js](../c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/implementing-target-without-a-tag-manager.md#concept_1E1F958F9CCC4E35AD97581EFAF659E2). 
 
-1. In [!DNL Target], click **[!UICONTROL Setup]** > **[!UICONTROL Response Tokens]**.
+1. In [!DNL Target], click **[!UICONTROL Administration]** > **[!UICONTROL Response Tokens]**.
 
-   ![](assets/response_tokens.png)
+   ![](assets/response_tokens-new.png)
 
 1. Activate the desired response tokens, such as `activity.id`, `option.id`, and so forth.
 
@@ -58,9 +58,9 @@ A key difference between plug-ins and response tokens is that while plug-ins del
    >
    >Parameters with special characters do not display in the list. Only alphanumeric characters and underscores are supported.
 
-1. (Conditional) If you want to use a profile parameter as a response token, but the parameter has not been passed through an mbox call and, thus, has not loaded into the Target UI, you can use the Create button to add the profile to the UI.
+1. (Conditional) If you want to use a profile parameter as a response token, but the parameter has not been passed through an mbox call and, thus, has not loaded into the Target UI, you can use the [!UICONTROL Add Response Token] button to add the profile to the UI.
 
-   Click **[!UICONTROL Create]**, provide the token name, then click **[!UICONTROL Activate]**.
+   Click **[!UICONTROL Add Response Token]**, provide the token name, then click **[!UICONTROL Activate]**.
 
    ![](assets/response_token_create.png)
 

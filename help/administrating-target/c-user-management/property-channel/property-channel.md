@@ -80,9 +80,12 @@ You can create user groups, such as Developers, Analysts, Marketers, Executives,
 
 Roles and permissions determine the access levels that users have to create and manage activities in your [!DNL Target] implementation. In [!DNL Target], roles include the following:
 
-* **[!UICONTROL Observer]**: Can view activities, but cannot create or edit them.
-* **[!UICONTROL Editor]**: Can create and edit activities before they are live, but cannot approve the launch of an activity.
-* **[!UICONTROL Approver]**: Can create, edit, and activate or stop activities.
+| Role | Description |
+|--- |--- |
+|Approver|Can create, edit, and activate or stop activities.|
+|Editor|Can create and edit activities before they are live, but cannot approve the launch of an activity.|
+|Observer|Can view activities, but cannot create or edit them.|
+|Publisher|Similar to the Observer role (can view activities, but cannot create or edit them). However, the Publisher role has the additional permission to activate activities.|
 
 ### Channel
 
@@ -108,10 +111,10 @@ Each role has different levels of permissions:
 
 | Role | Description |
 |--- |--- |
-|Observer|Has read-only access to activities. Can view activities, but cannot create or edit them.|
-|Editor|Can create and edit activities before they are live, but cannot approve the launch of an activity.|
 |Approver|Can create, edit, and activate or stop activities.|
-
+|Editor|Can create and edit activities before they are live, but cannot approve the launch of an activity.|
+|Observer|Can view activities, but cannot create or edit them.|
+|Publisher|Similar to the Observer role (can view activities, but cannot create or edit them). However, the Publisher role has the additional permission to activate activities.|
 It is important to note that each user's role applies to every page, property, or site in your account that includes [!DNL Target] tags, as shown below:
 
 ![](assets/permissions_2.png)

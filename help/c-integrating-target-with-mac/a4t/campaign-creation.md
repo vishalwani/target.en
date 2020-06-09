@@ -12,6 +12,8 @@ You can configure an activity in [!DNL Target] to use [!DNL Adobe Analytics] as 
 
 Before you set up an activity that uses [!DNL Analytics] as the reporting source, establish the goal for the activity, such as improving revenue per visitor (RPV) or increasing clicks on your shopping cart. Choose a final success metric for the activity. Although you can select additional metrics at any time in [!DNL Analytics], you must still specify a particular metric you expect this test to affect.
 
+## Create an activity that uses Analytics as the reporting source
+
 Creating a [!DNL Target] activity that uses [!DNL Analytics] as the reporting source is similar to setting up a regular [!DNL Target] activity, with a few important differences. For example, you cannot select a segment for reporting while creating the activity because all segments available in [!DNL Analytics] can be applied when viewing a report. 
 
 1. Click **[!UICONTROL Create Activity]**.
@@ -60,3 +62,34 @@ Creating a [!DNL Target] activity that uses [!DNL Analytics] as the reporting so
    >When setting up an activity after setting up [!DNL Analytics] as your reporting source, there is no option to set up audiences for reporting. [!DNL Analytics] segments are available in the [!DNL Target] Activities report.
 
 1. Click **[!UICONTROL Save]**.
+
+## Analytics for Target (A4T) support for Auto-Allocate activities {#a4t-aa}
+
+We’ve upgraded the Adobe Target-to-Adobe Analytics integration, known as [Analytics for Target](/help/c-integrating-target-with-mac/a4t/a4t.md).
+
+[!UICONTROL Auto-Allocate] activities now support [!UICONTROL Analytics for Target]. This integration allows you to use Auto-Allocate’s multi-armed bandit capability to drive traffic to winning experiences, while using an [!DNL Adobe Analytics] goal metric and/or [!DNL Adobe Analytics] reporting and analysis capabilities. If you’ve already [implemented A4T for use with A/B Test and Experience Targeting activities](/help/c-integrating-target-with-mac/a4t/a4timplementation.md), you’re ready to go! 
+
+To get started:
+
+1. Create an A/B Test activity and select **[!UICONTROL Auto-allocate to best experience]** as the **[!UICONTROL Traffic Allocation Method]** on the [!UICONTROL Targeting] page.
+1. Select **[!UICONTROL Adobe Analytics]** for your **[!UICONTROL Reporting Source]** on the **[!UICONTROL Goals & Settings]** page and select the report suite corresponding to your desired optimization goal.
+1. Choose a Primary Goal metric. 
+
+   Choose **[!UICONTROL Conversion]** to use [!DNL Adobe Target] to specify the optimization goal.
+   
+   Or
+   
+   Choose **[!UICONTROL Use an Analytics metric]** and then select a metric from [!DNL Analytics] for use as the optimization goal. You can use an out-of-box [!DNL Analytics] conversion metric, or an [!DNL Analytics] custom event.
+
+1. Save and activate your activity.
+
+   [!UICONTROL Auto-Allocate] will use your selected metric to optimize the activity, driving visitors to the experience that maximizes your goal metric.
+
+1. Use the **[!UICONTROL Reports]** tab to view your activity’s reporting by your choice of [!DNL Adobe Analytics] metrics. Click **[!UICONTROL View in Analytics]** to dive deep and further segment your reporting data.
+
+### Limitations and notes
+
+* The Reporting Source cannot be changed from [!DNL Analytics] to [!DNL Target] or vice versa once an activity has been activated.
+* Only conversion goal metrics (e.g. clicks, purchases) are supported as a primary goal metric. Engagement-based goal metrics (e.g. hours on site, total number of page views) and revenue-based goal metrics (e.g. revenue, average order value) are not supported as a primary goal metric for A4T for Auto-Allocate. Engagement and revenue metrics are still available for analysis in A4T for [!UICONTROL Auto-Allocate].
+* Calculated metrics are not supported, but custom events are supported. If you want to optimize for a metric such as "form completions per visitor," select the custom event "form completions". [!DNL Target] automatically normalizes conversion metrics so it is not necessary to use a calculated metric to perform normalization.
+* [!DNL Target] uses the "Same Touch" attribution model in the Auto-Allocate A4T implementation. For more information, see [Attribution overview](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/panels/attribution/attribution.html) in the *Analytics Tools Guide*.
