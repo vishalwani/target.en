@@ -13,7 +13,7 @@ Information to help you set up Adobe Target, including preferences, implementati
 
 >[!NOTE]
 >
->The topics in this section, listed below, have been updated to give you a sneak peak at the UI changes coming in the Target Standard/Premium 20.6.1 release (June 10, 2020). The information presented in these topics applies to the current UI; however, options might be in slightly different locations.
+>The topics in this section, listed below, have been updated to give you a sneak peak at the UI changes coming in the Target Standard/Premium 20.5.1 release (June 17, 2020). The information presented in these topics applies to the current UI; however, options might be in slightly different locations.
 
 To access the [!UICONTROL Setup] menu items, click **[!UICONTROL Administration]** in the top menu bar, then click the desired tab along the left side:
 
