@@ -29,7 +29,7 @@ To view information about the current release, see [Target Release Notes](releas
 |Feature / Enhancement|Description|
 | --- | --- |
 |Analytics for Target (A4T) support for Auto-Allocate activities|With the June release, Auto-Allocate tests will support [Analytics for Target](/help/c-integrating-target-with-mac/a4t/a4t.md). This integration allows you to use Auto-Allocate’s multi-armed bandit capability to drive traffic to winning experiences, while using an Adobe Analytics goal metric and/or Adobe Analytics reporting and analysis capabilities. If you’ve already [implemented A4T](/help/c-integrating-target-with-mac/a4t/a4timplementation.md) for use with A/B Test and Experience Targeting activities, you’re all set! |
-|Publisher role|This new role is similar to the current Observer role (can view activities, but cannot create or edit them). However, the Publisher role has the additional permission to active activities.|
+|Publisher role|This new role is similar to the current Observer role (can view activities, but cannot create or edit them). However, the Publisher role has the additional permission to activate activities.|
 |Administration page<br>Formerly "Setup."|The Setup page has been renamed "Administration" and the UI for all menu items has been updated to improve the workflow and ease-of-use.<br>Available menu items include:<ul><li>Visual Experience Composer</li><li>Reporting</li><li>Scene7 Settings</li><li>Implementation</li><li>Properties</li><li>Hosts</li><li>Environments</li><li>Response Tokens</li><li>Users</li></ul>|
 
 ## Prerelease information {#section_7B9D4AAFC6A74388B9D7DEF0658D8B63} 
