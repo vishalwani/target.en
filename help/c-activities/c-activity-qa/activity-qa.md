@@ -74,7 +74,7 @@ Activity QA lets you fully test your Target activities prior to launching them l
 
   Because of this double encoding, when we try to decode the `at_preview_token`, Target can't extract the correct token value, resulting in preview not working.
 
-  We recommend that you talk to your IT team to ensure that all preview parameters are white-listed so that these values are not transformed in any way.
+  We recommend that you talk to your IT team to ensure that all preview parameters are allowlisted so that these values are not transformed in any way.
 
   The following table lists the parameters that can be allowlisted in your domain:
 
