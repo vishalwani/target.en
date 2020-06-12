@@ -14,6 +14,8 @@ This page lists important changes made to the [!DNL Adobe Target] product docume
 
 |Date|Topic|Changes|
 | --- | --- | --- |
+|June 12|[targetGlobalSettings()](/help/c-implementing-target/c-implementing-target-for-client-side-web/targetgobalsettings.md)|Added information about the `deviceIdLifetime` setting.|
+||[Target release notes (prerelease)](/help/r-release-notes/target-release-notes.md)|Added information about the at.js 1.8.2 and at.js 2.3.1 releases.|
 |June 8|[Target for mobile apps FAQ](/help/c-target-mobile-app/target-for-mobile-apps-faq.md)|Updated text for the following FAQ: "Is Target Mobile a functionality of Adobe Target Premium Product SKU only?"|
 ||[View reports - A4T FAQ](/help/c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-viewing-reports.md)|Updated entire topic.|
 |June 5|[Target announcements and events](/help/r-release-notes/target-announcements.md)|Added information about the June 10 Adobe Target Coffee Break.|
