@@ -10,7 +10,7 @@ uuid: 35ecabbe-b8b4-479b-9266-4823c831d79a
 
 This article contains prerelease information. Release dates, features, and other information are subject to change without notice. 
 
-**Last Updated: June 12, 2020**
+**Last Updated: June 15, 2020**
 
 To view information about the current release, see [Target Release Notes](release-notes.md). The information on these pages might be the same, depending on the timing of releases. The issue numbers in parentheses are for internal [!DNL Adobe] use.
 
@@ -44,6 +44,7 @@ The following improvements and fixes have been made in the [!DNL Target] at.js l
 | --- | --- |
 |Analytics for Target (A4T) support for Auto-Allocate activities|With the June release, Auto-Allocate tests will support [Analytics for Target](/help/c-integrating-target-with-mac/a4t/a4t.md). This integration allows you to use Auto-Allocate’s multi-armed bandit capability to drive traffic to winning experiences, while using an Adobe Analytics goal metric and/or Adobe Analytics reporting and analysis capabilities. If you’ve already [implemented A4T](/help/c-integrating-target-with-mac/a4t/a4timplementation.md) for use with A/B Test and Experience Targeting activities, you’re all set! |
 |Publisher role|This new role is similar to the current Observer role (can view activities, but cannot create or edit them). However, the Publisher role has the additional permission to activate activities.|
+|A4T support in [!DNL Analysis Workspace]<br>June 25, 2020|[!UICONTROL Anaytics for Target] (A4T) is now supported in [!DNL Analysis Workspace]. The [!UICONTROL Analytics for Target (A4T) panel] lets you analyze your [!DNL Adobe Target] activities and experiences in [!DNL Analysis Workspace].<br>For more information, see [Analytics for Target (A4T) panel](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/panels/a4t-panel.html) in the *Analytics Tools Guide*.|
 
 ## Prerelease information {#section_7B9D4AAFC6A74388B9D7DEF0658D8B63} 
 
