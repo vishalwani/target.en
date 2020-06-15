@@ -32,6 +32,12 @@ To view information about the current release, see [Target Release Notes](releas
 |Publisher role|This new role is similar to the current Observer role (can view activities, but cannot create or edit them). However, the Publisher role has the additional permission to activate activities.|
 |A4T support in [!DNL Analysis Workspace]<br>June 25, 2020|[!UICONTROL Anaytics for Target] (A4T) is now supported in [!DNL Analysis Workspace]. The [!UICONTROL Analytics for Target (A4T) panel] lets you analyze your [!DNL Adobe Target] activities and experiences in [!DNL Analysis Workspace].<br>For more information, see [Analytics for Target (A4T) panel](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/panels/a4t-panel.html) in the *Analytics Tools Guide*.|
 
+### Enhancement, fixes, and changes
+
+* Made improvements in the Target UI to make specifying the global mbox easier. (TGT-15280)
+* Fixed an issue that caused the "visitors" metric to be stored in the activity's definition instead of "UniqueVisitors." (TGT-37098)
+* Fixed an issue in the [!DNL Target] UI that caused the vertical scrollbar to not function correctly on the [!UICONTROL Audiences] page. (TGT-36968)
+
 ## Prerelease information {#section_7B9D4AAFC6A74388B9D7DEF0658D8B63} 
 
 To receive advance notifications about upcoming product enhancements to Target and other Adobe Experience Cloud solutions, sign up for the Adobe Priority Product Update:
