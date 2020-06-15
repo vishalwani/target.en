@@ -84,6 +84,10 @@ You can override the following settings:
 * **Default Value**: 63244800000 ms = 2 years
 * **Description**: Amount of time `deviceId` is persisted in cookies.
 
+>[!NOTE]
+>
+>The deviceIdLifetime setting is overrideable in at.js version 2.3.1 or later.
+
 ### enabled
 
 * **Type**: Boolean
