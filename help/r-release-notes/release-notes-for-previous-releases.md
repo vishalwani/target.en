@@ -16,6 +16,91 @@ Release notes for previous Target releases, including release notes for Target S
 
 ## Release notes - 2020
 
+### Profile Batch Status API v2 changes (May 14, 2020)
+
+With the May 20 release, Profile Batch status will return only row-level failure data going forward (success data will not be returned). Failed profile IDs will be returned by the API going forward. 
+
+The previous and new API responses are as follows:
+
+`ProfileBatchStatus Api
+http://<<edge>>/m2/<<client>>/profile/batchStatus?batchId=<batchid>`
+
+**Currently we see the response as:**
+
+```
+<response>
+ 
+    <batchId>samplebatch-1585929692655-59449976</batchId>
+ 
+    <status>complete</status>
+ 
+    <batchSize>164</batchSize>
+ 
+    <profile>
+ 
+        <id>1514187733806-729395</id>
+ 
+        <status>success</status>
+ 
+    </profile>
+ 
+    <profile>
+ 
+        <id>1573612762055-214017</id>
+ 
+        <status>success</status>
+ 
+    </profile>
+ 
+    <profile>
+ 
+        <id>some profile id</id>
+ 
+        <status>failed</status>
+ 
+    </profile>
+ 
+</response>
+```
+
+**After May 4, the response will be:**
+
+```
+<response>
+ 
+    <batchId>samplebatch-1585929692655-59449976</batchId>
+ 
+    <status>complete</status>
+ 
+    <batchSize>164</batchSize>
+ 
+    <profile>
+ 
+        <id>some profile id</id>
+ 
+        <status>failed</status>
+ 
+    </profile>
+ 
+</response>
+```
+
+### Target Standard/Premium 20.4.1 (May 6, 2020)
+
+This release contains the following enhancements, fixes, and changes:
+
+* Fixed an issue that incorrectly qualified a device and browser type for an audience. (TGT-36266)
+* Fixed an issue that prevented report data from displaying when viewed on screens less than 963 pixels wide. (TGT-36549)
+* Fixed an issue that caused Auto Personalization reports to not render correctly. (TGT-36619)
+* Fixed an issue that allowed incompatible metrics to be selected in Auto-Allocate and Auto-Target activities that use Analytics for Target (A4t). (TGT-36646)
+* Fixed an issue that caused certain options in the Visual Experience Composer (VEC) to not display correctly. (TGT-36571)
+* Fixed an issue in the Target UI that caused other Recommendations offer previews to display the edited content after a user replaced the content in a single experience. (TGT-36053 & TGT-36894)
+* Fixed an issue that prevented some users from deleting items from a Recommendations catalog. (TGT-36455)
+* Fixed an issue that prevented users from saving Recommendations criteria on a multi-page activity. (TGT-36249)
+* Fixed an issue that caused the behavioral data source radio buttons to disappear when editing the criteria for a second consecutive time. (TGT-36796)
+* Fixed a display issue that caused a Recommendations algorithm to display "fetching results" for an extended period. (TGT-36550 & TGT-36551)
+* Updated many UI strings localized in various languages.
+
 ### Target at.js (March 25, 2020)
 
 The following new versions of the Target at.js JavaScript libraries are available:

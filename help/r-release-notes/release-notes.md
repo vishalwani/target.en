@@ -22,6 +22,15 @@ These release notes provide information about features, enhancements, and fixes 
 
 The issue numbers in parentheses are for internal [!DNL Adobe] use.
 
+## at.js 1.8.2 and at.js 2.3.1 releases (June 15, 2020)
+
+The following improvements and fixes have been made in the [!DNL Target] at.js libraries:
+
+|Feature / Enhancement|Description|
+| --- | --- |
+|at.js 1.8.2|This release of at.js is a maintenance release and includes the following fix:<ul><li>Fixed an issue when using CNAME and edge override, at.js 1.*x* might incorrectly create the server domain, which resulted in the [!DNL Target] request failing. (TNT-35064)</li></ul>For more information, see [at.js version details](/help/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md).|
+|at.js 2.3.1|This release of at.js is a maintenance release and includes the following enhancements and fixes:<ul><li>Made the `deviceIdLifetime` setting overridable via [targetGlobalSettings](/help/c-implementing-target/c-implementing-target-for-client-side-web/targetgobalsettings.md). (TNT-36349)</li><li>Fixed an issue when using CNAME and edge override, at.js 2.*x* might incorrectly create the server domain, which resulted in the [!DNL Target] request failing. (TNT-35065)</li><li>Fixed an issue when using the [!DNL Target] [!DNL Launch] extension v2 and the [!DNL Adobe Analytics] [!DNL Launch] extension, [!DNL Target] delayed the [!DNL Analytics] `sendBeacon` call. (TNT-36407, TNT-35990, TNT-36000)</li></ul>For more information, see [at.js version details](/help/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md).|
+
 ## Profile Batch Status API v2 changes (May 14, 2020)
 
 With the May 20 release, Profile Batch status will return only row-level failure data going forward (success data will not be returned). Failed profile IDs will be returned by the API going forward. 
