@@ -34,7 +34,6 @@ To view information about the current release, see [Target Release Notes](releas
 
 ### Enhancement, fixes, and changes
 
-* Made improvements in the Target UI to make specifying the global mbox easier. (TGT-15280)
 * Fixed an issue that caused the "visitors" metric to be stored in the activity's definition instead of "UniqueVisitors." (TGT-37098)
 * Fixed an issue in the [!DNL Target] UI that caused the vertical scrollbar to not function correctly on the [!UICONTROL Audiences] page. (TGT-36968)
 
