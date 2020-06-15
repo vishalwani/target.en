@@ -24,20 +24,6 @@ To view information about the current release, see [Target Release Notes](releas
 >
 >* **Target Announcements**: See the Target announcements page for information about upcoming events, including Target Skill Builder sessions, developer chats, webinars, and Target Coffee Break sessions. For more information, see [Target announcements](/help/r-release-notes/target-announcements.md).
 
-## at.js 1.8.2 and at.js 2.3.1 releases (June 15, 2020)
-
-The following improvements and fixes have been made in the [!DNL Target] at.js libraries:
-
-### at.js 1.8.2
-
-* Fixed an issue when using CNAME and edge override, at.js 1.*x* might incorrectly create the server domain, which resulted in the [!DNL Target] request failing. (TNT-35064)
-
-### at.js 2.3.1
-
-* Made the `deviceIdLifetime` setting overridable via [targetGlobalSettings](/help/c-implementing-target/c-implementing-target-for-client-side-web/targetgobalsettings.md). (TNT-36349)
-* Fixed an issue when using CNAME and edge override, at.js 2.*x* might incorrectly create the server domain, which resulted in the [!DNL Target] request failing. (TNT-35065)
-* Fixed an issue when using the [!DNL Target] [!DNL Launch] extension v2 and the [!DNL Adobe Analytics] [!DNL Launch] extension, [!DNL Target] delayed the [!DNL Analytics] `sendBeacon` call. (TNT-36407, TNT-35990, TNT-36000)
-
 ## Target Standard/Premium 20.5.1 (June 17, 2020)
 
 |Feature / Enhancement|Description|
