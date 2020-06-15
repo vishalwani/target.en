@@ -15,6 +15,7 @@ This page lists important changes made to the [!DNL Adobe Target] product docume
 |Date|Topic|Changes|
 | --- | --- | --- |
 |June 15|[Target release notes (current)](/help/r-release-notes/release-notes.md)|Added information about the at.js 1.8.2 and at.js 2.3.1 releases.|
+||[at.js version details](/help/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md)|Added information about the at.js 1.8.2 and at.js 2.3.1 releases.|
 ||[Target release notes (prerelease)](/help/r-release-notes/target-release-notes.md)|Updated the notes for the [!DNL Target Standard/Premium] 20.5.1 release (June 17, 2020) to include information about A4T support in [!DNL Analysis Workspace].|
 |June 12|[targetGlobalSettings()](/help/c-implementing-target/c-implementing-target-for-client-side-web/targetgobalsettings.md)|Added information about the `deviceIdLifetime` setting.|
 ||[Target release notes (prerelease)](/help/r-release-notes/target-release-notes.md)|Added information about the at.js 1.8.2 and at.js 2.3.1 releases.|
