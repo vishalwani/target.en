@@ -53,8 +53,9 @@ This update supports the following use cases:
 
 1. From the **[!UICONTROL Product Role]** drop-down list, select the desired role for that workspace:
 
-   * [!UICONTROL Approver]
-   * [!UICONTROL Editor]
-   * [!UICONTROL Observer]
-
-   ![Choose Product Profile role](/help/administrating-target/c-user-management/property-channel/assets/product-profile-role.png)
+   | Role | Description |
+   |--- |--- |
+   |Approver|Can create, edit, and activate or stop activities.|
+   |Editor|Can create and edit activities before they are live, but cannot approve the launch of an activity.|
+   |Observer|Can view activities, but cannot create or edit them.|
+   |Publisher|Similar to the Observer role (can view activities, but cannot create or edit them). However, the Publisher role has the additional permission to activate activities.|
