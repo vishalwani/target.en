@@ -14,6 +14,11 @@ This page lists important changes made to the [!DNL Adobe Target] product docume
 
 |Date|Topic|Changes|
 | --- | --- | --- |
+|June 15|[Target release notes (current)](/help/r-release-notes/release-notes.md)|Added information about the at.js 1.8.2 and at.js 2.3.1 releases.|
+||[at.js version details](/help/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md)|Added information about the at.js 1.8.2 and at.js 2.3.1 releases.|
+||[Target release notes (prerelease)](/help/r-release-notes/target-release-notes.md)|Updated the notes for the [!DNL Target Standard/Premium] 20.5.1 release (June 17, 2020) to include information about A4T support in [!DNL Analysis Workspace].|
+|June 12|[targetGlobalSettings()](/help/c-implementing-target/c-implementing-target-for-client-side-web/targetgobalsettings.md)|Added information about the `deviceIdLifetime` setting.|
+||[Target release notes (prerelease)](/help/r-release-notes/target-release-notes.md)|Added information about the at.js 1.8.2 and at.js 2.3.1 releases.|
 |June 8|[Target for mobile apps FAQ](/help/c-target-mobile-app/target-for-mobile-apps-faq.md)|Updated text for the following FAQ: "Is Target Mobile a functionality of Adobe Target Premium Product SKU only?"|
 ||[View reports - A4T FAQ](/help/c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-viewing-reports.md)|Updated entire topic.|
 |June 5|[Target announcements and events](/help/r-release-notes/target-announcements.md)|Added information about the June 10 Adobe Target Coffee Break.|
@@ -24,7 +29,7 @@ This page lists important changes made to the [!DNL Adobe Target] product docume
 |May 28|[Reporting FAQ](/help/c-reports/reporting-frequently-asked-questions.md)|Added the following new FAQ: <ul><li>How are the New Visitors and Returning Visitors metrics counted?</li></ul>|
 |May 27|[Target release notes (prerelease)](/help/r-release-notes/target-release-notes.md)|Added information about Analytics for Target (A4T) support for Auto-Allocate activities.|
 |May 26|[Profile attributes](/help/c-target/c-visitor-profile/profile-parameters.md)|Added following information: "The parameter remains in the profile after disabling the script. Users whose profiles already contain a parameter that is used in an activity's audience will qualify in that activity."|
-|May 21|[Allowlist Target edge nodes](/help/c-implementing-target/c-considerations-before-you-implement-target/white-list-edges.md)|Added `mboxedge30.tt.omtrdc.net` to the list.|
+|May 21|[Allowlist Target edge nodes](/help/c-implementing-target/c-considerations-before-you-implement-target/allowlist-edges.md)|Added `mboxedge30.tt.omtrdc.net` to the list.|
 |May 20|[Target release notes (prerelease)](/help/r-release-notes/target-release-notes.md)|Added information about the upcoming Target Standard/Premium 20.6.1 (June 10, 2020) release.|
 ||[Hosts](/help/administrating-target/hosts.md)|Added note to the "Security best practices" section.|
 |May 14|[Target release notes (current)](/help/r-release-notes/release-notes.md)|Added information about Profile Batch Status API v2 changes.|
@@ -50,7 +55,7 @@ This page lists important changes made to the [!DNL Adobe Target] product docume
 |April 23|[CNAME and Adobe Target](/help/c-implementing-target/c-considerations-before-you-implement-target/implement-cname-support-in-target.md)|Updated topic.|
 |April 22|[Target release notes (prerelease)](/help/r-release-notes/target-release-notes.md)|Added new section: *Profile Batch Status API v2 changes (May 4, 2020).*|
 |April 20|[Target release notes (current)](/help/r-release-notes/release-notes.md)|Added new section: *Adobe Target Skill Builder: Developer chat, migrate Adobe Target's mbox.js to at.js.*|
-|April 14|[Allowlist Target edge hosts](/help/c-implementing-target/c-considerations-before-you-implement-target/white-list-edges.md)|New topic.|
+|April 14|[Allowlist Target edge hosts](/help/c-implementing-target/c-considerations-before-you-implement-target/allowlist-edges.md)|New topic.|
 |April 10|[Single Page Application implementation](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/target-atjs-single-page-application.md#bp)|Added new section: "Implementation best practices."|
 |April 7|[Lift and confidence - A4T FAQ](/help/c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-lift-and-confidence.md#lift-condidence)|Updated text for "Why can't I see lift and confidence on calculated metrics?"|
 |April 2|[Profile and variable glossary](/help/c-target/c-visitor-profile/variables-profiles-parameters-methods.md)|Added information about using `user.header('x-forwarded-for')` with newer AWS edges to retrieve users' IP addresses.|
