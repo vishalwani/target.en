@@ -90,10 +90,6 @@ There is no service disruption when the certificate is deployed (including certi
 
 All certificates are RSA SHA-256 and keys are RSA 2048-bit, by default. Key sizes larger than 2048-bit are not currently supported.
 
-### Can Adobe/DigiCert send the DCV emails to another email address `<someone>@example.com`?
-
-No, DigiCert (or any certificate authority) will not allow just anyone with an email address under a domain to authorize an SSL certificate under that same domain unless that email address is also included in the domain's WHOIS information or the pre-determined list of addresses (see above). This ensures that only authorized individuals can approve DCV for a particular domain. If this is not feasible for you, we recommend using the DNS CNAME DCV method (see above).
-
 ### How can I validate my CNAME implementation is ready for traffic?
 
 Use the following set of commands (in the MacOs or Linux command-line terminal, using bash and curl 7.49+):
