@@ -80,9 +80,12 @@ You can create user groups, such as Developers, Analysts, Marketers, Executives,
 
 Roles and permissions determine the access levels that users have to create and manage activities in your [!DNL Target] implementation. In [!DNL Target], roles include the following:
 
-* **[!UICONTROL Observer]**: Can view activities, but cannot create or edit them.
-* **[!UICONTROL Editor]**: Can create and edit activities before they are live, but cannot approve the launch of an activity.
-* **[!UICONTROL Approver]**: Can create, edit, and activate or stop activities.
+| Role | Description |
+|--- |--- |
+|Approver|Can create, edit, and activate or stop activities.|
+|Editor|Can create and edit activities before they are live, but cannot approve the launch of an activity.|
+|Observer|Can view activities, but cannot create or edit them.|
+|Publisher|Similar to the Observer role (can view activities, but cannot create or edit them). However, the Publisher role has the additional permission to activate activities.|
 
 ### Channel
 
@@ -108,10 +111,10 @@ Each role has different levels of permissions:
 
 | Role | Description |
 |--- |--- |
-|Observer|Has read-only access to activities. Can view activities, but cannot create or edit them.|
-|Editor|Can create and edit activities before they are live, but cannot approve the launch of an activity.|
 |Approver|Can create, edit, and activate or stop activities.|
-
+|Editor|Can create and edit activities before they are live, but cannot approve the launch of an activity.|
+|Observer|Can view activities, but cannot create or edit them.|
+|Publisher|Similar to the Observer role (can view activities, but cannot create or edit them). However, the Publisher role has the additional permission to activate activities.|
 It is important to note that each user's role applies to every page, property, or site in your account that includes [!DNL Target] tags, as shown below:
 
 ![](assets/permissions_2.png)
@@ -271,7 +274,11 @@ When a visitor opens Page1 in a browser, he or she is redirected to Page2. Becau
 
 If the redirect page and the activity URL belong to the same property, clicktracks work as expected. For more information, see [Click tracking](/help/c-activities/r-success-metrics/click-tracking.md).
 
-## Training video: Enterprise Permissions Training Video ![Overview badge](/help/assets/overview.png)
+## Training videos
+
+The following videos contain more information about the concepts discussed in this article.
+
+### Training Video: Enterprise Permissions Training Video ![Overview badge](/help/assets/overview.png)
 
 Learning objectives:
 
@@ -280,3 +287,14 @@ Learning objectives:
 * Different Property examples for your organization to consider
 
 >[!VIDEO](https://video.tv.adobe.com/v/19042/)
+
+### Office hours: Target Premium Workspaces
+
+This video is a recording of "Office Hours," an initiative led by the Adobe Customer Care team.
+
+* Creating a Workspace (Product Profile)
+* Creating Properties
+* Adding Users
+* Updating Implementation
+
+>[!VIDEO](https://video.tv.adobe.com/v/23643/)
