@@ -274,7 +274,11 @@ When a visitor opens Page1 in a browser, he or she is redirected to Page2. Becau
 
 If the redirect page and the activity URL belong to the same property, clicktracks work as expected. For more information, see [Click tracking](/help/c-activities/r-success-metrics/click-tracking.md).
 
-## Training video: Enterprise Permissions Training Video ![Overview badge](/help/assets/overview.png)
+## Training videos
+
+The following videos contain more information about the concepts discussed in this article.
+
+### Training Video: Enterprise Permissions Training Video ![Overview badge](/help/assets/overview.png)
 
 Learning objectives:
 
@@ -283,3 +287,14 @@ Learning objectives:
 * Different Property examples for your organization to consider
 
 >[!VIDEO](https://video.tv.adobe.com/v/19042/)
+
+### Office hours: Target Premium Workspaces
+
+This video is a recording of "Office Hours," an initiative led by the Adobe Customer Care team.
+
+* Creating a Workspace (Product Profile)
+* Creating Properties
+* Adding Users
+* Updating Implementation
+
+>[!VIDEO](https://video.tv.adobe.com/v/23643/)

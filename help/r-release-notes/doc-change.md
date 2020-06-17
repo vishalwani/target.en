@@ -10,6 +10,16 @@ uuid: 6fba75e2-0a93-488d-9010-fffa423600c0
 
 This page lists important changes made to the [!DNL Adobe Target] product documentation.
 
+## Adobe Target Standard/Premium 20.5.1 (June 17, 2020)
+
+|Date|Topic|Changes|
+| --- | --- | --- |
+|June 17|[Activity creation](/help/c-integrating-target-with-mac/a4t/campaign-creation.md)|Added information about Analytics for Target (A4T) support for Auto-Allocate activities.|
+||[Users](/help/administrating-target/c-user-management/c-user-management/user-management.md)|Added information about the new [!UICONTROL Publisher] role under *Specify roles and permissions*.|
+||[Configure enterprise permissions](/help/administrating-target/c-user-management/property-channel/properties-overview.md)|Added information about the new [!UICONTROL Publisher] role under *Step 6: Specify roles and permissions*.|
+||[Enterprise user permissions](/help/administrating-target/c-user-management/property-channel/property-channel.md)|Added link to the *Office hours: Target Premium Workspaces session*.|
+||[Release Notes](/help/r-release-notes/release-notes.md): 20.5.1|This release includes enhancements and fixes. You can read about them and link to the documentation from the Release Notes. This release also includes many documentation updates throughout the help.|
+
 ## Adobe Target Standard/Premium 20.4.1 (May 6, 2020)
 
 |Date|Topic|Changes|

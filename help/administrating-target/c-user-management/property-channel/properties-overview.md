@@ -12,6 +12,10 @@ Information about the tasks required to add users to your [!DNL Target] implemen
 
 >[!NOTE]
 >
+>The information in this topic has been updated to give you a sneak peak at the UI changes coming in the Target Standard/Premium 20.6.1 release (July 2020). Most of the information presented in this topic applies to the current UI; however, options might be in slightly different locations.
+
+>[!NOTE]
+>
 >Properties and Permissions functionality is available as part of the [Target Premium](/help/c-intro/intro.md#premium) solution. They are not available in [!DNL Target Standard] without a [!DNL Target Premium] license.
 
 The following table lists the tasks you should perform to create properties and assign user roles and permissions. Refer to the sections below for more information about each task.

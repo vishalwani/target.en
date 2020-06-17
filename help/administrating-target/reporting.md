@@ -9,6 +9,10 @@ topic: Standard
 
 Configure general settings to use in Target reporting that apply to your entire [!DNL Target] account.
 
+>[!NOTE]
+>
+>The information in this topic has been updated to give you a sneak peak at the UI changes coming in the Target Standard/Premium 20.6.1 release (July 2020). Most of the information presented in this topic applies to the current UI; however, options might be in slightly different locations.
+
 To access the [!UICONTROL Reporting] configuration page, click **[!UICONTROL Administration]** > **[!UICONTROL Reporting].**
 
 You can specify the following settings on this page:

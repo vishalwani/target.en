@@ -11,6 +11,10 @@ uuid: 496f2dbe-96e2-4cd5-ba2e-d980d80eceb9
 
 Information to help you set up Adobe Target, including preferences, implementation, user management, properties, Scene7 settings, host management, and response tokens.
 
+>[!NOTE]
+>
+>The topics in this section, listed below, have been updated to give you a sneak peak at the UI changes coming in the Target Standard/Premium 20.6.1 release (July 2020). Most of the information presented in these topics applies to the current UI; however, options might be in slightly different locations.
+
 To access the [!UICONTROL Setup] menu items, click **[!UICONTROL Administration]** in the top menu bar, then click the desired tab along the left side:
 
 * [Visual Experience Composer](/help/administrating-target/visual-experience-composer-set-up.md)
