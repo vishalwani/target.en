@@ -10,7 +10,11 @@ uuid: 0bcc11b2-44bd-450c-a504-a8ff7a4d72e6
 
 Interpret the results of an Auto-Allocate A/B activity by examining important indicators, including lift and confidence, in the Target UI.
 
-Many marketers make the mistake of prematurely declaring a winning experience before the results indicate the clear winner. We've now made it easier for you to determine the winner.
+Many marketers make the mistake of prematurely declaring a winning experience before the results indicate the clear winner. We've now made it easier for you to determine the winner. 
+
+>[!NOTE]
+>
+>For general information about declaring a winner, see [Ten common A/B testing pitfalls and how to avoid them](/help/c-activities/t-test-ab/common-ab-testing-pitfalls.md).
 
 ## Identify the winning experience {#section_24007470CF5B4D30A06610CE8DD23CE3}
 
@@ -20,7 +24,7 @@ When using the [!UICONTROL Auto-Allocate] feature, [!DNL Target] displays a badg
 
 When a clear winner is declared, [!DNL Target] displays "Winner: Experience X."
 
-![](assets/auto_traffic_winner.png)
+![](assets/winner.png)
 
 >[!NOTE]
 >
@@ -35,14 +39,6 @@ We do not use p-value based confidence for Auto-Allocate.
 The Confidence column in an Auto-Allocate activity (illustrated below) displays the probability of an experience being the winner within 1% margin of error (i.e. the algorithm uses a minimum detectable effect of 1% between the best and the second-best conversion rate). Note that the algorithm uses [Bernstein Inequality](https://en.wikipedia.org/wiki/Bernstein_inequalities_(probability_theory)) to compute this probability.
 
 Normal A/B tests compute confidence based on p-values. Auto-Allocate does not use p-values. P-values "loosely" compute the probability that a given experience is different from the control. These p-values can be used only to determine whether an experience might be different from the control. These values cannot be used to determine if an experience is different from another experience (not control).
-
-The following illustration shows an activity that doesn't yet have a winner:
-
-![](assets/no_winner.png)
-
-The following illustration shows an activity that has a winner:
-
-![](assets/winner_found.png)
 
 >[!IMPORTANT]
 >
