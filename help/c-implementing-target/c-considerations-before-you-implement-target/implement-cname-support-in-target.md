@@ -16,7 +16,9 @@ Perform the following steps to request CNAME support in [!DNL Target]:
 
 1. Determine the list of hostnames you need for your SSL certificate (see FAQ).
 
-1. For each hostname, create a CNAME record in your DNS pointing to your regular [!DNL Target] hostname `clientcode.tt.omtrdc.net`. For example, if your client code is cnamecustomer and your proposed hostname is `target.example.com`, your DNS CNAME record should look something like this:
+1. For each hostname, create a CNAME record in your DNS pointing to your regular [!DNL Target] hostname `clientcode.tt.omtrdc.net`. 
+
+   For example, if your client code is "cnamecustomer" and your proposed hostname is `target.example.com`, your DNS CNAME record should look something like this:
 
    ```
    target.example.com.  IN  CNAME  cnamecustomer.tt.omtrdc.net.
@@ -24,9 +26,9 @@ Perform the following steps to request CNAME support in [!DNL Target]:
 
      >[!NOTE]
      >
-     >* Adobe's certificate authority, DigiCert, cannot issue a certificate until this step is complete, therefore Adobe cannot fulfill your request for a CNAME implementation until this step is complete.
+     >* Adobe's certificate authority, DigiCert, cannot issue a certificate until this step is complete. Therefore, Adobe cannot fulfill your request for a CNAME implementation until this step is complete.
 
-1. Fill out the following form and include it when you [open an Adobe Client Care ticket requesting CNAME support](https://docs.adobe.com/content/help/en/target/using/cmp-resources-and-contact-information.html#reference_ACA3391A00EF467B87930A450050077C):
+1. Fill out the following form and include it when you [open an Adobe Client Care ticket requesting CNAME support](/help/cmp-resources-and-contact-information.md#reference_ACA3391A00EF467B87930A450050077C):
 
    * Adobe [!DNL Target] client code:
    * SSL certificate hostnames (example: `target.example.com target.example.org`):
@@ -40,7 +42,7 @@ Perform the following steps to request CNAME support in [!DNL Target]:
 
 1. If Adobe is purchasing the certificate, Adobe will work with DigiCert to purchase and deploy your certificate on Adobe's production servers.
 
-   If the customer is purchasing the certificate (BYOC), Adobe Client Care will send you back the certificate signing request (CSR) which you will need to use when purchasing the certificate through your certificate authority of choice. Once the certificate is issued, you will need to send a copy of the certificate and any intermediate certificates back to Adobe Client Care for deployment.
+   If the customer is purchasing the certificate (BYOC), Adobe Client Care will send you the certificate signing request (CSR), which you will need to use when purchasing the certificate through your certificate authority of choice. After the certificate is issued, you must send a copy of the certificate and any intermediate certificates back to Adobe Client Care for deployment.
 
    Adobe Client Care will notify you when your implementation is ready.
 
@@ -82,11 +84,11 @@ For more information about ITP, see [Apple Intelligent Tracking Prevention (ITP)
 
 ### What kind of service disruptions can I expect when my CNAME implementation is deployed?
 
-There is no service disruption when the certificate is deployed (including certificate renewals). However, when you change the hostname in your Target implementation code (`serverDomain` in at.js) to the new CNAME hostname (`target.example.com`), web browsers will treat returning visitors as new visitors and their profile data will be lost because the previous cookie will be inaccessible under the old hostname (`clientcode.tt.omtrdc.net`) due to browser security models. This is a one-time disruption only on the initial cut-over to the new CNAME, certificate renewals do not have the same effect since the hostname doesn't change.
+There is no service disruption when the certificate is deployed (including certificate renewals). However, when you change the hostname in your [!DNL Target] implementation code (`serverDomain` in at.js) to the new CNAME hostname (`target.example.com`), web browsers will treat returning visitors as new visitors and their profile data will be lost because the previous cookie will be inaccessible under the old hostname (`clientcode.tt.omtrdc.net`) due to browser security models. This is a one-time disruption only on the initial cut-over to the new CNAME. Certificate renewals do not have the same effect since the hostname doesn't change.
 
 ### What key type and certificate signature algorithm will be used for my CNAME implementation?
 
-All certificates are RSA SHA-256 and keys are RSA 2048-bit by default. Key sizes larger than 2048-bit are not currently supported.
+All certificates are RSA SHA-256 and keys are RSA 2048-bit, by default. Key sizes larger than 2048-bit are not currently supported.
 
 ### Can Adobe/DigiCert send the DCV emails to another email address `<someone>@example.com`?
 
