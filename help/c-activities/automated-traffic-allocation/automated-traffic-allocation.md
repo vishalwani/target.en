@@ -10,10 +10,6 @@ uuid: e8aee4d7-2b99-4e1f-8004-2efc820658b5
 
 Auto-Allocate identifies a winner among two or more experiences and automatically reallocates more traffic to the winner to increase conversions while the test continues to run and learn.
 
->[!IMPORTANT]
->
->Auto-Allocate does not support [!DNL Target for Analytics] (A4T) reporting.
-
 While [creating an A/B activity using the three-step guided workflow](../../c-activities/t-test-ab/t-test-create-ab/test-create-ab.md#task_68C8079BF9FF4625A3BD6680D554BB72), you can choose the [!UICONTROL Auto-Allocate to Best Experience] option.
 
 ## The Challenge {#section_85D5A03637204BACA75E19646162ACFF}
@@ -88,10 +84,6 @@ After the model for an Auto-Allocate activity is ready (each experience has a mi
 
 ## Caveats {#section_5C83F89F85C14FD181930AA420435E1D}
 
-**Auto-Allocate A/B activities are no longer supported in Analytics for Target (A4T)**
-
-With the 16.10.1.0 release (October 25, 2016), Target does not support Analytics as a reporting source for Auto-Allocate A/B activities going forward. Any active Auto-Allocate A/B activities with A4T enabled will be switched to Manual mode (equal traffic allocation). 
-
 **The Auto-Allocate feature works with only one advanced metric setting: Increment Count and Keep User in Activity**
 
 The following advanced metric settings are not supported: Increment Count, Release User, Allow Reentry and Increment Count, and Release User and Bar from Reentry. 
@@ -127,6 +119,10 @@ These can skew the results in an Auto-Allocate test more than in an A/B test bec
   For example, "30% sale ends today" signals the visitor to convert today, but "50% off first purchase" doesn't create the same sense of urgency.
 
 ## Frequently Asked Questions {#section_0E72C1D72DE74F589F965D4B1763E5C3}
+
+** Does Analytics for Target (A4T) support Auto-Allocate activities?
+
+Yes. For more information, see [Analytics for Target (A4T) support for Auto-Allocate activities](/help/c-integrating-target-with-mac/a4t/campaign-creation.md#a4t-aa) in *Activity creation*.
 
 **Are returning visitors automatically reallocated to high-performing experiences?**
 
