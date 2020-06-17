@@ -12,6 +12,10 @@ Target can be integrated with Adobe Dynamic Media Classic (formerly Scene7) to p
 
 >[!NOTE]
 >
+>The information in this topic has been updated to give you a sneak peak at the UI changes coming in the Target Standard/Premium 20.6.1 release (July 2020). Most of the information presented in this topic applies to the current UI; however, options might be in slightly different locations.
+
+>[!NOTE]
+>
 >Integrating Target with Dynamic Media Classic enables delivery of assets (as part of activities) uploaded to the Adobe Experience Cloud assets folder. This integration does not enable access to all assets uploaded in Dynamic Media Classic for delivery in Target activities.
 
 If you already have a Dynamic Media account, you can supply your existing credentials. If you do not have an account, you can request a restricted-use Dynamic Media Classic account at no additional charge from your Adobe representative. This account can be used for purposes restricted for use in Target only. This service is made available to customers for workflows needing image-swap functionality.

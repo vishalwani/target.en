@@ -13,6 +13,10 @@ You can add users and manage their permissions in the [!DNL Adobe Admin Console]
 
 >[!NOTE]
 >
+>The information in this topic has been updated to give you a sneak peak at the UI changes coming in the Target Standard/Premium 20.6.1 release (July 2020). Most of the information presented in this topic applies to the current UI; however, options might be in slightly different locations.
+
+>[!NOTE]
+>
 >[!UICONTROL Properties] and [!UICONTROL Permissions] functionality is available as part of the [!DNL Target] Premium solution. They are not available in [!DNL Target] Standard without a [!DNL Target] Premium license.
 >You can tell whether your organization has a Standard or Premium license by clicking the [!UICONTROL Administration] link at the top of the [!DNL Target] UI.
 >
