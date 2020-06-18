@@ -55,6 +55,8 @@ A key difference between plug-ins and response tokens is that while plug-ins del
    ||`profile.categoryAffinities`|Returns an array of the visitor's top 5 categories as strings.|
    |Activity|`activity.name`<br>`activity.id`<br>`experience.name`<br>`experience.id`<br>`option.name`<br>`option.id`|Details of the current activity. Note that "option" equals "offer."|
    |Geo|`geo.country`<br>`geo.state`<br>`geo.city`<br>`geo.zip`<br>`geo.dma`<br>`geo.domainName`<br>`geo.ispName`<br>`geo.connectionSpeed`<br>`geo.mobileCarrier`|See [Geo](/help/c-target/c-audiences/c-target-rules/geo.md) for more information about using geo targeting in activities.|
+   |Traffic Allocation Method<br>Applies to [!UICONTROL Auto-Target] and [!UICONTROL Automated Personalization] activities only.|`experience.trafficAllocationId`|Returns 0 if a visitor received an experience from being in “control” traffic and 1 if a visitor received an experience from the “targeted” traffic distribution.|
+   ||`experience.trafficAllocationType`|Return “control” and “targeted” respectively.|
 
    User profile attributes and Customer Attributes also display in the list.
 

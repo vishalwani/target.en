@@ -15,6 +15,7 @@ This page lists important changes made to the [!DNL Adobe Target] product docume
 |Date|Topic|Changes|
 | --- | --- | --- |
 |June 17|[CNAME and Adobe Target](/help/c-implementing-target/c-considerations-before-you-implement-target/implement-cname-support-in-target.md)|Updated topic.|
+||[Response tokens](/help/administrating-target/response-tokens.md)|Added information about response tokens for Traffic Allocation Method for [!UICONTROL Auto-Target] and [!UICONTROL Automated Personalization] activities.|
 ||[Activity creation](/help/c-integrating-target-with-mac/a4t/campaign-creation.md)|Added information about Analytics for Target (A4T) support for Auto-Allocate activities.|
 ||[Users](/help/administrating-target/c-user-management/c-user-management/user-management.md)|Added information about the new [!UICONTROL Publisher] role under *Specify roles and permissions*.|
 ||[Configure enterprise permissions](/help/administrating-target/c-user-management/property-channel/properties-overview.md)|Added information about the new [!UICONTROL Publisher] role under *Step 6: Specify roles and permissions*.|
