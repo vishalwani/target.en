@@ -35,9 +35,7 @@ Examples of unsupported metrics or use cases include:
 
 ## How does A4T handle confidence calculations? {#section_66115EAF1BA34F7A8FCED7B08DA4F99C}
 
-A4T uses non-binary metric calculations with the sum of square data. The variance is calculated using the sum of squares data. Extreme orders are not taken into account.
-
-Any Analytics segment can be applied to the report. That is how you can get the "extreme order" among other segment options. A metric could also be built to limit things like how many times a visitor converted.
+A4T uses non-binary metric calculations with the sum of square data. The variance is calculated using the sum of squares data. Extreme orders are not taken into account. Additionally, the confidence calculation does not apply a Bonferroni correction for multiple offers.
 
 ## Do lift and confidence work in Ad Hoc and Report Builder? If it's not native, can I do it in there myself? {#section_D8BB69AE700B4C5CB5FD28DB51F9A4E9}
 
