@@ -34,7 +34,7 @@ solution: Target
    + Reporting {#reporting}
       + [Configure reporting](/help/administrating-target/reporting.md)
       + [Estimating Lift in Revenue](/help/administrating-target/r-target-account-preferences/estimating-lift-in-revenue.md)
-   + [Dynamic Media Classic integration](administrating-target/scene7-settings.md)
+   + [Scene7 configuration](administrating-target/scene7-settings.md)
    + [Implementation](/help/administrating-target/implementation.md)
    + [Hosts](administrating-target/hosts.md)
    + [Environments](/help/administrating-target/environments.md)

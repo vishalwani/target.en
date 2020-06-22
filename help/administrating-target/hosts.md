@@ -18,12 +18,6 @@ The primary goal of host management is to ensure that no inactive content accide
 
 A host is any web server (or web domain) from where you serve content during any stage of your project. Any host serving an mbox is recognized.
 
-Hosts are bundled into environments for ease of management. For example, you might have dozens of hosts grouped in two or three environments. The preset environments include [!UICONTROL Production], [!UICONTROL Staging], and [!UICONTROL Development]. You can add new environments and rename your environments, if desired.
-
-One environment, the default environment, is pre-named [!UICONTROL Production]. This default environment cannot be deleted, even if you rename it. [!DNL Target] assumes that this is where you will serve final, approved activities and tests.
-
-When an mbox request is received from new websites or domains, these new domains always appear in the [!UICONTROL Production] environment. The [!UICONTROL Production] environment cannot have its settings changed, so unknown or new sites are guaranteed to see only content that is active and ready. Host management also lets you easily ensure the quality of new activities and content in your test, staging, and development environments before you activate the activities.
-
 [!DNL Target] does not limit a host that can send and receive mboxes, so when new servers or domains come up, they automatically work (unless you've set up an allowlist or blocklist). This also enables ad testing on different domains you don't know or can't anticipate.
 
 To manage hosts, click **[!UICONTROL Administration]** > **[!UICONTROL Hosts]**.
@@ -55,7 +49,7 @@ After a host is added to the [!UICONTROL Host] list, make sure that the host is 
 
    By default, a newly recognized host is placed in the [!UICONTROL Production] environment. This is the safest environment because it does not allow inactive activities to be viewed from these hosts.
 
-1. (Conditional) Click the Move icon ( ![move icon](/help/administrating-target/assets/icon-move.png) ) to move the host into the [!UICONTROL Development], [!UICONTROL Staging], or other environment.
+1. (Conditional) Click the **[!UICONTROL Move]** icon ( ![move icon](/help/administrating-target/assets/icon-move.png) ) to move the host into the [!UICONTROL Development], [!UICONTROL Staging], or other environment.
 
 >[!NOTE]
 >
@@ -115,8 +109,6 @@ You can delete a host when it is no longer needed.
 >The host will be listed again if anyone browses to an mboxed page on the host.
 
 ## Troubleshooting hosts {#concept_B3D7583FA4BB480382CC7453529FE1B7}
-
-Best practices for managing and troubleshooting hosts in [!DNL Adobe Target].
 
 Try the following troubleshooting tips if you experience problems with your hosts:
 

@@ -1,6 +1,6 @@
 ---
-keywords: implement;implementing;setting up;setup
-description: Information to help you set up Adobe Target, including preferences, implementation, user management, properties, Scene7 settings, host management, and response tokens.
+keywords: setting up;setup;set-up;set up;administration
+description: Information to help you set up Adobe Target, including preferences, implementation, user management, properties, Scene7 configuration, host management, and response tokens.
 title: Administer Adobe Target
 subtopic: Getting Started
 topic: Standard
@@ -9,17 +9,17 @@ uuid: 496f2dbe-96e2-4cd5-ba2e-d980d80eceb9
 
 # Administer Target{#administer-target}
 
-Information to help you set up Adobe Target, including preferences, implementation, user management, properties, Scene7 settings, host management, and response tokens.
+Information to help you administer [!DNL Adobe Target], including configuration settings for the Visual Experience Composer (VEC), reporting, Scene7 configuration, implementation, hosts, environments, response tokens, and users.
 
 >[!NOTE]
 >
->The topics in this section, listed below, have been updated to give you a sneak peak at the UI changes coming in the Target Standard/Premium 20.6.1 release (July 2020). Most of the information presented in these topics applies to the current UI; however, options might be in slightly different locations.
+>The topics in this section, listed below, have been updated to give you a sneak peak at the UI changes coming in the [!DNL Target Standard/Premium] 20.6.1 release (July 2020). Most of the information presented in these topics applies to the current UI; however, options might be in slightly different locations.
 
-To access the [!UICONTROL Setup] menu items, click **[!UICONTROL Administration]** in the top menu bar, then click the desired tab along the left side:
+To access the [!UICONTROL Administration] menu items, click **[!UICONTROL Administration]** in the top menu bar, then click the desired tab along the left side:
 
 * [Visual Experience Composer](/help/administrating-target/visual-experience-composer-set-up.md)
 * [Reporting](/help/administrating-target/reporting.md)
-* [Scene7 Settings](/help/administrating-target/scene7-settings.md)
+* [Scene7 Configuration](/help/administrating-target/scene7-settings.md)
 * [Implementation](/help/c-implementing-target/implementing-target.md)
 * [Properties](/help/administrating-target/c-user-management/property-channel/property-channel.md)
 * [Hosts](/help/administrating-target/hosts.md)
