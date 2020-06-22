@@ -212,7 +212,7 @@ Consider the following when using or configuring properties and permissions in [
 
     * Visual Experience Composer 
     * Reporting
-    * Scene7 Settings
+    * Scene7 Configuration
     * Implementation
     * Properties
     * Hosts 
