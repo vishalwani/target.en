@@ -34,6 +34,18 @@ By default all [!DNL Target] users start with observer permissions.
 
 Admin users are identified in the [!UICONTROL Users] list. Contact one of the system admin users if you need your access level changed.
 
+### View user information from within Taget
+
+You can view a list of your current users in your Target environment, including their roles per workspace and email addresses directly from inside Target.
+
+To view the Users page, click **[!UICONTROL Administration]** > **[!UICONTROL Users]**.
+
+![User list from within Target](/help/administrating-target/c-user-management/c-user-management/assets/user-list-target.png)
+
+>[!NOTE]
+>
+>To manage existing user or to add new users, you must use the [!UICONTROL Adobe Admin Console], as explained below.
+
 ## Access the Adobe Admin Console {#access}
 
 For tasks performed in the Adobe Admin Console, access the console by following these steps:

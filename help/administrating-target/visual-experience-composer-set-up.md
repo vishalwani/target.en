@@ -9,6 +9,10 @@ topic: Standard
 
 Configure the [!DNL Adobe Target] [!UICONTROL Visual Experience Composer] (VEC) by specifying its general settings, mobile viewport configuration, and CSS selectors.
 
+>[!NOTE]
+>
+>The topics in this section, listed below, have been updated to give you a sneak peak at the UI changes coming in the [!DNL Target Standard/Premium] 20.6.1 release (July 2020). Most of the information presented in these topics applies to the current UI; however, options might be in slightly different locations.
+
 To access the [!UICONTROL Visual Experience Composer] configuration page, click **[!UICONTROL Administration]** > **[!UICONTROL Visual Experience Composer].**
 
 >[!NOTE]
@@ -31,15 +35,15 @@ Set the default URL used by the [!UICONTROL Visual Experience Composer]. This is
 
 ### Enable Enhanced Experience Composer
 
-Allows editing on iFrame-busting sites and sites with mixed content. Some sites might not be compatible with the enhanced version. Deselect this option to revert to the original Visual Experience Composer. Activity delivery on sites is not affected by this choice.
+Allows editing on iFrame-busting sites and sites with mixed content. Some sites might not be compatible with the enhanced version. Deselect this option to revert to the original [!UICONTROL Visual Experience Composer]. Activity delivery on sites is not affected by this choice.
 
 For more information, see [Troubleshooting the Visual Experience Composer](/help/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/troubleshoot-composer.md).
 
-You can also enable the Enhanced Experience Composer at the activity level.
+You can also enable the [!UICONTROL Enhanced Experience Composer] at the activity level.
 
 ### Load Mixed Content
 
-Enable mixed content while opening a website using the Enhanced Experience Composer (EEC). Enabling this option avoids the extra overhead of loading static resources via [!DNL Target] proxy servers.
+Enable mixed content while opening a website using the [!UICONTROL Enhanced Experience Composer] (EEC). Enabling this option avoids the extra overhead of loading static resources via [!DNL Target] proxy servers.
 
 This option is helpful if, for example:
 
