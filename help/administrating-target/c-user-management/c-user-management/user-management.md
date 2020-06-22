@@ -34,7 +34,7 @@ By default all [!DNL Target] users start with observer permissions.
 
 Admin users are identified in the [!UICONTROL Users] list. Contact one of the system admin users if you need your access level changed.
 
-### View user information from within Taget
+## View user information from within Target
 
 You can view a list of your current users in your Target environment, including their roles per workspace and email addresses directly from inside Target.
 
