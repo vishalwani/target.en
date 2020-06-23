@@ -292,9 +292,9 @@ Learning objectives:
 
 This video is a recording of "Office Hours," an initiative led by the Adobe Customer Care team.
 
-* Creating a Workspace (Product Profile)
-* Creating Properties
-* Adding Users
-* Updating Implementation
+* Creating a workspace (product profile)
+* Creating properties
+* Adding users
+* Updating implementation
 
 >[!VIDEO](https://video.tv.adobe.com/v/23643/)

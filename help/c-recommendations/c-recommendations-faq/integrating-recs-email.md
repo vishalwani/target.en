@@ -57,6 +57,10 @@ See [Delivery API documentation](https://developers.adobetarget.com/api/#server-
 
 A rawbox is similar to an mbox request, but for non-Web environments, such as email service providers (ESPs). Because you don't have [!DNL mbox.js] or [!DNL at.js] to use in rawbox requests, you must create your requests manually. The examples below explain how to work with rawbox requests in email.
 
+>[!NOTE]
+>
+>When using a rawbox and [!DNL Target], see the important security notice under [Create allowlists that specify hosts that are authorized to send mbox calls to Target](/help/administrating-target/hosts.md#allowlist).
+
 This approach allows you to track performance of recommendations in emails, test them in the normal way with a recommendation, and continue tracking on the site.
 
 Set up a [!DNL Recommendations] activity in [!DNL Adobe Target], using the [Form-Based Experience Composer](../../c-experiences/form-experience-composer.md#task_FAC842A6535045B68B4C1AD3E657E56E) option. For the location, select the name of the mbox you've chosen to use in the rawbox request coming from the ESP. Select a design with the look and feel you want for your email. At email build time, the ESP makes a call to the [!DNL Adobe Target] servers for each rawbox in each email being generated. Your ESP must have a way to include the returned HTML in the email when it is sent.

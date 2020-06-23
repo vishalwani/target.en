@@ -87,10 +87,27 @@ Important notes:
 * at.js does not provide any guarantees on the order of remote script execution, as these are loaded asynchronously.
 * Inline scripts should not have any dependencies on remote scripts, as these are loaded and executed later.
 
-## Training video: at.js 2.x architectural diagram ![Overview badge](/help/assets/overview.png)
+## Training videos
+
+The following videos contain more information about the concepts discussed in this article.
+
+### at.js 2.x architectural diagram ![Overview badge](/help/assets/overview.png)
 
 at.js 2.x enhances Adobe Target's support for SPAs and integrates with other Experience Cloud solutions. This video explains how everything comes together.
 
 >[!VIDEO](https://video.tv.adobe.com/v/26250)
 
 See [Understanding how at.js 2.x works](https://helpx.adobe.com/target/kt/using/atjs20-diagram-technical-video-understand.html) for more information.
+
+### Office hours: at.js tips and overview (June 26, 2019) ![Tutorial badge](/help/assets/tutorial.png)
+
+This video is a recording of "Office Hours," an initiative led by the Adobe Customer Care team.
+
+* Benefits of using at.js
+* at.js settings
+* Flicker handling
+* Debugging at.js
+* Known issues
+* FAQ
+
+>[!VIDEO](https://video.tv.adobe.com/v/27959)
