@@ -73,6 +73,7 @@ Keep the following information in mind:
 * See the "JavaScript reference for script profile parameters" section below for more JavaScript syntax.
 * The parameter remains in the profile after disabling the script. Users whose profiles already contain a parameter that is used in an activity's audience will qualify in that activity.
 * Profile scripts cannot be deleted while they're being used in an activity.
+* Creating dependent profile scripts that use the result of one profile script in another profile script is not recommended. The order of profile script execution is not guaranteed.
 
 ## Viewing profile script information cards {#section_18EA3B919A8E49BBB09AA9215E1E3F17}
 

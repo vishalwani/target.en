@@ -14,6 +14,8 @@ This page lists important changes made to the [!DNL Adobe Target] product docume
 
 |Date|Topic|Changes|
 | --- | --- | --- |
+|June 23|[Target announcements and events](/help/r-release-notes/target-announcements.md)|Added information about the June 24 Adobe Target Coffee Break.|
+||[Profile attributes](/help/c-target/c-visitor-profile/profile-parameters.md)|Added note that creating dependent profile scripts that use the result of one profile script in another profile script is not recommended.|
 |June 17|[CNAME and Adobe Target](/help/c-implementing-target/c-considerations-before-you-implement-target/implement-cname-support-in-target.md)|Updated topic.|
 ||[Response tokens](/help/administrating-target/response-tokens.md)|Added information about response tokens for Traffic Allocation Method for [!UICONTROL Auto-Target] and [!UICONTROL Automated Personalization] activities.|
 ||[Activity creation](/help/c-integrating-target-with-mac/a4t/campaign-creation.md)|Added information about Analytics for Target (A4T) support for Auto-Allocate activities.|
