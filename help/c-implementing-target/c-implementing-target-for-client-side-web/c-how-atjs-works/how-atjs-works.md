@@ -59,6 +59,14 @@ Now, wherever `triggerView()` is implemented on your SPA, the Views and actions 
 |5|Analytics data sent to Data Collection Servers.|
 |6|Target data is matched to Analytics data via the SDID and is processed into the Analytics reporting storage. Analytics data can then be viewed in both Analytics and Target via A4T reports.|
 
+### at.js 2.x architectural diagram ![Overview badge](/help/assets/overview.png)
+
+at.js 2.x enhances Adobe Target's support for SPAs and integrates with other Experience Cloud solutions. This video explains how everything comes together.
+
+>[!VIDEO](https://video.tv.adobe.com/v/26250)
+
+See [Understanding how at.js 2.x works](https://helpx.adobe.com/target/kt/using/atjs20-diagram-technical-video-understand.html) for more information.
+
 ## at.js 1.x diagram
 
 ![Target flow - at.js 1.x](/help/c-implementing-target/c-implementing-target-for-client-side-web/assets/target-flow.png)
@@ -69,6 +77,19 @@ Now, wherever `triggerView()` is implemented on your SPA, the Views and actions 
 |3|A global mbox request is made including all configured parameters, MCID, SDID, and customer ID (optional).|4|Profile scripts execute and then feed into the Profile Store. The Store requests qualified audiences from the [!UICONTROL Audience Library] (for example, audiences shared from [!DNL Adobe Analytics], [!DNL Audience Manager], etc.).<br>Customer attributes are sent to the [!DNL Profile Store] in a batch process.|
 |5|Based on the URL, mbox parameters, and profile data, [!DNL Target] decides which activities and experiences to return to the visitor.|6|Targeted content is sent back to page, optionally including profile values for additional personalization.<br>The experience is revealed as quickly as possible without flicker of default content.|
 |7|[!DNL Analytics] data is sent to Data Collection servers.|8|[!DNL Target] data is matched to [!DNL Analytics] data via the SDID and is processed into the [!DNL Analytics]  reporting storage.<br>[!DNL Analytics] data can then be viewed in both [!DNL Analytics] and  [!DNL Target] via [!DNL Analytics for Target] (A4T) reports.|
+
+### Office hours: at.js tips and overview (June 26, 2019) ![Tutorial badge](/help/assets/tutorial.png)
+
+This video is a recording of "Office Hours," an initiative led by the Adobe Customer Care team.
+
+* Benefits of using at.js
+* at.js settings
+* Flicker handling
+* Debugging at.js
+* Known issues
+* FAQ
+
+>[!VIDEO](https://video.tv.adobe.com/v/27959)
 
 ## How at.js renders offers with HTML content {#render}
 
@@ -86,28 +107,3 @@ Important notes:
 
 * at.js does not provide any guarantees on the order of remote script execution, as these are loaded asynchronously.
 * Inline scripts should not have any dependencies on remote scripts, as these are loaded and executed later.
-
-## Training videos
-
-The following videos contain more information about the concepts discussed in this article.
-
-### at.js 2.x architectural diagram ![Overview badge](/help/assets/overview.png)
-
-at.js 2.x enhances Adobe Target's support for SPAs and integrates with other Experience Cloud solutions. This video explains how everything comes together.
-
->[!VIDEO](https://video.tv.adobe.com/v/26250)
-
-See [Understanding how at.js 2.x works](https://helpx.adobe.com/target/kt/using/atjs20-diagram-technical-video-understand.html) for more information.
-
-### Office hours: at.js tips and overview (June 26, 2019) ![Tutorial badge](/help/assets/tutorial.png)
-
-This video is a recording of "Office Hours," an initiative led by the Adobe Customer Care team.
-
-* Benefits of using at.js
-* at.js settings
-* Flicker handling
-* Debugging at.js
-* Known issues
-* FAQ
-
->[!VIDEO](https://video.tv.adobe.com/v/27959)

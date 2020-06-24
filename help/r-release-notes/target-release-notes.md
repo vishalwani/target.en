@@ -10,7 +10,7 @@ uuid: 35ecabbe-b8b4-479b-9266-4823c831d79a
 
 This article contains prerelease information. Release dates, features, and other information are subject to change without notice. 
 
-**Last Updated: June 23, 2020**
+**Last Updated: June 24, 2020**
 
 To view information about the current release, see [Target Release Notes](release-notes.md). The information on these pages might be the same, depending on the timing of releases. The issue numbers in parentheses are for internal [!DNL Adobe] use.
 
@@ -38,9 +38,18 @@ If you’ve already [implemented A4T](/help/c-integrating-target-with-mac/a4t/a4
 
 ### [!UICONTROL Administration] section UI refresh
 
-We've updated the [!UICONTROL Administration] section (formerly [!UICONTROL Admin]) and its pages to make your workflows easier and more efficient.
+We are gradually rewriting the entire [!DNL Target] UI using a new tech stack to be able to offer improved performance, reduce the maintenance time required when releasing new features, and to improve the user experience across the product. The first section refreshed is the [!UICONTROL Setup] section, which has been renamed [!UICONTROL Administration].
 
-Highlights include:
+As part of this refresh, you will be able to easily perform many actions using the pages in the [!UICONTROL Administration] section, such as:
+
+* Download the latest at.js file from the [!UICONTROL Implementation] tab (**[!UICONTROL Administration]** > **[!UICONTROL Implementation]**).
+* Customize your at.js settings and be able to easily review your changes (**[!UICONTROL Administration]** > **[!UICONTROL Implementation]**).
+* Modify enhanced reporting settings, such as the default currency and time zone, IPs to exclude from reporting, etc. (**[!UICONTROL Administration]** > **[!UICONTROL Reporting]**)
+* Obfuscate visitor IP addresses for privacy reasons (**[!UICONTROL Administration]** > **[!UICONTROL Implementation]**)
+* View the existing list of users per workspace and their roles, before managing them in Adobe Admin Console (**[!UICONTROL Administration]** > **[!UICONTROL Users]**).
+* Search and filter all tables in the [!UICONTROL Administration] section.
+
+Significant changes include:
 
 * **[!UICONTROL Visual Experience Composer] page**: This new page (**[!UICONTROL Administration]** > **[!UICONTROL Visual Experience Composer]**) lets you:
 
