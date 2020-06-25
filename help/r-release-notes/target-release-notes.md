@@ -28,14 +28,6 @@ To view information about the current release, see [Target Release Notes](releas
 
 This release includes the following enhancements:
 
-### Analytics for Target (A4T) support for [!UICONTROL Auto-Target] activities
-
-[!UICONTROL Auto-Target] activities now support [Analytics for Target](/help/c-integrating-target-with-mac/a4t/a4t.md).
-
-This integration uses advanced machine learning to select from multiple high-performing marketer-defined experiences to personalize content and drive conversions. Auto-Target serves the most tailored experience to each visitor based on his or her individual customer profile and the behavior of previous visitors with similar profiles.
-
-If you’ve already [implemented A4T](/help/c-integrating-target-with-mac/a4t/a4timplementation.md) for use with A/B Test activities, you’re all set!
-
 ### [!UICONTROL Administration] section UI refresh
 
 We are gradually rewriting the entire [!DNL Target] UI using a new tech stack to be able to offer improved performance, reduce the maintenance time required when releasing new features, and to improve the user experience across the product. The first section refreshed is the [!UICONTROL Setup] section, which has been renamed [!UICONTROL Administration].
