@@ -15,6 +15,7 @@ This page lists important changes made to the [!DNL Adobe Target] product docume
 |Date|Topic|Changes|
 | --- | --- | --- |
 |June 25|[Target release notes (prerelease)](/help/r-release-notes/target-release-notes.md)|Added information about the Target Standard/Premium 20.6.1 release (July 2020).|
+||[Target documentation overview](/help/r-release-notes/target-documentation.md)|New topic detailing the different sources of [!DNL Target] documentation.|
 |June 23|[Target announcements and events](/help/r-release-notes/target-announcements.md)|Added information about the June 24 Adobe Target Coffee Break.|
 ||[Profile attributes](/help/c-target/c-visitor-profile/profile-parameters.md)|Added note that creating dependent profile scripts that use the result of one profile script in another profile script is not recommended.|
 ||[How at.js works](/help/c-implementing-target/c-implementing-target-for-client-side-web/c-how-atjs-works/how-atjs-works.md)|Added the following video: Office hours: at.js tips and overview|
