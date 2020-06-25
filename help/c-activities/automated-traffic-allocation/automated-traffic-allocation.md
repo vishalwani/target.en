@@ -76,7 +76,7 @@ The illustration shows how the traffic allocated to each experience progresses o
 
 If the activity has only two experiences, both get equal traffic until Target finds an experience with 90% confidence. At that point, 70% of traffic is allocated to the winner and 30% to the loser. After that experience reaches 95% confidence, 100% of traffic is allocated to the winner and 0% to the loser.
 
-After the model for an Auto-Allocate activity is ready (each experience has a minimum of 1,000 visitors and 50 conversions), the following operations from the UI are not allowed:
+After an [!UICONTROL Auto-Allocate] activity is activated, the following operations from the UI are not allowed:
 
 * Switching the "Traffic Allocation" mode to "Manual" 
 * Changing the goal metric type 
