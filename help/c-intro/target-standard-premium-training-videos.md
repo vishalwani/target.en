@@ -26,7 +26,7 @@ Training videos are embedded inside relevant topics in this guide. Click the vid
 
 ## Adobe Target - Tutorials and Videos
 
-A collection of how-to videos and tutorials highlighting the capabilities of Target are available on the [Adobe Target Experience League](https://guided.adobe.com/#recommended/solutions/target) page. 
+A collection of how-to videos and tutorials highlighting the capabilities of Target available on the [Adobe Target Experience League](https://guided.adobe.com/#recommended/solutions/target) page. 
 
 ![Experience League videos](/help/c-intro/assets/experience-league.png)
 
