@@ -59,7 +59,7 @@ Now, wherever `triggerView()` is implemented on your SPA, the Views and actions 
 |5|Analytics data sent to Data Collection Servers.|
 |6|Target data is matched to Analytics data via the SDID and is processed into the Analytics reporting storage. Analytics data can then be viewed in both Analytics and Target via A4T reports.|
 
-### at.js 2.x architectural diagram ![Overview badge](/help/assets/overview.png)
+### Video - at.js 2.x architectural diagram
 
 at.js 2.x enhances Adobe Target's support for SPAs and integrates with other Experience Cloud solutions. This video explains how everything comes together.
 
@@ -78,7 +78,7 @@ See [Understanding how at.js 2.x works](https://helpx.adobe.com/target/kt/using/
 |5|Based on the URL, mbox parameters, and profile data, [!DNL Target] decides which activities and experiences to return to the visitor.|6|Targeted content is sent back to page, optionally including profile values for additional personalization.<br>The experience is revealed as quickly as possible without flicker of default content.|
 |7|[!DNL Analytics] data is sent to Data Collection servers.|8|[!DNL Target] data is matched to [!DNL Analytics] data via the SDID and is processed into the [!DNL Analytics]  reporting storage.<br>[!DNL Analytics] data can then be viewed in both [!DNL Analytics] and  [!DNL Target] via [!DNL Analytics for Target] (A4T) reports.|
 
-### Office hours: at.js tips and overview (June 26, 2019) ![Tutorial badge](/help/assets/tutorial.png)
+### Video - Office hours: at.js tips and overview (June 26, 2019)
 
 This video is a recording of "Office Hours," an initiative led by the Adobe Customer Care team.
 

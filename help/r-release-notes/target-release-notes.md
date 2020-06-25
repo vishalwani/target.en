@@ -49,30 +49,6 @@ As part of this refresh, you will be able to easily perform many actions using t
 * View the existing list of users per workspace and their roles, before managing them in Adobe Admin Console (**[!UICONTROL Administration]** > **[!UICONTROL Users]**).
 * Search and filter all tables in the [!UICONTROL Administration] section.
 
-Significant changes include:
-
-* **[!UICONTROL Visual Experience Composer] page**: This new page (**[!UICONTROL Administration]** > **[!UICONTROL Visual Experience Composer]**) lets you:
-
-  * Configure general settings for the VEC (specify the default URL, enable the [!UICONTROL Enhanced Experience Composer], load mixed content, and generate experience snapshots in the activity flow diagram)
-  * Configure mobile viewports
-  * Configure CSS selectors
-  
-* **[!UICONTROL Reporting] page**: This new page (**[!UICONTROL Administration]** > **[!UICONTROL Reporting]**) lets you configure general settings to use in [!DNL Target] reporting that apply to your entire [!DNL Target] account. 
-
-  Available settings include:
-
-  * The [!DNL Adobe Experience Cloud] solution to use for reporting
-  * The time zone to use for reporting
-  * The currency to use for reporting
-  * IP addresses to exclude from reporting
-  * Whether to show estimated lift in revenue in reporting
-  * Whether to enable fine-grained priorities
-  
-* The previous [!UICONTROL Hosts] page has been split into two new pages:
-
-  * [!UICONTROL Hosts]
-  * [!UICONTROL Environments]
-
 ## Prerelease information {#section_7B9D4AAFC6A74388B9D7DEF0658D8B63} 
 
 To receive advance notifications about upcoming product enhancements to Target and other Adobe Experience Cloud solutions, sign up for the Adobe Priority Product Update:
