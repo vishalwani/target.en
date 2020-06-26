@@ -74,6 +74,6 @@ The Remote Offer Selection Matrix helps you decide which type of remote offer to
 |Content updates|Cached every 2 hours|Updated immediately upon each request|
 |Load time|Faster|Slower due to request processing|
 |Can see JavaScript on page|Yes|No, but can pass via URL|
-|Offers can include JavaScript|Yes|No|
+|Offers can include JavaScript|Yes|Yes|
 |Offer URL|Absolute or Relative|Relative|
 |Requesting computer|Adobe servers|The visitor's computer, which carries the visitor's cookies|
