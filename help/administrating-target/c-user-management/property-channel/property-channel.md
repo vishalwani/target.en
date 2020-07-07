@@ -40,7 +40,7 @@ Properties are similar in nature to those within [!DNL Adobe Platform Launch] in
 
 A web property is a library of rules and one embed code. A web property can be any grouping of one or more domains and subdomains.
 
-Properties are enabled by adding a specific name/value pair as a parameter with any call (mbox, api, etc.) to [!DNL Target].
+Properties are enabled by adding a specific name/value pair as a parameter with any call (Target call, api call, etc.) to [!DNL Target].
 
 Properties belong to specific channels (Web, Mobile, Email, or API/Other).
 
@@ -238,7 +238,7 @@ Consider the following when using or configuring properties and permissions in [
   * Image offers (assets stored under `https://[tenantName].marketing.adobe.com/content/mac/[tenantName]/target/offers.html#image-library` cannot be controlled by the Enterprise Permissions model at this time.
   * clickTracking and redirects will only work when the destination link or destination page are part of a property that is included in the activity. Additionally, clickTracking may not work when using the `targetPageParams()` function. The `targetPageParamsAll()` is the recommended function.
 
-  [!DNL Target] currently requires an `at_property` token to be present on any page where tracking occurs. In the event that the token is (1) not present, (2) not detected at the time of activity setup (within the VEC), or (3) not passed to the clickTracking mbox via the `targetPageParamsAll()` function, the metric will not be incremented and will appear as "0."
+  [!DNL Target] currently requires an `at_property` token to be present on any page where tracking occurs. In the event that the token is (1) not present, (2) not detected at the time of activity setup (within the VEC), or (3) not passed to the clickTracking Target call via the `targetPageParamsAll()` function, the metric will not be incremented and will appear as "0."
 
   The same applies for activities using redirects. The destination page must have an `at_property` token and be recognized at the time of setup within the VEC.
 

@@ -97,7 +97,7 @@ You can create user groups, such as Developers, Analysts, Marketers, Executives,
 
 ## Step 4. Create properties {#section_E8F2C92BE0F4466AB87604059C9CF3FD}
 
-Properties are enabled by adding a specific name/value pair as a parameter with any call (mbox, api, etc.) to Target.
+Properties are enabled by adding a specific name/value pair as a parameter with any call (Target call, api call, etc.) to Target.
 
 Properties belong to specific channels (Web, Mobile, Email, and API/Other).
 
@@ -122,7 +122,7 @@ Properties belong to specific channels (Web, Mobile, Email, and API/Other).
 
 ## Step 5: Update your implementation to include the at_property parameter {#section_9B17A59807A94712BE642942442EBBC8}
 
-To use the [!DNL Target] user-permissions functionality, you must add the `at_property` parameter to any call that is hitting [!DNL Target] (mbox, api, etc.).
+To use the [!DNL Target] user-permissions functionality, you must add the `at_property` parameter to any call that is hitting [!DNL Target] (Target call, api call, etc.).
 
 **To obtain the `at_property` parameter code:**
 

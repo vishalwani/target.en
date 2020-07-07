@@ -9,18 +9,21 @@ topic: Standard
 
 Information about upcoming events, including Target Skill Builder sessions, developer chats, webinars, and Target Coffee Break sessions.
 
-## Adobe Target Q&A Coffee Break
+## Adobe Target Community Q&A Coffee Break
 
-* **Wednesday, June 24, 2020**
-* **10:00 to 11:00 a.m. (PDT)**
+* **Wednesday, July 8**
+* **10:00 - 11:00 a.m. (PST)**
 
-We'll be joined by Ram Parthasarathy, aka @ram_adobe, Principal Product Manager for [!DNL Adobe Experience Cloud]. Ram will be signed in to the [!DNL Adobe Target Community] to chat directly with you about your [!DNL Target] questions pertaining to his areas of expertise:
+We'll be joined by Rob Hornick, Senior Adobe Target Product Manager, who will be signed in to the Adobe Target Community to chat directly with you about your Target questions pertaining to his areas of expertise:
 
-* General [!DNL Target] topics
-* Next-best offer
-* Offer decisioning
+* Personalization
+* Machine Learning & Artificial Intelligence
+* Recommendations
+* Auto-Allocate
+* Auto-Target
+* Automated Personalization
 
-To register, [visit the Adobe Target Community](https://experienceleaguecommunities.adobe.com/t5/adobe-target-discussions/at-community-q-amp-a-coffee-break-6-24-ram-parthasarathy/td-p/367286).
+To register, [visit the Adobe Target Community](https://experienceleaguecommunities.adobe.com/t5/adobe-target-discussions/at-community-q-amp-a-coffee-break-7-8-rob-hornick-adobe-target/td-p/369558).
 
 ## Adobe Target Skill Builder: Developer chat, migrate Adobe Target's mbox.js to at.js {#skill-builder}
 
