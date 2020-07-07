@@ -14,6 +14,7 @@ This page lists important changes made to the [!DNL Adobe Target] product docume
 
 |Date|Topic|Changes|
 | --- | --- | --- |
+|July 7|[Target announcements and events](/help/r-release-notes/target-announcements.md)|Added information about the July 8 Adobe Target Coffee Break.|
 |June 25|[Target release notes (prerelease)](/help/r-release-notes/target-release-notes.md)|Added information about the Target Standard/Premium 20.6.1 release (July 2020).|
 ||[Target documentation overview](/help/r-release-notes/target-documentation.md)|New topic detailing the different sources of [!DNL Target] documentation.|
 |June 23|[Target announcements and events](/help/r-release-notes/target-announcements.md)|Added information about the June 24 Adobe Target Coffee Break.|

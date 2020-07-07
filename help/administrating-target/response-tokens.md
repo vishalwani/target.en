@@ -15,7 +15,7 @@ Response tokens let you automatically output information specific to [!DNL Targe
 >
 >The information in this topic has been updated to give you a sneak peak at the UI changes coming in the Target Standard/Premium 20.6.1 release (July 2020). Most of the information presented in this topic applies to the current UI; however, options might be in slightly different locations.
 
-Response tokens let you choose which variables to leverage and then enable them to be sent as part of an mbox response. In order to do so, you simply enable a variable using the switch and the variable will be sent with mbox responses, which can be validated in network calls. Response tokens work in [!UICONTROL Preview] mode as well.
+Response tokens let you choose which variables to leverage and then enable them to be sent as part of a Target response. In order to do so, you simply enable a variable using the switch and the variable will be sent with Target responses, which can be validated in network calls. Response tokens work in [!UICONTROL Preview] mode as well.
 
 A key difference between plug-ins and response tokens is that while plug-ins deliver JavaScript to the page that would execute upon delivery, response tokens deliver an object that can then can be read and acted upon using event listeners. For more information, see [at.js custom events](/help/c-implementing-target/c-implementing-target-for-client-side-web/atjs-custom-events.md) and the examples later in this article. The response tokens approach is safer and should allow for easier development and maintenance of 3rd-party integrations.
 
