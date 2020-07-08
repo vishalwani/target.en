@@ -12,10 +12,10 @@ uuid: 8837d07a-f793-495e-a6c1-b9c35fbe18b1
 If your page does not display the expected content, there are a few steps you can take to debug content delivery.
 
 * Check your activity or campaign code carefully. A typo or other error could cause the expected content not to display. 
-* Use mboxTrace or mboxDebug to troubleshoot the mbox. 
-* Use the Adobe Experience Cloud Debugger, an easy-to-use tool that provides much of the same information as mboxDebug, to troubleshoot the mbox.
+* Use mboxTrace or mboxDebug to troubleshoot the [!DNL Target] request. 
+* Use the Adobe Experience Cloud Debugger, an easy-to-use tool that provides much of the same information as mboxDebug, to troubleshoot the [!DNL Target] request.
 
-mboxDebug is especially useful when you are setting up Target on your page to make sure the mbox is firing and the cookie is being set. However, it does not go into the kind of detail that is useful when debugging content delivery. If your activity does not appear on your page or undesired content appears, use mboxTrace to examine and debug the page in detail.
+mboxDebug is especially useful when you are setting up [!DNL Target] on your page to make sure the [!DNL Target] request is firing and the cookie is being set. However, it does not go into the kind of detail that is useful when debugging content delivery. If your activity does not appear on your page or undesired content appears, use mboxTrace to examine and debug the page in detail.
 
 ## Retrieve the Authorization Token to Use With Debugging Tools {#section_BED130298E794D1FA229DB7C3358BA54}
 
@@ -35,7 +35,7 @@ To retrieve the authorization token:
 
 ## mboxTrace {#section_256FCF7C14BB435BA2C68049EF0BA99E}
 
-mboxTrace enables you to receive trace information attached to mbox replies. Trace information reflects the outcome of an mbox call (for example, a conversion or an impression) and any additional data that may help in determining why this particular outcome happened, such as a set of available branches among which the selection was made in a campaign. Use this information to debug content delivery.
+mboxTrace enables you to receive trace information attached to [!DNL Target] responses. Trace information reflects the outcome of a [!DNL Target] call (for example, a conversion or an impression) and any additional data that may help in determining why this particular outcome happened, such as a set of available branches among which the selection was made in a campaign. Use this information to debug content delivery.
 
 The following parameters are available:
 
@@ -74,7 +74,7 @@ The normal functioning and appearance of your site is not affected by mboxTrace.
 
 ## mboxDebug {#mboxdebug}
 
-To use mboxDebug, append an mboxDebug parameter to the end of your URL. The following table contains information about mbox-related URL parameters.
+To use mboxDebug, append an mboxDebug parameter to the end of your URL. The following table contains information about [!DNL Target] response-related URL parameters.
 
 >[!NOTE]
 >
@@ -82,11 +82,11 @@ To use mboxDebug, append an mboxDebug parameter to the end of your URL. The foll
 
 | URL Parameters | Purpose |
 |--- |--- |
-|`mboxDebug=1`|Debugger<br>Adding this parameter to any URL with mboxes defined opens a pop-up window with valuable debugging details. Cookie information, PCid and Session ID values are written out, and all of the mbox URLs are visible. Click on a mbox URL to show the response for that mbox. More details are available in [mbox_debug.pdf](/help/assets/mbox_debug.pdf).|
+|`mboxDebug=1`|Debugger<br>Adding this parameter to any URL with Target requests defined opens a pop-up window with valuable debugging details. Cookie information, PCid and Session ID values are written out, and all of the URLs are visible. Click on a Target request URL to show the response for that [!DNL Target] request. More details are available in [mbox_debug.pdf](/help/assets/mbox_debug.pdf).|
 |`mboxDebug=x-cookie`|Modify the cookie|
 |`mboxDisable=1`|Disable mboxes on the page|
 |`mboxDebug=x-profile`|View profiles set.|
-|`mboxDebug=x-time`|Show response time for each mbox request|
+|`mboxDebug=x-time`|Show response time for each [!DNL Target] request|
 |`mboxOverride.browserIp=<Insert IP address>`|Test geotargeting<br>Test geotargeting with this URL parameter. Type an IP address as the value for this attribute, and Test&Target's geotargeting evaluates that IP address to match against any geotargeting or segmentation set in a campaign.|
 
 >[!NOTE]
@@ -95,7 +95,7 @@ To use mboxDebug, append an mboxDebug parameter to the end of your URL. The foll
 
 ## Adobe Experience Cloud Debugger {#section_A2798ED3A431409690A4BE08A1BFCF17}
 
-The Adobe Experience Cloud Debugger makes it fast and easy to understand your Target implementation. You can quickly view your library configuration, examine requests to make sure your custom parameters are being passed correctly, turn on console logging, and disable all Target requests. Authenticate into the Experience Cloud and you can use the powerful Mbox Trace tool to inspect your activity and audience qualifications as well as your visitor profile.
+The Adobe Experience Cloud Debugger makes it fast and easy to understand your Target implementation. You can quickly view your library configuration, examine requests to make sure your custom parameters are being passed correctly, turn on console logging, and disable all Target requests. Authenticate into the Experience Cloud and you can use the powerful MboxTrace tool to inspect your activity and audience qualifications as well as your visitor profile.
 
 For more information, see the training videos below:
 
@@ -107,21 +107,21 @@ Mbox.js sends a cookie called "em-disabled" to the visitor if target.js fails to
 
 ## Top sellers are not appearing in Recommendations {#section_3920C857270A406C80BE6CBAC8221ECD}
 
-The *`SIteCatalyst: purchase`* mbox can't be used for Purchase algorithm traffic data. Use the *`orderConfirmPage`* mbox instead.
+The *`SiteCatalyst: purchase`* call can't be used for Purchase algorithm traffic data. Use the *`orderConfirmPage`* call instead.
 
 ## Check Activity Priority {#section_3D0DD07240F0465BAF655D0804100AED}
 
-Form-based activities created with [!DNL Target Standard/Premium] might collide with activities created in the [!DNL Target Classic] UI that have the same priority and use the same mbox.
+Form-based activities created with [!DNL Target Standard/Premium] might collide with activities created in the [!DNL Target Classic] UI that have the same priority and use the same [!DNL Target] request.
 
 ## Custom code does not produce the expected results in Internet Explorer 8. {#section_FAC3651F19144D12A37A3E4F14C06945}
 
 Target no longer supports IE 8.
 
-## JavaScript content delivered by the global mbox doesn't load when using mbox.js. {#section_03EC9B9C410B4F52A7FCD81840311709}
+## JavaScript content delivered by the global [!DNL Target] request doesn't load when using mbox.js. {#section_03EC9B9C410B4F52A7FCD81840311709}
 
 Upgrade to [!DNL mbox.js] version 58 or later.
 
-Mbox.js version 58 and later executes non-JavaScript content for the global mbox immediately after the HTML `BODY` tag is present. JavaScript content inside `<script>` tags for the global mbox executes after the `DOMContentLoaded` event is fired. This order of content delivery ensures that JavaScript content for the global mbox is delivered and rendered properly.
+mbox.js version 58 and later executes non-JavaScript content for the global [!DNL Target] request immediately after the HTML `BODY` tag is present. JavaScript content inside `<script>` tags for the global [!DNL Target] request executes after the `DOMContentLoaded` event is fired. This order of content delivery ensures that JavaScript content for the global [!DNL Target] request is delivered and rendered properly.
 
 ## Target Cookie Does Not Get Set {#section_77AFEB541C0B495EB67E29A4475DF960}
 
@@ -137,17 +137,17 @@ To remedy this, you can disable AEM personalization on pages on which Target is 
 
 If the redirect or remote offer uses an invalid URL, it might fail to be delivered.
 
-For redirect offers, the mbox response can contain `/* invalid redirect offer URL */`
+For redirect offers, the [!DNL Target] response can contain `/* invalid redirect offer URL */`
 
 Or
 
-For remote offers, the mbox response can contain `/* invalid remote offer URL */`
+For remote offers, the [!DNL Target] response can contain `/* invalid remote offer URL */`
 
-You can check the mbox response in the browser or using mboxTrace. See [https://tools.ietf.org/html/std66](https://tools.ietf.org/html/std66) for more information on valid URLs. 
+You can check the [!DNL Target] response in the browser or using mboxTrace. See [https://tools.ietf.org/html/std66](https://tools.ietf.org/html/std66) for more information on valid URLs. 
 
-## mboxes are not firing on my site.
+## Target requests are not firing on my site.
 
-at.js does not fire Target mboxes if you are using an invalid doctype. at.js requires the HTML 5 doctype.
+at.js does not fire Target requests if you are using an invalid doctype. at.js requires the HTML 5 doctype.
 
 ## Training videos
 

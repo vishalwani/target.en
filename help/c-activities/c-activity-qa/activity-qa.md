@@ -17,7 +17,7 @@ Activity QA lets you fully test your Target activities prior to launching them l
 * Links to share with team members that never change or require regeneration, regardless of updates made to the experiences or activities. This lets you fully test your activities across the entire user journey.
 * Audience conditions optionally respected so marketers can test targeting criteria or ignore targeting criteria to QA the appearance of experiences without having to meet the audience conditions. 
 * QA reporting is captured so that marketers can confirm that metrics are incrementing as expected and the QA report data is kept separate from production reporting (for non-A4T reporting). 
-* The ability to preview an experience in isolation or in conjunction with other live activities satisfying the delivery criteria (page/mbox/audience). 
+* The ability to preview an experience in isolation or in conjunction with other live activities satisfying the delivery criteria (page/Target request/audience). 
 * The ability to QA the entire user journey. You can access your site once with the QA link and then browse the entire site while in Activity QA. You remain in Activity QA until you end the session or until you use the [QA Target bookmarklet](../../c-activities/c-activity-qa/activity-qa-bookmark.md#concept_A8A3551A4B5342079AFEED5ECF93E879) to force yourself out of Activity QA. This feature is particularly useful if you have an activity spanning multiple web pages.
 
   >[!NOTE]
@@ -38,7 +38,7 @@ Activity QA lets you fully test your Target activities prior to launching them l
 
       If this setting is toggled to the "off" position, clicking the links show you the experiences regardless of whether you qualify or not. When performing QA, you can switch back and forth between requiring or not requiring that audience targeting is respected. 
     
-    * **Show Default Content for All Other Activities:** If this option is toggled to the "on" position, default content is shown for all other activities (for example, the preview will be shown in isolation without considering all other live activities on the same page/mbox.
+    * **Show Default Content for All Other Activities:** If this option is toggled to the "on" position, default content is shown for all other activities (for example, the preview will be shown in isolation without considering all other live activities on the same page/[!DNL Target] request.
 
       If this setting is toggled to "off," consider the following:
 
@@ -83,7 +83,7 @@ Activity QA lets you fully test your Target activities prior to launching them l
   |`at_preview_token`|Encrypted string|Mandatory; no default value|An encrypted entity that contains the list of campaigns IDs that are allowed to be executed in QA mode.|
   |`at_preview_index`|String|Empty|Format of the parameter is `<campaignIndex>` or `<campaignIndex>_< experienceIndex>`<br>Both indexes start with 1.|
   |`at_preview_listed_activities_only`|Boolean (true/false)|Default value: false|If "true," all campaigns specified in the `at_preview_index` parameters are processed.<br>If "false," all the campaigns from the page are processed, even if they were not specified in the preview token.|
-  |`at_preview_evaluate_as_true_audience_ids`|String|Empty|Underscore-separated ("_") list of segmentId-s that should always (at targetting and reporting level) be evaluated as "true" in the scope of the mbox request.|
+  |`at_preview_evaluate_as_true_audience_ids`|String|Empty|Underscore-separated ("_") list of segmentId-s that should always (at targetting and reporting level) be evaluated as "true" in the scope of the [!DNL Target] request.|
   |`_AT_Debug`|String|Window or console|Console logging or new window.|
   |`adobe_mc_ref`|||Passes the referring URL of the default page to the new page. When used with `AppMeasurement.js` version 2.1 (or later), [!DNL Adobe Analytics] uses this parameter value as the referring URL on the new page.|
   |`adobe_mc_sdid`|||Passes the [!DNL Supplemental Data Id] (SDID) and [!DNL Experience Cloud Org Id] from the default page to the new page in order for Analytics for Target (A4T) to "stitch" together the Target request on the default page with the Analytics request on the new page.|

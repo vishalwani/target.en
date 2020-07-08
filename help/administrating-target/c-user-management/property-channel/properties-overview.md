@@ -146,7 +146,7 @@ To use the [!DNL Target] user-permissions functionality, you must add the `at_pr
 
     * **Via a "Global Parameter in [!DNL Adobe Launch]:**
 
-      For more information, see [Add Global Mbox Params](https://docs.adobelaunch.com/extension-reference/web/adobe-target-extension#add-global-mbox-params) in the *Adobe Experience Platform Launch* documentation.
+      For more information, see [Add Global Target Params](https://docs.adobelaunch.com/extension-reference/web/adobe-target-extension#add-global-mbox-params) in the *Adobe Experience Platform Launch* documentation.
 
     * **Via a "Global Parameter" in [!DNL Dynamic Tag Management]:**
 
