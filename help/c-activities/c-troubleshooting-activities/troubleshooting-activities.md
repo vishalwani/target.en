@@ -131,10 +131,10 @@ Do one of the following:
 * Delete again. The success message appears.
 * Wait about 10 minutes for the Target Standard/Premium importer to run. The importer updates the profile script list.
 
-## Some ajax mbox calls are not working.
+## Some ajax [!DNL Target] calls are not working.
 
-**Note:** Multiple ajax mbox calls with the same mbox name but different parameters will not work on the same page. Only the first call will be made.
+**Note:** Multiple ajax [!DNL Target] calls with the same name but different parameters will not work on the same page. Only the first call will be made.
 
-## You activated an activity using the Target API, but the activity shows a status of Inactive in the Target UI.
+## You activated an activity using the Target API, but the activity shows a status of [!UICONTROL Inactive] in the Target UI.
 
 When you perform certain actions, such as activating an activity outside of the UI using the Target API, the update can take up to ten minutes to propagate to the UI.

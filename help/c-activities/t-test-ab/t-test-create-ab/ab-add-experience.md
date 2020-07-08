@@ -23,7 +23,7 @@ For additional detail about experiences, see [Experiences](../../../c-experience
 
    As you hover the elements on your page, the elements are highlighted. Any highlighted element can be altered using the Experience Composer.
 
-   If you created an mbox on the page using Target Classic (formerly Test&Target), that mbox appears as an element that shows the mbox name, and can be modified like any other element.
+   If you created a [!DNL Target] request on the page using Target Classic (formerly Test&Target), that [!DNL Target] request appears as an element that shows the request name, and can be modified like any other element.
 
    For a list of actions that can be performed on an element on the displayed page to change the experience, see [Visual Experience Composer Options](/help/c-experiences/c-visual-experience-composer/viztarget-options.md).
 

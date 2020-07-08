@@ -10,7 +10,7 @@ uuid: 114cd625-2716-4c4c-983b-a7f677717b07
 
 Target determines which activity (or activities) to deliver to a page differently depending on which Target interface and which activity creation function (Visual Experience Composer or Form Based composer) you're using.
 
-## Target Standard/Premium Visual Experience Composer Only or Form-Based Composer Using Global mbox Only {#section_4A0A317DFED345649B58B0CB5B410C8B}
+## Target Standard/Premium Visual Experience Composer Only or Form-Based Composer Using Global Target Request Only {#section_4A0A317DFED345649B58B0CB5B410C8B}
 
 If your company uses Target Standard/Premium and the Visual Experience Composer exclusively, then content from multiple activities can be returned for the same call. Activities are delivered using the following decision flow:
 
@@ -42,8 +42,8 @@ If your company uses Target Standard/Premium and the Visual Experience Composer 
 
 If your company uses the form-based composer in Target Standard/Premium and the Target Standard/Premium Visual Experience Composer, then content from multiple Visual Experience Composer activities can deliver, but only one activity from the form-based workflow. Activity delivery is determined using the following decision flow:
 
-1. Target server call comes to Target with information about the mbox and URL. 
-1. Target Classic and Standard pull every activity running in that mbox. 
+1. Target server call comes to Target with information about the [!DNL Target] request and URL. 
+1. Target Classic and Standard pull every activity running in that [!DNL Target] request. 
 1. Target attempts to match the visitor into activities.
 
    If the visitor is already in an A/B test or Multivariate Test, they will match into that test until they convert. If they were previously in an experience targeting activity, they must match into it again. If they meet the audience rules, then the visitor falls into those activities and into specific experiences. 
@@ -59,17 +59,17 @@ If you have two activities, one targeting the branded search keyword Nike and th
 
 If both targeted activities have the same priority, the activity that was most recently viewed is displayed. If the visitor is new to the page, the activity that was activated most recently is displayed.
 
-## Target Standard/Premium Form-Based Composer with Non-Global Mboxes {#section_C3F5F09B0B2D4EF795C5929D5C426A8C}
+## Target Standard/Premium Form-Based Composer with Non-Global Target Requests {#section_C3F5F09B0B2D4EF795C5929D5C426A8C}
 
 >[!NOTE]
 >
 >This information also applies to any campaigns running that were created in Target Classic.
 
-If your company uses mboxes other than the global mbox in the form-based composer, content from only one activity can be returned per call. Activity delivery is determined using the following decision flow:
+If your company uses [!DNL Target] requests other than the global [!DNL Target] request in the form-based composer, content from only one activity can be returned per call. Activity delivery is determined using the following decision flow:
 
-1. The Target server call comes to Target with information about the mbox and URL. 
-1. Target pulls every activity running in that mbox. 
-1. Target attempts to match the visitor into the highest priority activity.
+1. The [!DNL Target] server call comes to [!DNL Target] with information about the [!DNL Target] request and URL. 
+1. [!DNL Target] pulls every activity running in that [!DNL Target] request. 
+1. [!DNL Target] attempts to match the visitor into the highest priority activity.
 
    If the visitor is already in an A/B test or Multivariate Test, they will match into that test until they convert. If they were previously in an experience targeting activity, they must match into it again. If they meet the audience rules, then the visitor falls into those activities and into specific experiences. 
 
@@ -84,7 +84,7 @@ If your company uses mboxes other than the global mbox in the form-based compose
 >
 >Depending on your settings, the priority values vary. You can use the legacy settings of Low, Medium, or High, or you can enable fine-grained priorities from 0 to 999. For more information, see [Activity Settings](../c-activities/activity-settings.md#task_C6B2FF8374724933BE79A83549B9CD02).
 
-**Two Target Classic campaigns use non-global mboxes**
+**Two Target Classic campaigns use non-global Target requests**
 
 * Campaign 1: homePageHero, offer1, priority high 
 * Campaign 2: homePageHero, offer2, priority low

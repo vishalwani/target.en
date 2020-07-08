@@ -12,7 +12,7 @@ Use remote offers to host content outside of Target that Target references and d
 
 >[!NOTE]
 >
->Remote offers can be created only in the forms-based composer. Content will be injected in the mbox locations, so these are most likely not appropriate for a global mbox.
+>Remote offers can be created only in the forms-based composer. Content will be injected in the [!DNL Target] request locations, so these are most likely not appropriate for a global [!DNL Target] request.
 >
 >[!DNL Target Classic] included similar features: [!UICONTROL Offer on Your Site] and [!UICONTROL Offer Outside Test&Target].
 
@@ -40,7 +40,7 @@ Some examples of remote offers include:
    | Option | Description |
    |--- |--- |
    |Cached|The content for a cached remote offer is served from Target.<br>Every two hours, [!DNL Target] fetches the content at the remote URL and then stores the content inside Target. When visitors load a site with an experience that includes a remote offer, the offer is delivered by Target.<br>Cached remote offers provide enhanced security because somebody logged in toTarget cannot change the content. To change the content, someone would need to log in to the content management or other system and change the content there.<br>You can specify an absolute or relative URL for a cached remote offer.|
-   |Dynamic|A dynamic remote offer is served from the content management or other system rather than from Target.<br>You might not want the content periodically cached and then delivered by Target whenever visitors load a site with an experience that includes a remote offer. Instead, you want to call the system that is hosting the content, possibly pass in specific information so that the returned offer can be dynamic, or different, for each user.<br>For example, if a user logs in to a website for a credit card that includes an experience with a dynamic remote offer, you could pass parameters into the URL for the user's account information. Then the website could provide user-specific information, such as account balance.<br>Click [!UICONTROL Add Parameter] to add one or more mbox or request parameters.|
+   |Dynamic|A dynamic remote offer is served from the content management or other system rather than from Target.<br>You might not want the content periodically cached and then delivered by Target whenever visitors load a site with an experience that includes a remote offer. Instead, you want to call the system that is hosting the content, possibly pass in specific information so that the returned offer can be dynamic, or different, for each user.<br>For example, if a user logs in to a website for a credit card that includes an experience with a dynamic remote offer, you could pass parameters into the URL for the user's account information. Then the website could provide user-specific information, such as account balance.<br>Click [!UICONTROL Add Parameter] to add one or more [!DNL Target] requests or request parameters.|
 
 1. Click **[!UICONTROL Save]**.
 
@@ -48,7 +48,7 @@ Some examples of remote offers include:
 
 Best practices for using remote offers in your activities:
 
-* If your offer resides in the same domain as the mboxes, using the [!UICONTROL Cached] option lets you use relative URLs in describing your offer location.
+* If your offer resides in the same domain as the [!DNL Target] requests, using the [!UICONTROL Cached] option lets you use relative URLs in describing your offer location.
 
   This means that when you move your activity from your staging servers to production, the content will automatically be accessible without having to change the URL manually. 
 

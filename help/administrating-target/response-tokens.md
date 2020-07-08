@@ -44,7 +44,7 @@ A key difference between plug-ins and response tokens is that while plug-ins del
 
    | Type | Parameter | Notes |
    |--- |--- |--- |
-   |Built-in Profiles|`profile.activeActivities`|Returns an array of the `activityIds` the visitor is qualified for. It increments as users are qualified. For example, on a page with two mboxes delivering two different activities, the second mbox will include both activities.|
+   |Built-in Profiles|`profile.activeActivities`|Returns an array of the `activityIds` the visitor is qualified for. It increments as users are qualified. For example, on a page with two [!DNL Target] requests delivering two different activities, the second request includes both activities.|
    ||`profile.isFirstSession`|Returns "true" or "false."|
    ||`profile.isNewSession`|Returns "true" or "false."|
    ||`profile.daysSinceLastVisit`|Returns the number of days since the visitor's last visit.|
@@ -64,7 +64,7 @@ A key difference between plug-ins and response tokens is that while plug-ins del
    >
    >Parameters with special characters do not display in the list. Only alphanumeric characters and underscores are supported.
 
-1. (Conditional) If you want to use a profile parameter as a response token, but the parameter has not been passed through an mbox call and, thus, has not loaded into the Target UI, you can use the [!UICONTROL Add Response Token] button to add the profile to the UI.
+1. (Conditional) If you want to use a profile parameter as a response token, but the parameter has not been passed through a [!DNL Target] request and, thus, has not loaded into the Target UI, you can use the [!UICONTROL Add Response Token] button to add the profile to the UI.
 
    Click **[!UICONTROL Add Response Token]**, provide the token name, then click **[!UICONTROL Activate]**.
 
@@ -72,7 +72,7 @@ A key difference between plug-ins and response tokens is that while plug-ins del
 
 1. Create an activity.
 
-Use [at.js custom events](/help/c-implementing-target/c-implementing-target-for-client-side-web/atjs-custom-events.md) to listen for the mbox response and read the response tokens.
+Use [at.js custom events](/help/c-implementing-target/c-implementing-target-for-client-side-web/atjs-custom-events.md) to listen for the [!DNL Target] response and read the response tokens.
 
 The following code sample adds an [!DNL at.js] custom event handler directly to the HTML page:
 
@@ -129,15 +129,15 @@ You will see the response tokens, but at.js won't be able to use them.
 
 **What will happen if I'm using at.js 1.1 (or later) on some pages on my site but mbox.js on other pages?**
 
-Response tokens will be delivered to the [!DNL at.js] mbox responses, but not to the [!DNL mbox.js] responses.
+Response tokens will be delivered to the [!DNL at.js] Target responses, but not to the [!DNL mbox.js] responses.
 
 **Can I have both Target Classic plugins and response tokens active at the same time?**
 
 Plugins and response tokens will be available in parallel; however, plugins will be deprecated in the future.
 
-**Are response tokens delivered through all mbox responses or only through mboxes delivering an activity?**
+**Are response tokens delivered through all [!DNL Target] responses or only through [!DNL Target] responses delivering an activity?**
 
-Response tokens are delivered only through mboxes delivering an activity.
+Response tokens are delivered only through [!DNL Target] responses delivering an activity.
 
 **My Target Classic plugin included JavaScript. How do I replicate its functionality using response tokens?**
 

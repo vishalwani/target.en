@@ -20,7 +20,7 @@ The [!UICONTROL Visual Experience Composer] (VEC) provides a visual interface fo
 
    As you hover the elements on your page, the elements are highlighted. Any highlighted element can be altered using the VEC. For a list of actions that can be performed on an element to change the experience, see [Visual Experience Composer Options](/help/c-experiences/c-visual-experience-composer/viztarget-options.md).
 
-   If you created an mbox on the page using [!DNL Target Classic], that mbox appears as an element that shows the mbox name, and can be modified like any other element.
+   If you created a [!DNL Target] request on the page using [!DNL Target Classic], that [!DNL Target] request appears as an element that shows the request name, and can be modified like any other element.
 
    >[!NOTE]
    >
@@ -38,7 +38,7 @@ The [!UICONTROL Visual Experience Composer] (VEC) provides a visual interface fo
    >
    >In addition to selecting an existing audience, you can combine multiple audiences to create ad hoc combined audiences rather than creating a new audience. For more information, see [Combining Multiple Audiences](../../../c-target/combining-multiple-audiences.md#concept_A7386F1EA4394BD2AB72399C225981E5).
 
-   When creating an audience, you can select a location (mbox) and specify parameters for that location. Under [!UICONTROL Custom] (Create Audience > Add Rule > Custom), select the mbox, then specify the desired parameters.
+   When creating an audience, you can select a location and specify parameters for that location. Under [!UICONTROL Custom] (Create Audience > Add Rule > Custom), select the location, then specify the desired parameters.
 
    >[!NOTE]
    >

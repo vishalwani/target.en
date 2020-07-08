@@ -32,7 +32,7 @@ There are several factors required for an AP activity to generate lift:
 
 ## My AP activity URL is showing offer content on incorrect pages. {#section_82A224406DBF4107B05204BEFBBE458C}
 
-In AP, the URL and template testing rules are added to the mbox entry constraint (for example, target-global-mbox), where they are evaluated only once. Once a user qualifies for a campaign, the mbox level targeting rules are not re-evaluated. However, the targeting audience is added to location targeting rules.
+In AP, the URL and template testing rules are added to the [!DNL Target] request entry constraint (for example, target-global-mbox), where they are evaluated only once. Once a user qualifies for an activity, the Target-request-level targeting rules are not re-evaluated. However, the targeting audience is added to location targeting rules.
 
 **Solution:** Add the necessary template rules as the input-audience of the campaign. Audience evaluation happens upon each request/call.
 

@@ -13,7 +13,7 @@ Target enables you to track clicks on any element as a success metric.
 
 >[!NOTE]
 >
->Tracking clicks is not supported on the target global mbox when it is used as a location in a form-based activity.
+>Tracking clicks is not supported on the global Target request when it is used as a location in a form-based activity.
 
 ## Setting Up click tracking {#section_5540C5A533114E57BAE022A600B02E72}
 

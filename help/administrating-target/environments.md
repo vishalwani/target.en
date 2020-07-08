@@ -18,7 +18,7 @@ Hosts are bundled into environments for ease of management. For example, you mig
 
 One environment, the default environment, is pre-named [!UICONTROL Production]. This default environment cannot be deleted, even if you rename it. [!DNL Target] assumes that this is where you will serve final, approved activities and tests.
 
-When an mbox request is received from new websites or domains, these new domains always appear in the [!UICONTROL Production] environment. The [!UICONTROL Production] environment cannot have its settings changed, so unknown or new sites are guaranteed to see only content that is active and ready. Host management also lets you easily ensure the quality of new activities and content in your test, staging, and development environments before you activate the activities.
+When a [!DNL Target] request is received from new websites or domains, these new domains always appear in the [!UICONTROL Production] environment. The [!UICONTROL Production] environment cannot have its settings changed, so unknown or new sites are guaranteed to see only content that is active and ready. Host management also lets you easily ensure the quality of new activities and content in your test, staging, and development environments before you activate the activities.
 
 To manage environments, click **[!UICONTROL Administration]** > **[!UICONTROL Environments]**.
 
