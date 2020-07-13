@@ -41,13 +41,13 @@ There are two methods to assign a score to a page:
 
   Using this method, the specified value is added to the score for each [!DNL Target] request on the page. For example, if you pass the parameter `?mboxPageValue=10`and there are three [!DNL Target] requests on the page, the score for the page is 30.
 
->[!NOTE] {class="- topic/note "}
+>[!NOTE]
 >
 >Target requests located above the activity's first display [!DNL Target] request will not be included in the score.
 
 Best practice is to assign values in the [!DNL Target] request. This allows you to be precise in the values you measure, depending on the content of each request.
 
->[!NOTE] {class="- topic/note "}
+>[!NOTE]
 >
 >For easier maintenance, you can configure your site's page score value assignments in the [!DNL at.js] or [!DNL mbox.js] file with some conditional JavaScript logic. This eliminates the need to add more code to your pages. Contact your account consultant for assistance.
 

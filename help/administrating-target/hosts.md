@@ -38,7 +38,7 @@ To recognize a host and add it to the [!UICONTROL Hosts] list, the following con
 
 After the page is viewed, the host is listed in the [!UICONTROL Hosts] list, allowing you to manage it in an environment, as well as preview and launch activities and tests.
 
->[!NOTE] {class="- topic/note "}
+>[!NOTE]
 >
 >This includes any personal development servers.
 

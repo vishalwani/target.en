@@ -39,7 +39,7 @@ For help selecting the right setup see [Non-JavaScript-Based Implementations](..
 
 1. Create [Redirect Offers](../../c-experiences/c-manage-content/offer-redirect.md#task_33C80CD722564303B687948261484F94) for each alternative image.
 
-   >[!NOTE] {class="- topic/note "}
+   >[!NOTE]
    >
    >AdBoxes must be loaded with a Redirect Offer or the default content offer. Other offers types will not work. Because the AdBox is a URL, it can only display the URLs it receives, so only the Redirect Offer works.
 

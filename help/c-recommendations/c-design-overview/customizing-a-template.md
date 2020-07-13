@@ -110,7 +110,7 @@ sku: $entity3.prodId<br/> Price: $$entity3.value
 </table>
 ```
 
->[!NOTE] {class="- topic/note "}
+>[!NOTE]
 >
 >If you want to add text after the value of a variable before a tag that indicates the variable name has finished, you can do so using formal notation to enclose the name of the variable. For example: `${entity1.thumbnailUrl}.gif`.
 

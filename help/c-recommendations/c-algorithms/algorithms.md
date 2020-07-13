@@ -81,7 +81,7 @@ For example, suppose that you want to display the top-selling items from a userâ
 |Recently Viewed Items/Media|Items that have been viewed recently by the visitor. When using this criteria, you should update the  Target design to handle cases where blank recommendations would show when there are not enough previously viewed items to display.|
 |User-Based Recommendations|Recommends items based off of each visitor's browsing, viewing, and purchasing history. These items are generally referred to as "Recommended for You."<br>This criteria lets you deliver personalized content and experiences to both new and returning visitors. The list of recommendations is weighted towards the visitor's most-recent activity and is updated in-session and become more personalized as the user browses your site.<br>Both views and purchases are used to determine the recommended items. The specified Recommendation Key (e.g. Current Item) is used to apply any inclusion rule filters you select. For example, you can:<ul><li>Exclude items that don't meet certain criteria (products out of stock, articles published more than 30 days ago, movies rated R, and so forth)</li><li>Limit included items to a single category or to the current category</li></ul>|
 
->[!NOTE] {class="- topic/note "}
+>[!NOTE]
 >
 >If you are running a recommendation and change its criteria, you will lose your reporting data.
 
