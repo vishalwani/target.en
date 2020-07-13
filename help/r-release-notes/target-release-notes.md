@@ -10,7 +10,7 @@ uuid: 35ecabbe-b8b4-479b-9266-4823c831d79a
 
 This article contains prerelease information. Release dates, features, and other information are subject to change without notice. 
 
-**Last Updated: June 24, 2020**
+**Last Updated: July 13, 2020**
 
 To view information about the current release, see [Target Release Notes](release-notes.md). The information on these pages might be the same, depending on the timing of releases. The issue numbers in parentheses are for internal [!DNL Adobe] use.
 
@@ -40,6 +40,16 @@ As part of this refresh, you will be able to easily perform many actions using t
 * Obfuscate visitor IP addresses for privacy reasons (**[!UICONTROL Administration]** > **[!UICONTROL Implementation]**)
 * View the existing list of users per workspace and their roles, before managing them in Adobe Admin Console (**[!UICONTROL Administration]** > **[!UICONTROL Users]**).
 * Search and filter all tables in the [!UICONTROL Administration] section.
+
+### Enhancements, fixes, and changes
+
+This release contains the following enhancements, fixes, and changes:
+
+* Fixed an issue that prevented site preferences from being retained after refresh. (TGT-37239)
+* Fixed an issue that prevented [!UICONTROL Insert After] > [!UICONTROL Image] from functioning properly with Scalable Vector Graphics (SVG) images. (TGT-37242)
+* Fixed an issue for users with the [!UICONTROL Publisher] role that prevented the deletion of draft activities. (TGT-37358)
+* Fixed an issue that prevented users from editing an activity when [!UICONTROL All My Workspaces] is selected. (TGT-37276)
+* Enhanced existing profile script information cards with audience usage information. (TGT-37302)
 
 ## Prerelease information {#section_7B9D4AAFC6A74388B9D7DEF0658D8B63} 
 
