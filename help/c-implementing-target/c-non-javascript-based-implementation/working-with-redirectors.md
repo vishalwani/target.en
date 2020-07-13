@@ -76,7 +76,7 @@ Before you can use a redirector, you must create it.
 
 1. Verify that all experiences, default content, and reports act as expected on all browser types, for all of your environments.
 
-   >[!NOTE] {class="- topic/note "}
+   >[!NOTE]
    >
    >* Redirectors are not supported by Offer Preview or Browse for mbox. Preview experiences directly in a browser. 
    >* `mboxDebug` does not work with Redirectors . 

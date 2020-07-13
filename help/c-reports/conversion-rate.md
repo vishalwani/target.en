@@ -14,7 +14,7 @@ The following illustration shows the chart header for a sample activity with the
 
 ![](assets/conversion-rate.jpg)
 
->[!NOTE] {class="- topic/note "}
+>[!NOTE]
 >
 >In all data, duplicate orders are ignored if an `orderID` is passed. The audit report lists the ignored duplicate orders.
 
@@ -176,6 +176,6 @@ You can view reports by the following counting methodologies:
 
   A single visit might include several impressions of, for example, your homepage.
 
->[!NOTE] {class="- topic/note "}
+>[!NOTE]
 >
 >Usually, counts are determined by cookies and session activity. However, if you reach the final conversion point of an activity and then re-enter the activity, you are considered a new entrant and a new visit to the activity. This is true even if your PCID and `sessionID` values do not change.

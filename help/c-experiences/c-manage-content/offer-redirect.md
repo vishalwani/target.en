@@ -12,7 +12,7 @@ The Redirect Offer causes a browser to redirect to a new page.
 
 You might have two completely different pages to test instead of just changing pieces of content within a page. In this case, your A/B test compares page A vs. page B. Set up an A/B test campaign with two experiences: one pointing to the default page A, and the other redirecting to page B. The offer is configured to redirect the visitor to a different page.
 
->[!NOTE] {class="- topic/note "}
+>[!NOTE]
 >
 >You cannot use redirect offers in ajax mboxes ( `mboxUpdate`).
 >
@@ -22,7 +22,7 @@ For information about setting up an experience that redirects, see [Redirect to 
 
 The redirect offer executes JavaScript code to redirect the browser. It uses the `window.location.replace();` method, so the page the visitor is redirected from is not stored in the browser history. This allows the visitor to still use the back button in their browser.
 
->[!NOTE] {class="- topic/note "}
+>[!NOTE]
 >
 >If you want to pass the referrer value of the landing page, it is recommended that you use an HTML offer rather than a redirect offer.
 
@@ -47,7 +47,7 @@ The redirect offer executes JavaScript code to redirect the browser. It uses the
 
   If you use the 1st & 3rd party cookie setup, you do not need to pass the mbox session ID when crossing domains. It is persistent on the 3rd-party cookie, so it is not necessary in the URL.
 
->[!NOTE] {class="- topic/note "}
+>[!NOTE]
 >
 >Ask your Implementation Consultant before launching these tests.
 

@@ -26,7 +26,7 @@ This bucketing process means that backup recommendations are displayed in the fo
 
 Without the bucketing of backup recommendations, it would have been possible to show the 499th most-viewed item, followed by the 200th most-viewed item, followed by the 380th most-viewed item, and so on. The bucketing process ensures that the most viewed items are recommended first.
 
->[!NOTE] {class="- topic/note "}
+>[!NOTE]
 >
 >If you group your items into catalogs, the backup recommendations generated for each algorithm within the recommendation also uses the catalog, so only items in the catalog are included in the backup recommendation.
 

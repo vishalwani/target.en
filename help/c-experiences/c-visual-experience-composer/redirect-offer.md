@@ -19,7 +19,7 @@ Redirect offers have a few limitations:
 * For redirect offers in activities using A4T, your implementation must meet certain minimum requirements. In addition, there is important information that you need to know. For more information, see [Redirect Offers - A4T FAQ](../../c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-redirect-offers.md#concept_21BF213F10E1414A9DCD4A98AF207905). 
 * When using the form-based Experience Composer, redirect offers should not be used in mboxes that are part of the page. A redirect offer should only be used from a script tag that is part of the HTML `<head>`. You should always use auto-create and set the redirect offer for the global mbox.
 
->[!NOTE] {class="- topic/note "}
+>[!NOTE]
 >
 >If you want to pass the referrer value of the landing page, it is recommended that you use an HTML offer rather than a redirect offer.
 

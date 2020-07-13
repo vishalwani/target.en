@@ -89,9 +89,10 @@ The [!UICONTROL Script Usage] tab lists the activities (and their workspaces) th
 
 ![Profile Script info card > Script Usage tab](assets/profile_script_info_card_usage_tab.png)
 
->[!Note] 
+>[!NOTE]
 >
 >The Script Usage tab does not display activities that reference the selected profile script in the following situations:
+>
 > * The activity is in the Draft state.
 > * The content or offer used in the activity uses script variables (either an inline offer within the activity or an offer within the Offer library).
 
