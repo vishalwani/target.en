@@ -143,7 +143,9 @@ For more information, see [Auto-Target Summary Report](../c-reports/auto-target-
 
 ## Auto-Target Frequently Asked Questions {#section_5C120A2B11D14D9BAF767BBAB50FED23}
 
-**What are best practices to set up an [!UICONTROL Auto-Target] activity?**
+Consult the following FAQs and answers as you work with [!UICONTROL Auto-Target] activities:
+
+### What are best practices to set up an [!UICONTROL Auto-Target] activity?
 
 * Decide if the business value of a Revenue per Visit (RPV) success metric is worth the additional traffic requirements. RPV typically needs at least 1,000 conversions per experience for an activity to work versus conversion.
 * Decide on the allocation between control and personalized experiences before beginning the activity based on your goals.
@@ -156,15 +158,15 @@ For more information, see [Auto-Target Summary Report](../c-reports/auto-target-
 
 * Try not to make substantial changes to the experiences during the course of the activity.
 
-**Do the check marks indicating a model is built for that experience update if the report date range changes?**
+### Do the check marks indicating a model is built for that experience update if the report date range changes?
 
 No, check marks for model generation show only the models built to date. There's no way to go back and see when a model was completed.
 
-**If a visitor does NOT see the [!UICONTROL Auto-Target] activity and converts, does the conversion count in my activity?**
+### If a visitor does NOT see the [!UICONTROL Auto-Target] activity and converts, does the conversion count in my activity?
 
 No, only visitors who qualify for and view the [!UICONTROL Auto-Target] activity are counted in reporting.
 
-**My [!UICONTROL Auto-Target] activity doesn’t seem to be generating any lift. What is going on?**
+### My [!UICONTROL Auto-Target] activity doesn’t seem to be generating any lift. What is going on?
 
 There are four factors required for an [!UICONTROL Auto-Target] activity to generate lift:
 
@@ -177,13 +179,13 @@ The best course of action is to first make sure the content and locations that m
 
 If an A/B test's results show statistically significant lift on one or more of the experiences, then it is likely that a personalized activity will work. Of course, personalization can work even if there are no differences in the overall response rates of the experiences. Typically, the issue stems from the offers/locations not having a large enough impact on the optimization goal to be detected with statistical significance.
 
-**When should I stop my [!UICONTROL Auto-Target] activity?**
+### When should I stop my [!UICONTROL Auto-Target] activity?
 
 [!UICONTROL Auto-Target] can be used as “always on” personalization that will constantly optimize. Especially for evergreen content,there is no need to stop your [!UICONTROL Auto-Target] activity.
 
 If you want to make substantial changes to the content in your [!UICONTROL Auto-Target] activity, the best practice is to start a new activity so that other users reviewing reports will not confuse or relate past results with different content.
 
-**How long should I wait for models to build?**
+### How long should I wait for models to build?
 
 The length of time it takes for models to build in your [!UICONTROL Auto-Target] activity typically depends on the traffic to your selected activity location(s) and your activity success metric.
 
@@ -192,21 +194,27 @@ For [!UICONTROL Auto-Target], simple rules of thumb can be used to understand tr
 * **When Conversion is your success metric:** 1,000 visits and at least 50 conversions per day per experience, and in addition the activity must have at least 7,000 visits and 350 conversions.
 * **When Revenue per Visit is your success metric:** 1,000 visits and at least 50 conversions per day per experience, and in addition the activity must have at least 1,000 conversions per experience. RPV usually requires more data to build models due to the higher data variance that typically exists in visit revenue compared to conversion rate.
 
-**One model is built in my activity. Are the visits to that experience personalized?**
+### One model is built in my activity. Are the visits to that experience personalized?
 
 No, there must be at least two models built within your activity for personalization to begin.
 
-**When can I start to look at the results of my [!UICONTROL Auto-Target] activity?**
+### When can I start to look at the results of my [!UICONTROL Auto-Target] activity?
 
 You can begin to look at the results of your [!UICONTROL Auto-Target] test after you have at least two experiences with models built (green checkmark) for the experience that have models built.
 
-**Can I specify a specific experience to be used as control?**
+### Can I specify a specific experience to be used as control?
 
 You can select an experience to be used as control while creating an [Automated Personalization](/help/c-activities/t-automated-personalization/automated-personalization.md) (AP) or [Auto-Target](/help/c-activities/auto-target-to-optimize.md) (AT) activity.
 
 This feature lets you route the entire control traffic to a specific experience, based on the traffic allocation percentage configured in the activity. You can then evaluate the performance reports of the personalized traffic against control traffic to that one experience.
 
 For more information, see [Use a specific experience as control](/help/c-activities/t-automated-personalization/experience-as-control.md).
+
+### Can I change the goal metric midway through an Auto-Target activity? {#change-metric}
+
+We do not recommend that you change the goal metric midway through an activity. Although it is possible to change the goal metric during an activity using the [!DNL Target] UI, you should always start a new activity. We do not warranty what happens if you change the goal metric in an activity after it is running. 
+
+This recommendation applies to [!UICONTROL Auto-Allocate], [!UICONTROL Auto-Target], and [!UICONTROL Automated Personalization] activities that use either [!DNL Target] or [!DNL Analytics] (A4T) as the reporting source.
 
 ## Troubleshooting [!UICONTROL Auto-Target] {#section_23995AB813F24525AF294D20A20875C8}
 
