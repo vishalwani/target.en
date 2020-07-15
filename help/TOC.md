@@ -195,7 +195,7 @@ solution: Target
    + Auto-Allocate {#auto-allocate}
       + [Auto-Allocate](c-activities/automated-traffic-allocation/automated-traffic-allocation.md)
       + [Interpret Auto-Allocate reports](c-activities/automated-traffic-allocation/determine-winner.md)
-      + [Auto-Allocate provides faster test results and higher revenue than a manual test](/help/c-activities/automated-traffic-allocation/faster-results-higher-revenue.md)
+      + [Auto-Allocate can give you faster test results and higher revenue than a manual test](/help/c-activities/automated-traffic-allocation/faster-results-higher-revenue.md)
    + [Auto-Target](c-activities/auto-target-to-optimize.md)
    + Automated Personalization {#automated-personalization}
       + [Automated Personalization overview](c-activities/t-automated-personalization/automated-personalization.md)
