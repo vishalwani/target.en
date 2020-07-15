@@ -14,6 +14,7 @@ This page lists important changes made to the [!DNL Adobe Target] product docume
 
 |Date|Topic|Changes|
 | --- | --- | --- |
+|July 15|[Auto-Allocate can give you faster test results and higher revenue than a manual test](/help/c-activities/automated-traffic-allocation/faster-results-higher-revenue.md)|New topic.|
 |July 14|[Auto-Allocate](/help/c-activities/automated-traffic-allocation/automated-traffic-allocation.md),<br>[Auto-Target](/help/c-activities/auto-target-to-optimize.md),<br>and<br>[Automated Personalization FAQ](/help/c-activities/t-automated-personalization/automated-personalization-faq.md)|Added FAQs recommending that you should not change the goal metric midway through an activity.|
 |July 7|[Target announcements and events](/help/r-release-notes/target-announcements.md)|Added information about the July 8 Adobe Target Coffee Break.|
 |June 25|[Target release notes (prerelease)](/help/r-release-notes/target-release-notes.md)|Added information about the Target Standard/Premium 20.6.1 release (July 2020).|
