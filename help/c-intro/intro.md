@@ -10,12 +10,6 @@ uuid: 70ccfbe9-c240-4380-9f43-522af51c1d5f
 
 Adobe Target is the Adobe Experience Cloud solution that provides everything you need to tailor and personalize your customers' experience to maximize revenue on your web and mobile sites, apps, social media, and other digital channels.
 
-The following videos provide a basic understanding of how Target, along with other Adobe Experience Cloud solutions, can help your organization achieve its goals:
-
->[!VIDEO](https://www.youtube.com/v=O7fFTcV7toI)
-
->[!VIDEO](https://www.youtube.com/v=qsgXjHdtgYE)
-
 The [!DNL Adobe Target] solution contains several components: 
 
 | Component | Description |
