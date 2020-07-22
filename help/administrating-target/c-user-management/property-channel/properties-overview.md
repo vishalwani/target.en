@@ -12,10 +12,6 @@ Information about the tasks required to add users to your [!DNL Target] implemen
 
 >[!NOTE]
 >
->The information in this topic has been updated to give you a sneak peak at the UI changes coming in the Target Standard/Premium 20.6.1 release (July 2020). Most of the information presented in this topic applies to the current UI; however, options might be in slightly different locations.
-
->[!NOTE]
->
 >Properties and Permissions functionality is available as part of the [Target Premium](/help/c-intro/intro.md#premium) solution. They are not available in [!DNL Target Standard] without a [!DNL Target Premium] license.
 
 The following table lists the tasks you should perform to create properties and assign user roles and permissions. Refer to the sections below for more information about each task.
@@ -198,6 +194,10 @@ To use the [!DNL Target] user-permissions functionality, you must add the `at_pr
 ## Training videos
 
 The following videos contain more information about the concepts discussed in this article.
+
+>[!NOTE]
+>
+>The [!DNL Target] [!UICONTROL Administration] menu UI (formerly [!UICONTROL Setup]) has been redesigned to provide improved performance, reduce the maintenance time required when releasing new features, and to improve the user experience across the product. The information in the following videos is generally correct; however, options might be in slightly different locations. Updated videos will be posted soon.
 
 ### How to Configure Target Workspaces (6:55) ![Tutorial badge](/help/assets/tutorial.png)
 

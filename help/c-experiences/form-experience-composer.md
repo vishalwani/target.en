@@ -25,9 +25,14 @@ If you are creating a Recommendations activity, there are no experiences. Choose
 1. Name the activity.
 1. Select a location.
 
-   When you click in the Select Location box, a list of available locations appears. Select one of those locations. To choose the global location delivered via target.js, choose “target-global-mbox.”
+   When you click in the [!UICONTROL Select Location] box, a list of available locations appears. Select one of those locations. To choose the global location delivered via target.js, choose “target-global-mbox.”
 
-   You can also enter a location that is not listed here. This can be useful if the mbox has not yet been created or viewed on a page. Type the name of the location. Be careful when entering a location that does not yet exist. If the spelling or capitalization does not match the spelling and capitalization when the mbox call is made, the activity will not deliver. Manually entered locations are saved to the list. 
+   You can also enter a location that is not listed here. This can be useful if the mbox has not yet been created or viewed on a page. Type the name of the location. Be careful when entering a location that does not yet exist. If the spelling or capitalization does not match the spelling and capitalization when the mbox call is made, the activity will not deliver. Manually entered locations are saved to the list of available locations. The next time you try to select a manually entered location, it will be available from the [!UICONTROL Select Location] drop-down list for that activity.
+
+   >[!NOTE]
+   >
+   >Creating a manually entered location during activity creation does not automatically create a new location. The location name is saved only in the context of the activity. The location is created when there is a content delivery call. Subsequent to the location being created, it will be available for use in other activities, for creating audiences, etc. from the drop-down list of available locations.
+   
 1. Click **[!UICONTROL Add Audience Refinements]**, then choose one or more [audience](../c-target/target.md#concept_A782F8481A5041EBA75103CB26376522) for this activity.
 
    ![](assets/location_refinements_2.png)
@@ -83,8 +88,8 @@ If you are creating a Recommendations activity, there are no experiences. Choose
 
    ![](assets/change_criteria_2.png)
 
-1. (Optional, for AB activities, Automated Personalization, and Experience Targeting) To repeat this process for additional locations, click `Add Location` and configure the location and content.
-1. Click **[!UICONTROL Continue]**, then complete the activity creation steps as usual for your activity type.
+1. (Optional, for AB activities, Automated Personalization, and Experience Targeting) To repeat this process for additional locations, click **[!UICONTROL Add Location]** and configure the location and content.
+1. Click **[!UICONTROL Next]**, then complete the activity creation steps as usual for your activity type.
 
 * [Create an A/B Test](../c-activities/t-test-ab/t-test-create-ab/test-create-ab.md#task_68C8079BF9FF4625A3BD6680D554BB72) 
 * [Create an Experience Targeting Activity](../c-activities/t-experience-target/t-xt-create/xt-create.md#task_D6B3429AC31549E1A70EDF04B3DDC765) 

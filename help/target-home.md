@@ -10,11 +10,13 @@ uuid: 8755e622-8a31-4106-ba90-b1128a0cf89c
 
 [!DNL Adobe Target] is the [!DNL Adobe Experience Cloud] solution that provides everything you need to tailor and personalize your customers' experience so you can maximize revenue on your web and mobile sites, apps, social media, and other digital channels.
 
-**Last Updated: July 17, 2020 ( [See What Changed](r-release-notes/doc-change.md) )**
+**Last Updated: July 23, 2020 ( [See What Changed](r-release-notes/doc-change.md) )**
 
 >[!NOTE]
 >
->See the Target announcements page for information about upcoming events, including Target Skill Builder sessions, developer chats, webinars, and Target Coffee Break sessions. For more information, see [Target announcements](/help/r-release-notes/target-announcements.md).
+>**Adobe Again Named a Leader in Gartner Magic Quadrant for Personalization Engines**
+>
+>Adobe was once again named a Leader in the third-annual Gartner Magic Quadrant for Personalization Engines, 2020 report. The Gartner Magic Quadrant for Personalization Engines evaluated vendors across 15 criteria that fall into two categories: completeness of vision and ability to execute. [Read about it on The Adobe Blog](https://theblog.adobe.com/adobe-again-named-leader-in-gartner-magic-quadrant-for-personalization-engines/).
 
 The following sections point you to useful links in this guide, arranged by intended audience based on typical job functions:
 

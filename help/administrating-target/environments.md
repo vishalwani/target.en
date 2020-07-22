@@ -10,10 +10,6 @@ uuid: c7682269-4ec2-4a0f-b053-7e0ec77f4604
 
 Organize your sites and pre-production environments for easy management and separated reporting.
 
->[!NOTE]
->
->The information in this topic has been updated to give you a sneak peak at the UI changes coming in the Target Standard/Premium 20.6.1 release (July 2020). Most of the information presented in this topic applies to the current UI; however, options might be in slightly different locations.
-
 Hosts are bundled into environments for ease of management. For example, you might have dozens of hosts grouped in two or three environments. The preset environments include [!UICONTROL Production], [!UICONTROL Staging], and [!UICONTROL Development]. You can add new environments and rename your environments, if desired.
 
 One environment, the default environment, is pre-named [!UICONTROL Production]. This default environment cannot be deleted, even if you rename it. [!DNL Target] assumes that this is where you will serve final, approved activities and tests.

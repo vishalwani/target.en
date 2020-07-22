@@ -11,10 +11,6 @@ uuid: 20561673-d762-4c3d-bedc-94aeab5053d7
 
 Response tokens let you automatically output information specific to [!DNL Target] (activity details, user profile information, geo information, and so forth) to use in debugging or integrating with 3rd-party systems (such as Clicktale).
 
->[!NOTE]
->
->The information in this topic has been updated to give you a sneak peak at the UI changes coming in the Target Standard/Premium 20.6.1 release (July 2020). Most of the information presented in this topic applies to the current UI; however, options might be in slightly different locations.
-
 Response tokens let you choose which variables to leverage and then enable them to be sent as part of a Target response. In order to do so, you simply enable a variable using the switch and the variable will be sent with Target responses, which can be validated in network calls. Response tokens work in [!UICONTROL Preview] mode as well.
 
 A key difference between plug-ins and response tokens is that while plug-ins deliver JavaScript to the page that would execute upon delivery, response tokens deliver an object that can then can be read and acted upon using event listeners. For more information, see [at.js custom events](/help/c-implementing-target/c-implementing-target-for-client-side-web/atjs-custom-events.md) and the examples later in this article. The response tokens approach is safer and should allow for easier development and maintenance of 3rd-party integrations.
@@ -284,5 +280,9 @@ The equivalent of the ttMeta plugin for debugging purposes can be created by add
 ## Training Video: Response Tokens and at.js Custom Events {#section_3AA0A6C8DBD94A528337A2525E3E05D5} ![Tutorial badge](/help/assets/tutorial.png)
 
 Watch the following video to learn how to use response tokens and at.js custom events to share profile information from Target to third-party systems.
+
+>[!NOTE]
+>
+>The [!DNL Target] [!UICONTROL Administration] menu UI (formerly [!UICONTROL Setup]) has been redesigned to provide improved performance, reduce the maintenance time required when releasing new features, and to improve the user experience across the product. The information in the following video is generally correct; however, options might be in slightly different locations. Updated videos will be posted soon.
 
 >[!VIDEO](https://video.tv.adobe.com/v/23253/)

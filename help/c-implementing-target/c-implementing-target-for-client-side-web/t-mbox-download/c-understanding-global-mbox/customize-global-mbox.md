@@ -13,7 +13,7 @@ Information to help you customize a global mbox for both at.js and mbox.js.
 
 1. Edit mbox.js.
 
-   Go to **[!UICONTROL Target]** > **[!UICONTROL Setup]** > **[!UICONTROL Implementation]**.
+   Go to **[!UICONTROL Target]** > **[!UICONTROL Administration]** > **[!UICONTROL Implementation]**.
 
    * For mbox.js, click **[!UICONTROL Edit mbox.js Settings]**. 
    * For [!DNL at.js], select **[!UICONTROL at.js]** under the Implementation Method, and then click **[!UICONTROL Edit mbox.js Settings]**.

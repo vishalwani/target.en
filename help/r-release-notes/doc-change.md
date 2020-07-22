@@ -10,6 +10,15 @@ uuid: 6fba75e2-0a93-488d-9010-fffa423600c0
 
 This page lists important changes made to the [!DNL Adobe Target] product documentation.
 
+## Adobe Target Standard/Premium 20.7.1 (July 23, 2020)
+
+|Date|Topic|Changes|
+| --- | --- | --- |
+|July 22|[Administer Target](/help/administrating-target/administrating-target.md)|Updated text in all linked topics on this page to reflect the new UI changes for the [!UICONTROL Administration] pages.|
+||[Target announcements and events](/help/r-release-notes/target-announcements.md)|Made the following changes: <ul><li>Added registration information for the following webinar: "How HSBC leverages Adobe Target and AI to rapidly optimize and deliver personalization at scale."</li><li>Added information about Adobe again being named a Leader in Gartner Magic Quadrant for Personalization Engines.</li></ul>|
+||[Form-Based Experience Composer](/help/c-experiences/form-experience-composer.md)|Clarified information under Step 4: Select a location.|
+||[Release Notes](/help/r-release-notes/release-notes.md): 20.7.1|This release includes enhancements and fixes. You can read about them and link to the documentation from the Release Notes. This release also includes many documentation updates throughout the help.|
+
 ## Adobe Target Standard/Premium 20.5.1 (June 17, 2020)
 
 |Date|Topic|Changes|

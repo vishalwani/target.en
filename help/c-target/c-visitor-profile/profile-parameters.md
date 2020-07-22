@@ -150,7 +150,7 @@ The following methods can be used to debug profile scripts:
 
 * **Add Profile Scripts as Response Tokens to Debug Profile Scripts:**
 
-  In Target, click **[!UICONTROL Setup]**, click **[!UICONTROL Response Tokens]**, then enable the profile script you want to debug.
+  In Target, click **[!UICONTROL Administration]**, click **[!UICONTROL Response Tokens]**, then enable the profile script you want to debug.
 
   Any time you load a page for your site with Target on it, part of the response from Target will contain your value for the given profile script, as shown below:
 
@@ -158,7 +158,7 @@ The following methods can be used to debug profile scripts:
 
 * **Use the mboxTrace Debugging Tool to Debug Profile Scripts.**
 
-  This method requires an authorization token that you can generate by clicking **[!UICONTROL Target]** > **[!UICONTROL Setup]** > **[!UICONTROL Implementation]** > **[!UICONTROL Generate Authorization Token]**.
+  This method requires an authorization token that you can generate by clicking **[!UICONTROL Target]** > **[!UICONTROL Administration]** > **[!UICONTROL Implementation]** > **[!UICONTROL Generate Authorization Token]** in the [!UICONTROL Debugger tools] section.
 
   You then you add these two parameters to your page URL after the "?": `mboxTrace=window&authorization=YOURTOKEN`.
 

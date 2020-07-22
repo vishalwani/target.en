@@ -242,7 +242,7 @@ Essentially the global mbox concept was introduced to let [!DNL Target] know whe
 
 ### Does the global mbox name in at.js matter anymore?
 
-Customers are able to specify a global mbox name via [!UICONTROL Target > Setup > Implementation > Edit at.js Settings]. This setting is used by the [!DNL Target] edge severs to translate execute > pageLoad to the global mbox name that appears in the [!DNL Target] UI. This allows customers to continue to use server-side APIs, the form-based composer, profile scripts, and create audiences using the global mbox name. We strongly recommend that you also make sure the same global mbox name is configured on the [!UICONTROL Setup > Preferences] page, as well, in case you still have pages using at.js 1.*x* or mbox.js, as shown in the following illustrations.
+Customers are able to specify a global mbox name via [!UICONTROL Target > Administration > Implementation > Edit at.js Settings]. This setting is used by the [!DNL Target] edge severs to translate execute > pageLoad to the global mbox name that appears in the [!DNL Target] UI. This allows customers to continue to use server-side APIs, the form-based composer, profile scripts, and create audiences using the global mbox name. We strongly recommend that you also make sure the same global mbox name is configured on the [!UICONTROL Administration > Visual Experience Composer] page, as well, in case you still have pages using at.js 1.*x* or mbox.js, as shown in the following illustrations.
 
 ![Modify at.js dialog](/help/c-implementing-target/c-implementing-target-for-client-side-web/assets/modify-atjs.png)
 
@@ -294,7 +294,7 @@ This setting tells at.js 2.*x* to fire a request to the [!DNL Target] edge serve
 
 ### Global Mbox Name is supported
 
-Customers are able to specify a global mbox name via [!UICONTROL Target > Setup > Implementation > Edit at.js Settings]. This setting is used by the [!DNL Target] edge severs to translate execute > pageLoad to the inputted global mbox name. This allows for customers to continue to use server-side APIs, the form-based composer, profile scripts, and create audiences that target the global mbox.
+Customers are able to specify a global mbox name via [!UICONTROL Target > Administration > Implementation > Edit]. This setting is used by the [!DNL Target] edge severs to translate execute > pageLoad to the inputted global mbox name. This allows for customers to continue to use server-side APIs, the form-based composer, profile scripts, and create audiences that target the global mbox.
 
 ### Are the below at.js custom events applicable to `triggerView()` or is it only for `applyOffer()` or `applyOffers()`?
 

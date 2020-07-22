@@ -17,7 +17,7 @@ By default, Target Standard creates a global mbox called target-global-mbox, whi
 
 To use your existing global mbox for both [!DNL Target Standard] and your legacy implementation, you must set a few parameters. 
 
-1. Go to [!DNL Target Standard], then click **[!UICONTROL Setup]** > **[!UICONTROL Implementation]**.
+1. Go to [!DNL Target Standard], then click **[!UICONTROL Administration]** > **[!UICONTROL Implementation]**.
 
    By default, [!UICONTROL Auto Create Global Mbox] is enabled, and the custom global mbox is named `target-global-mbox`. 
 1. If you want to use an existing mbox, disable [!UICONTROL Auto Create Global Mbox], and specify the name of a previously created global mbox in the [!UICONTROL Custom Global Mbox] field.
@@ -29,8 +29,8 @@ To use your existing global mbox for both [!DNL Target Standard] and your legacy
 1. Download the new mbox.js file and reference it on your site.
 
    After you've updated your production site with the new mbox.js file, you are ready to set your preferences. 
-1. Click **[!UICONTROL Setup]** > **[!UICONTROL Preferences]**.
-1. In the [!UICONTROL Custom Global Mbox] field, specify the name of the global mbox you selected on the Implementation page.
+1. Click **[!UICONTROL Administration]** > **[!UICONTROL Visual Experience Composer]**.
+1. In the [!UICONTROL Global Mbox] field, specify the name of the global mbox you selected on the Implementation page.
 1. Click **[!UICONTROL Submit]**.
 
    All existing activities update to use the specified global mbox, including activities that have previously been created and implemented. 

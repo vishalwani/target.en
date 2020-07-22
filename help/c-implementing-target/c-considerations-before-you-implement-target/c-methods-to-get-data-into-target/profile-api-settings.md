@@ -1,5 +1,5 @@
 ---
-keywords: implementation;api;profile;profile api settings
+keywords: implementation;api;profile;profile api settings;authentication token
 description: Enable or disable authentication for batch updates via API and generate a profile authentication token.
 title: Profile API settings
 subtopic: Getting Started
@@ -11,18 +11,18 @@ uuid: 481b4a14-f10f-47cd-988d-9e6b8c4d5c00
 
 Enable or disable authentication for batch updates via API and generate a profile authentication token.
 
-Adobe Target creates and maintains a profile for every individual user. This profile is stored on the Target edge cluster and is updated in real time after every visit, however, you can update a profile individually or in bulk via API.
+[!DNL Adobe Target] creates and maintains a profile for every individual user. This profile is stored on the [!DNL Target] edge cluster and is updated in real time after every visit, however, you can update a profile individually or in bulk via API.
 
-For added security, you can require that the Bulk Update API call require a valid access token to be passed in the header of the request. Users with Approver permissions can generate and enable profile API authentication tokens.
+For added security, you can require that the Bulk Update API call require a valid access token to be passed in the header of the request. Users with [!UICONTROL Approver] permissions can generate and enable profile API authentication tokens.
 
 **To require authentication and to generate an access token using the Target UI:**
 
-1. Click **[!UICONTROL Setup]** > **[!UICONTROL Implementation]**. 
-1. Under **[!UICONTROL Profile API Settings]**, use the **[!UICONTROL Require Authentication]** drop-down list to enable or disable authentication requirements.
+1. Click **[!UICONTROL Administration]** > **[!UICONTROL Implementation]**. 
+1. Under **[!UICONTROL Profile API]** slide the **[!UICONTROL Require Authentication]** toggle to the enabled or disabled position.
 
    ![](assets/profile_api_settings.png)
 
-1. (Conditional) If you enabled authentication requirements, click **[!UICONTROL Generate Pofile Authentication Token]**.
+1. (Conditional) If you enabled authentication requirements, click **[!UICONTROL Generate New Pfofile Authentication Token]**.
 
    ![](assets/profile_api_settings_2.png)
 
@@ -34,9 +34,8 @@ For added security, you can require that the Bulk Update API call require a vali
 
 1. Copy the token and include it in the header of the request in the format: "Authorization" : "Bearer "
 
-Click [!UICONTROL Re-generate Profile Authentication Token] to regenerate the token as needed.
+Click [!UICONTROL Generate New Profile Authentication Token] to regenerate the token as needed.
 
 >[!IMPORTANT]
 >
 >Resetting this token will cause API calls using the current token to fail. This will require updating any scripts or apps that use this token.
-

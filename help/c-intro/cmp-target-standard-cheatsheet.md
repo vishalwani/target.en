@@ -127,7 +127,7 @@ Use the Priority setting available on Step 3 of the Target three-part guided wor
 There are two options:
 
 * Default, with three levels (Low / Medium / High)
-* Custom, with a range from 0 to 999. For Custom, enable the Fine-Grained Priorities feature ( Setup > Preferences).
+* Custom, with a range from 0 to 999. For Custom, enable the Fine-Grained Priorities feature ( Administration > Visual Experience Composer).
 
 ## Audiences {#section_FA6314777ABC46D8B198D6F388051460}
 
@@ -191,7 +191,7 @@ Try out the [Mobile Viewports](../c-experiences/c-visual-experience-composer/mob
 
 **I have multiple domains. One of the domains needs the Enhanced Experience Composer enabled, while others need it to be disabled. How can I do this?**
 
-You can always use [Enhanced Experience Composer option at the activity level](../c-experiences/experiences.md#section_34265986611B4AB8A0E4D6ACC25EF91D) to override the default setting ( Setup > Preferences).
+You can always use [Enhanced Experience Composer option at the activity level](../c-experiences/experiences.md#section_34265986611B4AB8A0E4D6ACC25EF91D) to override the default setting ( Administration > Visual Experience Composer).
 
 **Why don't I see an option to swap images?**
 

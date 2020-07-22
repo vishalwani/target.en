@@ -9,10 +9,6 @@ topic: Standard
 
 Configure the [!DNL Adobe Target] [!UICONTROL Visual Experience Composer] (VEC) by specifying its general settings, mobile viewport configuration, and CSS selectors.
 
->[!NOTE]
->
->The topics in this section, listed below, have been updated to give you a sneak peak at the UI changes coming in the [!DNL Target Standard/Premium] 20.6.1 release (July 2020). Most of the information presented in these topics applies to the current UI; however, options might be in slightly different locations.
-
 To access the [!UICONTROL Visual Experience Composer] configuration page, click **[!UICONTROL Administration]** > **[!UICONTROL Visual Experience Composer].**
 
 >[!NOTE]
@@ -97,5 +93,9 @@ You can override this setting per activity (click the [!UICONTROL Settings] gear
 This video includes information about account preferences.
 
 * Describe the account settings available in [!DNL Target Standard]
+
+>[!NOTE]
+>
+>The [!DNL Target] [!UICONTROL Administration] menu UI (formerly [!UICONTROL Setup]) has been redesigned to provide improved performance, reduce the maintenance time required when releasing new features, and to improve the user experience across the product. The information in the following video is generally correct; however, options might be in slightly different locations. Updated videos will be posted soon.
 
 >[!VIDEO](https://video.tv.adobe.com/v/17379)
