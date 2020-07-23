@@ -24,7 +24,7 @@ These release notes provide information about features, enhancements, and fixes 
 
 The issue numbers in parentheses are for internal [!DNL Adobe] use.
 
-## Target Standard/Premium 20.7.1 (July 23, 2020)
+## Target Standard/Premium 20.7.1 (July 27, 2020)
 
 This release includes the following changes:
 
