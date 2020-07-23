@@ -16,6 +16,12 @@ Details about changes in each version of the [!DNL Adobe Target] at.js JavaScrip
 >
 >[Adobe Experience Platform Launch](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/cmp-implementing-target-using-adobe-launch.md) is the preferred method to upgrade at.js. Extension developers continually add new features to their extensions, and frequently fix bugs. These updates are packaged into new versions of an extension and made available in the [!DNL Launch] catalog as upgrades. For more information, see [Extension Upgrade](https://docs.adobe.com/content/help/en/launch/using/reference/manage-resources/extensions/extension-upgrade.html) in the *Experience Platform Launch User Guide*.
 
+## at.js 2.3.2 (July 24, 2020)
+
+This release of at.js is a maintenance release and includes the following fix:
+
+* Fixed a bug when a script or code adds default property to the window or document.
+
 ## at.js 1.8.2 (June 15, 2020)
 
 This release of at.js is a maintenance release and includes the following fix:
