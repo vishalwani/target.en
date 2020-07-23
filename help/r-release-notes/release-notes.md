@@ -24,6 +24,12 @@ These release notes provide information about features, enhancements, and fixes 
 
 The issue numbers in parentheses are for internal [!DNL Adobe] use.
 
+## at.js 2.3.2 (July 24, 2020)
+
+This release of at.js is a maintenance release and includes the following fix:
+
+* Fixed a bug when a script or code adds default property to the window or document.
+
 ## Target Standard/Premium 20.7.1 (July 27, 2020)
 
 This release includes the following changes:
