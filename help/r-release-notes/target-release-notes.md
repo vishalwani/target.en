@@ -24,7 +24,7 @@ To view information about the current release, see [Target Release Notes](releas
 >
 >* **Target Announcements**: See the Target announcements page for information about upcoming events, including Target Skill Builder sessions, developer chats, webinars, and Target Coffee Break sessions. For more information, see [Target announcements](/help/r-release-notes/target-announcements.md).
 
-## Target Standard/Premium 20.7.1 (July 22, 2020)
+## Target Standard/Premium 20.7.1 (July 27, 2020)
 
 This release includes the following enhancements:
 
