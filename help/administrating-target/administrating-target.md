@@ -7,13 +7,9 @@ topic: Standard
 uuid: 496f2dbe-96e2-4cd5-ba2e-d980d80eceb9
 ---
 
-# Administer Target{#administer-target}
+# Administer Target Overview{#administer-target}
 
 Information to help you administer [!DNL Adobe Target], including configuration settings for the Visual Experience Composer (VEC), reporting, Scene7 configuration, implementation, hosts, environments, response tokens, and users.
-
->[!NOTE]
->
->The topics in this section, listed below, have been updated to give you a sneak peak at the UI changes coming in the [!DNL Target Standard/Premium] 20.6.1 release (July 2020). Most of the information presented in these topics applies to the current UI; however, options might be in slightly different locations.
 
 To access the [!UICONTROL Administration] menu items, click **[!UICONTROL Administration]** in the top menu bar, then click the desired tab along the left side:
 

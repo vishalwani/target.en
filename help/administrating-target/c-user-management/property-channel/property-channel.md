@@ -22,7 +22,7 @@ You can tell whether your organization has a Standard or Premium license by clic
 
 * **[!DNL Target Standard] Customers**: If you see the [!UICONTROL Users] tab ([!UICONTROL Adminitration > Users]) (and not the [!UICONTROL Properties] tab), your organization has a [!DNL Target Standard] license. [!DNL Target Standard]customers should follow the instructions in [Users](/help/administrating-target/c-user-management/c-user-management/user-management.md) to add users and assign permissions in the [!DNL Adobe Admin Console].
 
-* **[!DNL Target Premium] Customers**: If you see the [!UICONTROL Properties] tab ([!UICONTROL Setup > Properties]) and the [!UICONTROL Users] tab, your organization has a [!DNL Target Premium] license. [!DNL Target Premium] customers should follow the instructions in this article and in [Configure enterprise permissions](/help/administrating-target/c-user-management/property-channel/properties-overview.md).
+* **[!DNL Target Premium] Customers**: If you see the [!UICONTROL Properties] tab ([!UICONTROL Administration > Properties]) and the [!UICONTROL Users] tab, your organization has a [!DNL Target Premium] license. [!DNL Target Premium] customers should follow the instructions in this article and in [Configure enterprise permissions](/help/administrating-target/c-user-management/property-channel/properties-overview.md).
 
 ## Before you get started with enterprise permissions
 
@@ -192,7 +192,7 @@ The new Permissions functionality can be seen in various places in the [!DNL Tar
 
 * **Audience Creation:** When you create a new audience, it is created in the currently selected workspace. 
 * **Offer Creation:** When you create a new offer, it is created in the currently selected workspace. 
-* **Properties page (Setup > Properties):** You can use the [!UICONTROL Search] box to search the [!UICONTROL Property] list.
+* **Properties page (Administration > Properties):** You can use the [!UICONTROL Search] box to search the [!UICONTROL Property] list.
 
   ![](assets/properties_list.png)
 
@@ -296,5 +296,9 @@ This video is a recording of "Office Hours," an initiative led by the Adobe Cust
 * Creating properties
 * Adding users
 * Updating implementation
+
+>[!NOTE]
+>
+>The [!DNL Target] [!UICONTROL Administration] menu UI (formerly [!UICONTROL Setup]) has been redesigned to provide improved performance, reduce the maintenance time required when releasing new features, and to improve the user experience across the product. The information in the following video is generally correct; however, options might be in slightly different locations. Updated videos will be posted soon.
 
 >[!VIDEO](https://video.tv.adobe.com/v/23643/)

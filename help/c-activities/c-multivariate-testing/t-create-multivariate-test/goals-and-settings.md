@@ -32,9 +32,9 @@ Depending on your settings, the UI and options for Priority vary. You can use th
 
 The priority is used if multiple activities are assigned to the same location with the same audience. If two or more activities are assigned to the location, the activity with the highest priority displays.
 
-If this option is not enabled in Setup (the default), specify a priority: Low, Medium, or High.
+If this option is not enabled in S[!UICONTROL Administration] > [!UICONTROL Reporting] (the default), specify a priority: Low, Medium, or High.
 
-To enable fine-grained priorities, click Setup , then toggle the Enable Fine-Grained Priorities option to the "On" position.
+To enable fine-grained priorities, click [!UICONTROL Administration] > [!UICONTROL Reporting], then toggle the Enable Fine-Grained Priorities option to the "On" position.
 
 If this option is enabled, specify a value between 0 and 999:
 

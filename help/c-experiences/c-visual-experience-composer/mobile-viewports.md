@@ -79,12 +79,12 @@ If your site is not responsive, you can still use the Mobile Web Composer to vie
 
 Configure any mobile viewports you want to make available when creating your experiences.
 
-1. Click **[!UICONTROL Setup]** > **[!UICONTROL Preferences]**.
-1. In the Mobile Viewports Configuration section of the Account Preferences page, click **[!UICONTROL Add new]** to add a mobile viewport.
+1. Click **[!UICONTROL Administration]** > **[!UICONTROL Visual Experience Composer]**.
+1. In the Mobile Viewports Configuration section of the Account Preferences page, click **[!UICONTROL Add]** to add a mobile viewport.
 
    To change the configuration of an existing mobile viewport, select that viewport, then click the Edit (pencil) icon.
 
-   ![](assets/viewpoert_add.png)
+   ![Add viewport](/help/c-experiences/c-visual-experience-composer/assets/viewpoert_add.png)
 
 1. Type a name for the mobile viewport.
 
@@ -134,8 +134,8 @@ Add mobile viewports to your Target activities to create responsive experiences 
 
 This use case shows how to configure experiences for two iPhone versions, iPhone 6 and iPhone 6 Plus, using the Mobile Viewports feature of Target Standard.
 
-1. In Target Standard, click **[!UICONTROL Setup]** > **[!UICONTROL Preferences]**.
-1. In the Mobile Viewport Configuration section of the Preferences page, create mobile viewports for iPhone 6 and iPhone 6 plus.
+1. In Target, click **[!UICONTROL Administration]**.
+1. In the Mobile Viewport Configuration section, create mobile viewports for iPhone 6 and iPhone 6 plus.
 
    Use the following settings for each viewport:
 

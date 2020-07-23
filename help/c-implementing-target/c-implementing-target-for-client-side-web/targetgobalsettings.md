@@ -182,7 +182,7 @@ You can override the following settings:
 
 ## Usage {#section_9AD6FA3690364F7480C872CB55567FB0}
 
-This function can be defined before at.js is loaded or in **[!UICONTROL Setup]** > **[!UICONTROL Implementation]** > **[!UICONTROL Edit at.js Settings]** > **[!UICONTROL Code Settings]** > **[!UICONTROL Library Header]**.
+This function can be defined before at.js is loaded or in **[!UICONTROL Administration]** > **[!UICONTROL Implementation]** > **[!UICONTROL Edit at.js Settings]** > **[!UICONTROL Code Settings]** > **[!UICONTROL Library Header]**.
 
 The Library Header field allows you to enter free-form JavaScript. The customization code should look something similar to the following example:
 
@@ -465,7 +465,7 @@ Consider the following when using `serverState`:
 
 * When applying `serverState `offers, at.js takes into consideration `pageLoadEnabled` and `viewsEnabled` settings, e.g. Page Load offers will not be applied if the `pageLoadEnabled` setting is false.
 
-  To turn these settings on, enable the toggle in **[UICONTROL Setup > Implementation > Edit Settings > Page Load Enabled]**.
+  To turn these settings on, enable the toggle in **[UICONTROL Administration > Implementation > Edit > Page Load Enabled]**.
 
   ![Page Load Enabled settings](/help/c-implementing-target/c-implementing-target-for-client-side-web/assets/page-load-enabled-setting.png)
 

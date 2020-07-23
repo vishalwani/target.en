@@ -72,7 +72,7 @@ Make sure your activity is complete and has been activated.
 Once you are added as a user in Target you need to have the Approver role in order to create Activities.
 
 * Ask the Admin of your account to make you an Approver.
-* If you are the Admin, give yourself the Approver role from Setup > Users in Target Standard. 
+* If you are the Admin, give yourself the Approver role from **[!UICONTROL Administration]** > **[!UICONTROL Users]** in Target. 
 
   See [Assign Yourself the Approver Role](../../administrating-target/start-target.md#task_15CAA437A71444E2932B333D5E66A3C7).
 

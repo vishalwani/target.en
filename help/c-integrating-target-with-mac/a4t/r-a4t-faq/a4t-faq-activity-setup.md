@@ -20,13 +20,13 @@ When an activity is created, Target sends a classification file to Analytics. Al
 
 ## Why can't I can't select Analytics as my reporting source when I create a new activity? {#section_9F4F69C3085F4C2480AF439127EB27CD}
 
-You can change your Reporting Settings options in Setup.
+You can change your Reporting Settings options in Administration.
 
-1. In Adobe Target, click **[!UICONTROL Setup]**. 
+1. In Adobe Target, click **[!UICONTROL Administration]**. 
 1. In the **[!UICONTROL Experience Cloud solution used for reporting]** drop-down list, click **[!UICONTROL Select per Activity]**.
 
 ![](assets/select-per-activity.png)
 
 The **[!UICONTROL Reporting Source]** drop-down list is enabled in the **[!UICONTROL Goal & Settings]** screen for creating and editing activities.
 
-To always use Analytics as the reporting source, select **[!UICONTROL Adobe Analytics]** from the drop-down list in Setup. 
+To always use Analytics as the reporting source, select **[!UICONTROL Adobe Analytics]** from the drop-down list in Administration. 

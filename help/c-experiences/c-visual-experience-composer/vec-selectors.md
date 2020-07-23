@@ -12,7 +12,7 @@ An element selector is a CSS expression which can identify one or more elements.
 
 You can find basic information about CSS selectors in the [Selectors](https://developer.mozilla.org/en-US/docs/Web/Guide/CSS/Getting_started/Selectors) document on the Mozilla Developer Network (MDN).
 
-You can set whether to use element classed or element IDs in your account preferences. Click **[!UICONTROL Setup > Preferences]**, then choose your preferred CSS selectors.
+You can set whether to use element classed or element IDs in your account preferences. Click **[!UICONTROL Administration > Visual Experience Composer]**, then choose your preferred CSS selectors.
 
 ![](assets/css_selectors.png)
 

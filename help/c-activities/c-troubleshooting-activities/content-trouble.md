@@ -23,15 +23,14 @@ Because mboxTrace and mboxDebug can expose campaign data and profile data to ext
 
 To retrieve the authorization token:
 
-1. Click **[!UICONTROL Setup]** > **[!UICONTROL Implementation]**. 
-1. Select **[!UICONTROL mbox.js]** or **[!UICONTROL at.js]**. 
-1. Click **[!UICONTROL Generate Authentication Token]**.
+1. Click **[!UICONTROL Administration]** > **[!UICONTROL Implementation]**. 
+1. From the Debugger Tools section, click **[!UICONTROL Generate New Authentication Token]**.
 
-   ![Generate Authorization token](/help/c-activities/c-troubleshooting-activities/assets/generate-auth-token.png)
+   ![Generate New Authentication Token](/help/c-implementing-target/c-considerations-before-you-implement-target/c-methods-to-get-data-into-target/assets/debugger-auth-token.png)
 
 1. Add the generated token as a parameter to your URL to enable one of the advanced debugging tools.
 
-   ![Authorization token](/help/c-activities/c-troubleshooting-activities/assets/gen-auth-token.png)
+   ![Authorization token](/help/c-implementing-target/c-considerations-before-you-implement-target/c-methods-to-get-data-into-target/assets/auth-token.png)
 
 ## mboxTrace {#section_256FCF7C14BB435BA2C68049EF0BA99E}
 

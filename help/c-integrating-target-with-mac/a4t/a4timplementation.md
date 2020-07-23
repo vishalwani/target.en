@@ -164,7 +164,7 @@ We recommend that you remove the previous integration to simplify your implement
 
 ## Step 10: Enable the options for using Analytics as the reporting source for Target
 
-In [!DNL Target], click **[!UICONTROL Setup > Preferences]** and choose either **[!UICONTROL Select per activity]** or **[!UICONTROL Adobe Analytics]** to enable the options.
+In [!DNL Target], click **[!UICONTROL Administation > Visual Experience Composer]** and choose either **[!UICONTROL Select per activity]** or **[!UICONTROL Adobe Analytics]** to enable the options.
 
 * **[!UICONTROL Select per activity]** lets you choose between [!DNL Target] and [!DNL Analytics] when creating each activity.
 * **[!UICONTROL Adobe Analytics]** sets [!DNL Analytics] as the reporting source for all activities that you create.

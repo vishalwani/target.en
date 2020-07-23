@@ -12,7 +12,7 @@ The VEC is WYSIWYG user interface that lets you easily create and test personali
 
 The VEC is one of the main features of [!DNL Adobe Target]. The VEC lets marketers and designers create and change content using a visual interface. Many design choices can be made without requiring direct editing of the code. Editing HTML and JavaScript is also possible using the editing options available in the composer.
 
-On the Target **[!UICONTROL Setup]** > **[!UICONTROL Preferences]** tab, you can enter the Default Visual Experience Composer URL.
+On the Target **[!UICONTROL Administration]** > **[!UICONTROL Visual Experience Composer]** tab, you can enter the Default Visual Experience Composer URL.
 
 ![Default VEC URL settings](/help/c-experiences/c-visual-experience-composer/assets/pref-default-url-new.png)
 

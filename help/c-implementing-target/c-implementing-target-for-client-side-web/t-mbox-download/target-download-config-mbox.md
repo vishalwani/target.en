@@ -13,7 +13,7 @@ Target Standard and Premium use a modified version of the Adobe Target mbox.js f
 
 To use the [!DNL Adobe Target] [!UICONTROL Visual Experience Editor], you must include an additional line of JavaScript as part of your [!DNL mbox.js] file. 
 
-1. Click **[!UICONTROL Setup]** > **[!UICONTROL Implementation]** in [!DNL Target Standard].
+1. Click **[!UICONTROL Administration]** > **[!UICONTROL Implementation]** in [!DNL Target Standard].
 1. Click **[!UICONTROL Download mbox.js]** and follow the prompts to save the file.
 1. (Conditional) If you use [!DNL mbox.js] version 60 or later, you can configure the library to automatically hide page content by default until mboxes load to reduce flicker on responsive sites.
 

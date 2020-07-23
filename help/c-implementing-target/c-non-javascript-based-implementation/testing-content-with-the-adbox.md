@@ -25,10 +25,8 @@ For help selecting the right setup see [Non-JavaScript-Based Implementations](..
 
    * Where `myClientCode` is your company's client code. Your company's client code is all lower case and has no special characters.
    
-     * **at.js**: Your client code is available at the top of the [!UICONTROL Setup > Implementation > Edit at.js Settings] page of the [!DNL Target] interface.
+     Your client code is available at the top of the [!UICONTROL Administation > Implementation] page of the [!DNL Target] interface.
    
-     * **mbox.js**: Your client code is available at the top of the [!UICONTROL Setup > Implementation > Edit Mbox.js Settings] page.
-
    * Where `image` is the call type. In this case it is an image.
    
    * Where `emailHeroImage123_320x200` is the name of the AdBox.

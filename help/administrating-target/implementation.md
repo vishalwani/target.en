@@ -16,10 +16,6 @@ Information applicable to the settings on this page can be found on [Implement T
 
 >[!NOTE]
 >
->The information in this topic has been updated to give you a sneak peak at the UI changes coming in the Target Standard/Premium 20.6.1 release (July 2020). Most of the information presented in this topic applies to the current UI; however, options might be in slightly different locations.
-
->[!NOTE]
->
 >[!DNL Adobe Experience Platform Launch] is the preferred method to implement [!DNL Target]. [!DNL Launch] gives customers a simple way to deploy and manage all of the analytics, marketing, and advertising tags necessary to power relevant customer experiences. For more information, see [Implement Target using Adobe Launch](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/cmp-implementing-target-using-adobe-launch.md).  
 
 To access the [!UICONTROL Implementation] page, click **[!UICONTROL Administration]** > **[!UICONTROL Implementation]**.

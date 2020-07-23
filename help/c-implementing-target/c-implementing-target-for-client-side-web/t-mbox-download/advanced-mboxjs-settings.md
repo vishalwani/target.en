@@ -19,13 +19,13 @@ The following settings are available:
 
 The client code for your account.
 
-When viewing [!UICONTROL Setup > Implementation > Edit Mbox.js Settings], the Client at the top is the client code for your account.
+When viewing [!UICONTROL Administration > Implementation], the Client at the top is the client code for your account.
 
 ## Timeout
 
 The Target request timeout.
 
-When viewing [!UICONTROL Setup > Implementation > Edit Mbox.js Settings], the Timeout after Compression Level is your Target request timeout. By default this value is set to 15 seconds, but we recommend setting it to a value between 2 seconds and 5 seconds.
+When viewing [!UICONTROL Administration > Implementation], the Timeout (seconds) setting is your Target request timeout. By default this value is set to 15 seconds, but we recommend setting it to a value between 2 seconds and 5 seconds.
 
 ## XDomain
 

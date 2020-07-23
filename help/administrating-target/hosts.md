@@ -10,10 +10,6 @@ uuid: c7682269-4ec2-4a0f-b053-7e0ec77f4604
 
 Organize your sites and pre-production environments for easy management and separated reporting.
 
->[!NOTE]
->
->The information in this topic has been updated to give you a sneak peak at the UI changes coming in the [!DNL Target] Standard/Premium 20.6.1 release (July 2020). Most of the information presented in this topic applies to the current UI; however, options might be in slightly different locations.
-
 The primary goal of host management is to ensure that no inactive content accidentally appears on websites. Host management also lets you separate report data by [environment](/help/administrating-target/environments.md).
 
 A host is any domain from which a [!DNL Target] request is made. On a website, it is usually the `location.hostname` property of the URL making the [!DNL Target] request.

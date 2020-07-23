@@ -26,7 +26,7 @@ Several issues can affect page performance in the Target experience composers. S
 
 If issues occur in the Enhanced Experience Composer, try turning off the Enhanced Experience Composer and use the Visual Experience Composer instead.
 
-To disable the Enhanced Experience Composer, go to **[!UICONTROL Setup]** > **[!UICONTROL Preferences]** and turn off the **[!UICONTROL Enable Enhanced Experience Composer]** option.
+To disable the Enhanced Experience Composer, go to **[!UICONTROL Administration]** > **[!UICONTROL Visual Experience Composer]** and turn off the **[!UICONTROL Enable Enhanced Experience Composer]** option.
 
 Some users see the following error message in the console:
 
@@ -106,10 +106,6 @@ After setting up an extension, open Target. Your pages should now load in the Vi
   Click the icon to the left of the URL in the browser address bar and click **[!UICONTROL Disable protection on this page]** 
 * You entered an invalid URL. 
 * You have not entered a default URL in your account setup page.
-
-## When launching a URL for a VEC activity, the console displays the following error message: "Uncaught ReferenceError:_AT is not defined." (VEC only) {#section_BB5B9B629AC4452496A82943EFF72B85}
-
-This error occurs if you try to deliver Visual Experience Composer (VEC) campaigns and you have not updated mbox.js downloaded from the Target user interface with the [!UICONTROL Support Visual Experience Composer Activities] option enabled ( [!UICONTROL Setup] > [!UICONTROL Implementation] > [!UICONTROL mbox.js] > [!UICONTROL Edit mbox.js Settings]).
 
 Ensure that this setting is enabled, then download and update mbox.js on your website.
 
