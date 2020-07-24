@@ -125,6 +125,10 @@ As a workaround, please rely on A4T data in Reports & Analytics until this issue
 
 Customers cannot perform CRUD operations on Auto-Allocate activities through the v3 version of the A/B Activities API on Adobe I/O.
 
+### GEO Targeting
+
+On May 10, 2020 we had some updates to our GEO provider files which introduced some inconsistencies, for example some values containing comma were added while values in existing audiences had no comma. Not all our delivery servers were affected by this change. As a result, audiences using such values might not have qualified all the correct visitors between May 10 and July 22nd 2020.
+
 ## Resolved Issues {#section_FD2FC86E7C734D60B1EDC9DEF60E1014}
 
 As known issues above are resolved, they will be moved to the following sections and additional notes, if necessary, will be added.
