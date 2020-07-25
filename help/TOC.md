@@ -2,6 +2,7 @@
 product: target
 audience: end-user
 user-guide-title: Adobe Target Help
+user-guide-description: Learn how to tailor and personalize your customers' experience so you can maximize revenue on your web and mobile sites, apps, social media, and other digital channels.
 user-guide-url: /content/help/en/target/using/target-home.html
 solution: Target
 ---
