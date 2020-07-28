@@ -216,6 +216,10 @@ We do not recommend that you change the goal metric midway through an activity. 
 
 This recommendation applies to [!UICONTROL Auto-Allocate], [!UICONTROL Auto-Target], and [!UICONTROL Automated Personalization] activities that use either [!DNL Target] or [!DNL Analytics] (A4T) as the reporting source.
 
+### Can I use the Reset Report Data option while running an Auto-Target activity?
+
+Using the [!UICONTROL Reset Report Data] option for [!UICONTROL Auto-Target] activities is not suggested. Although it removes the visible reporting data, this option does not remove all training records from the [!UICONTROL Auto-Target] model. Instead of using the [!UICONTROL Reset Report Data] option for [!UICONTROL Auto-Target] activities, create a new activity and de-activate the original activity. (Note: This guidance also applies to [!UICONTROL Auto-Allocate] and [!UICONTROL Automated Personalization] activities.)
+
 ## Troubleshooting [!UICONTROL Auto-Target] {#section_23995AB813F24525AF294D20A20875C8}
 
 Sometimes activities don't go as expected. Here are some potential challenges you may face while using [!UICONTROL Auto-Target], and some suggested solutions.

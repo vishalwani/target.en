@@ -182,6 +182,18 @@ We do not recommend that you change the goal metric midway through an activity. 
 
 This recommendation applies to [!UICONTROL Auto-Allocate], [!UICONTROL Auto-Target], and [!UICONTROL Automated Personalization] activities that use either [!DNL Target] or [!DNL Analytics] (A4T) as the reporting source.
 
+### Can I use the Reset Report Data option while running an Auto-Allocate activity?
+
+Using the [!UICONTROL Reset Report Data] option for [!UICONTROL Auto-Allocate] activities is not suggested. Although it removes the visible reporting data, this option does not remove all training records from the [!UICONTROL Auto-Allocate] model. Instead of using the [!UICONTROL Reset Report Data] option for [!UICONTROL Auto-Allocate] activities, create a new activity and de-activate the original activity. (Note: This guidance also applies to [!UICONTROL Auto-Target] and [!UICONTROL Automated Personalization] activities.)
+
+### How does Auto-Allocate build models with regards to environments?
+
+[!UICONTROL Auto-Allocate] builds models based on the traffic and conversion behavior recorded in the default environment only. By default, [!UICONTROL Production] is the default environment, but this can be changed in Target [Administration > Environments](/help/administrating-target/environments.md).
+
+If a hit occurs in another (non-default) environment, traffic will be distributed according to the observed conversion behavior in the default environment. The result of that hit (conversion or non-conversion) will be recorded for reporting purposes but not taken into account in the [!UICONTROL Auto-Allocate] model.
+
+When selecting another environment, the report will show traffic and conversions for that environment. The default selected environment for a report will always be the account-wide default that is selected. Th default environment cannot be set on a per-activity basis.
+
 ## Training videos {#section_893E5B36DC4A415C9B1D287F51FCCB83}
 
 The following videos contain more information about the concepts discussed in this article.
