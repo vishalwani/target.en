@@ -14,6 +14,9 @@ This page lists important changes made to the [!DNL Adobe Target] product docume
 
 |Date|Topic|Changes|
 | --- | --- | --- |
+|July 28|[Personalization Insights reports](/help/c-reports/c-personalization-insights-reports/personalization-insights-reports.md),<br>[Automated Segments report](/help/c-reports/c-personalization-insights-reports/automated-segments-report.md),<br>and [Important Attributes report](/help/c-reports/c-personalization-insights-reports/important-attributes-report.md)|Updated text in the note.|
+||[Supported browsers](/help/c-implementing-target/c-considerations-before-you-implement-target/supported-browsers.md)|Added information about Internet Explorer and unknown elements.|
+||[Customer attributes](/help/c-target/c-visitor-profile/working-with-customer-attributes.md)|Updated following paragraph:<br>[!DNL Adobe] does not guarantee that 100% of customer attribute (visitor profile) data from CRM databases will be onboarded to the [!DNL Experience Cloud] and, thus, be available for use for targeting in [!DNL Target]. In our current design, there is a possibility that a small percentage of data (up to 0.1% of large production batches) might not be onboarded.|
 |July 27|[Administer Target](/help/administrating-target/administrating-target.md)|Updated text in all linked topics on this page to reflect the new UI changes for the [!UICONTROL Administration] pages.|
 ||[Target announcements and events](/help/r-release-notes/target-announcements.md)|Made the following changes: <ul><li>Added registration information for the following webinar: "How HSBC leverages Adobe Target and AI to rapidly optimize and deliver personalization at scale."</li><li>Added information about Adobe again being named a Leader in Gartner Magic Quadrant for Personalization Engines.</li></ul>|
 ||[Form-Based Experience Composer](/help/c-experiences/form-experience-composer.md)|Clarified information under Step 4: Select a location.|
