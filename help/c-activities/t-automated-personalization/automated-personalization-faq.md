@@ -5,7 +5,7 @@ title: Automated Personalization FAQ
 uuid: 4c8aadd3-75c3-4388-b838-e62576dfb955
 ---
 
-# ![PREMIUM](/help/assets/premium.png) Automated Personalization FAQ{#automated-personalization-faq}
+# ![PREMIUM](/help/assets/premium.png) Automated Personalization FAQs{#automated-personalization-faq}
 
 List of frequently asked questions (FAQs) about Automated Personalization (AP).
 
@@ -44,15 +44,19 @@ There is no turn-key option of comparing AP to a default experience. However, as
     * There is no personalization between offers in a reporting group: the offers are all treated as the same by the personalization model. 
     * Never put all offers in an activity into a single reporting group. This decision will cause all offers to be uniformly randomly served to all visitors in the activity.
 
-## What are some limits in Automated Personalization? {#section_08BA09ED51B547299963C94FE6417CFA}
+## Frequently Asked Questions
+
+Consult the following FAQs and answers as you work with Auto-Allocate activities:
+
+### What are some limits in Automated Personalization? {#section_08BA09ED51B547299963C94FE6417CFA}
 
 Target has a hard limit of 30,000 experiences, but it functions at its best when fewer than 10,000 experiences are created.
 
-## How is offer-level targeting implemented? {#section_9D7A86EA93D74E9B8C81072A681263A4}
+### How is offer-level targeting implemented? {#section_9D7A86EA93D74E9B8C81072A681263A4}
 
 When each visitor arrives, the set of possible offers the visitor can see is determined by the offer-level targeting rules. Then, the algorithm chooses the offer that the model predicts will have the best expected revenue or chance of conversion from among those offers. Note that offer targeting impacts the efficacy of Target's machine learning algorithms and, as a result, should be used as sparingly as possible.
 
-## My activity isn't showing any lift. What is going on? {#section_BFA07C8C258F45318F73A461B8F32737}
+### My activity isn't showing any lift. What is going on? {#section_BFA07C8C258F45318F73A461B8F32737}
 
 There are four factors required for an AP activity to generate lift:
 
@@ -65,29 +69,29 @@ The best course of action is to first make sure the content and locations that m
 
 For more information, [Troubleshooting Automated Personalization](../../c-activities/t-automated-personalization/ap-trouble.md#reference_281954549C3E49E2B5498009BBDC62CA).
 
-## How is Automated Personalization allocating my activity's traffic? {#section_4369364F77804E0D9B78BEE551DA5659}
+### How is Automated Personalization allocating my activity's traffic? {#section_4369364F77804E0D9B78BEE551DA5659}
 
 Automated Personalization routes visitors to the experience that has the highest forecasted success metric based on the most recent [Random Forest](../../c-activities/t-automated-personalization/algo-random-forest.md#concept_48F3CDAA16A848D2A84CDCD19DAAE3AA) models built for each model. This forecast is based on the visitor's specific information and visit context.
 
 For example, assume an AP activity had two locations with two offers each. In the first location, Offer A has a forecasted conversion rate of 3% for a specific visitor, and Offer B has a forecasted conversion rate of 1%. In the second location, Offer C has a forecasted conversion rate of 2% for the same visitor, and Offer D has a forecasted conversion rate of 5%. Therefore, Automated Personalization would serve this visitor an experience with Offer A and Offer D.
 
-## When should I stop my Automated Personalization activity? {#section_C51F3DAB8887463BB147373F6FE06B93}
+### When should I stop my Automated Personalization activity? {#section_C51F3DAB8887463BB147373F6FE06B93}
 
 Automated Personalization can be used as "always on" personalization that will constantly optimize. Especially for evergreen content, there is no need to stop your Automated Personalization activity. If you want to make substantial changes to the content that aren't similar to offers currently in your Automated Personalization activity, the best practice is to start a new activity so that other users reviewing reports will not confuse or relate past results with different content.
 
-## How long should I wait for models to build? {#section_6F6A5A9DB3564BE6B22FFEDFA5B29619}
+### How long should I wait for models to build? {#section_6F6A5A9DB3564BE6B22FFEDFA5B29619}
 
 The length of time it takes for models to build in your activity typically depends on the traffic to your selected activity location(s) and your activity success metric. Use the [Traffic Estimator](../../c-activities/t-automated-personalization/ap-traffic-estimator.md#task_71AA6922AFD447EA8C5E610A78ABA714) to determine the expected length of time it will take for models to build in your activity.
 
-## One model is built within my activity. Are the visits to that experience personalized? {#section_51EA953C6D1D4A3185FC9DD290D66621}
+### One model is built within my activity. Are the visits to that experience personalized? {#section_51EA953C6D1D4A3185FC9DD290D66621}
 
 No, there must be at least two models built within your activity for personalization to begin.
 
-## When can I look at the results of my Automated Personalization activity? {#section_05DB5ACAE6AD429C9510766A7268EE2C}
+### When can I look at the results of my Automated Personalization activity? {#section_05DB5ACAE6AD429C9510766A7268EE2C}
 
 You can begin to look at the results of your Automated Personalization activity once you have at least two experiences with models built (green checkmark) for the experience that have models built.
 
-## How can I decrease the amount of time needed for models to build in my activity? {#section_CCB8CEE98DAA40BA93AADCD596C48D82}
+### How can I decrease the amount of time needed for models to build in my activity? {#section_CCB8CEE98DAA40BA93AADCD596C48D82}
 
 Review your activity setup and see if there are any changes you are willing to make to improve the speed at which models will build.
 
@@ -96,12 +100,24 @@ Review your activity setup and see if there are any changes you are willing to m
 * Are there some experiences you can drop from your activity? Decreasing the number of experiences in an activity will speed up the amount of time to build models. 
 * Is there a higher-traffic page there this activity would be more successful? The more traffic and conversions in your activity locations, the quicker models will build.
 
-## Why are visitors seeing experiences for an AP activity that they shouldn't see? {#section_41CECEAE0881446A8D9F3B016857914B}
+### Why are visitors seeing experiences for an AP activity that they shouldn't see? {#section_41CECEAE0881446A8D9F3B016857914B}
 
 Automated Personalization activities are evaluated once per session. If there were active sessions that have qualified for a particular experience and now new offers have been added to it, users will see the new content along with the previously shown offers. Because they have previously qualified for those experiences, they would still see them for the duration of the session. If there's a desire to evaluate this at every single page visit, you should change to the Experience Targeting (XT) activity type. 
 
-## Can I change the goal metric midway through an Automated Personalization activity? {#change-metric}
+### Can I change the goal metric midway through an Automated Personalization activity? {#change-metric}
 
 We do not recommend that you change the goal metric midway through an activity. Although it is possible to change the goal metric during an activity using the [!DNL Target] UI, you should always start a new activity. We do not warranty what happens if you change the goal metric in an activity after it is running. 
 
 This recommendation applies to [!UICONTROL Auto-Allocate], [!UICONTROL Auto-Target], and [!UICONTROL Automated Personalization] activities that use either [!DNL Target] or [!DNL Analytics] (A4T) as the reporting source.
+
+### Can I use the Reset Report Data option while running an Automated Personalization activity?
+
+Using the [!UICONTROL Reset Report Data] option for [!UICONTROL Automated Personalization] activities is not suggested. Although it removes the visible reporting data, this option does not remove all training records from the [!UICONTROL Automated Personalization] model. Instead of using the [!UICONTROL Reset Report Data] option for [!UICONTROL Automated Personalization] activities, create a new activity and de-activate the original activity. (Note: This guidance also applies to [!UICONTROL Auto-Allocate] and [!UICONTROL Auto-Target] activities.)
+
+### How does Automated Personalization build models with regard to environments?
+
+One model is built to identify the performance of the personalized strategy vs. randomly served traffic vs. sending all traffic to the overall winning experience. This model considers hits and conversions in the default environment only. 
+
+Traffic from a second set of models is built for each modeling group (AP) or experience (AT). For each of these models, hits and conversions across all environments are considered. 
+  
+Requests will therefore be served with the same model, regardless of environment, but the plurality of traffic should come from the default environment to ensure the identified overall winning experience is consistent with real-world behavior.

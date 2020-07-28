@@ -26,11 +26,18 @@ Similarly to Automated Personalization, [!UICONTROL Auto-Target] uses a Random F
 
 Unlike an A/B activity in which the experience allocation for a given visitor is sticky, [!UICONTROL Auto-Target] optimizes the specified business goal over each visit. Like in [!UICONTROL Auto Personalization], [!UICONTROL Auto-Target], by default, reserves part of the activity's traffic as a control group to measure lift. Visitors in the control group are served a random experience in the activity.
 
-There are a few important notes to keep in mind when using [!UICONTROL Auto-Target]:
+## Considerations
+
+There are a few important considerations to keep in mind when using [!UICONTROL Auto-Target]:
 
 * You cannot switch a specific activity from [!UICONTROL Auto-Target] to Automated Personalization, and vice-versa. 
 * You cannot switch from Manual traffic allocation (traditional A/B Test) to [!UICONTROL Auto-Target], and vice-versa after an activity is live. 
-* When using hosts and environments (host groups), models are built for the "Production" environment only. All environments contribute data to build models for "Production" campaigns. 
+* One model is built to identify the performance of the personalized strategy vs. randomly served traffic vs. sending all traffic to the overall winning experience. This model considers hits and conversions in the default environment only. 
+
+  Traffic from a second set of models is built for each modeling group (AP) or experience (AT). For each of these models, hits and conversions across all environments are considered. 
+  
+  Requests will therefore be served with the same model, regardless of environment, but the plurality of traffic should come from the default environment to ensure the identified overall winning experience is consistent with real-world behavior.
+
 * You must use a minimum of two experiences.
 
 ## Terminology {#section_A309B7E0B258467789A5CACDC1D923F3}
@@ -215,6 +222,10 @@ For more information, see [Use a specific experience as control](/help/c-activit
 We do not recommend that you change the goal metric midway through an activity. Although it is possible to change the goal metric during an activity using the [!DNL Target] UI, you should always start a new activity. We do not warranty what happens if you change the goal metric in an activity after it is running. 
 
 This recommendation applies to [!UICONTROL Auto-Allocate], [!UICONTROL Auto-Target], and [!UICONTROL Automated Personalization] activities that use either [!DNL Target] or [!DNL Analytics] (A4T) as the reporting source.
+
+### Can I use the Reset Report Data option while running an Auto-Target activity?
+
+Using the [!UICONTROL Reset Report Data] option for [!UICONTROL Auto-Target] activities is not suggested. Although it removes the visible reporting data, this option does not remove all training records from the [!UICONTROL Auto-Target] model. Instead of using the [!UICONTROL Reset Report Data] option for [!UICONTROL Auto-Target] activities, create a new activity and de-activate the original activity. (Note: This guidance also applies to [!UICONTROL Auto-Allocate] and [!UICONTROL Automated Personalization] activities.)
 
 ## Troubleshooting [!UICONTROL Auto-Target] {#section_23995AB813F24525AF294D20A20875C8}
 
