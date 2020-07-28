@@ -10,9 +10,18 @@ uuid: c03bf806-0b03-4315-a176-4eaa9250a271
 Information about the Important Attributes report, one of the two specialized reports available to users of Automated Personalization (AP) and Auto-Target (AT) activities.
 
 >[!NOTE]
->AP and AT activities are available as part of the  Target Premium solution. They are not included with  Target Standard without a Target Premium license.
 >
->Personalization Insights reports are available only for AP and AT activities that use a conversion optimization goal. Activities where the optimization goal was changed to conversion from revenue after the activity was already live are also not supported.|
+>Consider the following when using Personalization Insights reports:
+>
+>* AP and AT activities are available as part of the [!DNL Target Premium] solution. They are not included with [!DNL Target Standard] without a [!DNL Target Premium] license.
+>
+>* [!UICONTROL Personalization Insights] reports are available only for AP and AT activities that use a conversion optimization goal. Activities where the optimization goal was changed to conversion from revenue after the activity was already live are also not supported.
+>
+>* [!UICONTROL Personalization Insights] reports are available only if the [!UICONTROL Primary Goal] is selected from the the [!UICONTROL Report Metric] drop-down list.
+>
+>* [!UICONTROL Personalization Insights] reports are supported in the [default environment](../../administrating-target/hosts.md) only.
+>
+>* [!UICONTROL Personalization Insights] reports are generated only for activities that are in the [!UICONTROL Live] status and have been activated and receiving traffic for at least 15 days.
 
 In different activities, different attributes are more, or less, important to how the model decides to personalize. This report shows the top attributes that influenced the model and their relative importance.
 
