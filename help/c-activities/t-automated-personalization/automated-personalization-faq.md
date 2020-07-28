@@ -113,3 +113,11 @@ This recommendation applies to [!UICONTROL Auto-Allocate], [!UICONTROL Auto-Targ
 ### Can I use the Reset Report Data option while running an Automated Personalization activity?
 
 Using the [!UICONTROL Reset Report Data] option for [!UICONTROL Automated Personalization] activities is not suggested. Although it removes the visible reporting data, this option does not remove all training records from the [!UICONTROL Automated Personalization] model. Instead of using the [!UICONTROL Reset Report Data] option for [!UICONTROL Automated Personalization] activities, create a new activity and de-activate the original activity. (Note: This guidance also applies to [!UICONTROL Auto-Allocate] and [!UICONTROL Auto-Target] activities.)
+
+### How does Automated Personalization build models with regard to environments?
+
+One model is built to identify the performance of the personalized strategy vs. randomly served traffic vs. sending all traffic to the overall winning experience. This model considers hits and conversions in the default environment only. 
+
+Traffic from a second set of models is built for each modeling group (AP) or experience (AT). For each of these models, hits and conversions across all environments are considered. 
+  
+Requests will therefore be served with the same model, regardless of environment, but the plurality of traffic should come from the default environment to ensure the identified overall winning experience is consistent with real-world behavior.

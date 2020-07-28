@@ -186,7 +186,7 @@ This recommendation applies to [!UICONTROL Auto-Allocate], [!UICONTROL Auto-Targ
 
 Using the [!UICONTROL Reset Report Data] option for [!UICONTROL Auto-Allocate] activities is not suggested. Although it removes the visible reporting data, this option does not remove all training records from the [!UICONTROL Auto-Allocate] model. Instead of using the [!UICONTROL Reset Report Data] option for [!UICONTROL Auto-Allocate] activities, create a new activity and de-activate the original activity. (Note: This guidance also applies to [!UICONTROL Auto-Target] and [!UICONTROL Automated Personalization] activities.)
 
-### How does Auto-Allocate build models with regards to environments?
+### How does Auto-Allocate build models with regard to environments?
 
 [!UICONTROL Auto-Allocate] builds models based on the traffic and conversion behavior recorded in the default environment only. By default, [!UICONTROL Production] is the default environment, but this can be changed in Target [Administration > Environments](/help/administrating-target/environments.md).
 
