@@ -129,6 +129,9 @@ Customers cannot perform CRUD operations on Auto-Allocate activities through the
 
 On May 10, 2020 we updated our GEO provider files, which introduced some inconsistencies. For example, some values containing commas were added; although, values in existing audiences had no comma. Not all of our delivery servers were affected by this change. As a result, audiences using such values might not have qualified all the correct visitors between May 10 and July 22 2020.
 
+### Image Offers showing 'Processing Label'
+Sometimes image offers under 'Offers' section, may keep showing 'processing' label several hours after the image(s) were uploaded. In most cases this is only a issue with label and image offers can still be used in an activity and delivered. However in some cases, the image offer may not be available for 'Replace Content -> Image' action. In such case user may upload the image offer again and check after few hours. 
+
 ## Resolved Issues {#section_FD2FC86E7C734D60B1EDC9DEF60E1014}
 
 As known issues above are resolved, they will be moved to the following sections and additional notes, if necessary, will be added.
