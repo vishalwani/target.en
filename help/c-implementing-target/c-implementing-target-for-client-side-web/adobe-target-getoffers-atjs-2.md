@@ -259,3 +259,17 @@ In the `request > prefetch > mboxes` section, there are three different mboxes. 
 This example uses the count variable to construct the CSS selectors. In a real-life scenario you could use a different mapping between the CSS selector and mbox.
 
 Note that this example uses `prefetch > mboxes`, but you could also use `execute > mboxes`. Ensure that if you use prefetch in `getOffers()`, you should also use prefetch in the `applyOffers()` invocation.
+
+## Call Call `getOffers()` to perform a pageLoad
+
+The following example shows you how to perform a pageLoad using getOffers() with at.js 2.*x*
+
+adobe.target.getOffers({
+    request: {
+        execute: {
+            pageLoad: {
+                parameters: {}
+            }
+        }
+    }
+});
