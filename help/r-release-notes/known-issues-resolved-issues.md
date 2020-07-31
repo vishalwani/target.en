@@ -129,6 +129,9 @@ Customers cannot perform CRUD operations on Auto-Allocate activities through the
 
 On May 10, 2020 we updated our GEO provider files, which introduced some inconsistencies. For example, some values containing commas were added; although, values in existing audiences had no comma. Not all of our delivery servers were affected by this change. As a result, audiences using such values might not have qualified all the correct visitors between May 10 and July 22 2020.
 
+### Image Offers showing "Processing" label {#offers}
+Image offers on the [!UICONTROL Offers] page sometimes retain the "processing" label for several hours after the images were uploaded. In most cases this is an issue with the label only: the image offers can still be used in activities and be delivered. In some cases, however, an image offer might not be available for the [!UICONTROL Replace Content > Image] action. If this happens, you should upload the image offer again and check after a few hours to see if the image offer is available for replacement. (TGT-37458) 
+
 ## Resolved Issues {#section_FD2FC86E7C734D60B1EDC9DEF60E1014}
 
 As known issues above are resolved, they will be moved to the following sections and additional notes, if necessary, will be added.
