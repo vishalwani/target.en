@@ -15,6 +15,7 @@ This page lists important changes made to the [!DNL Adobe Target] product docume
 |Date|Topic|Changes|
 | --- | --- | --- |
 |July 31|[Known issues and resolved issues](/help/r-release-notes/known-issues-resolved-issues.md)|Added new known issue: "Image Offers showing “Processing” label."|
+||[Target announcements and events](/help/r-release-notes/target-announcements.md)|Added registration information about the upcoming Adobe Target Community Coffee Break on August 5.|
 |July 28|[Personalization Insights reports](/help/c-reports/c-personalization-insights-reports/personalization-insights-reports.md),<br>[Automated Segments report](/help/c-reports/c-personalization-insights-reports/automated-segments-report.md),<br>and [Important Attributes report](/help/c-reports/c-personalization-insights-reports/important-attributes-report.md)|Updated text in the note at the top of the topics.|
 ||[Auto-Allocate](/help/c-activities/automated-traffic-allocation/automated-traffic-allocation.md)|Added the following FAQs:<ul><li>Can I use the Reset Report Data option while running an Auto-Allocate activity?</li><li>How does Auto-Allocate build models with regard to environments?</li></ul>|
 ||[Auto-Target](/help/c-activities/auto-target-to-optimize.md)|Added the following FAQ:<ul><li>Can I use the Reset Report Data option while running an Auto-Target activity?</li></ul>Updated text in the "Considerations" section.|
