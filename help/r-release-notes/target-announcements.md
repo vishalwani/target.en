@@ -1,5 +1,5 @@
 ---
-keywords: announcements;skill builder;developer chat
+keywords: announcements;skill builder;developer chat;coffee break;events
 description: Information about upcoming events, including Target Skill Builder sessions, developer chats, webinars, and Target Coffee Break sessions.
 title: Target announcements
 topic: Standard 
