@@ -264,6 +264,7 @@ Note that this example uses `prefetch > mboxes`, but you could also use `execute
 
 The following example shows you how to perform a pageLoad using getOffers() with at.js 2.*x*
 
+```
 adobe.target.getOffers({
     request: {
         execute: {
@@ -273,3 +274,4 @@ adobe.target.getOffers({
         }
     }
 });
+```
