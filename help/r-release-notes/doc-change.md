@@ -14,6 +14,7 @@ This page lists important changes made to the [!DNL Adobe Target] product docume
 
 |Date|Topic|Changes|
 | --- | --- | --- |
+|August 3|[Success metrics](/help/c-activities/r-success-metrics/success-metrics.md)|Added note clarifying what the [!UICONTROL Increment Count] options mean in regard to visitors vs. visits.|
 |July 31|[Known issues and resolved issues](/help/r-release-notes/known-issues-resolved-issues.md)|Added new known issue: "Image Offers showing “Processing” label."|
 ||[adobe.target.getOffers(options) - at.js 2.x](/help/c-implementing-target/c-implementing-target-for-client-side-web/adobe-target-getoffers-atjs-2.md)|Added code sample to use `getoffers()` to perform a pageLoad. |
 ||[Target announcements and events](/help/r-release-notes/target-announcements.md)|Added registration information about the upcoming Adobe Target Community Coffee Break on August 5.|

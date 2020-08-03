@@ -76,6 +76,10 @@ Use the advanced settings to determine what happens after a user reaches the goa
 |Increment count, release user, and allow reentry|Select the experience the visitor sees if they reenter the activity:<ul><li>Same experience (default)</li><li>Random experience</li><li>Unseen experience</li></ul>|
 |Increment count, release user, and bar the user from reentry|Determine what the user sees instead of the activity content:<ul><li>Same experience, without tracking (default)</li><li>Default content, or other activity content</li></ul>|
 
+>[!NOTE]
+>
+>If you configure a metric to one of the [!UICONTROL Increment Count] options (mentioned above), the metric count correctly increments once per entrant at the visitor level only. The metric count increments once per visit for every new session at the visit level.
+
 ## Training video: Activity Metrics
 
 This videos shows you how to use activity metrics.
