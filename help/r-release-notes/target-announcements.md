@@ -45,6 +45,13 @@ Join Adobe and HSBC for this webinar to learn:
 
 *McKinsey article: “[The COVID-19 recovery will be digital](https://www.mckinsey.com/business-functions/mckinsey-digital/our-insights/the-covid-19-recovery-will-be-digital-a-plan-for-the-first-90-days#),” May 2020
 
+## Webinar: Personalization Strategies Using Artificial Intelligence and Adobe Target
+
+* **8:00 - 9:00 a.m. (PDT)**
+* **Thursday, August 13, 2020**
+
+[Register for this webinar here](https://atskillbuilder-maxpersonalization.experienceleague.adobeevents.com/).
+
 ## Adobe Target Skill Builder: Developer chat, migrate Adobe Target's mbox.js to at.js {#skill-builder}
 
 With the upcoming deprecation of mbox.js on August 30, 2020, David Son, Adobe Target Product Manager recently hosted a developer chat to discuss the benefits of migrating mbox.js to at.js. For the next 30 days you can [view the webinar recording](https://seminars.adobeconnect.com/ptdo6mfo6qn6/?proto=true).
