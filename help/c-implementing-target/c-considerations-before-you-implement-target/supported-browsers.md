@@ -15,7 +15,7 @@ For additional important information about TLS, see [TLS (Transport Layer Securi
 
 ## [!DNL Target] Standard/Premium interface {#section_1B73CA4B7BBC460BB7009DF00A2AFC4D}
 
-The [!DNL [!DNL Target]] Standard/Premium] interface supports the following browsers and devices:
+The [!DNL Target] interface supports the following browsers and devices:
 
 | Device Type | Browser Version |
 |--- |--- |
