@@ -14,7 +14,7 @@ Modern browsers might block the display of a page or display warning messages if
 
 If the [!UICONTROL Visual Experience Composer] (VEC) in [!DNL Target] tries to open a page containing mixed content, a message displays showing how to disable blocking in your browser so you can open an HTTP site or a site that has mixed calls (HTTPS and HTTP).
 
-![](assets/mixed_content_warning.gif)
+![mixed content warning](/help/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/assets/mixed_content_warning.png)
 
 Previously, when mixed content was not allowed, you could still perform some actions in Step 1 of the three-step guided workflow when creating activities. [!DNL Target] now blocks actions in Step 1. When this message displays, you must enable mixed content before continuing creating the activity.
 
