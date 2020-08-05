@@ -13,19 +13,6 @@ Announcements and information about upcoming events, including Target Skill Buil
 
 Adobe was once again named a Leader in the third-annual Gartner Magic Quadrant for Personalization Engines, 2020 report. The Gartner Magic Quadrant for Personalization Engines evaluated vendors across 15 criteria that fall into two categories: completeness of vision and ability to execute. [Read about it on The Adobe Blog](https://theblog.adobe.com/adobe-again-named-leader-in-gartner-magic-quadrant-for-personalization-engines/).
 
-## Adobe Target Community Coffee Break
-
-* **10:00 - 11:00 a.m. (PDT)**
-* **Wednesday, August 5, 2020**
-
-We’ll be joined by Cristinel Anastasoaie, Adobe Target Product Manager, who will be signed in to the Adobe Target Community to chat directly with you to answer your burning Adobe Target questions pertaining to his areas of expertise:
-
-* Adobe Target user interface
-* Adobe Target integrations
-* Enterprise permissions and workspaces
-
-[Register in the Adobe Target Community.](https://adobe-target-community-coffee-breaks.experienceleague.adobeevents.com/)
-
 ## Webinar: How HSBC leverages Adobe Target and AI to rapidly optimize and deliver personalization at scale
 
 * **8:00 - 9:00 a.m. (PDT)**
