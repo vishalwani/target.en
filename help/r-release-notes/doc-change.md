@@ -14,6 +14,7 @@ This page lists important changes made to the [!DNL Adobe Target] product docume
 
 |Date|Topic|Changes|
 | --- | --- | --- |
+|August 5|[Delete the Target cookie](/help/c-implementing-target/c-considerations-before-you-implement-target/c-privacy/cookie-deleting.md)|Updated entire topic.|
 |August 4|[Target announcements and events](/help/r-release-notes/target-announcements.md)|Added registration information about the "Personalization Strategies Using Artificial Intelligence and Adobe Target" webinar scheduled for August 13.|
 ||[Enabling mixed content in your browser](/help/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/mixed-content.md)|Updated topic.|
 |August 3|[Success metrics](/help/c-activities/r-success-metrics/success-metrics.md)|Added note clarifying what the [!UICONTROL Increment Count] options mean in regard to visitors vs. visits.|

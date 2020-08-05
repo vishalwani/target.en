@@ -7,15 +7,15 @@ uuid: 6e95ee4d-dbf2-4432-8abe-cfd9bc928f0c
 
 # Delete the Target cookie{#delete-the-target-cookie}
 
-You can delete your [!DNL Target] browser cookies so that you can validate all of your experiences during testing.
+You can delete your [!DNL Target] browser cookie (mbox) so that you can validate all of your experiences during testing.
 
-If there are no [!DNL Target] cookies, you are considered a new visitor and shown a new experience. There are several ways to delete your [!DNL Target] cookies without deleting all of your browser cookies.
+If there is no [!DNL Target] cookie (mbox), you are considered a new visitor and shown a new experience. There are several ways to delete your [!DNL Target] cookies without deleting all of your browser cookies.
 
 <[!NOTE]
 >
 >The following instructions are correct for the browsers and versions listed. Search the internet for instructions for your specific browser or version.
 
-## Delete cookies from Google Chrome
+## Delete the Target cookie from Google Chrome
 
 Version 84.0.4147.105
 
@@ -23,19 +23,22 @@ Version 84.0.4147.105
 1. Click the **Privacy and Security** tab.
 1. Click **Cookies and other site data**.
 1. Click **See all cookies and site data**.
-1. Select the sites for the cookies you want to delete, then click the **Delete** icon.
+1. Expand the `adobe.com` section, select the **mbox** cookie, then click the delete icon (X).
 
-## Delete cookies from Mozilla Firefox
+## Delete the Target cookie from Mozilla Firefox
 
 Version 79.0
 
 1. Click the **Firefox** menu > **Preferences**.
 1. Click the **Privacy and Security** tab. 
-1. Under **Cookies and Site Data**, click **Manage Data**. 
-1. Sort by **Site** to find the [!DNL Target] cookies. 
-1. Select the sites for the cookies you want to delete, then click **Remove Selected** > **Save Changes**.
+1. Under **Cookies and Site Data**, click **Manage Data**.
+1. Select the `adobe.com` site, then click **Remove Selected**.
 
-## Delete cookies from Microsoft Edge
+   >[!NOTE]
+   >
+   >This deletes all cookies associated with the `adobe.com` site. If you want to delete or edit individual cookies for a site, you can do so in the [storage inspector of the developer tools](https://developer.mozilla.org/en-US/docs/Tools/Storage_Inspector). The specific cookie you should delete is named "mbox."
+
+## Delete the Target cookie from Microsoft Edge
 
 Version 84.0.522.52
 
@@ -43,9 +46,9 @@ Version 84.0.522.52
 1. Click the **Site Permissions** tab.
 1. Click **Cookies and site data**.
 1. Click **See all cookies and site data**.
-1. Select the sites for the cookies you want to delete, then click **Delete** icon.
+1. Expand the `adobe.com` section, select the **mbox** cookie, then click the delete icon (X).
 
-## Delete cookies from Apple Safari
+## Delete the Target cookie from Apple Safari
 
 Version 13.1.2
 
@@ -53,3 +56,16 @@ Version 13.1.2
 1. Click the **Privacy** tab.
 1. Click **Manage Website Data**.
 1. Select the sites for the cookies you want to delete, then click **Remove**.
+
+>[!NOTE]
+   >
+   >This deletes all cookies associated with the `adobe.com` site. If you want to delete an individual cookie for a site, follow the instructions below:
+
+1. Click the **Safari** menu > **Preferences**.
+1. Click the **Advanced** tab.
+1. Select the **Show Develop menu in menu bar** option.
+1. Navigate to the webpage that holds the cookie you want to delete.
+1. Click the **Develop** menu > **Show Web Inspector**.
+1. Click the **Storage** tab.
+1. Expand the **Cookies** section, then click `www.adobe.com`.
+1. Right-click the **mbox** cookie, then click **Delete**.
