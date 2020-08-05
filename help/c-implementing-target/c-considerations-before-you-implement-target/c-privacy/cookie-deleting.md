@@ -1,27 +1,55 @@
 ---
 description: Delete your Target browser cookies so that you can validate all of your experiences.
-title: Delete the Target cookie
+title: Delete the Adobe Target cookie
 topic: Standard
 uuid: 6e95ee4d-dbf2-4432-8abe-cfd9bc928f0c
 ---
 
 # Delete the Target cookie{#delete-the-target-cookie}
 
-Delete your Target browser cookies so that you can validate all of your experiences.
+You can delete your [!DNL Target] browser cookies so that you can validate all of your experiences during testing.
 
-If there is no cookie, you are considered a new visitor and shown a new experience. There are several ways to delete your Target cookie without deleting all of your browser cookies.
+If there are no [!DNL Target] cookies, you are considered a new visitor and shown a new experience. There are several ways to delete your [!DNL Target] cookies without deleting all of your browser cookies.
 
-**To delete the cookie from Internet Explorer:** 
+<[!NOTE]
+>
+>The following instructions are correct for the browsers and versions listed. Search the internet for instructions for your specific browser or version.
 
-1. From the Tools menu in Internet Explorer, select **[!UICONTROL Internet Options]**.
-1. Open the General tab, then in the [!UICONTROL Browsing History] section, click **[!UICONTROL Settings]** > **[!UICONTROL View files]**.
-1. Select the mbox cookie.
-1. From the File menu, select **[!UICONTROL Delete]**, or select the file and press **[!UICONTROL Delete]**.
+## Delete cookies from Google Chrome
 
-**To delete the cookie from Firefox:** 
+Version 84.0.4147.105
 
-1. Select **Tools** > **Options**> **Privacy**. 
-1. Click **View Cookies**. 
-1. Sort by cookie name to find the Target cookies. 
-1. Select the cookies for the sites you are previewing, then click **Remove Cookie**.
+1. Click the **Chrome** menu > **Preferences**.
+1. Click the **Privacy and Security** tab.
+1. Click **Cookies and other site data**.
+1. Click **See all cookies and site data**.
+1. Select the sites for the cookies you want to delete, then click the **Delete** icon.
 
+## Delete cookies from Mozilla Firefox
+
+Version 79.0
+
+1. Click the **Firefox** menu > **Preferences**.
+1. Click the **Privacy and Security** tab. 
+1. Under **Cookies and Site Data**, click **Manage Data**. 
+1. Sort by **Site** to find the [!DNL Target] cookies. 
+1. Select the sites for the cookies you want to delete, then click **Remove Selected** > **Save Changes**.
+
+## Delete cookies from Microsoft Edge
+
+Version 84.0.522.52
+
+1. Click the **Microsoft Edge** menu > **Preferences**.
+1. Click the **Site Permissions** tab.
+1. Click **Cookies and site data**.
+1. Click **See all cookies and site data**.
+1. Select the sites for the cookies you want to delete, then click **Delete** icon.
+
+## Delete cookies from Apple Safari
+
+Version 13.1.2
+
+1. Click the **Safari** menu > **Preferences**.
+1. Click the **Privacy** tab.
+1. Click **Manage Website Data**.
+1. Select the sites for the cookies you want to delete, then click **Remove**.
