@@ -11,7 +11,7 @@ You can delete your [!DNL Target] browser cookies so that you can validate all o
 
 If there are no [!DNL Target] cookies, you are considered a new visitor and shown a new experience. There are several ways to delete your [!DNL Target] cookies without deleting all of your browser cookies.
 
-<[!NOTE]
+>[!NOTE]
 >
 >The following instructions are correct for the browsers and versions listed. Search the internet for instructions for your specific browser or version.
 
