@@ -28,11 +28,7 @@ To view information about the current release, see [Target Release Notes](releas
 
 ## Target Standard/Premium 20.9.1 (September 2, 2020)
 
-This Target release includes the following new features or enhancements:
-
-|Feature / Enhancement|Description|
-| --- | --- |
-|Analytics for Target (A4T) support for [!UICONTROL Auto-Target] activities|[!UICONTROL Auto-Target] activities will support [!UICONTROL Analytics for Target] (A4T).<br>This integration will let you use the [!UICONTROL Auto-Target] advanced machine learning to select from multiple high-performing marketer-defined experiences to personalize content and drive conversions, while using an [!UICONTROL Adobe Analytics] goal metric and/or [!DNL Adobe Analytics] reporting and analysis capabilities. [!UICONTROL Auto-Target] serves the most tailored experience to each visitor based on his or her individual customer profile and the behavior of previous visitors with similar profiles.<br>If you’ve already [implemented A4T](/help/c-integrating-target-with-mac/a4t/a4timplementation.md) for use with [!UICONTROL A/B Test], [!UICONTROL Auto-Allocate], and [!UICONTROL Experience Targeting] activities, you’re all set!|
+New features, enhancements, and fixes in this release will be update here.
 
 ## Prerelease information {#section_7B9D4AAFC6A74388B9D7DEF0658D8B63} 
 
