@@ -8,7 +8,7 @@ uuid: 4b42adbc-4fa8-4b62-86c8-bb8f8bec7e54
 
 # Classifications - A4T FAQ{#classifications-a-t-faq}
 
-This topic contains answers to questions that are frequently asked about classifications and using Analytics as the reporting source for Target (A4T).
+This topic contains answers to questions that are frequently asked about classifications and using [!DNL Analytics] as the reporting source for [!DNL Target] (A4T).
 
 ## After using the Classifications Importer to download classifications, how do I match the post-tnt-action value with an activity name? {#section_6045DAC488B248418F430E663C38D001}
 
@@ -18,7 +18,7 @@ This lookup file is useful for customers that receive Adobe’s clickstream data
 
 The string format of the TNT variable is `activityID:experienceID:targettype|event`.
 
-* targettype will always be 0 for A4T. 
+* targettype = 0 (control/random) or 1 (targeted) for [!UICONTROL Auto-Allocate] and [!UICONTROL Auto-Target] activities.
 * Event = 0 represents an experience entrance. 
 * Event = 1 represents an experience visit. 
 * Event = 2 represents an activity impression. 
