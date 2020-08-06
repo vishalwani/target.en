@@ -192,14 +192,17 @@ If an A/B test's results show statistically significant lift on one or more of t
 
 If you want to make substantial changes to the content in your [!UICONTROL Auto-Target] activity, the best practice is to start a new activity so that other users reviewing reports will not confuse or relate past results with different content.
 
-### How long should I wait for models to build?
+### How long should I wait for models to build? {#how-long}
 
-The length of time it takes for models to build in your [!UICONTROL Auto-Target] activity typically depends on the traffic to your selected activity location(s) and your activity success metric.
+The length of time it takes for models to build in your [!UICONTROL Auto-Target] activity typically depends on the traffic to your selected activity location(s) and conversion rates associated with you activity success metric.
 
-For [!UICONTROL Auto-Target], simple rules of thumb can be used to understand traffic requirements:
+[!UICONTROL Auto-Target] will not attempt to build a personalized model for a given experience until there are least 50 conversions for that experience. Furthermore, if the model built is of insufficient quality (as determined by offline evaluation on hold out "test" data, using [a metric known as AUC](https://en.wikipedia.org/wiki/Receiver_operating_characteristic#Area_under_the_curve)), the model will not be used to serve traffic in a personalized manner.
 
-* **When Conversion is your success metric:** 1,000 visits and at least 50 conversions per day per experience, and in addition the activity must have at least 7,000 visits and 350 conversions.
-* **When Revenue per Visit is your success metric:** 1,000 visits and at least 50 conversions per day per experience, and in addition the activity must have at least 1,000 conversions per experience. RPV usually requires more data to build models due to the higher data variance that typically exists in visit revenue compared to conversion rate.
+Some further points to keep in mind about [!UICONTROL Auto-Target]'s model building:
+
+* Once an activity is live, [!UICONTROL Auto-Target] considers up to the last 45 days of randomly served data when attempting to build models (i.e. control traffic, plus some extra randomly served data held out by our algorithm).
+* When [!UICONTROL Revenue per Visit] is your success metric, these activities typically require more data to build models due to the higher data variance that typically exists in visit-revenue compared to conversion rate.
+* Because models are built on a per-experience basis, replacing one experience with another means that sufficient traffic (i.e. at least 50 conversions) must be collected for the new experience before personalized models can be re-built.
 
 ### One model is built in my activity. Are the visits to that experience personalized?
 
