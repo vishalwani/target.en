@@ -15,6 +15,7 @@ This page lists important changes made to the [!DNL Adobe Target] product docume
 |Date|Topic|Changes|
 | --- | --- | --- |
 |August 6|[Auto-Target](/help/c-activities/auto-target-to-optimize.md#how-long)|Updated text for the following FAQ: "How long should I wait for models to build?"|
+||[Classifications - A4T FAQ](/help/c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-classifications.md)|Updated the text for targettype.|
 |August 5|[Delete the Target cookie](/help/c-implementing-target/c-considerations-before-you-implement-target/c-privacy/cookie-deleting.md)|Updated entire topic.|
 |August 4|[Target announcements and events](/help/r-release-notes/target-announcements.md)|Added registration information about the "Personalization Strategies Using Artificial Intelligence and Adobe Target" webinar scheduled for August 13.|
 ||[Enabling mixed content in your browser](/help/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/mixed-content.md)|Updated topic.|
