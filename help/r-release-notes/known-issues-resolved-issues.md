@@ -117,9 +117,9 @@ When a success metric is set to be incremented on every impression, Target count
 
 ### Analytics for Target (A4T)
 
-Target activity impressions and conversions are currently counted incorrectly in Analysis Workspace .
+When using Target activity impressions and conversions in Analysis Workspace, apply the "Same Touch" Attribution IQ model to the metrics to ensure accurate counting. To apply a [non-default attribution model](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/build-workspace-project/column-row-settings/column-settings.html), right-click on the metric to **modify Column Settings > enable Use non-default attribution model > select Same Touch model**. Without this model applied, the metrics are overstated. 
 
-As a workaround, please rely on A4T data in Reports & Analytics until this issue is fixed.
+All current Analytics packages have the ability to add this model with Attribution IQ. If you do not have access to Attribution IQ, please rely on A4T data in Reports & Analytics.
 
 ### Target APIs
 
