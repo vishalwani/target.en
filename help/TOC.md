@@ -175,6 +175,7 @@ solution: Target
          + [Legacy SiteCatalyst to Test&Target Integration - A4T FAQ](c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-old-integration.md)
       + [Expected data variances between Target and Analytics when using and not using A4T](c-integrating-target-with-mac/a4t/understanding-expected-data-variances.md)
    + [Experience Cloud Audiences](c-integrating-target-with-mac/mmp.md)
+   + [Integrate Target with Adobe Audience Manager](/help/c-integrating-target-with-mac/audience-manager-target-integration.md)
    + [Integrate Target with Adobe Campaign](c-integrating-target-with-mac/campaign-and-target.md)
    + [Experience Cloud Device Co-op](c-integrating-target-with-mac/experience-cloud-device-co-op.md)
 + Activities {#activities}

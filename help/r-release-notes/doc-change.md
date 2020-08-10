@@ -14,6 +14,9 @@ This page lists important changes made to the [!DNL Adobe Target] product docume
 
 |Date|Topic|Changes|
 | --- | --- | --- |
+|August 10|[CNAME and Adobe Target](/help/c-implementing-target/c-considerations-before-you-implement-target/implement-cname-support-in-target.md)|Added text indicating that the size of the cookie header will increase when using CNAME.|
+||[Integrate Target with Adobe Audience Manager](/help/c-integrating-target-with-mac/audience-manager-target-integration.md)|New topic.|
+||[Target announcements and events](/help/r-release-notes/target-announcements.md)|Added link to view the following archived webinar: "How HSBC leverages Adobe Target and AI to rapidly optimize and deliver personalization at scale."|
 |August 6|[Auto-Target](/help/c-activities/auto-target-to-optimize.md#how-long)|Updated text for the following FAQ: "How long should I wait for models to build?"|
 ||[Classifications - A4T FAQ](/help/c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-classifications.md)|Updated the text for targettype.|
 |August 5|[Delete the Target cookie](/help/c-implementing-target/c-considerations-before-you-implement-target/c-privacy/cookie-deleting.md)|Updated entire topic.|
