@@ -13,10 +13,16 @@ Announcements and information about upcoming events, including Target Skill Buil
 
 Adobe was once again named a Leader in the third-annual Gartner Magic Quadrant for Personalization Engines, 2020 report. The Gartner Magic Quadrant for Personalization Engines evaluated vendors across 15 criteria that fall into two categories: completeness of vision and ability to execute. [Read about it on The Adobe Blog](https://theblog.adobe.com/adobe-again-named-leader-in-gartner-magic-quadrant-for-personalization-engines/).
 
-## Webinar: How HSBC leverages Adobe Target and AI to rapidly optimize and deliver personalization at scale
+## Webinar: Personalization Strategies Using Artificial Intelligence and Adobe Target
 
 * **8:00 - 9:00 a.m. (PDT)**
-* **Thursday, August 6, 2020**
+* **Thursday, August 13, 2020**
+
+[Register for this webinar here](https://atskillbuilder-maxpersonalization.experienceleague.adobeevents.com/).
+
+## Webinar: How HSBC leverages Adobe Target and AI to rapidly optimize and deliver personalization at scale
+
+* **For the next 30 days, you can click here to view the [Webinar Recording](https://seminars.adobeconnect.com/ps4ozlg7qfdy/?proto=true).**
 
 McKinsey Digital reports that “we have vaulted five years forward in consumer and business digital adoption in a matter of around eight weeks.” *
 
@@ -31,13 +37,6 @@ Join Adobe and HSBC for this webinar to learn:
 [Register for this exciting webinar here](https://hsbc-targetai.experienceleague.adobeevents.com/).
 
 *McKinsey article: “[The COVID-19 recovery will be digital](https://www.mckinsey.com/business-functions/mckinsey-digital/our-insights/the-covid-19-recovery-will-be-digital-a-plan-for-the-first-90-days#),” May 2020
-
-## Webinar: Personalization Strategies Using Artificial Intelligence and Adobe Target
-
-* **8:00 - 9:00 a.m. (PDT)**
-* **Thursday, August 13, 2020**
-
-[Register for this webinar here](https://atskillbuilder-maxpersonalization.experienceleague.adobeevents.com/).
 
 ## Adobe Target Skill Builder: Developer chat, migrate Adobe Target's mbox.js to at.js {#skill-builder}
 
