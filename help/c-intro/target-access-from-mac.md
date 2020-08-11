@@ -13,17 +13,13 @@ Information about accessing [!DNL Adobe Target] from the [!DNL Adobe Experience 
 
 ## Sign in to Adobe Target and set your default view
 
-1. After signing into the [!DNL Experience Cloud], click the App icon in the navigation bar.
+1. Sign into the [Adobe Experience Cloud](https://experience.adobe.com/).
+
+1. Click the **[!UICONTROL App icon]** in the navigation bar, then click **[!UICONTROL Target]**.
+
+   You can also click the [!DNL Target] panel in the main window to access [!DNL Target] (or any other [!DNL Adobe Experience Cloud] solution you have access to).
 
    ![application icon](/help/c-intro/assets/appmenu-new.png)
-
-1. Click the [!DNL Target] icon in the App menu.
-
-   ![Target icon](/help/c-intro/assets/appmenu-target-new.png)
-
-1. Click **[!UICONTROL Launch]** on the [!DNL Target] card.
-
-   ![Target launch](/help/c-intro/assets/target-launch-new.png)
 
 1. (Optional) To set [!DNL Target] as your default view when you log in to the [!DNL Experience Cloud], click **[!UICONTROL Edit Profile]** under your profile avatar, then set your landing page preference.
 
@@ -31,13 +27,15 @@ Information about accessing [!DNL Adobe Target] from the [!DNL Adobe Experience 
 
 ## Change the default language for the Target UI {#language}
 
-1. After signing into the [!DNL Adobe Experience Cloud ] or [!DNL Target], click your profile avatar, then click **[!UICONTROL Edit Profile]**.
+1. After signing into the [!DNL Adobe Experience Cloud ] or [!DNL Target], click your profile avatar, then click **[!UICONTROL Edit Preferences]**.
 
    ![Edit profile](/help/c-intro/assets/change-language.png)
 
-1. Click **[!UICONTROL Edit Personal Information]**.
+1. Click **[!UICONTROL Adobe Account]** to access your [!DNL Adobe] profile.
 
-1. Click the **[!UICONTROL Communication]** tab in the top menu bar.
+   ![Adobe Account](/help/c-intro/assets/adobe-account.png)
+
+1. Click the **[!UICONTROL Notifications]** tab in the top menu bar, then click the **[!UICONTROL Preferences]** tab on the left side.
 
    ![Preferred languages](/help/c-intro/assets/prefered-language.png)
 
@@ -45,7 +43,7 @@ Information about accessing [!DNL Adobe Target] from the [!DNL Adobe Experience 
 
 1. Select your first (primary) language, then select a second language, if desired.
 
-   The [!DNL Target] UI is available in the following languages:
+   The [!DNL Target] UI is available in the following languages; although, notifications are available in more languages:
 
    * English
    * Spanish
@@ -64,7 +62,7 @@ Information about accessing [!DNL Adobe Target] from the [!DNL Adobe Experience 
 
 ## Change the language for the Target product documentation {#doc-lang}
 
-Your operating system or browser settings should detect your preferred language and display the documentation in that language (if available). Target documentation is automatically translated and will be in sync with the English version within hours of changes made to English documentation.
+Your operating system or browser settings should detect your preferred language and display the documentation in that language (if available). [!DNL Target] documentation is automatically translated and will be in sync with the English version within hours of changes made to English documentation.
 
 You can quickly change the language to the original English version by clicking the link in the page header.
 
