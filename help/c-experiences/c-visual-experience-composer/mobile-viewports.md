@@ -139,27 +139,27 @@ Add mobile viewports to your [!DNL Target] activities to create responsive exper
 
 ## Use Case: Target two iPhone versions {#task_CC3144BF5BA54034996E1D3DB0BC1A35}
 
-This use case shows how to configure experiences for two iPhone versions: iPhone 11 Pro Max and iPhone SE.
+This use case shows how to configure experiences for two iPhone versions: iPhone 6 and iPhone 6 Plus.
 
-1. In Target, click **[!UICONTROL Administration]**.
-1. In the **[!UICONTROL Mobile viewport configuration]** section, create mobile viewports for iPhone 11 Pro Max and iPhone SE.
+1. Click **[!UICONTROL Administration]** > **[!UICONTROL Visual Experience Composer]**.
+1. In the **[!UICONTROL Mobile Viewport Configuration]** section, create mobile viewports for iPhone 6 and iPhone 6 plus.
 
    Use the following settings for each viewport:
 
    |  Name  | Width  | Height  | Operating System  |
    |---|---|---|---|
-   |  iPhone 11 Pro Max  | 414  | 896  | iOS  |
-   |  iPhone SE  | 375  | 667  | iOS  |
+   |  iPhone 6  | 375  | 667  | iOS  |
+   |  iPhone 6 Plus  | 414  | 736  | iOS  |
 
    ![](assets/iphoneviewportconfig.png)
 
 1. Create an activity with the experience you would like to target.
-1. Select the experience you want to target to visitors who access your site from an iPhone 11 Pro Max or iPhone SE.
+1. Select the experience you want to target to visitors who access your site from an iPhone 6 or iPhone 6 Plus.
 1. When selecting your target, click **[!UICONTROL Create Audience]**, then configure an audience as shown in the image below:
 
    ![](assets/iphoneaudiences.png)
 
-   Because the phone could be rotated to landscape, requiring both height and width to be greater than 320 simultaneously creates a condition that only the iPhone 11 Pro Max and iPhone SE would be able to meet, when combined with the iPhone Device Model. 
+   Because the phone could be rotated to landscape, requiring both height and width to be greater than 320 simultaneously creates a condition that only the 6 and 6 Plus would be able to meet, when combined with the iPhone Device Model. 
 1. Click **[!UICONTROL Save]**.
 1. Continue setting up your activity as you normally would.
 
@@ -171,11 +171,11 @@ The following videos contain more information about the concepts discussed in th
 
 The following demo video includes information about using the Visual Experience composer to work with mobile viewports:
 
-* Rename and duplicate an experience 
-* Create a redirect experience 
-* Target an activity to a single URL or a group of URLs 
-* Create a multi-page activity 
-* Preview and build experience for responsive websites 
+* Rename and duplicate an experience
+* Create a redirect experience
+* Target an activity to a single URL or a group of URLs
+* Create a multi-page activity
+* Preview and build experience for responsive websites
 * Use overlays to highlight types of elements
 
 >[!VIDEO](https://video.tv.adobe.com/v/17401)
