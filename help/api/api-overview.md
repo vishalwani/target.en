@@ -1,6 +1,6 @@
 ---
 keywords: api;apis;admin api;delivery api;reporting api;profile api
-description: Information about Adobe Target APIs: Admin, Delivery, Reporting, and Profile.
+description: Information about Adobe Target APIs, including the Admin, Delivery, Reporting, and Profile APIs.
 title: Adobe Target API overview
 topic: APIs
 ---
