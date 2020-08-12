@@ -386,4 +386,6 @@ solution: Target
 + Troubleshoot Target {#troubleshoot}
    + [Troubleshoot Target](r-troubleshooting-target/troubleshooting-target.md)
    + [Limits](r-troubleshooting-target/target-limits.md)
++ Target APIs {#apis}
+   + [Understand Target APIs](/help/api/api-overview.md)
 + [Resources and Contact Information](cmp-resources-and-contact-information.md) 
