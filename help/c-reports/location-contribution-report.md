@@ -2,6 +2,7 @@
 keywords: mvt;multivariate test;location contribution report
 description: The Location Contribution report shows the performance of each element and each offer.
 title: Location Contribution report (MVT)
+feature: 
 topic: Standard
 uuid: f487d1a2-05dc-40b7-af40-8da1616452b3
 ---

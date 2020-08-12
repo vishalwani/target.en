@@ -1,6 +1,7 @@
 ---
 description: Offline data, such as CRM information or customer churn propensity scores, can be incredibly valuable when building personalization models.
 title: Upload data for Target's personalization algorithms
+feature: 
 uuid: eb0938b9-7f35-4bb5-ac4b-260b2144db5b
 ---
 

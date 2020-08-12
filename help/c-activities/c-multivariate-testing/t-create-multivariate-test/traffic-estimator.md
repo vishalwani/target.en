@@ -1,6 +1,7 @@
 ---
 description: Because a multivariate test compares multiple experiences, it is important to know how much traffic is required to provide meaningful results. The Traffic Estimator uses statistics about your page and the number of experiences being tested to estimate the amount of traffic and the test duration needed to make the test successful.
 title: Estimate the traffic required for a successful test
+feature: 
 topic: Standard
 uuid: ccc7232e-20f9-43db-8b68-d4fb1d586a4d
 ---

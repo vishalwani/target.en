@@ -2,6 +2,7 @@
 keywords: Target;reports;report settings;multiple metrics;metrics
 description: Select multiple metrics to view in a report using Adobe Target.
 title: View multiple metrics in a report using Adobe Target
+feature: 
 uuid: f3ea7313-0f98-4b58-88aa-e2438c06e739
 ---
 

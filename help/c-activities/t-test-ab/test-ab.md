@@ -2,6 +2,7 @@
 keywords: AB;A/B;AB...n;compare experiences;Targeting;compare content
 description: A/B Testing compares two or more versions of your Web site content to see which version best improves your conversions during a pre-specified test period.
 title: A/B Test
+feature: 
 uuid: 154559cf-58bb-425d-bb2e-4eaf34c89451
 ---
 

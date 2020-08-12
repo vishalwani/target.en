@@ -2,6 +2,7 @@
 keywords: catalog;search
 description: The catalog search in Adobe Target helps you locate the products or content in your catalog.
 title: Catalog search in Adobe Target
+feature: 
 uuid: e0876963-5905-4850-a615-953e435f26e9
 ---
 

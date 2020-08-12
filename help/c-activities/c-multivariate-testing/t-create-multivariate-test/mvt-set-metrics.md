@@ -2,6 +2,7 @@
 keywords: multivariate;mvt;metrics;set metrics;goal metric;activity settings;success metric;conversion;revenue;engagement
 description: Use metrics in a Multivariate Test to determine when a visit is successful.
 title: Set metrics
+feature: 
 solution: Target,standard
 uuid: 0fb297ba-f1c3-4139-ac37-7fa0bf2ac308
 ---

@@ -2,6 +2,7 @@
 keywords: report;reports;reporting;experience cloud solution;timezone;time zone;currency;exclude IPs;estimated lift in revenue;revenue;lift in revenue;fine-grained priorities;fine-grained
 description: Configure the Adobe Target Visual Experience Composer (VEC) by specifying its general settings, mobile viewport configuration, and CSS selectors.
 title: Configure reporting in Adobe Target
+feature: 
 topic: Standard
 ---
 

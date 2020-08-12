@@ -2,6 +2,7 @@
 keywords: mbox.js changes;mbox.js versions
 description: This page shows changes to each version of mbox.js.
 title: mbox.js version details
+feature: 
 subtopic: Getting Started
 uuid: 5f8e0511-637b-4c17-bb19-aa7f4d7c98ea
 ---

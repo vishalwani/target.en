@@ -2,6 +2,7 @@
 keywords: Profile script;profile script attributes;mutually exclusive activities
 description: You can use profile attributes to set up tests that compare two or more activities but do not let the same visitors participate in each activity.
 title: Use profile scripts to test mutually exclusive activities
+feature: 
 topic: Advanced,Standard,Classic
 uuid: a76ed523-32cb-46a2-a2a3-aba7f880248b
 ---

@@ -2,6 +2,7 @@
 keywords: Recommendations
 description: The scenarios in this topic show how changes made to your page affect Target's ability to display an experience.
 title: Page Modification Scenarios
+feature: 
 uuid: bb868f55-7e77-49c4-81b5-3aff5b63b827
 ---
 

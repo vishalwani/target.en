@@ -1,6 +1,7 @@
 ---
 description: Criteria control the content of your Adobe Recommendations activities. Create criteria to show the recommendations that are most appropriate for your activity.
 title: Create criteria
+feature: 
 uuid: 603d4b02-cdb6-40aa-9654-0086c23b0c8e
 ---
 

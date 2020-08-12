@@ -2,6 +2,7 @@
 keywords: Overview and Reference;SEO;search engine optimization
 description: Adobe Target integrates with websites by means of one of two JavaScript libraries. at.js or mbox.js
 title: How Adobe Target works
+feature: 
 subtopic: Getting Started
 topic: Standard
 uuid: 01c0072d-f77d-4f14-935b-8633f220db7b

@@ -2,6 +2,7 @@
 keywords: Implementation;Mbox;download mbox.js;download api;mbox.js api
 description: To use Target Standard or Target Premium, add one line of code to call mbox.js.
 title: mbox.js implementation
+feature: 
 subtopic: Getting Started
 topic: Standard
 uuid: aa53dfd4-db42-4a33-b561-7e84ca7e4497

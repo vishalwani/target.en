@@ -2,6 +2,7 @@
 keywords: multivariate test;mvt;experience performance report
 description: The Experience Performance report shows how each experience in the activity performs.This report includes information about the number of entrants, the conversion rate, the lift, and the confidence.
 title: Experience Performance report (MVT)
+feature: 
 uuid: ca72e933-2ad3-44e1-893f-7b65c474704b
 ---
 

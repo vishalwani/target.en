@@ -2,6 +2,7 @@
 keywords: order confirmation;orderConfirmPage
 description: The Order Confirmation mbox records details about orders on your site and allows reporting based on revenue and orders. The Order Confirmation mbox can also drive recommendation algorithms, such as "People who bought product x also bought product y."
 title: Create an Order Confirmation mbox - mbox.js
+feature: 
 subtopic: Getting Started
 uuid: 001da2bd-2ccf-490b-ba84-ac9b9a2a5451
 ---

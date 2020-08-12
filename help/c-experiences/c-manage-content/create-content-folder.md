@@ -2,6 +2,7 @@
 keywords: content;create folder;assets;move folder;copy folder;delete folder;download folder;folder
 description: Create a folder to hold items in the Offers library.
 title: Create offer folder
+feature: 
 topic: Standard
 uuid: f7611fbb-76fe-44d7-a78f-ab22e9a2a2bc
 ---

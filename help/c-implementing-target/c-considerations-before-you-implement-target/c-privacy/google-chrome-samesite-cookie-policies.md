@@ -2,6 +2,7 @@
 keywords: google;samesite;cookies;chrome 80;ietf
 description: Information about Adobe Target and the SameSite IETF standard introduced with Google Chrome version 80.
 title: Adobe Target and Google's SameSite cookie policies
+feature: 
 subtopic: Getting Started
 topic: Standard
 uuid: aaeda1e6-7b2c-4a00-b65d-bfc95ea796b5

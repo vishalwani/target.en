@@ -2,6 +2,7 @@
 keywords: audience;audience rules;create audience;creating audience
 description: You can create customized audiences and save them to the Target library for use in your activities. You can copy an existing audience that you can then edit to create a similar audience and combine multiple audiences.
 title: Build audiences in Target
+feature: 
 topic: Advanced,Standard,Classic
 uuid: 496dbb9d-cb13-47ee-88bd-ba5920b2ca1c
 ---

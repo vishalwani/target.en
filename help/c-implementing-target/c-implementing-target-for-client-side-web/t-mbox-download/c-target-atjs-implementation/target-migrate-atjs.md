@@ -2,6 +2,7 @@
 keywords: Target;at.js;migrate to at.js;readiness;audit at.js;integrate at.js
 description: Migrating from mbox.js to at.js is a straightforward process.
 title: How to Migrate to at.js from mbox.js
+feature: 
 topic: Standard
 uuid: 45f81fe8-7b04-4a36-931d-bbf03ed6cbb3
 ---

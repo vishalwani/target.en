@@ -2,6 +2,7 @@
 keywords: Overview and Reference
 description: By default, visitor profiles are stored for 14 days. This profile lifetime can be extended.
 title: Visitor profile lifetime
+feature: 
 subtopic: Getting Started
 topic: Standard
 uuid: 01ccda60-7e28-4d26-8d5d-1c0a022bbef0

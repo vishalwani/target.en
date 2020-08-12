@@ -2,6 +2,7 @@
 keywords: experience preview;experience urls;generate urls;view experience urls
 description: Experience preview URLs can be generated for Target Automated Personalization activities to see experience content directly on your site before the activity is live for preview and QA purposes. Experience preview URLs bypass targeting to force viewing of a particular experience.
 title: Preview Automated Personalization activities with experience preview URLs
+feature: 
 topic: Standard
 uuid: 2ef07b6c-086d-43ac-bf02-efe217652a3a
 ---
