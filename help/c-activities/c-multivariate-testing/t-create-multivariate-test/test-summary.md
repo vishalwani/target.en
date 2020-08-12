@@ -2,6 +2,7 @@
 keywords: Overview and Reference
 description: The test summary provides a visual overview of your multivariate test.
 title: Test summary
+feature: 
 topic: Standard
 uuid: 22ac394d-70fe-4c4f-8b40-d478148d7e82
 ---

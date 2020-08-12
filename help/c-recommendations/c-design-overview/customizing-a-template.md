@@ -2,6 +2,7 @@
 keywords: custom design;velocity;decimal;comma;customize design
 description: Use the open-source Velocity design language to customize recommendation designs.
 title: Customize a design using Velocity
+feature: 
 uuid: 80701a15-c5eb-4089-a92e-117eda11faa2
 ---
 

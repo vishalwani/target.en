@@ -2,6 +2,7 @@
 keywords: Target;reports;report settings;extreme orders;extreme values
 description: You can exclude extreme values from affecting reports in Adobe Target so a few unusual orders don't affect your activity results. An example of an unusual order might be a coach buying uniforms for an entire team instead of individual shoppers buying individual uniforms.
 title: Exclude extreme values in Adobe Target reports
+feature: 
 uuid: bb151b54-09ef-40b5-bc04-95c61b761f5a
 ---
 

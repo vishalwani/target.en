@@ -2,6 +2,7 @@
 keywords: Overview and Reference
 description: The Activity URL determines the page that is used in the test and that opens when the test is designed.
 title: Activity URL
+feature: 
 topic: Standard
 uuid: 65489969-d548-4286-858f-8420120317c0
 ---

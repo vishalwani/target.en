@@ -2,6 +2,7 @@
 keywords: Overview and Reference
 description: Use Target with Adobe Campaign to optimize email content.
 title: Integrate Target with Adobe Campaign
+feature: 
 topic: Standard
 uuid: 1a5b70e6-d501-4b52-bec8-4ae2c419d331
 ---

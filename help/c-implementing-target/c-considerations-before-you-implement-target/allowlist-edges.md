@@ -2,6 +2,7 @@
 keywords: implement;implementing;whitelist;white list;allowlist;allow list;edge;edges
 description: Allowlist Adobe Target edge nodes
 title: Allowlist Adobe Target edge nodes
+feature: 
 subtopic: Getting Started
 topic: Standard
 ---

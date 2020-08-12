@@ -2,6 +2,7 @@
 keywords: exclusions
 description: Create an exclusion list in Adobe Target to prevent items from being recommended.
 title: Exclusions in Adobe Target
+feature: 
 uuid: 1970846e-37d8-4b69-a0d9-ff45bb840bef
 ---
 

@@ -2,6 +2,7 @@
 keywords: Overview and Reference;webkit
 description: The cookie behavior depends on whether it is a first-party cookie, a third-party cookie with a first-party cookie, or a third-party cookie alone.
 title: mbox.js cookies
+feature: 
 subtopic: Getting Started
 topic: Standard
 uuid: e0089c2a-57e9-4014-9fbf-589faea97c09

@@ -2,6 +2,7 @@
 keywords: activities;activity;activity types;edit activity;edit;draft
 description: Information about the different ways you can edit an existing activity, including saving an activity in draft form.
 title: Edit an activity or save as draft
+feature: 
 topic: Standard
 uuid: bfc7a045-ebdb-40b3-badc-668fbbe2fcf3
 ---

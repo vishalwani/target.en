@@ -1,6 +1,7 @@
 ---
 description: The change log provides a record of who changed your activities and when the changes occurred.
 title: Activity Change Log in Adobe Target
+feature: 
 topic: Advanced
 uuid: 5bf4d79f-f15b-4ac4-9303-8eb2de5729d6
 ---

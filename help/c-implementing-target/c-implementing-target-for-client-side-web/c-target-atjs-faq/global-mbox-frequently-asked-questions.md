@@ -2,6 +2,7 @@
 keywords: troubleshooting;frequently asked questions;FAQ;FAQs;global;global mbox
 description: List of frequently asked questions (FAQs) about global mboxes.
 title: Global mbox Frequently Asked Questions
+feature: 
 topic: Standard
 uuid: f8eb0331-bc2b-4be9-9b35-c764ac091ef4
 ---

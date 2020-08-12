@@ -2,6 +2,7 @@
 keywords: template testing;template;same experience on similar pages;template test
 description: If you use a page template to provide structure to your pages, or if your pages contain similar elements, this feature makes it possible to test variations in similarly structured page elements.
 title: Include the Same Experience on Similar Pages
+feature: 
 uuid: 055b276e-2492-40d8-b48e-849dffa93f35
 ---
 

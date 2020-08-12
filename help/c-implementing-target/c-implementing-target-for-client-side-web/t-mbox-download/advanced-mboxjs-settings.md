@@ -2,6 +2,7 @@
 keywords: advanced mbox.js settings;client;server domain;xdomain;compression level;client session id support;secureOnly;client pc id support;pass page;referring url;traffic level;traffic duration;mboxParameters() function body;mboxSupported() function body;mboxCookieDomain() function body;Extra JavaScript;SiteCatalyst plug-in;Get mbox.js as self-extracting JavaScript;flicker;body hiding;hide body
 description: Information to help you set several settings on the mbox.js Settings page.
 title: Configure mbox.js
+feature: 
 uuid: e79c7af7-f8bd-4e2b-8e67-b04eddf0c65d
 ---
 

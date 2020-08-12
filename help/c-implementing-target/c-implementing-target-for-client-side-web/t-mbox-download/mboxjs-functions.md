@@ -2,6 +2,7 @@
 keywords: mbox functions
 description: List of mbox.js functions to use when implementing with mbox.js.
 title: mbox.js functions
+feature: 
 uuid: f503bc44-a664-4d09-82dc-80a1198ad9d0
 ---
 

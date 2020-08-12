@@ -2,6 +2,7 @@
 keywords: recommendations Classic
 description: Adobe Recommendations Classic documentation.
 title: Adobe Recommendations Classic documentation.
+feature: 
 ---
 
 # ![PREMIUM](/help/assets/premium.png) Recommendations Classic documentation

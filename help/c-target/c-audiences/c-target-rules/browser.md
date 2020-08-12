@@ -2,6 +2,7 @@
 keywords: browser options;type;browser type;browser language;language;version;browser version
 description: You can create audiences in Adobe Target to target users who use a specific browser or specific browser options when they visit your page.
 title: Browser options in Adobe Target audiences
+feature: 
 subtopic: Multivariate Test
 uuid: 9059aae2-477f-4e8d-99ce-ef2dad2d17bb
 ---

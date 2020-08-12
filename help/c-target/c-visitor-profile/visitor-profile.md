@@ -2,6 +2,7 @@
 keywords: Overview and Reference
 description: Visitor profiles contain information about how your visitors use your pages and other optimized content locations
 title: Visitor profiles
+feature: 
 subtopic: Getting Started
 topic: Standard
 uuid: 09ffd9ca-5544-4ea1-bb0c-b20e42e6bcf6

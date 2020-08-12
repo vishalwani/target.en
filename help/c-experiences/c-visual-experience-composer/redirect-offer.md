@@ -1,6 +1,7 @@
 ---
 description: Use this option when you want to send the visitor to a different page rather than showing content on the same page.
 title: Redirect to a URL
+feature: 
 subtopic: Multivariate Test
 topic: Standard
 uuid: e6515279-8a6e-4265-aa2d-700ee81eb143

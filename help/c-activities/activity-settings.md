@@ -2,6 +2,7 @@
 keywords: Goal &Settings;objective;priority;duration
 description: Use Activity Settings to manage the objective, priority, and duration of your activities.
 title: Activity settings
+feature: 
 subtopic: Multivariate Test
 topic: Standard
 uuid: d317e63a-ba1f-4c0e-ab90-c6181b8b45fd

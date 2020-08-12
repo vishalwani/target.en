@@ -2,6 +2,7 @@
 keywords: creating custom criteria;algorithms;criteria;recommendations criteria;csv;ftp;upload csv
 description: Upload a CSV file to customize your recommendations.
 title: Upload custom criteria
+feature: 
 uuid: e0b4d320-db00-43ad-b49e-ce36c8532320
 ---
 

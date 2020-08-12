@@ -2,6 +2,7 @@
 keywords: setting up;setup;set-up;set up;administration
 description: Information to help you set up Adobe Target, including preferences, implementation, user management, properties, Scene7 configuration, host management, and response tokens.
 title: Administer Adobe Target
+feature: 
 subtopic: Getting Started
 topic: Standard
 uuid: 496f2dbe-96e2-4cd5-ba2e-d980d80eceb9

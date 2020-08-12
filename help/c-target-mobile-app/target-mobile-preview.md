@@ -2,6 +2,7 @@
 keywords: qa;preview;preview link;mobile;mobile preview
 description: Use the mobile preview link to perform easy end-to-end QA for mobile app activities and enroll yourself into different experiences right on your device without any special test devices.
 title: Using the mobile preview link in Adobe Target mobile
+feature: 
 topic: Advanced,Standard,Classic
 uuid: 313150fa-a7ec-46fe-9166-742a5c246a72
 ---

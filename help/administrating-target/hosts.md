@@ -2,6 +2,7 @@
 keywords: host;hosts;host group;troubleshooting;best practices;ubox;redirects;redirect;whitelist;allowlist;blacklist;blocklist
 description: Organize your sites and pre-production environments for easy management and separated reporting.
 title: Hosts
+feature: 
 topic: Standard
 uuid: c7682269-4ec2-4a0f-b053-7e0ec77f4604
 ---

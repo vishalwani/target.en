@@ -2,6 +2,7 @@
 keywords: cloud instances;public suffix list;public suffix;cookie;first-party cookie;1st-party cookie;azurewebsites.net;cloudapp.net;amazonaws.com;cloudfront.net;herokuapp.com;firebaseapp.com;targetGlobalSettings;cookieDomain
 description: Information about issues customers face when using cloud-based instances to test Adobe Target.
 title: Use cloud-based instances with Target
+feature: 
 uuid: dcaba49e-7567-4970-bb9a-19377aff7d38
 ---
 
