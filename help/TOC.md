@@ -24,6 +24,7 @@ solution: Target
    + [Introduction to Target](c-intro/intro.md)
    + [Access Target from the Adobe Experience Cloud](c-intro/target-access-from-mac.md)
    + [Target key concepts](c-intro/target-key-concepts.md)
+   + [Understand the Target UI](/help/c-intro/understand-the-target-ui.md)
    + [Glossary](c-intro/glossary.md)
    + [How Adobe Target works](c-intro/how-target-works.md)
    + [Training and certification](c-intro/training-and-certification.md)
