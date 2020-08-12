@@ -8,15 +8,9 @@ uuid: 70ccfbe9-c240-4380-9f43-522af51c1d5f
 
 # Introduction to Target{#introduction-to-target}
 
-Adobe Target is the Adobe Experience Cloud solution that provides everything you need to tailor and personalize your customers' experience to maximize revenue on your web and mobile sites, apps, social media, and other digital channels.
+[!DNL Adobe Target] is the [!DNL Adobe Experience Cloud] solution that provides everything you need to tailor and personalize your customers' experience to maximize revenue on your web and mobile sites, apps, social media, and other digital channels.
 
 The [!DNL Adobe Target] solution contains several components: 
-
-| Component | Description |
-|--- |--- |
-|Target Standard|Provides a visual interface for creating and managing A/B tests and rules-based targeting activities.|
-|Target Premium|Adds premium features to the Target Standard interface.|
-|Recommendations Classic|Automatically displays products or content that might interest your customers based on previous user activity on your Web site.|
 
 ## Target Standard {#section_ACD5EFF17AAB4E979CBEFA0145CCD905}
 
@@ -28,7 +22,7 @@ Industry best practices are built into [!DNL Target Standard], and it is designe
 
 [!DNL Target Premium] is an advanced [!DNL Target] license that adds premium features to [!DNL Target Standard].
 
-Target Premium topics in this help include the Premium badge at the top of the page:
+[!DNL Target Premium] topics in this help include the Premium badge at the top of the page:
 
 ![Premium badge](/help/assets/premium.png) 
 
@@ -77,7 +71,7 @@ This functionality opens up entirely new capabilities, such as:
 
 ### Enterprise User Permissions
 
-[Enterprise User Permissions](../administrating-target/c-user-management/property-channel/property-channel.md#concept_E396B16FA2024ADBA27BC056138F9838) functionality lets you create different projects (called "Product Profiles" in the Adobe Admin Console for Enterprise) to allow you to assign different permissions for a single user that dictate that user's access rights for each project. These distinct projects can be compared to the way that report suites work in Adobe Analytics. Each project can have specific users with specific roles that apply to a set of properties. The result is that customers will be able to restrict the view, edit, and approval access to their users based on region, environment (dev/stage/prod), channel, or other custom criteria.
+[Enterprise User Permissions](../administrating-target/c-user-management/property-channel/property-channel.md#concept_E396B16FA2024ADBA27BC056138F9838) functionality lets you create different projects (called "Product Profiles" in the [!DNL Adobe Admin Console for Enterprise]) to allow you to assign different permissions for a single user that dictate that user's access rights for each project. These distinct projects can be compared to the way that report suites work in [!DNL Adobe Analytics]. Each project can have specific users with specific roles that apply to a set of properties. The result is that customers will be able to restrict the view, edit, approval, and publish access to their users based on region, environment (dev/stage/prod), channel, or other custom criteria.
 
 ## Recommendations Classic {#section_9554068100054D2DBDB298CBE5A0E413}
 
@@ -87,7 +81,7 @@ For more information, see the [Recommendations Classic documentation](../assets/
 
 ## Experience League: The Adobe Target Welcome Kit {#kit}
 
-Build your optimization and personalization program on Adobe Target with this Welcome Kit! It includes key information, tools, and resources to help you prepare for and launch your first Adobe Target activity, with short-term quick wins and long-term optimization strategies.
+Build your optimization and personalization program on Adobe Target with this Welcome Kit! It includes key information, tools, and resources to help you prepare for and launch your first [!DNL Adobe Target] activity, with short-term quick wins and long-term optimization strategies.
 
 [The Adobe Target Welcome Kit](https://expleague.azureedge.net/pdf/Adobe-Target-Welcome-Kit.pdf)
 
