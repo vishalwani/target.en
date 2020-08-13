@@ -2,7 +2,7 @@
 keywords: content;update content;assets;upload content;upload asset
 description: You can add items to the Image Offers list.
 title: Upload content
-feature: 
+feature: offers
 topic: Standard
 uuid: f6ab926b-163a-4873-80a5-48d2d225ac88
 ---

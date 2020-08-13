@@ -2,7 +2,7 @@
 keywords: Recommendations;offer
 description: Adobe Recommendations as an offer in A/B Tests (including Auto-Allocate and Auto-Target) and Experience Targeting (XT) activities
 title: Adobe Recommendations as an offer in A/B Tests (including Auto-Allocate and Auto-Target) and Experience Targeting (XT) activities
-feature: 
+feature: recs creation
 ---
 
 # ![PREMIUM](/help/assets/premium.png) Recommendations as an offer

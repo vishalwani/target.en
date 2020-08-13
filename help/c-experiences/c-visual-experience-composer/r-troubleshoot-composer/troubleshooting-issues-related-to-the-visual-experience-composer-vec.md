@@ -2,7 +2,7 @@
 keywords: Targeting;visual experience composer;vec;troubleshoot visual experience composer;troubleshooting;tls;tls 1.2
 description: Display problems sometimes occur in the Visual Experience Composer (VEC) under certain conditions.
 title: Troubleshooting Issues Related to the Visual Experience Composer
-feature: 
+feature: vec
 uuid: 95126e92-75ce-4052-b061-7ca4ebb3136b
 ---
 

@@ -2,7 +2,7 @@
 keywords: multi-page;journey testing;multipage activity
 description: A multipage activity enables you to create a story over multiple pages, with a design that is specific to each page.
 title: Multipage Activity
-feature: 
+feature: vec
 topic: Advanced
 uuid: a89f5334-540e-417d-ac51-a90f8b4687a4
 ---

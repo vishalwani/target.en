@@ -2,7 +2,7 @@
 keywords: Experience Targeting;Landing Page Test
 description: An element selector is a CSS expression which can identify one or more elements.
 title: Element Selectors Used in the Visual Experience Composer
-feature: 
+feature: vec
 topic: Standard
 uuid: e109878c-9771-426e-8ad1-b6ea66f6a900
 ---

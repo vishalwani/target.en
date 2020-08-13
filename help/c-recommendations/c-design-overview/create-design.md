@@ -2,7 +2,7 @@
 keywords: recommendations design;create design;copy design
 description: A design defines how recommendations appear on a page.
 title: Create a design
-feature: 
+feature: designs
 uuid: 812258e0-8d28-4ef3-b745-45ed694fcabe
 ---
 
