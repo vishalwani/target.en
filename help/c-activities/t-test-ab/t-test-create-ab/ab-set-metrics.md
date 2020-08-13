@@ -2,7 +2,7 @@
 keywords: A/B;activity metrics;metrics;set metrics;goal metric;activity settings;success metric;conversion;revenue;engagement
 description: Use metrics in an A/B activity to determine when a visit is successful.
 title: Set metrics
-feature: 
+feature: ab
 solution: Target,standard
 uuid: 57f84da4-10f9-42f3-b9ce-06cf41007157
 ---

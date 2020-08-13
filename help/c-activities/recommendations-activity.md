@@ -1,7 +1,7 @@
 ---
 description: Recommendations activities automatically display products or content that might interest your customers based on previous user activity or other algorithms. Recommendations help direct customers to relevant items they might otherwise not know about.
 title: Recommendations activity
-feature: 
+feature: recommendations general
 uuid: 63bd6640-e8fd-472e-bd42-0fa540a54f11
 ---
 

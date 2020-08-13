@@ -2,7 +2,7 @@
 keywords: capture score;score
 description: The Capture Score engagement metric calculates an aggregated score based on the value assigned to pages visited on the site, from the point the visitor first sees the campaign's first display Target Request.
 title: Capture Score
-feature: 
+feature: success metrics
 subtopic: Getting Started
 topic: Standard
 uuid: 977454ad-da32-449a-a8c9-1f3c75220be6

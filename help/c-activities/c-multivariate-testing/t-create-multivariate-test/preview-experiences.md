@@ -1,7 +1,7 @@
 ---
 description: Because a multivariate test compares multiple experiences on a page, it is helpful to preview the page with each experience.
 title: Preview experiences for a Multivariate Test
-feature: 
+feature: mvt
 topic: Standard
 uuid: a5099438-e125-4d24-a7e6-ec270ffeba24
 ---

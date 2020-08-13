@@ -2,7 +2,7 @@
 keywords: Targeting
 description: The Activity URL determines the page that is used in the Experience Targeting activity, and that opens in the Adobe Target Visual Experience Composer (VEC) or Form-Based Experience Composer when the activity is designed.
 title: Activity URL
-feature: 
+feature: xt 
 uuid: 970de8ba-ab60-4339-866b-27889bec67f9
 ---
 

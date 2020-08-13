@@ -2,7 +2,7 @@
 keywords: Targeting;success;conversion metric;page score metric;page views metric;revenue metrics;time on site metric;estimated value;advanced settings;success metrics;advanced settings
 description: In Adobe Target, success metrics are parameters used to measure the success of an activity. Success metrics include key business measures that enable you to determine the success of a given experience or offer in a Target activity.
 title: Success metrics in Adobe Target
-feature: 
+feature: success metrics
 uuid: 24e9ae0f-099b-430b-b2bb-03b405f88929
 ---
 

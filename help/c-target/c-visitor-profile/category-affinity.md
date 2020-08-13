@@ -2,7 +2,7 @@
 keywords: affinity;category affinity
 description: The category affinity feature in Adobe Target automatically captures the categories a user visits and then calculates the user's affinity for the category so it can be targeted and segmented on. This helps to ensure that content is targeted to visitors who are most likely to act on that information.
 title: Use category affinity in Adobe Target
-feature: 
+feature: visitor profiles
 topic: Standard
 uuid: b81d9c91-a222-4768-9ac8-359f9ab9ca2d
 ---

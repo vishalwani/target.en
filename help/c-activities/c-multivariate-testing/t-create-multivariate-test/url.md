@@ -2,7 +2,7 @@
 keywords: Targeting
 description: The Activity URL determines the page that is used in the Multivariate Test (MVT), and that opens when the test is designed in Adobe Target.
 title: Activity URL
-feature: 
+feature: mvt
 uuid: ddc7330c-199a-4e38-b3d4-6786e3997783
 ---
 
