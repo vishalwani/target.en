@@ -2,7 +2,7 @@
 keywords: training videos;youtube;videos;video training;tutorial;tutorials;video
 description: Watch training videos to help you get the most out of Target Standard and Target Premium.
 title: Training videos for Adobe Target Standard and Premium
-feature: 
+feature: intro 
 topic: Advanced
 uuid: 8c6bfedb-3972-4fd3-98c4-c3781a556e62
 ---

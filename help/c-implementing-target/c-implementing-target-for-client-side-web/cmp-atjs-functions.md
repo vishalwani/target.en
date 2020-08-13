@@ -2,7 +2,7 @@
 keywords: at.js;functions;javascript library
 description: List of functions that can be used with the at.js JavaScript library in Adobe Target.
 title: Adobe Target at.js functions
-feature: 
+feature: client-side
 subtopic: Getting Started
 topic: Standard
 uuid: ec5f27a7-b22a-48c9-968c-9eb02830a2a6

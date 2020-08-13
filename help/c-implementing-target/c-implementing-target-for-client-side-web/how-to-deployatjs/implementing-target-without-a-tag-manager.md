@@ -2,7 +2,7 @@
 keywords: implement target;implementation;implement at.js;tag manager
 description: Information about implementing Adobe Target without using a tag manager (Adobe Launch or Dynamic Tag Management).
 title: Implement Target without a tag manager
-feature: 
+feature: implementation general
 subtopic: Getting Started
 topic: Standard
 uuid: 3ecc041a-42d8-40f8-90be-7856e1d3d080

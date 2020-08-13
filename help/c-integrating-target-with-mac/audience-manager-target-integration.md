@@ -2,7 +2,7 @@
 keywords: segments;audiences;aam;audience manager;adobe audience manager;integrate;integration
 description: The Target/Audience Manager integration lets you send Audience Manager segments to Adobe Target
 title: Integrate Target with Adobe Audience Manager (AAM)
-feature: 
+feature: aam
 topic: Standard
 ---
 

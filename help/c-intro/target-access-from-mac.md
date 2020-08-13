@@ -2,7 +2,7 @@
 keywords: Experience Cloud;sign in;language;default ui language;default language
 description: Instructions to access Adobe Target from the Adobe Experience Cloud.
 title: Access Target from the Adobe Experience Cloud
-feature: 
+feature: intro
 subtopic: Getting Started
 topic: Standard
 uuid: df5aaded-cb8c-4929-801f-deb0a190febd

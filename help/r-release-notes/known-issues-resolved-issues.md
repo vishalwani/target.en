@@ -2,7 +2,7 @@
 keywords: known issues;resolved issues;release notes;bugs;issues;fixes
 description: Information about known issues for this release of Adobe Target. Also includes information about issues that have been resolved.
 title: Known issues and resolved issues in Adobe Target
-feature: 
+feature: known issues
 uuid: f8e8e057-1842-4922-ab7f-4d5441048573
 ---
 

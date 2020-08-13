@@ -2,7 +2,7 @@
 keywords: training;certification;target;online courses;courses;class;classes
 description: Adobe Training Services provides classes and certifications for Adobe products and solutions, including Adobe Target.
 title: Training and certification for Adobe products and solutions, including Adobe Target
-feature: 
+feature: intro
 subtopic: Getting Started
 topic: Standard
 uuid: a1be34dd-9790-4c8f-be61-07f46966d56f

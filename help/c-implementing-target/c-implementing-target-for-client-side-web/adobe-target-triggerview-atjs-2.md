@@ -2,7 +2,7 @@
 keywords: adobe.target.triggerView;triggerView;triggerview;trigger view;at.js;functions;function;viewName;viewname;view name
 description: Information about the adobe.target.triggerView (viewName, options) function for the Adobe Target at.js JavaScript library.
 title: Information about the adobe.target.triggerView (viewName, options) function for the Adobe Target at.js JavaScript library.
-feature: 
+feature: client-side 
 subtopic: Getting Started
 topic: Standard
 ---

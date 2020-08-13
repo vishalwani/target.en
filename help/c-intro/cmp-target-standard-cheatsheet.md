@@ -2,7 +2,7 @@
 keywords: Target Standard;faq;frequently asked questions;cheat sheet;cheatsheet
 description: A list of frequently asked questions about using the features in Adobe Target, along with information and links for more information.
 title: Target optimization and personalization FAQ
-feature: 
+feature: intro 
 topic: Advanced
 uuid: b6052939-6ed4-4c90-b118-77b6fe42b0af
 ---

@@ -2,7 +2,7 @@
 keywords: a4t;A4T;Analytics as the reporting source for Target
 description: You can configure an activity in Target Standard/Premium to use Adobe Analytics as the reporting source (A4T).
 title: Activity creation
-feature: 
+feature: a4t general
 topic: Advanced,Standard,Classic
 uuid: b04ad535-62fb-4dd3-ab3f-23da60fbffbd
 ---
