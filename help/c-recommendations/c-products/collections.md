@@ -2,7 +2,7 @@
 keywords: collection;Targeting
 description: A collection is a set of products or items in Adobe Target that are eligible for a recommendation.
 title: Collections in Adobe Target
-feature: 
+feature: entities
 uuid: aa1afdcf-e51c-4e44-a229-3c21fc9d0514
 ---
 

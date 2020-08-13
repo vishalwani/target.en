@@ -2,7 +2,7 @@
 keywords: redirect offer;create redirect offer;add html offer;Pass all URL parameters in redirect;Pass mboxSessionId in redirect (only needed when the redirect is going to a different domain)
 description: Information about redirect offers in Adobe Target that cause a browser to redirect to a new page.
 title: Create redirect offers
-feature: 
+feature: offers
 topic: Standard
 uuid: 54336965-a26e-47c3-b3bc-079d3573502a
 ---

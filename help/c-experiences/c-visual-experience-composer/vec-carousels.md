@@ -2,7 +2,7 @@
 keywords: Visual Experience Composer;VEC;carousel
 description: This topic shows how to create a carousel that can be edited in the Visual Experience Composer (VEC).
 title: Creating Carousels that Work in the Visual Experience Composer
-feature: 
+feature: vec
 subtopic: Multivariate Test
 topic: Standard
 uuid: 19538f6e-445c-49ca-9f0d-b49fc330b721

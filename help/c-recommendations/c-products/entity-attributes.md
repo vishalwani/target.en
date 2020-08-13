@@ -2,7 +2,7 @@
 keywords: entity;entity attributes;pass information to Recommendations;behavioral data;data counter;define relative URL;display inventory level;define price;define profit margin;custom attributes
 description: Use entity attributes to pass product or content information to Recommendations.
 title: Entity attributes
-feature: 
+feature: entities
 uuid: 27672881-a79c-4271-9a61-defddb9a5249
 ---
 

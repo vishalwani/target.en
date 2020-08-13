@@ -2,7 +2,7 @@
 keywords: Targeting;AP reports;automated personalization reports;activity level report;offer level report;offer detail report
 description: Specialized reports are available to users of Automated Personalization.
 title: Automated Personalization Summary reports
-feature: 
+feature: reports
 uuid: 959b6814-9686-4741-8a79-5957e64f6209
 ---
 

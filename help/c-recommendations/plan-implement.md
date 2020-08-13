@@ -2,7 +2,7 @@
 keywords: Recommendations;settings;preferences;industry vertical;filter incompatible criteria;default host group;thumb base url;recommendations api token
 description: What you need to know before creating a Recommendations activity.
 title: Plan and Implement Recommendations
-feature: 
+feature: recommendations general
 uuid: 37be7fb3-3686-4dec-9cca-478d28191985
 ---
 

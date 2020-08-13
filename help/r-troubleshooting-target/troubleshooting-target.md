@@ -2,7 +2,7 @@
 keywords: troubleshoot target;troubleshooting target
 description: List of topics to help you resolve issues in Adobe Target, including troubleshooting topics, frequently asked questions (FAQs), and other helpful topics.
 title: Troubleshoot Adobe Target
-feature: 
+feature: troubleshooting general
 topic: Advanced,Standard,Classic
 uuid: 8ed11372-f2cd-4bc4-a1da-ad626131e196
 ---

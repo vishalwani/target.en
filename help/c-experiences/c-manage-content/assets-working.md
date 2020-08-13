@@ -2,7 +2,7 @@
 keywords: content library;assets;annotate;copy;delete asset;download asset;edit content;share card;view content properties
 description: There are a number of tasks you can perform on an asset in the library.
 title: Work with content in the library
-feature: 
+feature: offers
 uuid: 7518e298-a824-4766-b2bf-49770b293b9a
 ---
 
