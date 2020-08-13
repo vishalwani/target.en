@@ -2,7 +2,7 @@
 keywords: Targeting;experience;add experience;experience add
 description: The Visual Experience Composer (VEC) in Adobe Target provides a visual interface for editing the experiences on your page.
 title: Add experience
-feature: 
+feature: ab
 uuid: 9cb4c897-8701-4737-aec8-b0d4f5d62b94
 ---
 

@@ -2,7 +2,7 @@
 keywords: Recommendations
 description: Because an Automated Personalization (AP) activity compares multiple offers on a page, it is helpful to preview the page with each experience.
 title: Preview experiences for an Automated Personalization (AP) activity in the Adobe Target Visual Experience Composer
-feature: 
+feature: ap
 uuid: ca98bfce-f571-4ac2-a94b-1127ecd7e3e6
 ---
 

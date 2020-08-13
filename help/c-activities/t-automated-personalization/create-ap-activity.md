@@ -2,7 +2,7 @@
 keywords: automated personalization;Audiences;ensemble;random forest;residual variance;error variance;lifetime value
 description: The Automated Personalization activity workflow varies from the workflow of the other activity types.
 title: Create an Automated Personalization activity
-feature: 
+feature: ap
 topic: Advanced
 uuid: 7d301dc3-6076-4e05-8abc-4978075a881e
 ---

@@ -2,7 +2,7 @@
 keywords: audience;propensity;profile attribute;compare;comparison;create audience;creating audience
 description: Define an audience to compare two profile attributes for your Target Audience library or in an activity-only audience. Using operators, such as greater than, less than, or equal to, define an audience to dynamically compare the values of two different profile attributes.
 title: Create a profile attribute comparison audience in Adobe Target
-feature: 
+feature: audiences
 topic: Advanced,Standard,Classic
 uuid: 17c1f2e0-4c1e-4b7a-8398-9ec147253a5f
 ---

@@ -2,7 +2,7 @@
 keywords: Targeting
 description: Target's main personalization algorithm used in both Automated Personalization and Auto-Target is Random Forest. Ensemble methods like Random Forest use multiple learning algorithms to obtain better predictive performance than could be obtained from any of the constituent learning algorithms. The Random Forest algorithm in Automated Personalization is a classification or regression method that operates by constructing a multitude of decision trees when it is being trained.
 title: Random Forest algorithm
-feature: 
+feature: ap
 uuid: 35e4ca00-5c53-4fea-b0ef-0fb51c0f8184
 ---
 

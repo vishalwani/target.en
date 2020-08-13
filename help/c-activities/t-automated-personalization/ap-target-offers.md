@@ -1,7 +1,7 @@
 ---
 description: In an Automated Personalization activity, you can target offers to specific audiences.
 title: Target Automated Personalization offers
-feature: 
+feature: ap
 solution: Target,Analytics
 uuid: 4ee30e1a-bfda-4b20-9313-99e32dcf60ac
 ---
