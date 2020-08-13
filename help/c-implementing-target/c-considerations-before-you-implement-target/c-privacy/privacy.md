@@ -2,7 +2,7 @@
 keywords: privacy;ip address;geosegmentation;opt out;optout;opt-out;data privacy;government regulations;regulations;gdpr;ccpa
 description: Adobe Target has enabled processes and settings that allow you to use Target in compliance with applicable data privacy laws.
 title: Privacy
-feature: 
+feature: privacy and security
 subtopic: Getting Started
 topic: Standard
 uuid: aaeda1e6-7b2c-4a00-b65d-bfc95ea796b5

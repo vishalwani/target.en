@@ -2,7 +2,7 @@
 keywords: Overview and Reference;act
 description: Information about key concepts that will help you understand the features and capabilities of Adobe Target.
 title: Target key concepts
-feature: 
+feature: intro
 subtopic: Getting Started
 topic: Standard
 uuid: c62ac156-b4cf-494c-979f-33f889abd118

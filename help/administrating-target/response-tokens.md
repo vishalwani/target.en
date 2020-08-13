@@ -2,7 +2,7 @@
 keywords: response tokens;tokens;plugins;plug-ins;at.js;response
 description: Response tokens let you automatically output Target-specific information (activity details, user profile information, geo information, and so forth) to use in debugging or integrating with 3rd-party systems (such as Clicktale)
 title: Response tokens in Adobe Target
-feature: 
+feature: response tokens
 subtopic: Getting Started
 topic: Standard
 uuid: 20561673-d762-4c3d-bedc-94aeab5053d7

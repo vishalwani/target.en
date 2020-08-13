@@ -2,7 +2,7 @@
 keywords: at.js;2.0;1.x;cookies
 description: Details about how Adobe Target at.js 2.x and at.js 1.x handle cookies
 title: Adobe Target at.js cookies
-feature: 
+feature: client-side
 subtopic: Getting Started
 topic: Standard
 ---

@@ -2,7 +2,7 @@
 keywords: Implementation;mbox.js non javascript;adbox;redirector;mbox
 description: Information about implementing Target in non-JavaScript scenarios, such as using an AdBox or Redirector.
 title: Email  implement Target
-feature: 
+feature: email implementation
 subtopic: Getting Started
 topic: Standard
 uuid: 07abc419-0253-47c6-80b8-0bd0734d2c9d

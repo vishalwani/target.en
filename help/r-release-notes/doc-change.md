@@ -2,7 +2,7 @@
 keywords: target documentation change log;documentation updates;new topics;edits;updates;update
 description: This page lists important changes made to the Adobe Target documentation, ordered by releases.
 title: Documentation changes in the Adobe Target product documentation.
-feature: 
+feature: release notes
 topic: Standard 
 uuid: 6fba75e2-0a93-488d-9010-fffa423600c0
 ---

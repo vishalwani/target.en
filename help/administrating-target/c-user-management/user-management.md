@@ -2,7 +2,7 @@
 keywords: add user;manage user;user permissions
 description: Information about managing Users in Target Standard and managing enterprise Properties and Permissions in Target Premium.
 title: User management
-feature: 
+feature: user management
 subtopic: Getting Started
 topic: Standard
 uuid: 798a6273-2a6e-4fe6-b1a0-b5c28932969f

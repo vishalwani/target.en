@@ -2,7 +2,7 @@
 keywords: adobe target;target;documentation;api;apis;sdk;sdks;tutorials;doc;documentation
 description: Adobe Target documentation is provided in multiple formats, including overviews, tutorials, and guides for both the user interface, SKDs, and APIs.
 title: Target announcements
-feature: 
+feature: release notes
 topic: Standard 
 ---
 
