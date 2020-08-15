@@ -26,6 +26,10 @@ If you add a template rule, such as URL contains (/checkout, /cart) in [page del
 
 [Activity QA preview](/help/c-activities/c-activity-qa/activity-qa.md) links for saved activities might not load if there are too many saved activities in your account. Re-trying the preview links should work. To prevent this from continuing to happen, archive saved activities that are no longer actively used. (TNT-32697)
 
+### QA mode for Recommendations activities
+
+A known issue prevents preview if criteria used in the activity is item-based or category-based. (TNT-37455)
+
 ### Redirect offers {#redirect}
 
 The following are known issues with redirect offers:

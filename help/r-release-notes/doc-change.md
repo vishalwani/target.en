@@ -15,6 +15,8 @@ This page lists important changes made to the [!DNL Adobe Target] product docume
 
 |Date|Topic|Changes|
 | --- | --- | --- |
+|August 14|[Known issues and resolved issues](/help/r-release-notes/known-issues-resolved-issues.md)|Added known issue about QA in Recommendations activities.|
+||[targetGlobalSettings()](/help/c-implementing-target/c-implementing-target-for-client-side-web/targetgobalsettings.md)|Added text indicating that if you are using `serverState` and using `<script>` tags in the content returned, ensure that your HTML content uses `<\/script>` instead of `</script>`.|
 |August 12|[Understand the Target UI](/help/c-intro/understand-the-target-ui.md)|New topic.|
 ||[Adobe Target API overview](/help/api/api-overview.md)|New topic.|
 |August 10|[CNAME and Adobe Target](/help/c-implementing-target/c-considerations-before-you-implement-target/implement-cname-support-in-target.md)|Added text indicating that the size of the cookie header will increase when using CNAME.|
