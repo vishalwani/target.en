@@ -470,6 +470,9 @@ Consider the following when using `serverState`:
 
   ![Page Load Enabled settings](/help/c-implementing-target/c-implementing-target-for-client-side-web/assets/page-load-enabled-setting.png)
 
+* If you are using `serverState` make sure that your HTML content uses `<\/script>` instead of `</script>` otherwise the browser will interpret `</script>` as the end on an inline SCRIPT and it might break the HTML page.
+
+
 ### Additional resources
 
 To learn more how `serverState` works, check out the following resources:
