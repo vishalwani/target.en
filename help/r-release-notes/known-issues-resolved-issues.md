@@ -20,11 +20,7 @@ The following sections list the known issues for [!DNL Target]:
 
 ### Page delivery {#page-delivery}
 
-If you add a template rule, such as URL contains (/checkout, /cart) in [page delivery](/help/c-activities/t-experience-target/t-xt-create/xt-activity-url.md), extra spaces are prefixed to your rules. This is a cosmetic issue and does not affect audience-definition creation and offer delivery. (TGT-35916)
-
-### Activity QA preview links {#preview}
-
-[Activity QA preview](/help/c-activities/c-activity-qa/activity-qa.md) links for saved activities might not load if there are too many saved activities in your account. Re-trying the preview links should work. To prevent this from continuing to happen, archive saved activities that are no longer actively used. (TNT-32697)
+If you add a template rule, such as URL contains (/checkout, /cart) in [page delivery](/help/c-activities/t-experience-target/t-xt-create/xt-activity-url.md), extra spaces are prefixed to your rules. This is a cosmetic issue and does not affect audience-definition creation and offer delivery. (TGT-35920)
 
 ### QA mode for Recommendations activities
 
@@ -36,10 +32,6 @@ The following are known issues with redirect offers:
 
 * Under some conditions, a limited number of customers have reported higher degrees of variance in traffic distribution when using a redirect offer in activities configured with Analytics for Target (A4T). Adobe engineers are currently working on this issue.
 * Redirect activities in at.js implementations might cause the preview URL to enter into a loop (the offer is delivered repeatedly). You can use [QA Mode](../c-activities/c-activity-qa/activity-qa.md#concept_9329EF33DE7D41CA9815C8115DBC4E40) instead to perform Preview and QA. This issue does not impact the actual delivery of the offer. (TGT-23019)
-
-### Graph report for an Auto-Target activity fails to render when using a custom experience as control
-
-The graph report for an Auto-Target activity fails to render for "differential" modes (Average Lift and Daily Lift) if there is no data (0 visits) in any experience. This situation might occur during the early stage of an activity if the control experience is set to custom. For the other modes (Running Average Control and Targeted, Daily Control and Targeted, and Visits) it works fine. As soon as there is some data (non-zero visits), the report renders as expected.
 
 ### Cancel loading of a page within the VEC {#cancel}
 
@@ -100,12 +92,6 @@ The following are known issues with at.js:
 
   **Workaround**: Configure at.js with the "x-only" option enabled and pass `mboxThirdPartyId` in calls to manage users.
 
-### mbox.js
-
-The mbox.js library does not support client-side templating languages, such as Handlebars and Mustache. The at.js library *does* support these languages.
-
-**Note**: The mbox.js library is no longer being developed. All customers should migrate from mbox.js to at.js. For more information, see [Migrate to at.js from mbox.js](../c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-target-atjs-implementation/target-migrate-atjs.md#task_DE55DCE9AC2F49728395665DE1B1E6EA).
-
 ### Implementation: Global Mbox Auto Create
 
 On the Implementation tab ([!UICONTROL Administration > Implementation]) the [!UICONTROL Global Mbox Auto Create] field will be "false" by default for a newly provisioned tenant.
@@ -141,6 +127,18 @@ Image offers on the Offers page sometimes retain the “processing” label for 
 ## Resolved Issues {#section_FD2FC86E7C734D60B1EDC9DEF60E1014}
 
 As known issues above are resolved, they will be moved to the following sections and additional notes, if necessary, will be added.
+
+### Graph report for an Auto-Target activity fails to render when using a custom experience as control
+
+The graph report for an Auto-Target activity fails to render for "differential" modes (Average Lift and Daily Lift) if there is no data (0 visits) in any experience. This situation might occur during the early stage of an activity if the control experience is set to custom. For the other modes (Running Average Control and Targeted, Daily Control and Targeted, and Visits) it works fine. As soon as there is some data (non-zero visits), the report renders as expected.
+
+This issue was fixed in the Target 19.7.1 release.
+
+### mbox.js
+
+The mbox.js library does not support client-side templating languages, such as Handlebars and Mustache. The at.js library *does* support these languages.
+
+**Note**: The mbox.js library is no longer being developed. All customers should migrate from mbox.js to at.js. For more information, see [Migrate to at.js from mbox.js](../c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-target-atjs-implementation/target-migrate-atjs.md#task_DE55DCE9AC2F49728395665DE1B1E6EA).
 
 ### Reporting and extreme orders
 
