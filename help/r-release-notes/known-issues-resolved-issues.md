@@ -47,10 +47,6 @@ The following are known issues with redirect offers:
 
 * For the Single Page Application (SPA) websites, cancelling loading does not allow you to edit actions under the [!UICONTROL Modifications] panel.
 
-### Enterprise Permissions support in Target APIs {#api}
-
-Code offers created from the Target UI in the Offers library might display in the default workspace if the list of offers is pulled using GET APIs. This issue will be fixed in first week of March 2019. After this fix is in place, code offers will display in the appropriate workspace when pulled from APIs. This issue does *not* affect offers created from APIs. For example, code offers created from APIs display in the workspace in which they were created, whether fetched using GET APIs or from within the Target UI.
-
 ### Recommendations
 
 The following are known issues with Recommendations activities:
@@ -92,14 +88,6 @@ The following are known issues with at.js:
 
   **Workaround**: Configure at.js with the "x-only" option enabled and pass `mboxThirdPartyId` in calls to manage users.
 
-### Implementation: Global Mbox Auto Create
-
-On the Implementation tab ([!UICONTROL Administration > Implementation]) the [!UICONTROL Global Mbox Auto Create] field will be "false" by default for a newly provisioned tenant.
-
-When mbox.js is downloaded for the first time after provisioning, the [!UICONTROL Global Mbox Auto Create] field is set to "true" in the downloaded mbox.js file and in the [!DNL Target] backend, but it will continue to display as "false" on the [!UICONTROL Implementation] page in the UI until the page is refreshed (after the page is refreshed, the status will be "true.")
-
-at.js will be downloaded with `global_mbox_autocreate = false` for a newly provisioned tenant. If mbox.js is downloaded first, global\_mbox\_autocreate is set to "true" and at.js will also be downloaded with `global_mbox_autocreate = true`. (TGT-15929)
-
 ### Success metrics
 
 Success metrics with the advanced option "How will the count be incremented" set to "every impression" or "every impression (excluding refreshes)" cannot be used as a success metric that another metric is dependent on.
@@ -139,6 +127,18 @@ This issue was fixed in the Target 19.7.1 release.
 The mbox.js library does not support client-side templating languages, such as Handlebars and Mustache. The at.js library *does* support these languages.
 
 **Note**: The mbox.js library is no longer being developed. All customers should migrate from mbox.js to at.js. For more information, see [Migrate to at.js from mbox.js](../c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-target-atjs-implementation/target-migrate-atjs.md#task_DE55DCE9AC2F49728395665DE1B1E6EA).
+
+### Implementation: Global Mbox Auto Create
+
+On the Implementation tab ([!UICONTROL Administration > Implementation]) the [!UICONTROL Global Mbox Auto Create] field will be "false" by default for a newly provisioned tenant.
+
+When mbox.js is downloaded for the first time after provisioning, the [!UICONTROL Global Mbox Auto Create] field is set to "true" in the downloaded mbox.js file and in the [!DNL Target] backend, but it will continue to display as "false" on the [!UICONTROL Implementation] page in the UI until the page is refreshed (after the page is refreshed, the status will be "true.")
+
+at.js will be downloaded with `global_mbox_autocreate = false` for a newly provisioned tenant. If mbox.js is downloaded first, global\_mbox\_autocreate is set to "true" and at.js will also be downloaded with `global_mbox_autocreate = true`. (TGT-15929)
+
+### Enterprise Permissions support in Target APIs {#api}
+
+Code offers created from the Target UI in the Offers library might display in the default workspace if the list of offers is pulled using GET APIs. This issue will be fixed in first week of March 2019. After this fix is in place, code offers will display in the appropriate workspace when pulled from APIs. This issue does *not* affect offers created from APIs. For example, code offers created from APIs display in the workspace in which they were created, whether fetched using GET APIs or from within the Target UI.
 
 ### Reporting and extreme orders
 
