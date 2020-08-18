@@ -92,7 +92,6 @@ This page lists important changes made to the [!DNL Adobe Target] product docume
 ||[Work with redirectors](/help/c-implementing-target/c-non-javascript-based-implementation/working-with-redirectors.md)|Added information about using hosts to avoid Open Redirect Vulnerabilities.|
 ||[Integrate Recommendations with email](/help/c-recommendations/c-recommendations-faq/integrating-recs-email.md)|Added information about using hosts to avoid Open Redirect Vulnerabilities.|
 ||[Email: implement Target](/help/c-implementing-target/c-non-javascript-based-implementation/non-javascript-based-implementation.md)|Added information about using hosts to avoid Open Redirect Vulnerabilities.|
-|May 7|[Target release notes (current)](/help/r-release-notes/release-notes.md)|With the upcoming deprecation of mbox.js on August 30, 2020, David Son, Adobe Target Product Manager recently hosted a developer chat to discuss the benefits of migrating mbox.js to at.js. There is a link where you can watch the webinar for the next 30 days.|
 ||[Activity QA](/help/c-activities/c-activity-qa/activity-qa.md)|Updated the "Considerations" section.|
 ||[targetGlobalSettings()](/help/c-implementing-target/c-implementing-target-for-client-side-web/targetgobalsettings.md)|Updated "overrideMboxEdgeServer" row under "Settings."|
 |May 6|[Apple Intelligent Tracking Prevention (ITP) 2.x](/help/c-implementing-target/c-considerations-before-you-implement-target/c-privacy/apple-itp-2x.md)|Added information about ITP 2.3.|
@@ -108,7 +107,6 @@ This page lists important changes made to the [!DNL Adobe Target] product docume
 ||[Target release notes (prerelease)](/help/r-release-notes/target-release-notes.md)|Changed date of the Target Standard/Premium release (20.4.1) to May 6.|
 |April 23|[CNAME and Adobe Target](/help/c-implementing-target/c-considerations-before-you-implement-target/implement-cname-support-in-target.md)|Updated topic.|
 |April 22|[Target release notes (prerelease)](/help/r-release-notes/target-release-notes.md)|Added new section: *Profile Batch Status API v2 changes (May 4, 2020).*|
-|April 20|[Target release notes (current)](/help/r-release-notes/release-notes.md)|Added new section: *Adobe Target Skill Builder: Developer chat, migrate Adobe Target's mbox.js to at.js.*|
 |April 14|[Allowlist Target edge hosts](/help/c-implementing-target/c-considerations-before-you-implement-target/allowlist-edges.md)|New topic.|
 |April 10|[Single Page Application implementation](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/target-atjs-single-page-application.md#bp)|Added new section: "Implementation best practices."|
 |April 7|[Lift and confidence - A4T FAQ](/help/c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-lift-and-confidence.md#lift-condidence)|Updated text for "Why can't I see lift and confidence on calculated metrics?"|
@@ -128,7 +126,6 @@ This page lists important changes made to the [!DNL Adobe Target] product docume
 |March 4|[Profile attributes](/help/c-target/c-visitor-profile/profile-parameters.md)|Updated entire topic, with extensive revisions to the "Best practices" section.|
 |February 21|[Release notes (current)](/help/r-release-notes/release-notes.md)|Added information about the new Adobe Experience Cloud navigation.|
 |February 20|[targetGlobalSettings()](/help/c-implementing-target/c-implementing-target-for-client-side-web/targetgobalsettings.md)|Updated the description for the `enabled` setting. Added information for the following settings: `pageLoadEnabled` and `viewsEnabled`.|
-|February 19|[Release Notes](/help/r-release-notes/release-notes.md)|Added information about the upcoming deprecation of the mbox.js library.|
 ||[Geo](/help/c-target/c-audiences/c-target-rules/geo.md)|Added note that `mboxOverride.browserIp` is supported in at.js 1.*x* only.|
 ||[at.js version details](/help/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md)|Clarified text explaining which versions of at.js the Target team supports.|
 ||[Release Notes](/help/r-release-notes/release-notes.md): 20.2.1|This release includes enhancements and fixes. You can read about them and link to the documentation from the Release Notes. This release also includes many documentation updates throughout the help.|
