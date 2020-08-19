@@ -10,20 +10,20 @@ uuid: 058f0ef5-037a-4daf-8a1e-a9c7ecc7f0bd
 
 # Pass Parameters to a global mbox{#pass-parameters-to-a-global-mbox}
 
-The JavaScript targetPageParams function is used to pass parameters to the global mbox. This is needed in any scenario where additional targeting/context information is to be passed into Target.
+The JavaScript `targetPageParams` function is used to pass parameters to the global mbox. This is needed in any scenario where additional targeting/context information is to be passed into [!DNL Target].
 
- For example, in a Recommendations activity, use the parameters to represent the current product or category that is being viewed.
+ For example, in a [!DNL Recommendations] activity, use the parameters to represent the current product or category that is being viewed.
 
-The code to call the JavaScript function must come before the global mbox on the page, whether the global mbox is fired as a part of mbox.js or is manually included in the page code.
+The code to call the JavaScript function must come before the global mbox on the page, whether the global mbox is fired as a part of at.js or is manually included in the page code.
 
 >[!NOTE]
 >
->If you want to add parameters to all mboxes on the page, not just to the global mbox, use the [targetPageParamsAll()](/help/c-implementing-target/c-implementing-target-for-client-side-web/targetpageparamsall.md) function (at.js only).
+>If you want to add parameters to all mboxes on the page, not just to the global mbox, use the [targetPageParamsAll()](/help/c-implementing-target/c-implementing-target-for-client-side-web/targetpageparamsall.md) function.
 
 You can pass in parameters to `target-global-mbox` using the `targetPageParams()` function in any of the following ways:
 
-* An array 
-* A JSON object 
+* An array
+* A JSON object
 * An ampersand-delimited list
 
 Use these three methods to verify that the parameters are being passed correctly. You might also be able to verify the passing of parameters using the [Adobe Experience Cloud Debugger](https://docs.adobe.com/content/help/en/debugger/using/experience-cloud-debugger.html).
