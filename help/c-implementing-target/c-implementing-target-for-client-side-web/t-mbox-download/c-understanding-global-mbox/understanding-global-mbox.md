@@ -10,9 +10,9 @@ uuid: d8f48c94-6487-437b-828f-f9be7da58f48
 
 # Understand the Global mbox{#understand-the-global-mbox}
 
-Information about the global mbox, a name used to refer to the single server call made at the top of each web page in your Adobe Target implementation.
+Information about the global mbox, a name used to refer to the single server call made at the top of each web page in your [!DNL Adobe Target] implementation.
 
- By default, the global mbox is named [!DNL target-global-mbox]. It can be renamed for your account, if necessary.
+ By default, the global mbox is named `target-global-mbox`. It can be renamed for your account, if necessary.
 
 There are several differences between a regular mbox (non-global mbox) and the global mbox, including:
 
