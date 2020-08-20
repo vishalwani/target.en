@@ -11,7 +11,7 @@ uuid: 35ecabbe-b8b4-479b-9266-4823c831d79a
 
 This article contains prerelease information. Release dates, features, and other information are subject to change without notice. 
 
-**Last Updated: August 5, 2020**
+**Last Updated: August 20, 2020**
 
 To view information about the current release, see [Target Release Notes](release-notes.md). The information on these pages might be the same, depending on the timing of releases. The issue numbers in parentheses are for internal [!DNL Adobe] use.
 
@@ -29,7 +29,21 @@ To view information about the current release, see [Target Release Notes](releas
 
 ## Target Standard/Premium 20.9.1 (September 2, 2020)
 
-New features, enhancements, and fixes in this release will be update here.
+This release contains the following enhancements, fixes, and changes:
+
+* Fixed an issue that caused errors to display when loading the new **[!UICONTROL Administration]** pages after switching organizations. (TGT-37730)
+* Fixed a display issue that caused the incorrect client code to display on the **[!UICONTROL Administration > Implementation]** page. (TGT-37849)
+* Fixed an issue that sometimes prevented users from using the editing features in the **[!UICONTROL Visual Experience Composer]** (VEC) after successfully loading the VEC. (TGT-37162)
+* Fixed an issue that sometimes prevented users from downloading at.js from the **[!UICONTROL Administration > Implementation]** page after switching organizations. (TGT-37668)
+* Fixed an issue in **[!UICONTROL Experience Targeting]** (XT) activities that caused experiences to display "fetching results" for an extended period of time. (TGT-37684)
+* Improved navigation and functionality for keyboard-only users. (TGT-34479 & TGT-34473)
+* Added labels in the UI to aid users using assistive technologies. (TGT-34480)
+* Improved the error message when deleting a mobile viewport that is currently used in an activity. The error message now reads: "This viewport is currently associated to one or multiple activities. You need to remove the viewport from those activities before being able to delete it." (TGT-37030)
+* Added support in the VEC to allow click tracking on a css selector that matches more than one element in the page. (TGT-37323)
+* Fixed an issue that prevented certain users from displaying the **[!UICONTROL Activity]** list. The following error message was displayed: "Unable to fetch URLsuggestions." The error occurred for users using carriage returns in their FirstName (FirstName/r/n) in the Adobe Backend system. (TGT-37330)
+* Fixed an issue that prevented users from displaying the **[!UICONTROL Activity]** page if the workspace name (specified in the **[!UICONTROL Adobe Admin Console for Enterprise]**) contains an apostrophe. (TGT-37709)
+* The at.js download button is now disabled while loading to prevent [!DNL Target] from sending multiple requests if users click the download button multiple times. (TGT-37633)
+* Fixed an issue that cause an incorrect last-modified value for [!DNL Recommendations] criteria. (TGT-37666)
 
 ## Prerelease information {#section_7B9D4AAFC6A74388B9D7DEF0658D8B63} 
 

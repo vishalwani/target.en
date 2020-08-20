@@ -8,7 +8,29 @@ uuid: 93f646d9-fcbc-43f0-9f84-0ce8e486ff7f
 
 # Troubleshooting Issues Related to the Visual Experience Composer and Enhanced Experience Composer{#troubleshooting-issues-related-to-the-visual-experience-composer-and-enhanced-experience-composer}
 
-Display problems sometimes occur in the Visual Experience Composer (VEC) and the Enhanced Experience Composer (EEC) under certain conditions.
+Display problems and other issues sometimes occur in the Visual Experience Composer (VEC) and the Enhanced Experience Composer (EEC) under certain conditions.
+
+## How do the recently announced Google Chrome SameSite cookie enforcement policies impact the VEC and EEC? {#samesite}
+
+With the latest changes (August 2020), all users with Chrome 80+ browser versions:
+
+* Will *not* be able to use the VEC (with or without the VEC Helper extension installed and enabled) in password-protected pages of their sites. This is because their site login cookie(s) will be considered a 3rd-party cookie and will not be sent with the login request. The only exception is when the customer site login cookie already has the SameSite parameter set to “none.”
+* Will *not* be able to download [!DNL Target] libraries while editing an activity (when these aren’t already on the site). This is because the download call is made from the customer domain towards a secured Adobe domain and is rejected as unauthenticated.
+* The EEC will *not* function for all users because it is not able to set the SameSite attribute for cookies on `adobemc.com domain`. Without this attribute, the browser will reject these cookies, causing the EEC to fail.
+
+Adobe has submitted an updated VEC Helper extension to the Google Chrome Store. This extension overwrites the cookie attributes to set the `SameSite="none"` attribute, when needed. The [updated extension can be found here](https://chrome.google.com/webstore/detail/adobe-target-vec-helper/ggjpideecfnbipkacplkhhaflkdjagak?hl=en). 
+
+### Alternatives and workarounds
+
+Use one of the following options to ensure that your VEC and EEC continue to work as expected:
+
+* Download and use the updated [VEC Helper extension](https://chrome.google.com/webstore/detail/adobe-target-vec-helper/ggjpideecfnbipkacplkhhaflkdjagak?hl=en).
+* Use the Mozilla Firefox browser. Firefox is not yet enforcing this policy.
+* Continue to use Chrome, but set the `chrome://flags/#same-site-by-default-cookies` flag to “Disabled."
+
+  >[!NOTE]
+  >
+  >This will *not* be enough if cookies already have the SameSite attribute set to “Lax” or “Strict” from the server.
 
 ## Does Target support multi-level iframes?
 
