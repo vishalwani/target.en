@@ -111,6 +111,10 @@ Configure any mobile viewports you want to make available when creating your exp
 
 1. Click **[!UICONTROL Save]**.
 
+>[!NOTE]
+>
+>If you attempt to delete a mobile viewport that is in use, the following message displays: "This viewport is currently associated to one or multiple activities. You need to remove the viewport from those activities before being able to delete it."
+
 ## Create a responsive experience {#task_D6332438B5EE48CCA8AF199270F1CAEF}
 
 Add mobile viewports to your [!DNL Target] activities to create responsive experiences for mobile screens.
