@@ -284,7 +284,7 @@ See [Multipage activity](/help/c-experiences/c-visual-experience-composer/multip
 
 With Experience Versions, you can run one test with variations for as many audiences as you like. For example, you can create a banner ad offering free shipping—with imagery and currency variations for customers in the U.S., U.K., and the U.A.E.—without having to run tests for three different audiences.
 
-See for [Multiple experience audiences in an A/B Test](/help/c-activities/t-test-ab/t-test-create-ab/target-experience-to-multiple-audiences.md) and [Experience versions in Adobe Target](/https://helpx.adobe.com/target/how-to/experience-versions.html?playlist=/ccx/v1/collection/product/target/seg-%20ment/business-practitioners/explevel/beginner-adls/applaunch/how-to-2/collection.ccx.js?ref=helpx.adobe.com) for step-by-step instructions.
+See for [Multiple experience audiences in an A/B Test](/help/c-activities/t-test-ab/t-test-create-ab/target-experience-to-multiple-audiences.md) and [Experience versions in Adobe Target](https://helpx.adobe.com/target/how-to/experience-versions.html?playlist=/ccx/v1/collection/product/target/seg-%20ment/business-practitioners/explevel/beginner-adls/applaunch/how-to-2/collection.ccx.js?ref=helpx.adobe.com) for step-by-step instructions.
 
 ### Tip 8: Save time by replicating activity experiences on similar pages.
 
