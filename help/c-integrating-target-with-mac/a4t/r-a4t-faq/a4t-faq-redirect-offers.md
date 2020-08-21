@@ -88,7 +88,7 @@ We recommend that you talk to their IT team to ensure that `adobe_mc_ref` and `a
 
 ## Why does the referring URL need to be passed to the new page? {#section_91AB8B0891F6416CBF7E973DCAF54EB5}
 
-Suppose a visitor clicks a link on [!DNL `www.google.com`] to your homepage ( [!DNL `www.mysite.com/index.html]`) on which a redirect activity is live and is then redirected to a new page ( [!DNL `www.mysite.com/index2.html`]).
+Suppose a visitor clicks a link on [!DNL `www.google.com`] to your homepage (`www.mysite.com/index.html`) on which a redirect activity is live and is then redirected to a new page (`www.mysite.com/index2.html`).
 
 Previously, the [!DNL Analytics] request on the new page would report a referring URL of [!DNL `www.mysite.com/index.html`] instead of [!DNL `www.google.com`]. This caused inaccurate reporting in [!DNL Analytics] associated with the referring URLs (Marketing Channel reports, for example). The reports had lost the fact that you came to the site from [!DNL `www.google.com`].
 
