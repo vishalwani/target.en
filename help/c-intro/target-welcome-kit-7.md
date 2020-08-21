@@ -13,7 +13,7 @@ Key to your first activity though, is establishing a baseline of the business me
 
 ## Route 1: A/B testing to all visitor traffic
 
-You could set up a basic [A/B Test activity](/help/c-activities/t-test-ab) in which you test one variation of an offer or experience against one or more other variations to see which ones your visitors prefer. If you’re only looking for the winning variant, you can opt to leverage AI to get quicker results by selecting [Auto-Allocate](/help/c-activities/automated-traffic-allocation/automated-traffic-allocation.md) in the second step of the A/B test setup workflow.
+You could set up a basic [A/B Test activity](/help/c-activities/t-test-ab/test-ab.md) in which you test one variation of an offer or experience against one or more other variations to see which ones your visitors prefer. If you’re only looking for the winning variant, you can opt to leverage AI to get quicker results by selecting [Auto-Allocate](/help/c-activities/automated-traffic-allocation/automated-traffic-allocation.md) in the second step of the A/B test setup workflow.
 
 Example: A media company tests its current copy for a gift subscription offer on its web or mobile site homepage to see which variation leads more visitors to purchase a gift subscription. If they select Auto-Allocate, the activity will shift more traffic to the winning variant as the test runs. If not, it will wait for you to manually push the winning experience live after the test concludes.
 
