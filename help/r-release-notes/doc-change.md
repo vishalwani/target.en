@@ -15,7 +15,7 @@ This page lists important changes made to the [!DNL Adobe Target] product docume
 
 |Date|Topic|Changes|
 | --- | --- | --- |
-|August 21|[Adobe Target welcome kit overview](/help/c-intro/target-welcome-kit.md')|New article and subtopics.|
+|August 21|[Adobe Target welcome kit overview](/help/c-intro/target-welcome-kit.md)|New article and subtopics.|
 |August 20|[Troubleshooting Issues Related to the Visual Experience Composer and Enhanced Experience Composer](/help/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/issues-related-to-the-visual-experience-composer-vec-and-enhanced-experience-composer-eec.md)|Added the following section: "How do the recently announced Google Chrome SameSite cookie enforcement policies impact the VEC and EEC?"|
 ||[Click tracking](/help/c-activities/r-success-metrics/click-tracking.md)|Updated the following text: "If you select more than one element, if an entrant clicks on any one of the chosen elements, the click is counted. To count each item separately, set up individual success metrics for each element. To count one item by clicking on several elements on a page, edit the CSS Element Selector to match multiple elements."|
 ||[Target release notes (prerelease)](/help/r-release-notes/target-release-notes.md)|Added information about the Target Standard/Premium 20.9.1 (September 2, 2020) release.|
