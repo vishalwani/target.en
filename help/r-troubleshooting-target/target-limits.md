@@ -47,7 +47,7 @@ Information about the character limits and other limits (offer size, audiences, 
 
 ## Customer attribute names
 
-**Limit**: 128 characters.
+**Limit**: 250 characters through feed or API.
 
 ## Customer attribute alias ID
 
