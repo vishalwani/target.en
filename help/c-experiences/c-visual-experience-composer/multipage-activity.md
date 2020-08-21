@@ -7,7 +7,7 @@ topic: Advanced
 uuid: a89f5334-540e-417d-ac51-a90f8b4687a4
 ---
 
-# Multipage Activity{#multipage-activity}
+# Multipage activity{#multipage-activity}
 
 A multipage activity enables you to create a story over multiple pages, with a design that is specific to each page.
 
