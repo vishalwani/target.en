@@ -22,10 +22,17 @@ solution: Target
    + [Release notes for previous releases](r-release-notes/release-notes-for-previous-releases.md)
 + Introduction {#introduction}
    + [Introduction to Target](c-intro/intro.md)
-   + [Adobe Target welcome kit](/help/c-intro/target-welcome-kit.md)
    + [Access Target from the Adobe Experience Cloud](c-intro/target-access-from-mac.md)
    + [Target key concepts](c-intro/target-key-concepts.md)
    + [Understand the Target UI](/help/c-intro/understand-the-target-ui.md)
+   + Adobe Target welcome kit {#welcome}
+      + [Adobe Target welcome kit overview](/help/c-intro/target-welcome-kit.md)
+      + [Chapter 1: Introduction](/help/c-intro/target-welcome-kit-1.md)
+      + [Chapter 2: Adobe Target at a glance](/help/c-intro/target-welcome-kit-2.md)
+      + [Chapter 3: Develop your testing an personalization ideas](/help/c-intro/target-welcome-kit-3.md) 
+      + [Chapter 4: Tips for using Target](/help/c-intro/target-welcome-kit-4.md)
+      + [Chapter 5: Inspiration for testing and personalization activities](/help/c-intro/target-welcome-kit-5.md)
+      + [Chapter 6: Easily avoidable pitfalls](/help/c-intro/target-welcome-kit-6.md)
    + [Glossary](c-intro/glossary.md)
    + [How Adobe Target works](c-intro/how-target-works.md)
    + [Training and certification](c-intro/training-and-certification.md)
