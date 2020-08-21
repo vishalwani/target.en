@@ -22,6 +22,7 @@ solution: Target
    + [Release notes for previous releases](r-release-notes/release-notes-for-previous-releases.md)
 + Introduction {#introduction}
    + [Introduction to Target](c-intro/intro.md)
+   + [Adobe Target welcome kit](/help/c-intro/target-welcome-kit.md)
    + [Access Target from the Adobe Experience Cloud](c-intro/target-access-from-mac.md)
    + [Target key concepts](c-intro/target-key-concepts.md)
    + [Understand the Target UI](/help/c-intro/understand-the-target-ui.md)
