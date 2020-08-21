@@ -45,7 +45,7 @@ As you come up with your testing idea, keep in mind that you should be able to e
 
 ## Planning your activity with the Activity Planner
 
-We’ve included the following Activity Planner as a standalone PDF (see below) that you can save and use over and over again. To run an effective activity, you need to fill out each area of the planner. Use this tool as you and others brainstorm ideas for testing and personalization activities.
+We’ve included the [Adobe Target Activity Planner](/help/assets/activity-planner.pdf) as a standalone PDF that you can save and use over and over again. To run an effective activity, you need to fill out each area of the planner. Use this tool as you and others brainstorm ideas for testing and personalization activities.
 
 ![Adobe Target Activity Planner](/help/c-intro/assets/activity-planner.png)
 
