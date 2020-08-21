@@ -11,6 +11,6 @@ If you run an activity and have amazing results, you need to share those results
 
 When communicating these results, it’s helpful to approach it like you’re telling a story. Make it interesting and clearly explain what it was tested or personalized and why, and what the results were. Use the language and terminology understood by those who are reviewing the results.
 
-We’ve included an Executive Summary Results template in Microsoft PowerPoint (see below). Rebrand it with your organization’s color scheme and logo, and use it to present the results of your first test or personalization activity. Like the Activity Planner, it’s included with the welcome kit as a standalone file, but we’ve also added an image of it here, along with an example of the type of information to include in each area of the template.
+We’ve included an [Executive Summary Results template](/help/assets/executive-summary.zip) in Microsoft PowerPoint. Rebrand it with your organization’s color scheme and logo, and use it to present the results of your first test or personalization activity. Like the Activity Planner, it’s included with the welcome kit as a standalone file, but we’ve also added an image of it here, along with an example of the type of information to include in each area of the template.
 
 ![Executive Summary report](/help/c-intro/assets/executive-summary-report.png)
