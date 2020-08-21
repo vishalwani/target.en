@@ -278,7 +278,7 @@ The equivalent of the ttMeta plugin for debugging purposes can be created by add
 </script>
 ```
 
-## Training Video: Response Tokens and at.js Custom Events {#section_3AA0A6C8DBD94A528337A2525E3E05D5} ![Tutorial badge](/help/assets/tutorial.png)
+## Training Video: Response Tokens and at.js Custom Events ![Tutorial badge](/help/assets/tutorial.png) {#section_3AA0A6C8DBD94A528337A2525E3E05D5}
 
 Watch the following video to learn how to use response tokens and at.js custom events to share profile information from Target to third-party systems.
 

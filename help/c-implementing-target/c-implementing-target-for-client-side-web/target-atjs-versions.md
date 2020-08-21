@@ -399,7 +399,7 @@ The following enhancements and fixes are included in [!DNL at.js] version 0.9.6:
     
     * Existing extensions (e.g. AngularJS extensions) must be updated to use the `registerExtension()` approach.
 
-* New at.js notification] API.
+* New at.js notification API.
 
   The goal of this notification system is to provide more insight into what [!DNL at.js] is doing on the page and when there are issues. A common issue seen with the VEC is that an IT release changes the page, a VEC selector breaks, and the test stops delivering content correctly. A goal of this notification system is to make this delivery issue known to the page, so developers can access this information, pass it to a system like [!DNL Adobe Analytics], and alerts can be sent to the business owners that their test broke. 
 

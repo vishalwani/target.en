@@ -306,7 +306,7 @@ Customers are able to specify a global mbox name via [!UICONTROL Target > Admini
 
 Yes the at.js custom events are applicable to `triggerView()` as well.
 
-### It says when I call `triggerView()` with `{“page” : “true”}`, it will send a notification to the [!DNL Target] backend and increase the impression. Does it also cause the profile scripts to execute?
+### It says when I call `triggerView()` with &lbrace;`“page” : “true”`&rbrace;, it will send a notification to the [!DNL Target] backend and increase the impression. Does it also cause the profile scripts to execute?
 
 When a prefetch call is made to the [!DNL Target] backend, the profile scripts are executed. Thereafter, the impacted profile data will then be encrypted and passed back to the client side. After `triggerView()` with `{"page": "true"}` is invoked, a notification is sent along with the encrypted profile data. This is when the [!DNL Target] backend will then decrypt the profile data and store into the databases.
 

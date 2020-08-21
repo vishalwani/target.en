@@ -53,7 +53,7 @@ For more information, see [Methods to get Data into Target](../../c-implementing
 
    ![](assets/propensity_score_4.png)
 
-## Training video {#section_3BB8DBF3418F4520B3E274B6F40AF8F3} ![Overview badge](/help/assets/overview.png)
+## Training video ![Overview badge](/help/assets/overview.png) {#section_3BB8DBF3418F4520B3E274B6F40AF8F3}
 
 Watch the following video for more information and a scenario in which you could use this feature:
 
