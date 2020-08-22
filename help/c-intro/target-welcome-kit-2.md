@@ -1,7 +1,7 @@
 ---
 keywords: welcome kit;target welcome kit;intro;introduction;getting started
-description: Adobe Target welcome kit - Chapter 2
-title: Adobe Target welcome kit - Chapter 2
+description: Adobe Target welcome kit - Chapter 2 - Target at a glance
+title: Adobe Target welcome kit - Chapter 2 - Target at a glance
 feature: intro
 ---
 
@@ -21,12 +21,12 @@ For a more in-depth understanding of when and how to use each capability, see [T
 
 |Activity type|Details|
 | --- | --- |
-|Experience Targeting (XT)|Deliver content to a specific audience based on a set of user-defined rules and criteria. **[!UICONTROL Experience Targeting]** is valuable for targeting a specific experience or content to a particular audience when you understand that an audience is valuable and have a good sense of what experience resonates with them. [Learn more](/help/c-activities/t-experience-target/experience-target.md).|
 |A/B Testing|Compare two or more variations of your experiences or offers on your website, or other digital customer touchpoint to see which variation most improves key business measures during a pre-specified test period. A/B tests are well-suited for large changes, such as new web page layouts, different approaches to site navigation, or drastically different treatments of individual elements of a digital experience like copy, images, and call-to-action buttons. [Learn more](/help/c-activities/t-test-ab/test-ab.md).|
-|Multivariate Testing (MVT)|Compare all possible combinations of variations of elements on your page or digital experience--for example of three different background images, two variations of copy, and two different button colors. MVT determines which combination performs the best for a specific audience and which elements most impact the results. [Learn more](/help/c-activities/c-multivariate-testing/multivariate-testing.md).|
 |Auto-Allocate|Identify the best-performing experience among two or more experiences, and automatically re-allocate more traffic to the winner to increase conversions while the test continues to run and learn. Uses Artificial Intelligence powered by [!DNL Adobe Sensei]. [Learn more](/help/c-activities/automated-traffic-allocation/automated-traffic-allocation.md).|
-|Auto-Target<br>(Premium)|Leverage Adobe Sensei AI in [!DNL Target] to determine and deliver the best experience of several to each visitor based on his or her individual customer profile and the behavior of previous visitors with similar profiles. Auto-Target enables personalization at scale.|
+|Auto-Target<br>(Premium)|Leverage Adobe Sensei AI in [!DNL Target] to determine and deliver the best experience of several to each visitor based on his or her individual customer profile and the behavior of previous visitors with similar profiles. Auto-Target enables personalization at scale. [Learn more](/help/c-activities/auto-target-to-optimize.md).|
 |Automated Personalization<br>(Premium)| Use advanced machine learning algorithms and automation powered by [!DNL Adobe Sensei] to review different combinations of images, copy, and other elements in an offer and deliver the best combination to each visitor based on which best achieves business goals, such as increased conversions or revenue per visitor. [Learn more](/help/c-activities/t-automated-personalization/automated-personalization.md).|
+|Experience Targeting (XT)|Deliver content to a specific audience based on a set of user-defined rules and criteria. **[!UICONTROL Experience Targeting]** is valuable for targeting a specific experience or content to a particular audience when you understand that an audience is valuable and have a good sense of what experience resonates with them. [Learn more](/help/c-activities/t-experience-target/experience-target.md).|
+|Multivariate Testing (MVT)|Compare all possible combinations of variations of elements on your page or digital experience--for example of three different background images, two variations of copy, and two different button colors. MVT determines which combination performs the best for a specific audience and which elements most impact the results. [Learn more](/help/c-activities/c-multivariate-testing/multivariate-testing.md).|
 |Recommendations<br>(Premium)|Use Adobe Sensei AI to automatically suggest products or content that might interest your customers based on their previous activity and that of other customers. [Learn more](/help/c-recommendations/recommendations.md).|
 
 ## Channels

@@ -1,7 +1,7 @@
 ---
 keywords: welcome kit;target welcome kit;intro;introduction;getting started
-description: Adobe Target welcome kit - Chapter 6
-title: Adobe Target welcome kit - Chapter 6
+description: Adobe Target welcome kit - Chapter 6 - Easily avoidable pitfalls
+title: Adobe Target welcome kit - Chapter 6 - Easily avoidable pitfalls
 feature: intro
 ---
 
@@ -9,7 +9,9 @@ feature: intro
 
 The good thing about starting your optimization and personalization program now is that people who have been doing it for a while have already uncovered many of the mistakes that are easy to make. By knowing about these pitfalls, you can easily avoid them or remedy them. 
 
-See [Ten common A/B testing pitfalls and how to avoid them](/help/c-activities/t-test-ab/common-ab-testing-pitfalls.md) for detailed information. In addition to the ideas presented in that article, keep this short list handy to avoid or fix these common testing and personalization pitfalls.
+>[!NOTE]
+>
+>See [Ten common A/B testing pitfalls and how to avoid them](/help/c-activities/t-test-ab/common-ab-testing-pitfalls.md) for detailed information. In addition to the ideas presented in that article, keep this short list handy to avoid or fix these common testing and personalization pitfalls.
 
 |Pitfall|Solution|
 | --- | --- |

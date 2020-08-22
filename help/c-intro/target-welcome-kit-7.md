@@ -1,7 +1,7 @@
 ---
 keywords: welcome kit;target welcome kit;intro;introduction;getting started
-description: Adobe Target welcome kit - Chapter 7
-title: Adobe Target welcome kit - Chapter 7
+description: Adobe Target welcome kit - Chapter 7 - Create and run your first Target activity
+title: Adobe Target welcome kit - Chapter 7 - Create and run your first Target activity
 feature: intro
 ---
 
@@ -45,7 +45,9 @@ As you come up with your testing idea, keep in mind that you should be able to e
 
 ## Planning your activity with the Activity Planner
 
-We’ve included the [Adobe Target Activity Planner](/help/assets/activity-planner.pdf) as a standalone PDF that you can save and use over and over again. To run an effective activity, you need to fill out each area of the planner. Use this tool as you and others brainstorm ideas for testing and personalization activities.
+We’ve included the [Adobe Target Activity Planner](/help/assets/activity-planner.pdf) as a standalone PDF that you can save and use over and over again. Click the link to view the PDF file. Right-click to download the PDF file.
+
+To run an effective activity, you need to fill out each area of the planner. Use this tool as you and others brainstorm ideas for testing and personalization activities.
 
 ![Adobe Target Activity Planner](/help/c-intro/assets/activity-planner.png)
 

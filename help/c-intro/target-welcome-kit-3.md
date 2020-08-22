@@ -1,7 +1,7 @@
 ---
 keywords: welcome kit;target welcome kit;intro;introduction;getting started
-description: Adobe Target welcome kit - Chapter 3
-title: Adobe Target welcome kit - Chapter 3
+description: Adobe Target welcome kit - Chapter 3 - Develop your testing and personalization ideas
+title: Adobe Target welcome kit - Chapter 3 - Develop your testing and personalization ideas
 feature: intro
 ---
 
