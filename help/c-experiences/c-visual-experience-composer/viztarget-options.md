@@ -193,7 +193,7 @@ Note that blue dots on the main panel and next to each option on the various sec
 
   Be aware that the CSS Editor shows details for the current session only. If you save changes and then reopen the editor, details about your previous change do not display in the editor, even if you select the same element again.
 
-  >[!Important]
+  >[!IMPORTANT]
   >
   >You can apply a background image using the CSS Editor, but it might cause flicker. Test your changes before deployment.
 

@@ -40,7 +40,7 @@ If neither the Visual Experience Composer nor the Enhanced Experience Composer w
 >In addition to the following information, you can use the [Adobe Target VEC Helper browser extension](/help/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/vec-helper-browser-extension.md) for Google Chrome.
 
 
->[!Note]
+>[!NOTE]
 >
 >These plugins should be used only in the context of VEC editing.
 >

@@ -168,7 +168,7 @@ For more information about Adobe Opt-in, see [Privacy and General Data Protectio
 
 This release also fixes an issue where Target might override redirect URL parameters with parameters that are coming from the redirect URL.
 
->[! NOTE]
+>[!NOTE]
 >
 >If you require Adobe Opt-in support for GDPR, you must currently use at.js 1.7.0 or 2.1.0.<br>For a list of all versions, see [at.js version details](/help/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md).
 
