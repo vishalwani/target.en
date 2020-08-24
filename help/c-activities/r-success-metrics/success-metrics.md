@@ -50,7 +50,7 @@ Some metrics, such as [!UICONTROL Custom Scoring] and [!UICONTROL Revenue Per Vi
 
 ## Advanced Settings {#section_7CE95A2FA8F5438E936C365A6D43BC5B}
 
-Use the advanced settings to manage how you measure success. Options include counting the metric per impression or once per visitor, and choosing whether to keep the user in the activity or removing them.
+Use the advanced settings to manage how you measure success. Options include adding dependencies, choosing whether to keep the user in the activity or remove them, and whether to count the metric once per entrant or on every impression.
 
 To access the [!UICONTROL Advanced Settings] options, click the **[!UICONTROL vertical ellipses]** > **[!UICONTROL Advanced Settings]**.
 
@@ -60,20 +60,27 @@ To access the [!UICONTROL Advanced Settings] options, click the **[!UICONTROL ve
 >
 >If you use [!DNL Adobe Analytics] as your reporting source, settings are managed by the [!DNL Analytics] server. The [!UICONTROL Advanced Settings] option will not be available. For more information, see [Adobe Analytics as the reporting source for Adobe Target (A4T)](/help/c-integrating-target-with-mac/a4t/a4t.md).
 
-You can also use the advanced settings to create dependent success metrics, incrementing one metric only if a visitor reaches another metric first.
+### Add dependency
+
+You can use the advanced settings to create dependent success metrics, incrementing one metric only if a visitor reaches another metric first.
 
 ![Add Dependency](/help/c-activities/r-success-metrics/assets/UI_dep_success_metric.png)
 
 For example, a test conversion might only be valid if a visitor clicks the offer, or reaches a particular page before converting.
 
-Dependent success metrics are supported in A/B testing, Automated Personalization, Experience Targeting, and Multivariate testing activities. Recommendations activities do not currently support dependent success metrics.
+Dependency functionality is *not* supported for the following:
 
->[!NOTE]
->
->Dependent success metrics will not convert in the following cases:
->
->* If you create a circular dependency in which metric1 is dependent on metric2 and metric2 is dependent on metric1, neither metric can convert. 
->* Automated Personalization activities release users and restart the activity when conversion metrics are reached, so any metric dependent on the conversion metric will not convert.
+* [!UICONTROL Recommendations] activities. This functionality is supported for all other activity types.
+* If you use [Analytics as your reporting source](/help/c-integrating-target-with-mac/a4t/a4t.md) (A4T).
+* The “Viewed a Page” metric type.
+* The “Clicked an Element” metric type for Visual Experience Composer (VEC) activities.
+
+Dependent success metrics will not convert in the following cases:
+
+* If you create a circular dependency in which metric1 is dependent on metric2 and metric2 is dependent on metric1, neither metric can convert. 
+* Automated Personalization activities release users and restart the activity when conversion metrics are reached, so any metric dependent on the conversion metric will not convert.
+
+### What will happen after a user encounters this goal metric?
 
 Use the advanced settings to determine what happens after a user reaches the goal metric. The following table shows the available options:
 
@@ -86,6 +93,14 @@ Use the advanced settings to determine what happens after a user reaches the goa
 >[!NOTE]
 >
 >If you configure a metric to one of the [!UICONTROL Increment Count] options (mentioned above), the metric count correctly increments once per entrant at the visitor level only. The metric count increments once per visit for every new session at the visit level.
+
+### How will the count be incremented:
+
+Choose the desired behavior:
+
+* Once per entrant
+* On Every impression (Excluding page refreshes)
+* On every impression
 
 ## Training video: Activity Metrics
 
