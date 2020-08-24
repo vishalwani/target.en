@@ -75,7 +75,7 @@ There might be certain combinations that don't work well together, or you might 
 
    ![Exclude experience by hovering](/help/c-activities/t-automated-personalization/assets/exclude_exp_1a.png)
 
-   Or you can batch exclude/include experiences by selecting the checkbox for the relevant experiences and then clicking the **[UICONTROL Exclude]** icon in the top right corner of the dialog box. The [!UICONTROL Exclude] icon appears when one or more experiences are checked. 
+   Or you can batch exclude/include experiences by selecting the checkbox for the relevant experiences and then clicking the **[!UICONTROL Exclude]** icon in the top right corner of the dialog box. The [!UICONTROL Exclude] icon appears when one or more experiences are checked. 
 
    ![Batch exclude experiences](/help/c-activities/t-automated-personalization/assets/exclude_exp_2a.png)
 
