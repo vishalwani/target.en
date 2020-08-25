@@ -84,7 +84,7 @@ Some reasons why you might want to cancel page loading within the VEC include:
 * You want to add more template testing rules to the Page Delivery criteria
 * You want to override the global Enhanced Experience Composer (EEC) toggle when loading a page via the EEC or iframe-only might depend might vary page to page
 
-After you cancel page loading in the VEC you can switch between experiences in the activity without waiting for the page to load. To see the page within the VEC again, you must click the **[!UICONTOL Reload]** button.
+After you cancel page loading in the VEC you can switch between experiences in the activity without waiting for the page to load. To see the page within the VEC again, you must click the **[!UICONTROL Reload]** button.
 
 >[!IMPORTANT]
 >
