@@ -36,7 +36,7 @@ In this scenario, Visitor 1 would see Offer 1 (because he or she qualifies as pa
 
 1. Select the desired offer(s) and choose the audiences you want to qualify to see that offer.
 
-   To set up targeting for a single offer, hover over the desired offer, then click the **[!UICONTORL Targeting]** icon.
+   To set up targeting for a single offer, hover over the desired offer, then click the **[!UICONTROL Targeting]** icon.
 
    To set up targeting for multiple offers, select the checkboxes for the desired offers, then click the **[!UICONTROL Targeting] icon that displays at the top right of the list.
 

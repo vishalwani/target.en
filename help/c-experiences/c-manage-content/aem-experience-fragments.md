@@ -27,7 +27,7 @@ Experience fragments represent a huge step forward to link the content/experienc
 
 ## Requirements {#section_AE6F0971E1574B3AA324003599B96E5A}
 
-You must be provisioned with the experience fragments functionality within [!DNl Target]. In addition, you must be using [!DNL AEM] 6.3 with the appropriate service pack or [!DNL AEM] 6.4 (or later). Your account representative can help ensure that you meet the requirements to use this feature:
+You must be provisioned with the experience fragments functionality within [!DNL Target]. In addition, you must be using [!DNL AEM] 6.3 with the appropriate service pack or [!DNL AEM] 6.4 (or later). Your account representative can help ensure that you meet the requirements to use this feature:
 
 * [!DNL Adobe Experience Manager] 6.4 (or later). 
 * [!DNL Adobe Experience Manager] 6.3 SP2 (or later). 
@@ -124,7 +124,7 @@ You can consume experience fragments in [!DNL Target] activities using the [Visu
 
 **To consume experience fragments using the Form-based Experience Composer:**
 
-1. In [!DNl Target], while creating or editing an experience in the [Form-Based Experience Composer](../../c-experiences/form-experience-composer.md#task_FAC842A6535045B68B4C1AD3E657E56E), select the location on the page where you want to insert [!DNL AEM] content, then select **[!UICONTROL Change Experience Fragment]** to display the [!UICONTROL Choose an Experience Fragment] list.
+1. In [!DNL Target], while creating or editing an experience in the [Form-Based Experience Composer](../../c-experiences/form-experience-composer.md#task_FAC842A6535045B68B4C1AD3E657E56E), select the location on the page where you want to insert [!DNL AEM] content, then select **[!UICONTROL Change Experience Fragment]** to display the [!UICONTROL Choose an Experience Fragment] list.
 
    ![](assets/experience_fragment_list.png)
 
