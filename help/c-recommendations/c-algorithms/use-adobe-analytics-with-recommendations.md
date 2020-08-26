@@ -88,10 +88,10 @@ Assuming all the pre-requisites are in place, perform the following tasks:
    >Consult with the [!DNL Adobe Analytics] team before doing this step.
 
    * **Type**: FTP
-   * **Host**: xxx.yyy.com
-   * **Path**: Your Target client code
-   * **Username**: xxxyyy
-   * **Password**: xxxxxxxxxxx
+   * **Host**: `xxx.yyy.com`
+   * **Path**: Your [!DNL Target] client code
+   * **Username**: Specify your username
+   * **Password**: Specify your password
 
    Screenshot is for reference purposes only. Your deployment will have different credentials. Consult with the [!DNL Adobe Analytics] team or Customer Care while doing this step.
 
