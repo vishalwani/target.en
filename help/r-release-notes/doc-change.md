@@ -15,6 +15,7 @@ This page lists important changes made to the [!DNL Adobe Target] product docume
 
 |Date|Topic|Changes|
 | --- | --- | --- |
+|August 26|[Use Adobe Analytics with Target Recommendations](/help/c-recommendations/c-algorithms/use-adobe-analytics-with-recommendations.md)|New topic.|
 |August 24|[Success metrics](/help/c-activities/r-success-metrics/success-metrics.md#section_7CE95A2FA8F5438E936C365A6D43BC5B)|Updated "Advanced settings" section.|
 |August 21|[Adobe Target welcome kit overview](/help/c-intro/target-welcome-kit.md)|New article and subtopics.|
 |August 20|[Troubleshooting Issues Related to the Visual Experience Composer and Enhanced Experience Composer](/help/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/issues-related-to-the-visual-experience-composer-vec-and-enhanced-experience-composer-eec.md)|Added the following section: "How do the recently announced Google Chrome SameSite cookie enforcement policies impact the VEC and EEC?"|
