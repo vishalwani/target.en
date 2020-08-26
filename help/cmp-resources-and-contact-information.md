@@ -52,9 +52,9 @@ Current recorded Target sessions include:
 
 In addition it sessions about Target, there are other sessions for other Adobe solutions, including Analytics, Campaign, Adobe Experience Manager (AEM), Primetime, Adobe Core Services, Audience Manager, and more. 
 
-## Contact Adobe Client Care {#reference_ACA3391A00EF467B87930A450050077C}
+## Contact Adobe Customer Care {#reference_ACA3391A00EF467B87930A450050077C}
 
-Client Care is prepared to help you solve any issues that might arise. This page contains the information you need when contacting Client Care to expedite a resolution.
+Customer Care is prepared to help you solve any issues that might arise. This page contains the information you need when contacting Customer Care to expedite a resolution.
 
 ### Basic Information {#section_CC8B206F58D6495C9372D5C0D4055CF6}
 
