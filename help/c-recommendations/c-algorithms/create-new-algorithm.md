@@ -82,6 +82,8 @@ There are multiple ways to reach the [!UICONTROL Create New Criteria] screen. So
 1. Select the desired **[!UICONTROL Behavioral Data Source]**: [!UICONTROL mboxes] or [!UICONTROL Analytics].
 
    If you chose [!UICONTROL Analytics], select the desired report suite.
+
+   For more information, see [Use Adobe Analytics with Target Recommendations](/help/c-recommendations/c-algorithms/use-adobe-analytics-with-recommendations.md).
  
 1. Set your **[!UICONTROL Content]** rules.
 
