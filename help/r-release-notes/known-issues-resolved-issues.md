@@ -18,6 +18,22 @@ Information about known issues for this release of Target. Also includes informa
 
 The following sections list the known issues for [!DNL Target]:
 
+### Reporting
+
+Conversions currently increment differently based on which audience is used.
+
+For example, for the same visitor, if the conversion count is set to increment "Once per Entrant:"
+
+* Audience: "All Qualified Visitors" for visit-level conversions increment one time only. This is the expected behavior.
+* Audience: "New Visitors" for visit-level conversions incorrectly increment every time, instead of incrementing one time only. This is not the expected behavior.
+
+If the conversion count is set to increment "On every impression:"
+
+* Audience: "All Qualified Visitors" for visitor-level conversions incorrectly increment one time only, instead of incrementing every time. This is not the expected behavior.
+* Audience: "New Visitors" for visitor-level conversions increment every time. This is the expected behavior.
+
+Note that this problem is related to [!DNL Target] reporting only. This is not an issue when using [!UICONTROL Analytics for Target] (A4T) reporting.
+
 ### Page delivery {#page-delivery}
 
 If you add a template rule, such as URL contains (/checkout, /cart) in [page delivery](/help/c-activities/t-experience-target/t-xt-create/xt-activity-url.md), extra spaces are prefixed to your rules. This is a cosmetic issue and does not affect audience-definition creation and offer delivery. (TGT-35920)
