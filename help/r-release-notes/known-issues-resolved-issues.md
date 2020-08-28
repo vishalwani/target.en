@@ -116,6 +116,12 @@ Image offers on the Offers page sometimes retain the “processing” label for 
 
 As known issues above are resolved, they will be moved to the following sections and additional notes, if necessary, will be added.
 
+### Pages not loading in the Visual Experience Composer (VEC) or Enhanced Experience Composer (EEC) when using Google Chrome version 80+
+
+This known issue is regarding Google's decision in changing the default behavior of cookies without the SameSite Attribute starting with Chrome version 80. Before the change Chrome defaulted all cookies without the SameSite attribute to “SameSite=None” and now it defaults to “SameSite=Lax” and this changes the way cookies are sent on GET and POST requests. See [SameSite Updates](https://www.chromium.org/updates/same-site).
+
+For more information and a fix, see "How do the recently announced Google Chrome SameSite cookie enforcement policies impact the VEC and EEC?" in [Troubleshooting Issues Related to the Visual Experience Composer and Enhanced Experience Composer](/help/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/issues-related-to-the-visual-experience-composer-vec-and-enhanced-experience-composer-eec.md#samesite).
+
 ### Graph report for an Auto-Target activity fails to render when using a custom experience as control
 
 The graph report for an Auto-Target activity fails to render for "differential" modes (Average Lift and Daily Lift) if there is no data (0 visits) in any experience. This situation might occur during the early stage of an activity if the control experience is set to custom. For the other modes (Running Average Control and Targeted, Daily Control and Targeted, and Visits) it works fine. As soon as there is some data (non-zero visits), the report renders as expected.
