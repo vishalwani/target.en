@@ -16,6 +16,7 @@ This page lists important changes made to the [!DNL Adobe Target] product docume
 |Date|Topic|Changes|
 | --- | --- | --- |
 |August 28|[Known issues and resolved issues](/help/r-release-notes/known-issues-resolved-issues.md)|Updated the following:<ul><li>Added to the Known issues section: "Reporting - Conversions currently increment differently based on which audience is used."</li><li>Added to the Resolved issues section: "Pages not loading in the Visual Experience Composer (VEC) or Enhanced Experience Composer (EEC) when using Google Chrome version 80+."</li></ul> |
+||[Target release notes (current)](/help/r-release-notes/release-notes.md)|The deprecation date for mbox.js has been changed from August 30, 2020 to January 18, 2021.|
 |August 26|[Use Adobe Analytics with Target Recommendations](/help/c-recommendations/c-algorithms/use-adobe-analytics-with-recommendations.md)|New topic.|
 |August 24|[Success metrics](/help/c-activities/r-success-metrics/success-metrics.md#section_7CE95A2FA8F5438E936C365A6D43BC5B)|Updated "Advanced settings" section.|
 |August 21|[Adobe Target welcome kit overview](/help/c-intro/target-welcome-kit.md)|New article and subtopics.|
