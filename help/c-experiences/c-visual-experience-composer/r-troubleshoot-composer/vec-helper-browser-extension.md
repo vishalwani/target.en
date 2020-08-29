@@ -16,8 +16,9 @@ Reasons why some websites might not open reliably in the VEC:
 * The website is in an iframe.
 * The at.js library is not yet implemented on the website.
 * The customer's QA and/or stage site is not available to the outside world (the site is internal).
+* You are using Google Chrome 80+ with enhanced SameSite cookie enforcement policies. For more information, see [How do the recently announced Google Chrome SameSite cookie enforcement policies impact the VEC and EEC](/help/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/issues-related-to-the-visual-experience-composer-vec-and-enhanced-experience-composer-eec.md#samesite)?
 
-The VEC Helper browser extension for Chrome solves site-loading issues for which customers now rely on the [!DNL Target] [!UICONTROL Enhanced Experience Composer] or third-party extensions, such as Requestly
+The VEC Helper browser extension for Chrome solves site-loading issues for which customers now rely on the [!DNL Target] [!UICONTROL Enhanced Experience Composer] or third-party extensions, such as Requestly.
 
 Benefits of using the VEC Helper extension:
 
