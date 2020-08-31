@@ -19,7 +19,7 @@ While [creating criteria](/help/c-recommendations/c-algorithms/create-new-algori
 >
 >If these two buttons do not display in your account, reach out to [Customer Care](/help/cmp-resources-and-contact-information.md#reference_ACA3391A00EF467B87930A450050077C).
 
-## Use Cases
+## Use Cases for Analytics data in Target
 
 Using [!DNL Analytics] as the behavioral data source for recommendations also provides the ability to deploy specific use cases without the requirement of tagging entity pages with all the [!DNL Target] entity parameters. Although that requires certain pre-requisites to be in place, availability of "Product Variables" is the most important thing for that functionality to work seamlessly. Regular eVars and Props are not sufficient for this handshake to happen automatically between [!DNL Analytics] and [!DNL Target].
 
@@ -32,7 +32,7 @@ You can use [!DNL Analytics] as the behavioral data source to:
 
 The following sections will help you implement this feature on the [!DNL Analytics] side.
 
-### Prerequisites: product variables in Analytics
+### Prerequisites: set up product variables in Analytics
 
 You must implement product variables in [!DNL Analytics] with the necessary attributes that are required for [!DNL Target Recommendations]. 
 
@@ -50,9 +50,83 @@ For more details on how to set up product variables, see [products](https://docs
 
 For quick decision making on which data source is to be used, if there is a lot of organic data generated every day by users, and not much dependency required on historic data, then using a [!DNL Target] mbox as the behavioral data source can be a good fit. In cases of less availability of organic data generated recently, if you want to bank upon [!DNL Analytics] data, then the using [!DNL Analytics] as the behavioral data source is a good fit.
 
-### Contact Customer Care to have a data feed created for you
+### Steps to deploy
 
-Assuming all the pre-requisites are in place, contact [Customer Care](/help/cmp-resources-and-contact-information.md#reference_ACA3391A00EF467B87930A450050077C) to have a data feed created for you.
+Assuming all the pre-requisites are in place, the following tasks must be performed by the Adobe Target Recommendations team:
+
+>[IMPORTANT]
+>
+>The steps below are for illustrative purposes. Note that a member of the Recommendations team must currently perform these steps. [Contact Customer Care](/help/cmp-resources-and-contact-information.md#reference_ACA3391A00EF467B87930A450050077C) for more information. 
+
+1. In [!DNL Target], click **[!UICONTROL Administration]** > **[!UICONTROL Implementation]** to acquire your [!DNL Target] client code.
+
+   ![Client code](/help/c-recommendations/c-algorithms/assets/client-code.png)
+
+1. Acquire your [!DNL Analytics] report suite.
+
+   Use your [!DNL Analytics] production site report suite. This is the report suite that tracks the site in which you have [!DNL Recommendations] deployed.
+
+1. In [!DNL Analytics], click **[!UICONTROL Admin]** > **[!UICONTROL Data Feeds]**.
+
+   ![Setup > Data Feeds](/help/c-recommendations/c-algorithms/assets/data-feed.png)
+
+1. Click **[!UICONTROL Add]** to create a new feed.
+
+   ![Add feed](/help/c-recommendations/c-algorithms/assets/add-feed.png)
+
+1. Fill in feed information:
+
+   * **Name**: Recs Prod Feed
+   * **Report Suite**: Your pre-determined report suite
+   * **Email**: Specify any appropriate address for an Admin user
+   * **Feed interval**: Select the desired interval
+   * **Delay Processing**: No delay.
+   * **Start & End Dates**: Continuous feed
+
+   ![Feed information section](/help/c-recommendations/c-algorithms/assets/feed-information.png)
+
+1. Fill in the details in the **[!UICONTROL Destination]** section:
+
+   >[!NOTE]
+   > 
+   >Consult with the [!DNL Adobe Analytics] team before doing this step.
+
+   * **Type**: FTP
+   * **Host**: `xxx.yyy.com`
+   * **Path**: Your [!DNL Target] client code
+   * **Username**: Specify your username
+   * **Password**: Specify your password
+
+   Screenshot is for reference purposes only. Your deployment will have different credentials. Consult with the [!DNL Adobe Analytics] team or Customer Care while doing this step.
+
+   ![Destination section](/help/c-recommendations/c-algorithms/assets/destination.png)
+
+1. Fill in the **[!UICONTROL Data Column]** definitions:
+
+   * **Compression Format**: Gzip
+   * **Packaging Type**:  Single File
+   * **Manifest:** Finish File
+
+     ![Compression Format, Packaging Type, and Manifest settings](/help/c-recommendations/c-algorithms/assets/compression.png)
+
+   * **Included Columns**: 
+
+     >[!IMPORTANT]
+     >
+     >The columns must be added in the same order documented here. Select the columns in the following order and click **[!UICONTROL Add]** for each column.
+
+     * hit_time_gmt
+     * visid_high
+     * visid_low
+     * event_list
+     * product_list
+     * visit_num
+
+1. Click **[!UICONTROL Save]**.
+
+   ![Data column definitions section](/help/c-recommendations/c-algorithms/assets/data-column-definitions.png)
+
+With this, the set up on [!DNL Analytics] side is complete. Now it is time to map these variables on [!DNL Target] side for continuous supply of behavioral data.
 
 ## Implement in Target
 
