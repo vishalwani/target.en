@@ -1,7 +1,7 @@
 ---
 keywords: Target;home;popular topics;adobe target;standard;premium;target documentation;adobe target documentation
 title: Adobe Target product documentation
-feature: 
+feature: landing
 uuid: 8755e622-8a31-4106-ba90-b1128a0cf89c
 ---
 
