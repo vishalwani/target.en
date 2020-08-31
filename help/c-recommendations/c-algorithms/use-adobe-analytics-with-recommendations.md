@@ -52,11 +52,11 @@ For quick decision making on which data source is to be used, if there is a lot 
 
 ### Steps to deploy
 
-Assuming all the pre-requisites are in place, the following tasks must be performed by the Adobe Target Recommendations team:
+Assuming all the pre-requisites are in place, the following tasks must be performed by the [!DNL Adobe Target Recommendations] team:
 
->[IMPORTANT]
+>[!IMPORTANT]
 >
->The steps below are for illustrative purposes. Note that a member of the Recommendations team must currently perform these steps. [Contact Customer Care](/help/cmp-resources-and-contact-information.md#reference_ACA3391A00EF467B87930A450050077C) for more information. 
+>The steps below are for illustrative purposes only. A member of the [!DNL Recommendations] team must currently perform these steps. [Contact Customer Care](/help/cmp-resources-and-contact-information.md#reference_ACA3391A00EF467B87930A450050077C) for more information. 
 
 1. In [!DNL Target], click **[!UICONTROL Administration]** > **[!UICONTROL Implementation]** to acquire your [!DNL Target] client code.
 
