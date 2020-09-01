@@ -46,7 +46,7 @@ This release contains the following enhancements, fixes, and changes:
 * Fixed an issue that prevented users from displaying the [!UICONTROL Activity] page if the workspace name (specified in the [!UICONTROL Adobe Admin Console for Enterprise]) contains an apostrophe. (TGT-37709)
 * Fixed an issue in [!UICONTROL Auto-Allocate] activities while selecting optimization and conversion metrics where an error message incorrectly informed users to select a report suite, even though a report suite was already specified. (TGT-37689)
 * Fixed an issue that sometimes caused metrics on the [!UICONTROL Goals and Settings] page to be blank after navigating to the [!UICONTROL Targeting] page and then back. (TGT-37691)
-* Fixed an issue that cause an incorrect last-modified value for [!DNL Recommendations] criteria. (TGT-37666)
+* Fixed an issue that caused an incorrect last-modified value for [!DNL Recommendations] criteria. (TGT-37666)
 * Fixed an issue that caused mbox IDs to display in the Mboxes drop-down list instead of mbox names. (TGT-37739)
 
 ## Prerelease information {#section_7B9D4AAFC6A74388B9D7DEF0658D8B63} 
