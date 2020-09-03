@@ -59,6 +59,10 @@ Information about the character limits and other limits (offer size, audiences, 
 * **maximum file size for each upload using the FTP method**: 4 GB. 
 * **Number of attributes allowed to subscribe**: 5 for [!DNL Target Standard] and 200 for [!DNL Target Premium].
 
+## Entities
+
+The maximum number of entities that can be referenced in a design, either hardcoded or via loops, is 99.
+
 ## Entity custom attributes
 
 **Limit**: The maximum length depends on the language.
