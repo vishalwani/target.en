@@ -17,6 +17,40 @@ Release notes for previous Target releases, including release notes for Target S
 
 ## Release notes - 2020
 
+### at.js 2.3.2 (July 24, 2020)
+
+This release of at.js is a maintenance release and includes the following fix:
+
+* Fixed a bug when a script or code adds default property to the window or document.
+
+### Target Standard/Premium 20.7.1 (July 27, 2020)
+
+This release includes the following changes:
+
+#### [!UICONTROL Administration] section UI refresh
+
+We are gradually rewriting the entire [!DNL Target] UI using a new tech stack to be able to offer improved performance, reduce the maintenance time required when releasing new features, and to improve the user experience across the product. The first section refreshed is the [!UICONTROL Setup] section, which has been renamed [!UICONTROL Administration].
+
+As part of this refresh, you will be able to easily perform many actions using the pages in the [!UICONTROL Administration] section, such as:
+
+* Download the latest at.js file from the [!UICONTROL Implementation] tab (**[!UICONTROL Administration]** > **[!UICONTROL Implementation]**).
+* Customize your at.js settings and be able to easily review your changes (**[!UICONTROL Administration]** > **[!UICONTROL Implementation]**).
+* Modify enhanced reporting settings, such as the default currency and time zone, IPs to exclude from reporting, etc. (**[!UICONTROL Administration]** > **[!UICONTROL Reporting]**)
+* Obfuscate visitor IP addresses for privacy reasons (**[!UICONTROL Administration]** > **[!UICONTROL Implementation]**)
+* View the existing list of users per workspace and their roles, before managing them in Adobe Admin Console (**[!UICONTROL Administration]** > **[!UICONTROL Users]**).
+* Search and filter all tables in the [!UICONTROL Administration] section.
+
+For more information, see [Administer Target Overview](/help/administrating-target/administrating-target.md).
+
+#### Enhancements, fixes, and changes
+
+This release contains the following enhancements, fixes, and changes:
+
+* Fixed an issue that prevented site preferences from being retained after refresh. (TGT-37239)
+* Fixed an issue that prevented [!UICONTROL Insert After] > [!UICONTROL Image] from functioning properly with Scalable Vector Graphics (SVG) images. (TGT-37242)
+* Fixed an issue for users with the [!UICONTROL Publisher] role that prevented the deletion of draft activities. (TGT-37358)
+* Fixed an issue that prevented users from editing an activity when [!UICONTROL All My Workspaces] is selected. (TGT-37276)
+
 ### Target Standard/Premium 20.5.1 (June 17, 2020)
 
 |Feature / Enhancement|Description|
