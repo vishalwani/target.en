@@ -30,7 +30,7 @@ The following settings are available:
 
 Set the default URL used by the [!UICONTROL Visual Experience Composer]. This is the default page, such as your home page, used whenever you set up an experience for each new activity. If you do not set a default URL, you must enter a URL for each activity when you create it.
 
-### Enable Enhanced Experience Composer
+### Enable Enhanced Experience Composer {#eec}
 
 Allows editing on iFrame-busting sites and sites with mixed content. Some sites might not be compatible with the enhanced version. Deselect this option to revert to the original [!UICONTROL Visual Experience Composer]. Activity delivery on sites is not affected by this choice.
 
