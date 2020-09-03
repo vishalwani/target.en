@@ -15,6 +15,8 @@ This page lists important changes made to the [!DNL Adobe Target] product docume
 
 |Date|Topic|Changes|
 | --- | --- | --- |
+|September 3|[Visual Experience Composer helper extension](/help/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/vec-helper-browser-extension.md)|Updated the "Obtain and install the VEC Helper browser extension" section with information about the cookie name and domain.|
+||[Troubleshooting Issues Related to the Visual Experience Composer and Enhanced Experience Composer](/help/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/issues-related-to-the-visual-experience-composer-vec-and-enhanced-experience-composer-eec.md)|Updated the "How do the recently announced Google Chrome SameSite cookie enforcement policies impact the VEC and EEC?" section with information about the cookie name and domain.|
 |September 2|[Release Notes](/help/r-release-notes/release-notes.md): 20.8.1|This release includes enhancements and fixes. You can read about them and link to the documentation from the Release Notes. This release also includes many documentation updates throughout the help.|
 
 ## Adobe Target Standard/Premium 20.7.1 (July 27, 2020)
