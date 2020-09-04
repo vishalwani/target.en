@@ -141,9 +141,9 @@ Mbox.js version 58 and later executes non-JavaScript content for the global mbox
 
 The following changes have been made in this version:
 
-* Auto-created global mbox response for Target Standard no longer uses document.write() or creates a <div> element.
+* Auto-created global mbox response for Target Standard no longer uses document.write() or creates a `<div>` element.
 
-  This removes the requirement for the mbox.js file to be the last item in the <head> of the page. Strong QA is recommended when upgrading to this new version.
+  This removes the requirement for the mbox.js file to be the last item in the `<head>` of the page. Strong QA is recommended when upgrading to this new version.
 
   This change might cause changes in behavior when delivering some offer types. Here are the specific conditions that will need to be considered:
 
@@ -221,7 +221,7 @@ Modifies version 53 with IE fixes.
 
 **Release Date:** September 30, 2014
 
-Changes the global mbox implementation to AJAX from document.write. This removes the requirement for the mbox.js file to be the last item in the page's <head> section. This version is only available via API. Clients can download it and use this mbox.js file. Some sites experience content flicker with this implementation, so please validate the integration on your site.
+Changes the global mbox implementation to AJAX from document.write. This removes the requirement for the mbox.js file to be the last item in the page's `<head>` section. This version is only available via API. Clients can download it and use this mbox.js file. Some sites experience content flicker with this implementation, so please validate the integration on your site.
 
 ## mbox version 53
 

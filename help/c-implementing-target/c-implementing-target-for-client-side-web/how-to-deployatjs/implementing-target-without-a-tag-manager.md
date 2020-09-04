@@ -175,7 +175,6 @@ A typical implementation of Target not using a tag manager like [Adobe Launch](.
 ```
 <!doctype html> 
 <html> 
- 
 <head> 
     <meta charset="utf-8"> 
     <title>Title of the Page</title> 
@@ -218,12 +217,10 @@ A typical implementation of Target not using a tag manager like [Adobe Launch](.
     <!--Target's JavaScript SDK, at.js--> 
     <script src="at.js"></script> 
     <!--/at.js--> 
-</head> 
- 
+</head>
 <body> 
     The default content of the page 
 </body> 
- 
 </html>
 ```
 
