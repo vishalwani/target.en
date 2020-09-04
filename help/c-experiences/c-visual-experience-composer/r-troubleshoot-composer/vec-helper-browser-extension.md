@@ -10,7 +10,11 @@ topic: Standard
 
 The [!DNL Adobe Target] [!UICONTROL Visual Experience Composer] (VEC) Helper browser extension for Google Chrome lets you load websites reliably within the VEC to rapidly author and QA web experiences.
 
-Reasons why some websites might not open reliably in the VEC:
+>[!NOTE]
+>
+>The VEC Helper browser is a Chrome extension. This extension is not necessary when using Mozilla Firefox.
+
+## Reasons why some websites might not open reliably in the VEC
 
 * The website has strict security policies.
 * The website is in an iframe.
@@ -20,7 +24,7 @@ Reasons why some websites might not open reliably in the VEC:
 
 The VEC Helper browser extension for Chrome solves site-loading issues for which customers now rely on the [!DNL Target] [Enhanced Experience Composer](/help/administrating-target/visual-experience-composer-set-up.md#eec) or third-party extensions, such as Requestly.
 
-Benefits of using the VEC Helper extension:
+## Benefits of using the VEC Helper extension
 
 * All iframe busting headers, such as X-Frame-Options and Content-Security-Policy, are implicitly removed from the website. There is no more need to create complicated Requestly rules to do this.
 * If a webpage does not yet contain the [!DNL Target] at.js JavaScript library, you can use the extension to inject the library so you can author experiences for the website. You can then create activities and QA them using preview links.
