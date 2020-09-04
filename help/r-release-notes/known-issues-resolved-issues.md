@@ -38,6 +38,10 @@ Note that this problem is related to [!DNL Target] reporting only. This is not a
 
 If you add a template rule, such as URL contains (/checkout, /cart) in [page delivery](/help/c-activities/t-experience-target/t-xt-create/xt-activity-url.md), extra spaces are prefixed to your rules. This is a cosmetic issue and does not affect audience-definition creation and offer delivery. (TGT-35920)
 
+### QA preview links
+
+Activity QA preview links for saved activities might not load if there are too many saved activities in your account. Re-trying the preview links should work. Archive saved activities that are no longer actively used to prevent this issue from continuing to happen. (TNT-37294)
+
 ### QA mode for Recommendations activities
 
 A known issue prevents preview if criteria used in the activity is item-based or category-based. (TNT-37455)
