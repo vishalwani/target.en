@@ -1,6 +1,6 @@
 ---
-keywords: criteria sequence;multiple criteria;algorithms;criteria;recommendations criteria
-description: Use sequences of up to five criteria to exercise greater control of the items that appear in your Recommendations activities.
+keywords: criteria sequence;multiple criteria;algorithms;criteria;recommendations criteria;sequence;
+description: Use sequences of up to five criteria to exercise greater control of the items that appear in your Adobe Target Recommendations activities.
 title: Create criteria sequences
 feature: criteria
 uuid: 9a5ca86b-fc79-4c24-b86f-e333b0c63088
@@ -14,13 +14,13 @@ Use sequences of up to five criteria to exercise greater control of the items th
 >
 >Criteria sequences cannot be used with [!UICONTROL Recommendations] activities created before the October 2016 Release of [!DNL Target Premium].
 
-To create a criteria sequence, you must first create the criteria you want to include in the sequence. See [Creating Criteria](../../c-recommendations/c-algorithms/create-new-algorithm.md#task_8A9CB465F28D44899F69F38AD27352FE) for more information.
+To create a criteria sequence, you must first create the criteria you want to include in the sequence. See [Creating Criteria](../../c-recommendations/c-algorithms/create-new-algorithm.md) for more information.
 
 By using a criteria sequence, you can provide additional targeted recommendations, instead of using more generic backup recommendations, when a criteria doesn't return enough results to fill your design. Typically, a criteria sequence will proceed from more specific targeting, which might return fewer results, to more general targeting, which usually returns more results.
 
 Your criteria sequences might vary in order, depending on the page type, as shown in the following examples: 
 
-|Page type|Sequence order|
+|Page type|Possible sequence order|
 | --- | --- |
 |Product page|<ol><li>Based on current item, from same brand</li><li>Based on current item, from all brands</li><li>Based on content similarity</li><li>Based on top sellers</li><li>Based on most-viewed items across the site</li></ol>|
 |Home page|<ol><li>Based on visitor's last purchase </li><li>Based on visitor's favorite item</li><li>Based on visitor's favorite category</li><li>Based on top sellers</li><li>Based on most-viewed across site</li></ol>|
@@ -103,7 +103,7 @@ When you create a criteria sequence, backup recommendation and partial design re
 
 1. (Conditional) If you selected **[!UICONTROL Backup Recommendations]** in the previous step, you can select **[!UICONTROL Apply inclusion rules to backup recommendations]**.
 
-  For more information see [Use dynamic and static inclusion rules](/help/c-recommendations/c-algorithms/use-dynamic-and-static-inclusion-rules.md).
+   For more information see [Use dynamic and static inclusion rules](/help/c-recommendations/c-algorithms/use-dynamic-and-static-inclusion-rules.md).
 
 1. Click **[!UICONTROL Save]**.
 
