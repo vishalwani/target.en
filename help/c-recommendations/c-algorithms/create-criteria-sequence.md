@@ -6,7 +6,7 @@ feature: criteria
 uuid: 9a5ca86b-fc79-4c24-b86f-e333b0c63088
 ---
 
-# ![PREMIUM](/help/assets/premium.png) Create criteria sequences{#create-criteria-sequences}
+# ![PREMIUM](/help/assets/premium.png) Create criteria sequences
 
 Use sequences of up to five criteria to exercise greater control of the items that appear in your [!UICONTROL Recommendations] activities.
 
