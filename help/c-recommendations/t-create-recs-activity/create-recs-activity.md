@@ -78,7 +78,7 @@ Use the Target Visual Experience Composer (VEC) to create a Recommendations acti
      Some criteria are supplied with [!DNL Recommendations]. You and your team can also create your own custom criteria. 
 
    * To create a new criteria, click **[!UICONTROL Create Criteria]** > **[!UICONTROL Create Criteria]**, then fill in the information for the new criteria. For information about creating new criteria, see [Creating Criteria](../../c-recommendations/c-algorithms/create-new-algorithm.md). 
-   * You can also group criteria into sequences. To create a new criteria sequence, click **[!UICONTROL Create Criteria]** > **[!UICONTROL Create Criteria Sequence]**. See [Creating Criteria Sequences](../../c-recommendations/c-algorithms/create-criteria-sequence.md) for more information.
+   * You can also group criteria into sequences. To create a new criteria sequence, click **[!UICONTROL Create Criteria]** > **[!UICONTROL Create Criteria Sequence]**. See [Create Criteria Sequence](/help/c-recommendations/c-algorithms/create-criteria-sequence.md) for more information.
 
 1. Click **[!UICONTROL Next]**.
 1. Select a [design](/help/c-recommendations/c-design-overview/design-overview.md).
