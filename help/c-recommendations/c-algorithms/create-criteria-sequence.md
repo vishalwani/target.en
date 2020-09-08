@@ -14,7 +14,7 @@ Use sequences of up to five criteria to exercise greater control of the items th
 >
 >Criteria sequences cannot be used with [!UICONTROL Recommendations] activities created before the October 2016 Release of [!DNL Target Premium].
 
-To create a criteria sequence, you must first create the criteria you want to include in the sequence. See [Creating Criteria](../../c-recommendations/c-algorithms/create-new-algorithm.md) for more information.
+To create a criteria sequence, you must first create the criteria you want to include in the sequence. See [Create criteria](/help/c-recommendations/c-algorithms/create-new-algorithm.md) for more information.
 
 By using a criteria sequence, you can provide additional targeted recommendations, instead of using more generic backup recommendations, when a criteria doesn't return enough results to fill your design. Typically, a criteria sequence will proceed from more specific targeting, which might return fewer results, to more general targeting, which usually returns more results.
 
