@@ -18,7 +18,7 @@ To create a criteria sequence, you must first create the criteria you want to in
 
 By using a criteria sequence, you can provide additional targeted recommendations, instead of using more generic backup recommendations, when a criteria doesn't return enough results to fill your design. Typically, a criteria sequence will proceed from more specific targeting, which might return fewer results, to more general targeting, which usually returns more results.
 
-Your criteria sequences might vary in order, depending on the page type, as shown in the following examples: 
+Your criteria sequences might vary in order depending on the page type, as shown in the following examples:
 
 |Page type|Possible sequence order|
 | --- | --- |
