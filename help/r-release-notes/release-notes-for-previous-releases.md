@@ -753,7 +753,7 @@ This release includes the following features and enhancements:
    <td colname="col2"> <p> 
      <ul id="ul_371C18DFC6D24E94B3D4FFFD83FC8D3A"> 
       <li id="li_9D11939014E7479AB7FD8910852A5386"> <p>View a list of activities that reference a selected criteria on its Criteria card. The card lists active and inactive activities. (TGT-27672) </p> </li> 
-      <li id="li_B97BF9305EB04F6D8B1F6178B2E0CB34"> <p>From the activity diagram, Criteria cards now show when results are ready to display. (TGT-27673) </p> <p>See <a href="../c-recommendations/c-algorithms/algorithms.md#concept_4BD01DC437F543C0A13621C93A302750" format="dita" scope="local"> Criteria </a>. </p> </li> 
+      <li id="li_B97BF9305EB04F6D8B1F6178B2E0CB34"> <p>From the activity diagram, Criteria cards now show when results are ready to display. (TGT-27673) </p> <p>See <a href="../c-recommendations/c-algorithms/algorithms.md" format="dita" scope="local"> Criteria </a>. </p> </li> 
      </ul> </p> </td> 
   </tr> 
   <tr> 
@@ -1050,7 +1050,7 @@ This release includes the following features and enhancements:
      <ul id="ul_BDD55AB34F4A43C691D2399C16AA3D6C"> 
       <li id="li_133C33E0D02E4861A4C855BD8A492E69"> <p>Custom Criteria are now configurable, like other criteria in recommendations. </p> </li> 
       <li id="li_AC201F0917BF465C985E8947635F762E"> <p>You can use collections, exclusions, and inclusions (including the special rules for Price and Inventory) in the same way as any other criteria. Collections and exclusions were already supported. This release adds inclusions. </p> </li> 
-     </ul> </p> <p>For more information, see <a href="../c-recommendations/c-algorithms/algorithms.md#concept_4BD01DC437F543C0A13621C93A302750" format="dita" scope="local"> Criteria </a>. </p> <p>(TGT-28488) </p> </td> 
+     </ul> </p> <p>For more information, see <a href="../c-recommendations/c-algorithms/algorithms.md" format="dita" scope="local"> Criteria </a>. </p> <p>(TGT-28488) </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1" class="premium"> <p>Recommendations: Inclusion rules, collections, and exclusions for Recently Viewed Criteria </p> </td> 
@@ -1058,7 +1058,7 @@ This release includes the following features and enhancements:
      <ul id="ul_A2D260F01CA047EEA72EF56BD0EE88FA"> 
       <li id="li_DB107DD357B741CCB2B7A4FDAD16F9D6"> <p>Recently Viewed Criteria are now configurable, like other criteria in recommendations. </p> </li> 
       <li id="li_85452C03F0924D4C8D854509F1293021"> <p>You can use collections, exclusions, and inclusions (including the special rules for Price and Inventory) in the same way as any other criteria. Collections and exclusions were already supported. This release adds inclusions. </p> </li> 
-     </ul> </p> <p>For more information, see <a href="../c-recommendations/c-algorithms/algorithms.md#concept_4BD01DC437F543C0A13621C93A302750" format="dita" scope="local"> Criteria </a>. </p> <p>(TGT-22843) </p> </td> 
+     </ul> </p> <p>For more information, see <a href="../c-recommendations/c-algorithms/algorithms.md" format="dita" scope="local"> Criteria </a>. </p> <p>(TGT-22843) </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Target Extension for Adobe Launch </p> </td> 
@@ -2660,7 +2660,7 @@ This release includes the following features and enhancements:
       <li id="li_1B44AB35B045416B8D8B72C428750822">More Content Like This </li> 
       <li id="li_FEC84CCF3DF3444DAB39F4764DE897B0">More Slideshows Like This </li> 
       <li id="li_5E874ACB5B004CACBDB4F8FF217BC593">More Products Like This </li> 
-     </ul> </p> <p>See <a href="../c-recommendations/c-algorithms/algorithms.md#concept_4BD01DC437F543C0A13621C93A302750" format="dita" scope="local"> Criteria </a>. </p> </td> 
+     </ul> </p> <p>See <a href="../c-recommendations/c-algorithms/algorithms.md" format="dita" scope="local"> Criteria </a>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> Enhancement: Improved reporting details shown when using Analytics as your reporting source. </td> 

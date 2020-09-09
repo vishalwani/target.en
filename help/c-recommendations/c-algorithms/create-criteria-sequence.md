@@ -125,7 +125,7 @@ When you create a criteria sequence, backup recommendation and partial design re
 
    The criteria sequence will appear in the Criteria list.
 
-   For more information about recommendation logic options, see [Criteria](../../c-recommendations/c-algorithms/algorithms.md#concept_4BD01DC437F543C0A13621C93A302750).
+   For more information about recommendation logic options, see [Criteria](../../c-recommendations/c-algorithms/algorithms.md).
 
 ## Training video: Create criteria in Recommendations (12:33) ![Tutorial badge](/help/assets/tutorial.png)
 

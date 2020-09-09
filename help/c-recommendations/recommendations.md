@@ -37,7 +37,7 @@ A recommendation determines how a product is suggested to a visitor, depending o
 |Increase the time visitors spend on your media site by recommending media content similar to what they are watching.|Create a recommendation that suggests other videos, using the "People who viewed this viewed that" criteria.|
 |Suggest that customers who viewed information about savings plans at your bank also read about IRA accounts.|Show other products people purchased after viewing one product without showing the first product in the recommendations, using the "people who viewed this also bought" criteria.|
 
-For more information about these and other [!DNL Recommendations] criteria, see [Criteria](../c-recommendations/c-algorithms/algorithms.md#concept_4BD01DC437F543C0A13621C93A302750).
+For more information about these and other [!DNL Recommendations] criteria, see [Criteria](../c-recommendations/c-algorithms/algorithms.md).
 
 ## Terms
 
