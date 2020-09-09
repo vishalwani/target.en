@@ -39,4 +39,4 @@ Duplicates are removed from batches of recommendations.
 
 Using backup recommendations is usually part of the discussion with the implementation team during your initial setup. If you want to change the backup recommendation setting after implementation, contact your account manager.
 
-If Enable Partial Design Rendering (see [Content Settings](../../c-recommendations/c-algorithms/create-new-algorithm.md#concept_BC16005C7A1E4F1A87E33D16221F4A96)) is not enabled and the template doesn't show, then either the backup recommendation or default content is shown instead. 
+If Enable Partial Design Rendering (see [Content Settings](/help/c-recommendations/c-algorithms/create-new-algorithm.md#content)) is not enabled and the template doesn't show, then either the backup recommendation or default content is shown instead. 
