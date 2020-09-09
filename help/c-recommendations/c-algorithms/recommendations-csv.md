@@ -47,10 +47,10 @@ There are multiple ways to reach the [!UICONTROL Create New Criteria] screen. So
    For more information about basing criteria on a key, see [Base the Recommendation on a Recommendation Key](../../c-recommendations/c-algorithms/create-new-algorithm.md#task_2B0ED54AFBF64C56916B6E1F4DC0DC3B). 
 1. Set your **[!UICONTROL Content]** rules.
 
-   Content rules determine what happens if the number of recommended items does not fill your design. For example, if your design has space for five items, but your criteria causes only three items to be recommended, you can leave the remaining space empty, or you can use backup recommendations to fill the extra space. Select the appropriate toggles. See [Content Settings](../../c-recommendations/c-algorithms/create-new-algorithm.md#concept_BC16005C7A1E4F1A87E33D16221F4A96). 
+   Content rules determine what happens if the number of recommended items does not fill your design. For example, if your design has space for five items, but your criteria causes only three items to be recommended, you can leave the remaining space empty, or you can use backup recommendations to fill the extra space. Select the appropriate toggles. See [Specify content settings](/help/c-recommendations/c-algorithms/create-new-algorithm.md#content). 
 1. Set your **[!UICONTROL Inclusion Rules]**.
 
-   Inclusion rules help you narrow the items that display in your recommendations. See [Inclusion Rules](../../c-recommendations/c-algorithms/create-new-algorithm.md#task_28DB20F968B1451481D8E51BAF947079). 1. Select the **[!UICONTROL Location]** of your CSV file.
+   Inclusion rules help you narrow the items that display in your recommendations. See [Specify inclusion rules](/help/c-recommendations/c-algorithms/create-new-algorithm.md#inclusion). 1. Select the **[!UICONTROL Location]** of your CSV file.
 
    The CSV file must be formatted correctly to upload successfully. Click **[!UICONTROL Download the CSV template]** to get a correctly formatted CSV file.
 

@@ -11,7 +11,7 @@ uuid: 35ecabbe-b8b4-479b-9266-4823c831d79a
 
 This article contains prerelease information. Release dates, features, and other information are subject to change without notice. 
 
-**Last Updated: August 31, 2020**
+**Last Updated: September 9, 2020**
 
 To view information about the current release, see [Target Release Notes](release-notes.md). The information on these pages might be the same, depending on the timing of releases. The issue numbers in parentheses are for internal [!DNL Adobe] use.
 
@@ -26,6 +26,12 @@ To view information about the current release, see [Target Release Notes](releas
 >   By moving all customers to at.js, our engineers and support staff will be able to provide you with new functionality and offer the support you have come to expect from Adobe.
 >
 >* **Target Announcements**: See the Target announcements page for information about upcoming events, including Target Skill Builder sessions, developer chats, webinars, and Target Coffee Break sessions. For more information, see [Target announcements](/help/r-release-notes/target-announcements.md).
+
+## Target Standard/Premium 20.8.2 (September 10, 2020)
+
+|Feature|Details|
+| --- | --- |
+|Control recommendations slots within criteria sequences|Criteria Sequences now allow you to control the number of slots taken up by each recommendations criteria, enabling you to mix and match different types of items or different algorithm logic.<br>See [Create criteria sequences](/help/c-recommendations/c-algorithms/create-criteria-sequence.md#sequence) to learn more.|
 
 ## Target Standard/Premium 20.8.1 (September 2, 2020)
 

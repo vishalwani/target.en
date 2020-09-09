@@ -45,7 +45,7 @@ For more information, see [Recommendations as an offer](/help/c-recommendations/
 
 Criteria are pre-configured and sorted by industry verticals, page types, and implementation. For example, you can look for the criteria that apply to the retail vertical, for use on a product page, showing products from within a particular category (as defined by the `entity.categoryID` parameter).
 
-For more information about using and creating criteria, see [Criteria](../../c-recommendations/c-algorithms/algorithms.md#concept_4BD01DC437F543C0A13621C93A302750).
+For more information about using and creating criteria, see [Criteria](../../c-recommendations/c-algorithms/algorithms.md).
 
 ## Workflow {#section_76B4A26297BF422382DE2C79A2713D3C}
 
