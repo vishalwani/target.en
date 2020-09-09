@@ -111,7 +111,7 @@ When you create a criteria sequence, backup recommendation and partial design re
 
    As many slots as possible will be filled but the design template might include blank space for remaining slots.
 
-1. (Optional) Slice the **[!UICONTROL Backup Recommendations]** toggle to the "on" position.
+1. (Optional) Slide the **[!UICONTROL Backup Recommendations]** toggle to the "on" position.
 
    Fill any remaining empty slots in the design with a random selection of most-viewed products from across your site.
 
