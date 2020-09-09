@@ -25,6 +25,12 @@ These release notes provide information about features, enhancements, and fixes 
 
 The issue numbers in parentheses are for internal [!DNL Adobe] use.
 
+## Target Standard/Premium 20.8.2 (September 10, 2020)
+
+|Feature|Details|
+| --- | --- |
+|Control recommendations slots within criteria sequences|Criteria Sequences now allow you to control the number of slots taken up by each recommendations criteria, enabling you to mix and match different types of items or different algorithm logic.<br>See [Create criteria sequences](/help/c-recommendations/c-algorithms/create-criteria-sequence.md#sequence) to learn more.|
+
 ## Target Standard/Premium 20.8.1 (September 2, 2020)
 
 This release contains the following enhancements, fixes, and changes:

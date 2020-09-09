@@ -15,6 +15,7 @@ This page lists important changes made to the [!DNL Adobe Target] product docume
 
 |Date|Topic|Changes|
 | --- | --- | --- |
+|September 10|[Target release notes (current)](/help/r-release-notes/release-notes.md)|Added information about the Target Standard/Premium 20.9.2 release that includes the following new feature: Control recommendations slots within criteria sequences.|
 |September 9|[Activity QA bookmarklet](/help/c-activities/c-activity-qa/activity-qa-bookmark.md)|Added JavaScript code for use with at.js 2.*x*.|
 |September 3|[Visual Experience Composer helper extension](/help/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/vec-helper-browser-extension.md)|Updated the "Obtain and install the VEC Helper browser extension" section with information about the cookie name and domain.|
 ||[Troubleshooting Issues Related to the Visual Experience Composer and Enhanced Experience Composer](/help/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/issues-related-to-the-visual-experience-composer-vec-and-enhanced-experience-composer-eec.md)|Updated the "How do the recently announced Google Chrome SameSite cookie enforcement policies impact the VEC and EEC?" section with information about the cookie name and domain.|
