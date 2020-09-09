@@ -1,4 +1,5 @@
 ---
+keywords:criteria;algorithm;industry vertical;page type;recommendation key;recommendation logic;logic;data range;behavior data source;partial design;backup recommendations;inclusion rules;attribute weighting;
 description: Criteria control the content of your Adobe Recommendations activities. Create criteria to show the recommendations that are most appropriate for your activity.
 title: Create criteria
 feature: criteria
@@ -61,7 +62,7 @@ The following steps assume you access the [!UICONTROL Create New Criteria] scree
 
 1. Select a **[!UICONTROL Recommendation Key]**.
 
-   For more information about basing criteria on a key, see [Base the recommendation on a recommendation key](../../c-recommendations/c-algorithms/create-new-algorithm.md#task_2B0ED54AFBF64C56916B6E1F4DC0DC3B). 
+   For more information about basing criteria on a key, see [Base the recommendation on a recommendation key](#task_2B0ED54AFBF64C56916B6E1F4DC0DC3B). 
 
 1. Select the **[!UICONTROL Recommendation Logic]**.
 
@@ -72,10 +73,6 @@ The following steps assume you access the [!UICONTROL Create New Criteria] scree
    >If you select **[!UICONTROL Items]**/ **[!UICONTROL Media with Similar Attributes]**, you will have the option to set [content similarity rules](#similarity).
 
 ### Specify your data source options
-
->[!NOTE]
->
->The Data Source section displays only if your implementation uses [Analytics for Target](/help/c-integrating-target-with-mac/a4t/a4t.md) (A4T).
 
 1. Set the **[!UICONTROL Data Range]** to determine the time range of available historical user behavior data to use when determining which recommendations to show.
 
@@ -94,6 +91,10 @@ The following steps assume you access the [!UICONTROL Create New Criteria] scree
    * Two months
 
 1. (Conditional) Select the desired **[!UICONTROL Behavioral Data Source]**: [!UICONTROL mboxes] or [!UICONTROL Analytics].
+
+   >[!NOTE]
+   >
+   >The [!UICONTROL Behavioral Data Source] section displays only if your implementation uses [Analytics for Target](/help/c-integrating-target-with-mac/a4t/a4t.md) (A4T).
 
    ![Behavioral Data Source section](/help/c-recommendations/c-algorithms/assets/behavioural-data-source.png)
 
@@ -258,7 +259,7 @@ Recommendations display other items that might interest visitors who are interes
 
 When this option is selected, the `entity.id` value must be passed as a parameter in the display mbox.
 
-**Logic (Criteria)**
+#### Logic (Criteria)
 
 * [!UICONTROL Items with similar attributes]
 * [!UICONTROL People Who Viewed This, Viewed That]
@@ -266,7 +267,7 @@ When this option is selected, the `entity.id` value must be passed as a paramete
 * [!UICONTROL People Who Bought This, Bought That]
 * [!UICONTROL Site Affinity]
 
-**Where to use on your site**
+#### Where to use on your site
 
 Single-item pages, such as product pages.
 
@@ -280,12 +281,12 @@ Recommendations display items in the specified product category.
 
 When this option is selected, the `entity.categoryId` value must be passed as a parameter to the display mbox.
 
-**Logic (Criteria)**
+#### Logic (Criteria)
 
 * Top Sellers
 * Most Viewed
 
-**Where to use on your site**
+#### Where to use on your site
 
 Single-category pages.
 
@@ -297,7 +298,7 @@ Recommendation is determined by an item that is stored in a visitor's profile, u
 
 When this option is selected, the `entity.id` value must be present in the profile attribute.
 
-**Logic (Criteria)**
+#### Logic (Criteria)
 
 * [!UICONTROL People Who Viewed This, Viewed That]
 * [!UICONTROL People Who Viewed This, Bought That]
@@ -308,11 +309,11 @@ When this option is selected, the `entity.id` value must be present in the profi
 
 If the key is a custom profile attribute and the algorithm type is Most Viewed or Top Sellers, a new drop-down list that displays called "Group By Unique Value Of" that has a list of known entity attributes (except ID, category, margin, value, inventory, and environment). This field is required.
 
-**Where to use on your site**
+#### Where to use on your site
 
 Can be used on any pages.
 
-**Use a custom recommendations key**
+#### Use a custom recommendations key
 
 You can base recommendations on the value of a custom profile attribute. For example, suppose that you want to display recommended movies based on the movie that a visitor most recently added to his or her queue.
 
@@ -339,7 +340,7 @@ If your custom profile attribute doesn't directly match to a single entity ID, i
 
 The recommendation is determined by the last item that was purchased by each unique visitor. This is captured automatically, so no values need to be passed on the page.
 
-**Logic (Criteria)**
+#### Logic (Criteria)
 
 * [!UICONTROL Items with similar attributes]
 * [!UICONTROL People Who Viewed This, Viewed That]
@@ -347,7 +348,7 @@ The recommendation is determined by the last item that was purchased by each uni
 * [!UICONTROL People Who Bought This, Bought That]
 * [!UICONTROL Site Affinity]
 
-**Where to use on your site**
+#### Where to use on your site
 
 Home page, My Account page, offsite ads.
 
@@ -357,7 +358,7 @@ Do NOT use on product pages or pages relevant to purchases.
 
 The recommendation is determined by the last item that was viewed by each unique visitor. This is captured automatically, so no values need to be passed on the page.
 
-**Logic (Criteria)**
+#### Logic (Criteria)
 
 * [!UICONTROL Items with similar attributes]
 * [!UICONTROL People Who Viewed This, Viewed That]
@@ -365,7 +366,7 @@ The recommendation is determined by the last item that was viewed by each unique
 * [!UICONTROL People Who Bought This, Bought That]
 * [!UICONTROL Site Affinity]
 
-**Where to use on your site**
+#### Where to use on your site
 
 Home page, My Account page, offsite ads.
 
@@ -383,7 +384,7 @@ This is determined by recency/frequency criteria that works as follows:
 
 For example, viewing surfboardA then surfboardB in one session results in A: 10, B: 5. When the session ends, you will have A: 5, B: 2.5. If you view the same items in the next session, the values change to A: 15 B: 7.5.
 
-**Logic (Criteria)**
+#### Logic (Criteria)
 
 * [!UICONTROL Items with similar attributes]
 * [!UICONTROL People Who Viewed This, Viewed That]
@@ -391,7 +392,7 @@ For example, viewing surfboardA then surfboardB in one session results in A: 10,
 * [!UICONTROL People Who Bought This, Bought That]
 * [!UICONTROL Site Affinity]
 
-**Where to use on your site**
+#### Where to use on your site
 
 General pages, such as home or landing pages and offsite ads.
 
@@ -408,12 +409,12 @@ Categories visited for the first time are given 10 points. 5 points are given fo
 
 For example, viewing categoryA then categoryB in one session results in A: 9, B: 10. If you view the same items in the next session, the values change to A: 20 B: 9.
 
-**Logic (Criteria)**
+#### Logic (Criteria)
 
 * [!UICONTROL Top Sellers]
 * [!UICONTROL Most Viewed]
 
-**Where to use on your site**
+#### Where to use on your site
 
 General pages, such as home or landing pages and offsite ads.
 
@@ -421,13 +422,13 @@ General pages, such as home or landing pages and offsite ads.
 
 The recommendation is determined by the popularity of items on your site. Popularity includes top sellers and top viewed by mbox data and, if you use Adobe Analytics, all of the metrics available in the product report. Items are ranked based on the Recommendation Logic you select.
 
-**Logic (Criteria)**
+#### Logic (Criteria)
 
 * [!UICONTROL Top Sellers]
 * [!UICONTROL Most Viewed]
 * Product report metrics (if you are using Adobe Analytics)
 
-**Where to use on your site**
+#### Where to use on your site
 
 General pages, such as home or landing pages and offsite ads.
 
@@ -437,7 +438,7 @@ Uses the visitor's history (spanning sessions) to present the last *x* items the
 
 The Recently Viewed Items criteria now returns results specific to a given [environment](/help/administrating-target/hosts.md). If two sites belong to different environments and a visitor switches between the two sites, each site shows only recently viewed items from the appropriate site. If two sites are in the same environment and a visitor switches between the two sites, the visitor will see the same recently viewed items for both sites.
 
-**Where to use on your site**
+#### Where to use on your site
 
 General pages, such as home or landing pages and offsite ads.
 

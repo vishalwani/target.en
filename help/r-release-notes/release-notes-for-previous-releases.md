@@ -2618,7 +2618,7 @@ This release includes the following features and enhancements:
   </tr> 
   <tr> 
    <td colname="col1" class="premium"> <p class="Premium">Recommendations </p> <p class="Premium">Exclude Past Purchases </p> </td> 
-   <td colname="col2"> <p>Target now automatically excludes previously purchased items from a visitor's recommendations. This option can be disabled for any criteria. </p> <p>All out-of-the-box criteria now have this option enabled, including those used in activities that were running prior to this release. If you do not want to exclude past purchases, you should edit those activities. </p> <p>See <a href="help/c-recommendations/c-algorithms/create-new-algorithm.md#inclusion" format="dita" scope="local"> Inclusion Rules </a>. </p> </td> 
+   <td colname="col2"> <p>Target now automatically excludes previously purchased items from a visitor's recommendations. This option can be disabled for any criteria. </p> <p>All out-of-the-box criteria now have this option enabled, including those used in activities that were running prior to this release. If you do not want to exclude past purchases, you should edit those activities. </p> <p>See <a href="help/c-recommendations/c-algorithms/create-new-algorithm.md#inclusion" format="dita" scope="local"> Specify inclusion rules</a>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1" class="premium"> <p class="Premium">Recommendations </p> <p> Attribute Weighing </p> </td> 
@@ -2641,7 +2641,7 @@ This release includes the following features and enhancements:
       <li id="li_901D4AAF7BE244FCB9277DC7EDD91E32">Custom attributes that match a specified entity.id and use items with similar attributes </li> 
       <li id="li_49D52B0182F346E982C11A0C2DA50B4F">Last viewed item with similar attributes </li> 
       <li id="li_2DBAF32476AC435EB57D08D96CB55683">Most viewed item with similar attributes </li> 
-     </ul> </p> <p>See <a href="help/c-recommendations/c-algorithms/create-new-algorithm.md#inclusion" format="dita" scope="local"> Inclusion Rules </a>. </p> </td> 
+     </ul> </p> <p>See <a href="help/c-recommendations/c-algorithms/create-new-algorithm.md#inclusion" format="dita" scope="local"> Specify inclusion rules </a>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> New Activity List Filters </td> 
