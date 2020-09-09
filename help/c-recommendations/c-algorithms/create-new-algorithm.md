@@ -7,37 +7,43 @@ uuid: 603d4b02-cdb6-40aa-9654-0086c23b0c8e
 
 # ![PREMIUM](/help/assets/premium.png) Create criteria{#create-criteria}
 
-Criteria control the content of your Recommendations activities. Create criteria to show the recommendations that are most appropriate for your activity.
+Criteria control the content of your [!UICONTROL Recommendations] activities. Create criteria to show the recommendations that are most appropriate for your activity.
 
-## Create criteria {#task_8A9CB465F28D44899F69F38AD27352FE}
+## Create new criteria
 
-Criteria control the content of your [!DNL Recommendations] activities. Create criteria to show the recommendations that are most appropriate for your activity. 
+The following sections explain how to create a new criteria.
+
+### Access the Create New Criteria screen
 
 There are multiple ways to reach the [!UICONTROL Create New Criteria] screen. Some screen options vary depending on how you reach the screen.
 
-* When you are creating a [!DNL Recommendations] activity, click **[!UICONTROL Create New]** on the [!UICONTROL Select Criteria] screen. You will have the option to save your new criteria for use with other [!DNL Recommendations] activities. 
-* When you are editing a [!DNL Recommendations] activity, click in a [!UICONTROL Recommendations Location] box on your page, and select **[!UICONTROL Change Criteria]**. On the [!UICONTROL Select Criteria] screen, click **[!UICONTROL Create New]**. You will have the option to save your new criteria for use with other [!DNL Recommendations] activities. 
-* On the **[!UICONTROL Recommendations]** > **[!UICONTROL Criteria]** library screen, click **[!UICONTROL Create Criteria]**. Criteria you create here are automatically made available for all [!DNL Recommendations] activities.
+* On the **[!UICONTROL Recommendations]** > **[!UICONTROL Criteria]** library screen, click **[!UICONTROL Create Criteria]** > **[!UICONTROL Create Criteria]**. Criteria you create here are automatically made available for all [!DNL Recommendations] activities.
+* When you are creating a [!DNL Recommendations] activity, click **[!UICONTROL Create Criteria]** on the [!UICONTROL Select Criteria] screen. You will have the option to save your new criteria for use with other [!DNL Recommendations] activities.
+* When you are editing a [!DNL Recommendations] activity, click in a [!UICONTROL Recommendations Location] box on your page, and select **[!UICONTROL Change Criteria]**. On the [!UICONTROL Select Criteria] screen, click **[!UICONTROL Create Criteria]**. You will have the option to save your new criteria for use with other [!DNL Recommendations] activities.
 
-1. Click **[!UICONTROL Create Criteria]** or **[!UICONTROL Create New]**.
+The following steps assume you access the [!UICONTROL Create New Criteria] screen by using the first method: the **[!UICONTROL Recommendations]** > **[!UICONTROL Criteria]** library screen.
 
-   ![Create Criteria button](/help/c-recommendations/c-algorithms/assets/button_CreateCriteria_new.png)
+1. Click **[!UICONTROL Recommendations]** > **[!UICONTROL Criteria]**.
 
-1. Select **[!UICONTROL Create Criteria]**.
+1. Click **[!UICONTROL Create Criteria]** > **[!UICONTROL Create Criteria]**.
 
    ![Create New Criteria](/help/c-recommendations/c-algorithms/assets/CreateNewCriteria_full-new.png)
+
+### Fill in the Basic Information section
 
 1. Type a **[!UICONTROL Criteria Name]**.
 
    This is the "internal" name used to describe the criteria. For example, you might want to call your criteria "Highest margin products," but you don't want that title to display publicly. See the next step to set the public-facing title.
 
-1. Type a public-facing **[!UICONTROL Display Title]** to appear on the page for any Recommendations that use this criteria.
+   ![Basic Information section](/help/c-recommendations/c-algorithms/assets/basic-information.png)
+
+1. Type a public-facing **[!UICONTROL Display Title]** to appear on the page for any recommendations that use this criteria.
 
    For example, you might want to display "People who viewed this viewed that" or "Similar products" when you use this criteria to show recommendations.
 
 1. Type a short **[!UICONTROL Description]** of the criteria.
 
-   The description should help you identify the criteria, and might include information about the purpose of the criteria.
+   The description should help you identify the criteria and might include information about the purpose of the criteria.
 
 1. Select an **[!UICONTROL Industry Vertical]**:
 
@@ -65,7 +71,11 @@ There are multiple ways to reach the [!UICONTROL Create New Criteria] screen. So
    >
    >If you select **[!UICONTROL Items]**/ **[!UICONTROL Media with Similar Attributes]**, you will have the option to set [content similarity rules](../../c-recommendations/c-algorithms/create-new-algorithm.md#concept_5402DAFA279C4E46A9A449526889A0CB).
 
+### Specify your data source options
+
 1. Set the **[!UICONTROL Data Range]** to determine the time range of available historical user behavior data to use when determining which recommendations to show.
+
+   ![Data range slider](/help/c-recommendations/c-algorithms/assets/data-range.png)
 
    If your site has a lot of traffic and behaviors change frequently, choose a shorter data window. A shorter window enables [!DNL Recommendations] to be more responsive to changes in the market and in your business. For example, a shorter window means that [!DNL Recommendations] will detect changes in visitor behavior as your visitors begin seasonal shopping, such as back-to-school shopping or Christmas, and will recommend items appropriate to those shopping seasons.
 
@@ -79,45 +89,63 @@ There are multiple ways to reach the [!UICONTROL Create New Criteria] screen. So
    * One month 
    * Two months
 
-1. Select the desired **[!UICONTROL Behavioral Data Source]**: [!UICONTROL mboxes] or [!UICONTROL Analytics].
+1. (Conditional) Select the desired **[!UICONTROL Behavioral Data Source]**: [!UICONTROL mboxes] or [!UICONTROL Analytics].
+
+   ![Behavioral Data Source section](/help/c-recommendations/c-algorithms/assets/behavioural-data-source.png)
 
    If you chose [!UICONTROL Analytics], select the desired report suite.
 
-   For more information, see [Use Adobe Analytics with Target Recommendations](/help/c-recommendations/c-algorithms/use-adobe-analytics-with-recommendations.md).
+   For more information, see [Adobe Analytics](#analytics) below and [Use Adobe Analytics with Target Recommendations](/help/c-recommendations/c-algorithms/use-adobe-analytics-with-recommendations.md).
+
+### Specify content settings
  
-1. Set your **[!UICONTROL Content]** rules.
+Set your [!UICONTROL Content] rules.
 
-   Content rules determine what happens if the number of recommended items does not fill your design. For example, if your design has space for five items, but your criteria causes only three items to be recommended, you can leave the remaining space empty, or you can use backup recommendations to fill the extra space.
+Content rules determine what happens if the number of recommended items does not fill your design. For example, if your design has space for five items, but your criteria causes only three items to be recommended, you can leave the remaining space empty, or you can use backup recommendations to fill the extra space.
 
-   Select the appropriate toggles:
+![Content section](/help/c-recommendations/c-algorithms/assets/content.png)
 
-   * [!UICONTROL Enable Partial Design Rendering] 
-   * [!UICONTROL Show Backup Recommendations] 
-   * [!UICONTROL Recommend Previously Purchased Items]
+1. (Optional) Slide the **[!UICONTROL Partial Design Rendering]** toggle to the "on" position.
 
-    This setting is based on the `productPurchasedId`. It is useful if you sell items that people typically purchase only once, such as kayaks. If you sell items that people come back to purchase again, such as shampoo or other personal items, you should disable this option.
+   As many slots as possible will be filled but the design template might include blank space for remaining slots.
 
-1. Set your **[!UICONTROL Inclusion rules]**.
+1. (Optional) Slide the **[!UICONTROL Show Backup Recommendations]** toggle to the "on" position.
+
+   Fill any remaining empty slots in the design with a random selection of most-viewed products from across your site.
+
+   For more information, see [Use a backup recommendation](/help/c-recommendations/c-algorithms/backup-recs.md).
+
+1. (Conditional) If you selected **[!UICONTROL Show Backup Recommendations]** in the previous step, you can enable **[!UICONTROL Apply inclusion rules to backup recommendations]**.
 
    Inclusion rules determine which items will be included in your recommendations. The options available depend on your industry vertical.
 
-   For more details, see [Inclusion Rules](../../c-recommendations/c-algorithms/create-new-algorithm.md#task_28DB20F968B1451481D8E51BAF947079). 
+   For more details, see [Inclusion Rules](../../c-recommendations/c-algorithms/create-new-algorithm.md#task_28DB20F968B1451481D8E51BAF947079).
 
-1. Configure **[!UICONTROL Attribute weighting]**.
+1. (Optional) Slide the **[!UICONTROL Recommend Previously Purchased Items]** toggle to the "on" position.
+
+   This setting is based on the `productPurchasedId`. It is useful if you sell items that people typically purchase only once, such as kayaks. If you sell items that people come back to purchase again, such as shampoo or other personal items, you should disable this option.
+
+### Specify inclusion rules
+
+![Inclusion rules](/help/c-recommendations/c-algorithms/assets/inclusion-rules.png)
+
+For more information, see [Use dynamic and static inclusion rules](/help/c-recommendations/c-algorithms/use-dynamic-and-static-inclusion-rules.md).
+
+### Specify attribute weighting
 
    You can add multiple rules to "nudge" the algorithm based on important description or metadata about the content catalog. For example, you can apply a higher weighting to on-sale items so they appear more often in the recommendation.
 
    See [Attribute Weighting](../../c-recommendations/c-algorithms/create-new-algorithm.md#task_2AEDA0DB15B74770B76F6982B24C2E42). 
 
-1. When finished, click **[!UICONTROL Save]**.
+When finished, click **[!UICONTROL Save]**.
 
-   If you are creating a new [!UICONTROL Recommendations] activity or editing an existing one, the **[!UICONTROL Save criteria for later]** check box is selected by default. If you do not want to use the criteria in other activities, clear the check box before saving.
+If you are creating a new [!UICONTROL Recommendations] activity or editing an existing one, the **[!UICONTROL Save criteria for later]** check box is selected by default. If you do not want to use the criteria in other activities, clear the check box before saving.
 
-### Adobe Analytics
+### Adobe Analytics {#analytics}
 
 If the criteria uses [!DNL Adobe Analytics] as the behavioral data source, once created, the time for criteria availability depends on whether the selected report suite and lookback window has been used for any other criteria.
 
-* **One-time report suite setup**: The first time a report suite is used with a given data range lookback window, [!DNL Target Recommendations] can take from two to seven days to fully download the behavioral data for the selected report suite from [!DNL Analytics]. This timeframe is dependent on the [!DNL Analytics] system load.
+* **One-time report suite setup**: The first time a report suite is used with a given data range lookback window, [!DNL Target Recommendations] can take from two to seven days to fully download the behavioral data for the selected report suite from [!DNL Analytics]. This time frame is dependent on the [!DNL Analytics] system load.
 * **New or edited criteria using an already available report suite**: When creating a new criteria or editing an existing criteria, if the selected report suite has already been used with [!DNL Target Recommendations], with a data range equal to or lesser than the selected data range, then the data is immediately available and no one-time setup is required. In this case, or if an algorithm's settings are edited while not modifying the selected report suite or data range, the algorithm runs or re-runs within 12 hours.
 * **Ongoing algorithm runs**: Data flows from [!DNL Analytics] to [!DNL Target Recommendations] on a daily basis. For example, for the [!UICONTROL Viewed Affinity] recommendation, when a user views a product, a product-view tracking call is passed into [!DNL Analytics] close to real-time. The [!DNL Analytics] data is pushed to [!DNL Target] early the next day and [!DNL Target] runs the algorithm in less than 12 hours.
 

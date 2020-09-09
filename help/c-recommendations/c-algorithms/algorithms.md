@@ -6,7 +6,7 @@ feature: criteria
 uuid: 738db164-174b-45b8-bb8a-778f6494f1d7
 ---
 
-# ![PREMIUM](/help/assets/premium.png) Criteria{#criteria}
+# ![PREMIUM](/help/assets/premium.png) Criteria
 
 Criteria are rules that determine which products to recommend based on a predetermined set of visitor behaviors.
 
@@ -100,10 +100,10 @@ Click the **[!UICONTROL Algorithm Info]** tab to view general information about 
 
 ![Algorithm Info tab](/help/c-recommendations/c-algorithms/assets/criteria_info.png)
 
-Click the **[!UICONTROL Algorithm Usage]** tab to view a list of activities that reference the selected criteria. The card lists active and inactive activities. Click the Live Activities or Inactivities drop-down lists to view the entire list of activities that reference that criteria. You can click the activity link to open the activity for editing.
+Click the **[!UICONTROL Algorithm Usage]** tab to view a list of activities that reference the selected criteria. The card lists active, inactive, and draft activities. Click the Live Activities/Inactive Activities/Draft Activities drop-down lists to view the entire list of activities that reference that criteria. You can click the activity link to open the activity for editing.
 
 ![Algorithm Usage tab](/help/c-recommendations/c-algorithms/assets/criteria_usage.png)
 
 >[!NOTE]
 >
->The [!UICONTROL Algorithm Usage] feature is currently supported for Recommendations activities only. This feature is not currently supported for A/B Test and Experience Targeting (XT) activities that include [recommendations as an offer](/help/c-recommendations/recommendations-as-an-offer.md).
+>The [!UICONTROL Algorithm Usage] feature is currently supported for Recommendations activities only. This feature is not currently supported for A/B Test, Auto-Allocate, Auto-Target, and Experience Targeting (XT) activities that include [recommendations as an offer](/help/c-recommendations/recommendations-as-an-offer.md).
