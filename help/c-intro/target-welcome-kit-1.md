@@ -22,3 +22,4 @@ If you’re reviewing this welcome kit, you’ve already decided to build your o
 Now we want to make sure that you start using it the right way, right away.
 
 To assist with that, we’ve created this welcome kit, with key information, tools, and resources to help you prepare for and launch your first [!DNL Target] activity. Long term, these contents also provide the foundation for building a successful optimization and personalization program.
+
