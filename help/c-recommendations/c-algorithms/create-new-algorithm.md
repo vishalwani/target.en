@@ -1,26 +1,23 @@
 ---
-keywords: criteria;algorithm;industry vertical;page type;recommendation key;recommendation logic;logic;data range;behavior data source;partial design;backup recommendations;inclusion rules;attribute weighting;current category;current category;custom attribute;last purchased item;last viewed item;most viewed item;most viewed item;favorite category;popularity;recently viewed item;last purchased;last viewed;most viewed;favorite;recently viewed
+keywords: criteria;algorithm;industry vertical;page type;recommendation key;recommendation logic;logic;data range;behavior data source;partial design;backup recommendations;inclusion rules;attribute weighting;current category;custom attribute;last purchased item;last viewed item;most viewed item;most viewed item;favorite category;popularity;recently viewed item;last purchased;last viewed;most viewed;favorite;recently viewed
 description: Criteria control the content of your Adobe Recommendations activities. Create criteria to show the recommendations that are most appropriate for your activity.
 title: Create criteria
 feature: criteria
-mini-toc-levels: 2
 uuid: 603d4b02-cdb6-40aa-9654-0086c23b0c8e
 ---
 
 # ![PREMIUM](/help/assets/premium.png) Create criteria{#create-criteria}
 
-Criteria control the content of your [!UICONTROL Recommendations] activities. Create criteria to show the recommendations that are most appropriate for your activity.
-
-## Create new criteria
+Criteria in [!UICONTROL Adobe Target] [!UICONTROL Recommendations] control the content of your [!UICONTROL Recommendations] activities. Create criteria to show the recommendations that are most appropriate for your activity. These criteria use the visitor's actions to determine which content or products to display.
 
 The following sections explain how to create a new criteria.
 
-### Access the Create New Criteria screen
+## Access the Create New Criteria screen
 
 There are multiple ways to reach the [!UICONTROL Create New Criteria] screen. Some screen options vary depending on how you reach the screen.
 
 * On the **[!UICONTROL Recommendations]** > **[!UICONTROL Criteria]** library screen, click **[!UICONTROL Create Criteria]** > **[!UICONTROL Create Criteria]**. Criteria you create here are automatically made available for all [!DNL Recommendations] activities.
-* When you are creating a [!DNL Recommendations] activity, click **[!UICONTROL Create Criteria]** on the [!UICONTROL Select Criteria] screen. You will have the option to save your new criteria for use with other [!DNL Recommendations] activities.
+* When you are creating a [!DNL Recommendations] activity using the [!UICONTROL Visual Experience Composer] (VEC), you are immediately taken to the [!UICONTROL Select Criteria] screen after you select an element on your page and click [!UICONTROL Replace w/ Recommendations], [!UICONTROL Insert Recommendations Before], or [!UICONTROL Insert Recommendations After]. You can then select an available criteria or you can click **[!UICONTROL Create Criteria]**. If you create a new criteria, you have the option to save your criteria for use with other [!DNL Recommendations] activities. For more information, see [Create a Recommendations activity](/help/c-recommendations/t-create-recs-activity/create-recs-activity.md).
 * When you are editing a [!DNL Recommendations] activity, click in a [!UICONTROL Recommendations Location] box on your page, and select **[!UICONTROL Change Criteria]**. On the [!UICONTROL Select Criteria] screen, click **[!UICONTROL Create Criteria]**. You will have the option to save your new criteria for use with other [!DNL Recommendations] activities.
 
 The following steps assume you access the [!UICONTROL Create New Criteria] screen by using the first method: the **[!UICONTROL Recommendations]** > **[!UICONTROL Criteria]** library screen.
@@ -31,7 +28,9 @@ The following steps assume you access the [!UICONTROL Create New Criteria] scree
 
    ![Create New Criteria](/help/c-recommendations/c-algorithms/assets/CreateNewCriteria_full-new.png)
 
-### Fill in the Basic Information section {#info}
+1. Configure the information in the following sections.
+
+## Basic Information {#info}
 
 1. Type a **[!UICONTROL Criteria Name]**.
 
@@ -63,7 +62,7 @@ The following steps assume you access the [!UICONTROL Create New Criteria] scree
 
 1. Select a **[!UICONTROL Recommendation Key]**.
 
-   For more information about basing criteria on a key, see [Base the recommendation on a recommendation key](#task_2B0ED54AFBF64C56916B6E1F4DC0DC3B). 
+   For more information about basing criteria on a key, see [Base the recommendation on a recommendation key](/help/c-recommendations/c-algorithms/base-the-recommendation-on-a-recommendation-key.md).
 
 1. Select the **[!UICONTROL Recommendation Logic]**.
 
@@ -73,7 +72,7 @@ The following steps assume you access the [!UICONTROL Create New Criteria] scree
    >
    >If you select **[!UICONTROL Items]**/ **[!UICONTROL Media with Similar Attributes]**, you will have the option to set [content similarity rules](#similarity).
 
-### Specify your data source options
+## Data Source
 
 1. Set the **[!UICONTROL Data Range]** to determine the time range of available historical user behavior data to use when determining which recommendations to show.
 
@@ -109,25 +108,42 @@ The following steps assume you access the [!UICONTROL Create New Criteria] scree
 
    For more information, see [Use Adobe Analytics with Target Recommendations](/help/c-recommendations/c-algorithms/use-adobe-analytics-with-recommendations.md).
 
-### Specify content settings {#content}
+## Content {#content}
 
-Content rules determine what happens if the number of recommended items does not fill your design. It is possible for Recommendations criteria to return fewer recommendations than your design calls for. As an example, if your design has space for five items, but your criteria causes only three items to be recommended, you can leave the remaining space empty, or you can use backup recommendations to fill the extra space.
+Content rules determine what happens if the number of recommended items does not fill your [recommendations design](/help/c-recommendations/c-design-overview/design-overview.md). It is possible for [!DNL Recommendations] criteria to return fewer recommendations than your design calls for. As an example, if your design has slots for four items, but your criteria causes only two items to be recommended, you can leave the remaining slots empty, or you can use backup recommendations to fill the extra slots.
 
 ![Content section](/help/c-recommendations/c-algorithms/assets/content.png)
 
 1. (Optional) Slide the **[!UICONTROL Partial Design Rendering]** toggle to the "on" position.
 
-   As many slots as possible will be filled but the design template might include blank space for remaining slots.
+   As many slots as possible will be filled but the design template might include blank space for remaining slots. If this option is disabled and there is not enough content to fill all available slots, recommendations are not served and default content is displayed instead. 
+
+   Enable this option if you want recommendations served with blank slots. Use backup recommendations if you want recommendation slots to be filled with content based on your criteria with empty slots filled with similar or popular content from your site, as explained in the next step.
 
 1. (Optional) Slide the **[!UICONTROL Show Backup Recommendations]** toggle to the "on" position.
 
    Fill any remaining empty slots in the design with a random selection of most-viewed products from across your site.
 
+   Using backup recommendations ensures that your recommendation design fill all available slots. Suppose that you have a 4 x 1 design, as illustrated below:
+
+   ![4 x 1 design](/help/c-recommendations/c-design-overview/assets/velocity_example.png)
+
+   Suppose your criteria causes only two items to be recommended. If you enable the [!UICONTROL Partial Design Rendering] option, the fist two slots are filled, but the remaining two slots remain empty. However, if you enable the [!UICONTROL Show Backup Recommendations] option, the first two slots are filled based on your specified criteria and the remaining two slots are filled based on your backup recommendations.
+
+   The following matrix shows the result you'll observe when using the [!UICONTROL Partial Design Rendering] and [!UICONTROL Backup Recommendations] options:
+
+   | Partial Design Rendering | Backup Recommendations | Result |
+   |--- |--- |--- |
+   |Disabled|Disabled|If fewer recommendations are returned than the design calls for, the recommendations design is replaced by default content and no recommendations are displayed.|
+   |Enabled|Disabled|The design is rendered, but may include blank space if fewer recommendations are returned than the design calls for.|
+   |Enabled|Enabled|Backup recommendations will fill available design "slots," fully rendering the design.<br>If applying inclusion rules to backup recommendations restricts the number of qualifying backup recommendations to the point that the design cannot be filled, the design is partially rendered.<br>If the criteria does not return any recommendations, and inclusion rules restrict backup recommendations to zero, the design is replaced with default content.|
+   |Disabled|Enabled|Backup recommendations will fill available design "slots," fully rendering the design.<br>If applying inclusion rules to backup recommendations restricts the number of qualifying backup recommendations to the point that the design cannot be filled, the design is replaced by default content and no recommendations are displayed.|
+
    For more information, see [Use a backup recommendation](/help/c-recommendations/c-algorithms/backup-recs.md).
 
 1. (Conditional) If you selected **[!UICONTROL Show Backup Recommendations]** in the previous step, you can enable **[!UICONTROL Apply inclusion rules to backup recommendations]**.
 
-   Inclusion rules determine which items will be included in your recommendations. The options available depend on your industry vertical.
+   Inclusion rules determine which items are included in your recommendations. The options available depend on your industry vertical.
 
    For more details, see [Specify inclusion rules](#inclusion) below.
 
@@ -135,16 +151,7 @@ Content rules determine what happens if the number of recommended items does not
 
    This setting is based on the `productPurchasedId`. The default behavior is to not recommend previously purchased items. In most cases you do not want to promote items a customer has recently purchased. It is useful if you sell items that people typically purchase only once, such as kayaks. If you sell items that people come back to purchase again on a repeated basis, such as shampoo or other personal items, you should enable this option.
 
-The following matrix shows the result you'll observe when using the [!UICONTROL Partial Design Rendering] and [!UICONTROL Backup Recommendations] options:
-
-| Partial Design Rendering | Backup Recommendations | Result |
-|--- |--- |--- |
-|Disabled|Disabled|If fewer recommendations are returned than the design calls for, the recommendations design is replaced by default content and no recommendations are displayed.|
-|Enabled|Disabled|The design is rendered, but may include blank space if fewer recommendations are returned than the design calls for.|
-|Enabled|Enabled|Backup recommendations will fill available design "slots," fully rendering the design.<br>If applying inclusion rules to backup recommendations restricts the number of qualifying backup recommendations to the point that the design cannot be filled, the design is partially rendered.<br>If the criteria does not return any recommendations, and inclusion rules restrict backup recommendations to zero, the design is replaced with default content.|
-|Disabled|Enabled|Backup recommendations will fill available design "slots," fully rendering the design.<br>If applying inclusion rules to backup recommendations restricts the number of qualifying backup recommendations to the point that the design cannot be filled, the design is replaced by default content and no recommendations are displayed.|
-
-### Specify content similarity rules {#similarity}
+## Content Similarity {#similarity}
 
 Use [!UICONTROL Content Similarity] rules to make recommendations based on item or media attributes.
 
@@ -168,11 +175,11 @@ By default, all attributes are set to *Baseline*. You do not need to create a ru
 >
 >The content similarity algorithm might use random sampling in computing similarity between items. As a result, similarity ratings between items might vary between algorithm runs.
 
-### Specify inclusion rules {#inclusion}
-
-![Inclusion rules](/help/c-recommendations/c-algorithms/assets/inclusion-rules.png)
+## Inclusion Rules {#inclusion}
 
 Several options help you narrow the items that display in your recommendations. You can use inclusion rules while creating criteria or promotions. 
+
+![Inclusion rules](/help/c-recommendations/c-algorithms/assets/inclusion-rules.png)
 
 Inclusion rules are optional; however, setting these details gives you more control over the items that appear in your recommendations. Each detail you configure further narrows the display criteria. 
 
@@ -208,9 +215,9 @@ To create a simple inclusion rule, as mentioned previously, to display only wome
 
 For more information, see [Use dynamic and static inclusion rules](/help/c-recommendations/c-algorithms/use-dynamic-and-static-inclusion-rules.md).
 
-### Specify attribute weighting
+## Attribute Weighting
 
-You can add multiple rules to "nudge" the algorithm based on important description or metadata about the content catalog so that certain items are more likely to be shown. 
+You can add multiple rules to "nudge" the algorithm based on important information or metadata about the content catalog so that certain items are more likely to be shown. 
 
 For example, you can apply a higher weighting to on-sale items so they appear more often in the recommendation. Non-sale items are not completely excluded, but they appear less often. Multiple weighted attributes can be applied to the same algorithm, and the weighted attributes can be tested on split traffic in the recommendation. 
 
@@ -235,217 +242,6 @@ For example, you can apply a higher weighting to on-sale items so they appear mo
 When finished, click **[!UICONTROL Save]**.
 
 If you are creating a new [!UICONTROL Recommendations] activity or editing an existing one, the **[!UICONTROL Save criteria for later]** check box is selected by default. If you do not want to use the criteria in other activities, clear the check box before saving.
-
-## Base the recommendation on a recommendation key {#task_2B0ED54AFBF64C56916B6E1F4DC0DC3B}
-
-Recommendations based on keys utilize visitor behavior context to show relevant results. 
-
-There are two types of Recommendations: 
-
-* **Popularity:** Lists items according to Most Viewed, Top Sold, and Top Metric. The key is empty for popularity criteria. 
-* **Key-based:** Comprises the rest of the criteria. Recommendations offers a diverse set of choices with regard to the key type. The options range from "current item" to "profile parameters," which allow you to programmatically set the key of the values to recommend. You can test multiple criteria against each other by basing each criteria on a different key. 
-
-Each criteria is defined in its own tab. Traffic is split evenly across your different criteria tests. In other words, if you have two criteria, traffic is divided equally between them. If you have two criteria and two designs, traffic is split evenly between the four combinations. You can also specify a percentage of site visitors who see the default content, for comparison. In that case, the specified percentage of visitors see the default content, and the rest are split between your criteria and design combinations. 
-
-1. Create a new recommendation, or select an existing recommendation and click **[!UICONTROL Edit]**.
-1. To change the recommendation key, select the new key from the [!UICONTROL Recommendation Key] drop-down list, then click **[!UICONTROL Save]**.
-
-   Because different logic maps to different recommendations keys, different recommendations lend themselves to placement on different types of pages. Refer to the following sections for more information about each key.
-
-### Current Item
-
-The recommendation is determined by the item the visitor is currently viewing. 
-
-Recommendations display other items that might interest visitors who are interested in the specified item.
-
-When this option is selected, the `entity.id` value must be passed as a parameter in the display mbox.
-
-#### Logic (Criteria)
-
-* [!UICONTROL Items with similar attributes]
-* [!UICONTROL People Who Viewed This, Viewed That]
-* [!UICONTROL People Who Viewed This, Bought That]
-* [!UICONTROL People Who Bought This, Bought That]
-* [!UICONTROL Site Affinity]
-
-#### Where to use on your site
-
-Single-item pages, such as product pages.
-
-Do NOT use on null search results pages.
-
-### Current Category
-
-The recommendation is determined by the product category that the visitor is currently viewing.
-
-Recommendations display items in the specified product category.
-
-When this option is selected, the `entity.categoryId` value must be passed as a parameter to the display mbox.
-
-#### Logic (Criteria)
-
-* Top Sellers
-* Most Viewed
-
-#### Where to use on your site
-
-Single-category pages.
-
-Do NOT use on null search results pages.
-
-### Custom Attribute {#custom}
-
-Recommendation is determined by an item that is stored in a visitor's profile, using either user.*x* or profile.*x* attributes.
-
-When this option is selected, the `entity.id` value must be present in the profile attribute.
-
-#### Logic (Criteria)
-
-* [!UICONTROL People Who Viewed This, Viewed That]
-* [!UICONTROL People Who Viewed This, Bought That]
-* [!UICONTROL People Who Bought This, Bought That]
-* [!UICONTROL Overall behavior]
-* [!UICONTROL Most Viewed]
-* [!UICONTROL Top Sellers]
-
-If the key is a custom profile attribute and the algorithm type is Most Viewed or Top Sellers, a new drop-down list that displays called "Group By Unique Value Of" that has a list of known entity attributes (except ID, category, margin, value, inventory, and environment). This field is required.
-
-#### Where to use on your site
-
-Can be used on any pages.
-
-#### Use a custom recommendations key
-
-You can base recommendations on the value of a custom profile attribute. For example, suppose that you want to display recommended movies based on the movie that a visitor most recently added to his or her queue.
-
-1. Select your custom profile attribute from the **[!UICONTROL Recommendation Key]** drop-down list (for example, “Last Show Added to Watchlist”).
-1. Then select your **[!UICONTROL Recommendation Logic]** (for example "People Who Viewed This, Viewed That").
-
-   ![Create new criteria dialog box](/help/c-recommendations/c-algorithms/assets/create-new-criteria-1.png)
-
-If your custom profile attribute doesn't directly match to a single entity ID, it is necessary to explain to [!DNL Recommendations] how you want the match to an entity to occur. For example, suppose that you want to display the top selling items from a visitor’s favorite brand.
-
-1. Select your custom profile attribute from the **[!UICONTROL Recommendation Key]** drop-down list (for example, “Favorite Brand”).
-
-1. Then select the **[!UICONTROL Recommendation Logic]** you want to use with this key (for example, "Top Sellers").
-
-   The [!UICONTROL Group By Unique Value Of] option displays. 
-
-1. Select the entity attribute that matches to the key you’ve chosen. In this case “Favorite Brand” matches to `entity.brand`.
-
-   [!DNL Recommendations] now produces a “Top Sellers” list for each brand and shows the visitor the appropriate “Top Sellers” list based on the value stored in the visitor's Favorite Brand profile attribute.
-
-   ![Create new criteria dialog box 2](/help/c-recommendations/c-algorithms/assets/create-new-criteria-2.png)
-
-### Last Purchased Item
-
-The recommendation is determined by the last item that was purchased by each unique visitor. This is captured automatically, so no values need to be passed on the page.
-
-#### Logic (Criteria)
-
-* [!UICONTROL Items with similar attributes]
-* [!UICONTROL People Who Viewed This, Viewed That]
-* [!UICONTROL People Who Viewed This, Bought That]
-* [!UICONTROL People Who Bought This, Bought That]
-* [!UICONTROL Site Affinity]
-
-#### Where to use on your site
-
-Home page, My Account page, offsite ads.
-
-Do NOT use on product pages or pages relevant to purchases.
-
-### Last Viewed Item
-
-The recommendation is determined by the last item that was viewed by each unique visitor. This is captured automatically, so no values need to be passed on the page.
-
-#### Logic (Criteria)
-
-* [!UICONTROL Items with similar attributes]
-* [!UICONTROL People Who Viewed This, Viewed That]
-* [!UICONTROL People Who Viewed This, Bought That]
-* [!UICONTROL People Who Bought This, Bought That]
-* [!UICONTROL Site Affinity]
-
-#### Where to use on your site
-
-Home page, My Account page, offsite ads.
-
-Do NOT use on product pages or pages relevant to purchases.
-
-### Most Viewed Item
-
-The recommendation is determined by the item that has been viewed most often, using the same method as used for favorite category.
-
-This is determined by recency/frequency criteria that works as follows:
-
-* 10 points for first product view
-* 5 points for every subsequent view
-* At end of session divide all values by 2
-
-For example, viewing surfboardA then surfboardB in one session results in A: 10, B: 5. When the session ends, you will have A: 5, B: 2.5. If you view the same items in the next session, the values change to A: 15 B: 7.5.
-
-#### Logic (Criteria)
-
-* [!UICONTROL Items with similar attributes]
-* [!UICONTROL People Who Viewed This, Viewed That]
-* [!UICONTROL People Who Viewed This, Bought That]
-* [!UICONTROL People Who Bought This, Bought That]
-* [!UICONTROL Site Affinity]
-
-#### Where to use on your site
-
-General pages, such as home or landing pages and offsite ads.
-
-### Favorite Category
-
-The recommendation is determined by the category that has received the most activity, using the same method used for "most viewed item" except that categories are scored instead of products.
-
-This is determined by recency/frequency criteria that works as follows:
-
-* 10 points for first category view
-* 5 points for every subsequent view
-
-Categories visited for the first time are given 10 points. 5 points are given for subsequent visits to the same category. With each visit, non-current categories that have been viewed before are decremented by 1.
-
-For example, viewing categoryA then categoryB in one session results in A: 9, B: 10. If you view the same items in the next session, the values change to A: 20 B: 9.
-
-#### Logic (Criteria)
-
-* [!UICONTROL Top Sellers]
-* [!UICONTROL Most Viewed]
-
-#### Where to use on your site
-
-General pages, such as home or landing pages and offsite ads.
-
-### Popularity
-
-The recommendation is determined by the popularity of items on your site. Popularity includes top sellers and top viewed by mbox data and, if you use Adobe Analytics, all of the metrics available in the product report. Items are ranked based on the Recommendation Logic you select.
-
-#### Logic (Criteria)
-
-* [!UICONTROL Top Sellers]
-* [!UICONTROL Most Viewed]
-* Product report metrics (if you are using Adobe Analytics)
-
-#### Where to use on your site
-
-General pages, such as home or landing pages and offsite ads.
-
-### Recently Viewed Items {#recently-viewed}
-
-Uses the visitor's history (spanning sessions) to present the last *x* items the visitor has viewed, based on the number of slots in the design.
-
-The Recently Viewed Items criteria now returns results specific to a given [environment](/help/administrating-target/hosts.md). If two sites belong to different environments and a visitor switches between the two sites, each site shows only recently viewed items from the appropriate site. If two sites are in the same environment and a visitor switches between the two sites, the visitor will see the same recently viewed items for both sites.
-
-#### Where to use on your site
-
-General pages, such as home or landing pages and offsite ads.
-
->[!NOTE]
->
->Recently Viewed Items respects both Exclusions global settings and the selected Collection setting for the Activity. If an item is excluded by a global Exclusion, or is not contained in the selected Collection, it will not be displayed; therefore, when using a Recently Viewed Items criteria, the "All Collections" setting should generally be used.
 
 ## Training video: Create criteria in Recommendations (12:33) ![Tutorial badge](/help/assets/tutorial.png)
 

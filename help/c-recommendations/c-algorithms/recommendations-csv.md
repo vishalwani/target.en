@@ -44,7 +44,7 @@ There are multiple ways to reach the [!UICONTROL Create New Criteria] screen. So
    Together, the industry vertical and page types are used to categorize your saved criteria, making it easier to reuse criteria for other [!UICONTROL Recommendations] activities. 
 1. Select a **[!UICONTROL Recommendation Key]**.
 
-   For more information about basing criteria on a key, see [Base the Recommendation on a Recommendation Key](../../c-recommendations/c-algorithms/create-new-algorithm.md#task_2B0ED54AFBF64C56916B6E1F4DC0DC3B). 
+   For more information about basing criteria on a key, see [Base the Recommendation on a Recommendation Key](/help/c-recommendations/c-algorithms/base-the-recommendation-on-a-recommendation-key.md). 
 1. Set your **[!UICONTROL Content]** rules.
 
    Content rules determine what happens if the number of recommended items does not fill your design. For example, if your design has space for five items, but your criteria causes only three items to be recommended, you can leave the remaining space empty, or you can use backup recommendations to fill the extra space. Select the appropriate toggles. See [Specify content settings](/help/c-recommendations/c-algorithms/create-new-algorithm.md#content). 
