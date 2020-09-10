@@ -371,8 +371,8 @@ solution: Target
    + Criteria {#criteria}
       + [Criteria overview](c-recommendations/c-algorithms/algorithms.md)
       + [Create criteria](c-recommendations/c-algorithms/create-new-algorithm.md)
-      + [Base the recommendation on a recommendation key](/help/c-recommendations/c-algorithms/base-the-recommendation-on-a-recommendation-key.md)
       + [Create criteria sequences](c-recommendations/c-algorithms/create-criteria-sequence.md)
+      + [Base the recommendation on a recommendation key](/help/c-recommendations/c-algorithms/base-the-recommendation-on-a-recommendation-key.md)
       + [Upload custom criteria](c-recommendations/c-algorithms/recommendations-csv.md)
       + [Use dynamic and static inclusion rules](c-recommendations/c-algorithms/use-dynamic-and-static-inclusion-rules.md)
       + [Use a backup recommendation](c-recommendations/c-algorithms/backup-recs.md)
