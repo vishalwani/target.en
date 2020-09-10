@@ -31,7 +31,7 @@ To view information about the current release, see [Target Release Notes](releas
 
 |Feature|Details|
 | --- | --- |
-|Control recommendations slots within criteria sequences|Criteria Sequences now allow you to control the number of slots taken up by each recommendations criteria, enabling you to mix and match different types of items or different algorithm logic.<br>See [Create criteria sequences](/help/c-recommendations/c-algorithms/create-criteria-sequence.md#sequence) to learn more.|
+|![Premium badge](/help/assets/premium.png) Control recommendations slots within criteria sequences|Criteria Sequences now allow you to control the number of slots taken up by each recommendations criteria, enabling you to mix and match different types of items or different algorithm logic.<br>See [Create criteria sequences](/help/c-recommendations/c-algorithms/create-criteria-sequence.md#sequence) to learn more.|
 
 ## Target Standard/Premium 20.8.1 (September 2, 2020)
 
