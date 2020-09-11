@@ -71,6 +71,23 @@ Recommendation is determined by an item that is stored in a visitor's profile, u
 
 When this option is selected, the `entity.id` value must be present in the profile attribute.
 
+When you base recommendations on custom attributes, you must select the custom attribute and then select the recommendation type.
+
+You can perform real-time filtering on top of your own custom criteria output. For example, you can limit your recommended items to only those from a visitor's favorite category or brand. This gives you the power to combine off-line calculations with real-time filtering.
+
+This functionality means that you can use [!DNL Target] to add personalization on top of your offline calculated recommendations or custom-curated lists. This combines the power of your data scientists and research with Adobe's tried-and-true delivery, run-time filtering, A/B testing, targeting, reporting, integrations, and more.
+
+With the addition of inclusion rules on Custom criteria, this turns otherwise static recommendations into dynamic recommendations based a visitor's interests.
+
+* Custom criteria are configurable, like other criteria in recommendations.
+* You can use [collections](/help/c-recommendations/c-products/collections.md), [exclusions](/help/c-recommendations/c-products/exclusions.md), and [inclusions](/help/c-recommendations/c-algorithms/use-dynamic-and-static-inclusion-rules.md) (including the special rules for Price and Inventory) in the same way as any other criteria.
+
+Possible use-cases include:
+
+* You want to recommend movies from a custom-curated list, but only if the visitor hasn't already watched them.
+* You want to run an offline algorithm and use the results to power your recommendations, but you need to ensure that out-of-stock items are never recommended.
+* You want to include only items that are from this visitor's favorite category.
+
 #### Logic (Criteria)
 
 * [!UICONTROL People Who Viewed This, Viewed That]
@@ -219,11 +236,15 @@ The Recently Viewed Items criteria now returns results specific to a given [envi
 
 ## Recommendation logic
 
+[!DNL Target Recommendations] uses sophisticated algorithms to determine when a visitor's actions qualify for the criteria set in your activity. The recommendation key determines the recommendations logic options that are available.
+
 The following recommendation logic (criteria) are available from the [!UICONTROL Recommendation Logic] drop-down list:
 
-### Items with Similar Attributes
+### Items/Media with Similar Attributes
 
-Content similarity compares item attribute keywords and makes recommendations based on how many keywords different items have in common. Recommendations based on content similarity do not require past data to deliver strong results.
+Recommends items or media similar to items or media based on current page activity or past visitor behavior.
+
+If you select Items/Media with Similar Attributes, you have the option to set content similarity rules.
 
 Using content similarity to generate recommendations is especially effective for new items, which are not likely to show up in recommendations using People Who Viewed This, Viewed That, and other logic based on past behavior. You can also use content similarity to generate useful recommendations for new visitors, who have no past purchases or other historical data.
 
@@ -238,9 +259,9 @@ This logic can be used with the following recommendation keys:
 
 ### Most Viewed
 
-Displays the most-viewed items on your site.
+Displays the items or media that are viewed most often on your site.
 
-This logic lets you display recommendations based on the most-viewed items on your site to increase conversions for other items. For example, a media site could display recommendations on its home page for its most popular videos to encourage visitors to watch additional videos.
+This logic lets you display recommendations based on the most-viewed items on your site to increase conversions for other items. For example, a media site could display recommendations on its home page for its most-viewed videos to encourage visitors to watch additional videos.
 
 This logic can be used with the following recommendation keys:
 
@@ -251,9 +272,9 @@ This logic can be used with the following recommendation keys:
 
 ### People Who Bought This, Bought That
 
-Displays items that other visitors also bought who bought the selected item.
+Recommends items that are most often purchased by customers at the same time as the specified item.
 
-This logic lets you increase cross-selling opportunities by displaying a recommendation on a shopping cart summary page, for example, that displays items that other buyers also purchased. For example if the visitor is purchasing a suit, the recommendation could display additional items other visitors purchased, such as ties, dress shoes, and cufflinks. As visitors review their purchases, you provide them with additional purchasing recommendations.
+This logic lets you increase cross-selling opportunities by displaying a recommendation on a shopping cart summary page, for example, that displays items that other buyers also purchased. For example if the visitor is purchasing a suit, the recommendation could display additional items other visitors purchased along with the suit, such as ties, dress shoes, and cufflinks. As visitors review their purchases, you provide them with additional recommendations.
 
 This logic can be used with the following recommendation keys:
 
@@ -265,9 +286,9 @@ This logic can be used with the following recommendation keys:
 
 ### People Who Viewed This, Bought That
 
-Displays other items bought by visitors who viewed the selected item.
+Recommends items that are most often purchased in the same session that the specified item is viewed. This criteria returns other products people purchased after viewing this one, the specified product is not included in the results set.
 
-This logic lets you increase cross-selling opportunities by displaying a recommendation on a product page, for example, that displays items that other visitors who viewed the item purchased. For example if the visitor is viewing a fishing pole, the recommendation could show additional items other visitors viewing the item purchased, such as tackle boxes, waders, and fishing lures. As visitors browse your site, you provide them with additional purchasing recommendations.
+This logic lets you increase cross-selling opportunities by displaying a recommendation on a product page, for example, that displays items that other visitors who viewed the item purchased. For example if the visitor is viewing a fishing pole, the recommendation could show additional items other visitors purchased, such as tackle boxes, waders, and fishing lures. As visitors browse your site, you provide them with additional purchasing recommendations.
 
 This logic can be used with the following recommendation keys:
 
@@ -279,9 +300,9 @@ This logic can be used with the following recommendation keys:
 
 ### People Who Viewed This, Viewed That
 
-Displays items that other visitors also viewed who viewed the selected item.
+Recommends items that are most often viewed in the same session that the specified item is viewed.
 
-This logic lets you create additional conversion opportunities by recommending items that other visitors who viewed an item also viewed. For example, visitors who view road bikes on your site might also look at bike helmets, cycling kits, locks, and so forth. You can create a recommendation using this logic that suggests other products.
+This logic lets you create additional conversion opportunities by recommending items that other visitors who viewed an item also viewed. For example, visitors who view road bikes on your site might also look at bike helmets, cycling kits, locks, and so forth. You can create a recommendation using this logic that suggests other products to help you increase revenue.
 
 This logic can be used with the following recommendation keys:
 
@@ -293,9 +314,11 @@ This logic can be used with the following recommendation keys:
 
 ### Site Affinity
 
-Displays items using an Adobe proprietary algorithm to recommend other items based on criteria, such as product page views, purchases, and shopping cart activities (adding or removing items, viewing the cart, etc.)
+Recommends items based on the certainty of a relationship between items. You can configure this criteria to determine how much data is required before a recommendation is presented using the Inclusion Rules slider. For example, if you select very strong, the products with the strongest certainty of a match are recommended.
 
-For example an online retailer can recommend items that a visitor has shown interest in during past sessions in subsequent visits. Activity for each visitor's session is captured to calculate an affinity score based on a recency and frequency model. As this visitor returns to your site, site affinity is used to display recommendations based on past actions on your site.
+For example, if you set a very strong affinity and your design includes five items, three of which meet the strength of connection threshold, the two items that do not meet the minimum strength requirements are not displayed in your recommendations and are replaced by your defined backup items. The items with the strongest affinity display first.
+
+For example an online retailer can recommend items in subsequent visits that a visitor has shown interest in during past sessions. Activity for each visitor's session is captured to calculate an affinity based on a recency and frequency model. As this visitor returns to your site, site affinity is used to display recommendations based on past actions on your site.
 
 This logic can be used with the following recommendation keys:
 
@@ -306,11 +329,31 @@ This logic can be used with the following recommendation keys:
 
 ### Top Sellers
 
-Displays the top-selling items on your site based on visitor conversions.
+Displays the items that are included in the most completed orders. Multiple units of the same item in a single order are counted as one order.
 
-This logic lets you create recommendations for popular items on your site to increase conversion. This logic is especially suited for first-time visitors to your site.
+This logic lets you create recommendations for top-selling items on your site to increase  conversion and revenue. This logic is especially suited for first-time visitors to your site.
 
 This logic can be used with the following recommendation keys:
 
 * Favorite Category
 * Popularity
+
+### User-Based Recommendations
+
+Recommends items based off of each visitor's browsing, viewing, and purchasing history. These items are generally referred to as "Recommended for You."
+
+This criteria lets you deliver personalized content and experiences to both new and returning visitors. The list of recommendations is weighted towards the visitor's most-recent activity and is updated in-session and become more personalized as the user browses your site.
+
+Both views and purchases are used to determine the recommended items. The specified recommendation key (e.g. Current Item) is used to apply any inclusion rule filters you select. 
+
+For example, you can:
+
+* Exclude items that don't meet certain criteria (products out of stock, articles published more than 30 days ago, movies rated R, and so forth).
+* Limit included items to a single category or to the current category.
+
+This logic can be used with the following recommendation keys:
+
+* Current Item
+* Last Purchased Item
+* Last Viewed Item
+* Most Viewed Item
