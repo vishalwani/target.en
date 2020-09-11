@@ -1,6 +1,6 @@
 ---
 keywords: recommendation;backup;back up
-description: If you use the backup recommendation feature, any recommendation that does not have enough recommended items will not display default content. Instead, recommendations display the results of the backup algorithm.
+description: If you use the backup recommendation feature in Adobe Target, any recommendation that does not have enough recommended items will not display default content. Instead, recommendations display the results of the backup algorithm.
 title: Use a backup recommendation
 feature: criteria
 uuid: 2910a844-9dd6-4e69-8652-b2215fed1545
@@ -8,7 +8,7 @@ uuid: 2910a844-9dd6-4e69-8652-b2215fed1545
 
 # ![PREMIUM](/help/assets/premium.png) Use a backup recommendation{#use-a-backup-recommendation}
 
-If you use the backup recommendation feature, any recommendation that does not have enough recommended items will not display default content. Instead, recommendations display the results of the backup algorithm.
+If you use the backup recommendation feature in Adobe Target, any recommendation that does not have enough recommended items will not display default content. Instead, recommendations display the results of the backup algorithm.
 
 If you do not use a backup recommendation, if a recommendation does not have enough items to fill the display, the system displays default content to the user.
 

@@ -46,11 +46,13 @@ The following steps assume you access the [!UICONTROL Create New Criteria] scree
 
    The description should help you identify the criteria and might include information about the purpose of the criteria.
 
-1. Select an **[!UICONTROL Industry Vertical]**:
+1. Select an industry vertical based on the goals of your recommendations activity.
 
-   * [!UICONTROL Retail/Ecommerce]
-   * [!UICONTROL Lead Generation/B2B/Financial Services]
-   * [!UICONTROL Media/Publishing]
+   | Industry Vertical | Goal |
+   |--- |--- |
+   |Retail/Ecommerce|Conversion resulting in purchase|
+   |Lead Generation/B2B/Financial Services|Conversion with no purchase|
+   |Media/Publishing|Engagement|
 
    Other criteria options will change based on the industry vertical you select. 
 

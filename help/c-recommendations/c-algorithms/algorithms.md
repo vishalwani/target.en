@@ -1,6 +1,6 @@
 ---
 keywords: recommendations;recommendations activity;criteria;algorithm;recommendation key;custom key;industry vertical;retail;eccommerce;lead generation;b2b;financial services;media;publishing
-description: Criteria in Adobe Target Recommendations are rules that determine which products to recommend based on a predetermined set of visitor behaviors.
+description: Criteria in Adobe Target are rules that determine which products or content to recommend based on a predetermined set of visitor behaviors.
 title: Criteria in Adobe Target Recommendations
 feature: criteria
 uuid: 738db164-174b-45b8-bb8a-778f6494f1d7
@@ -8,13 +8,13 @@ uuid: 738db164-174b-45b8-bb8a-778f6494f1d7
 
 # ![PREMIUM](/help/assets/premium.png) Criteria
 
-Criteria are rules that determine which products to recommend based on a predetermined set of visitor behaviors.
+Criteria in [!DNL Adobe Target] are rules that determine which products or content to recommend based on a predetermined set of visitor behaviors. Criteria can be based on popular trends, a visitor's current and past behaviors, or similar products and content. You can test multiple recommendation types against each other by adding multiple criteria.
 
-Criteria determine which action will result in which recommendation. You can test multiple recommendation types against each other by adding multiple criteria.
+The following sections explain more about criteria keys and the recommendation logic you can use for each key. Click the links for more detailed information.
 
 ## Industry Vertical {#section_936BCFCF234C49A2BEC1C38AAC2D71AF}
 
-You select an industry vertical based on the goals of your recommendations activity. Depending on the industry vertical you select, 
+While creating a criteria, you select an industry vertical based on the goals of your recommendations activity.
 
 | Industry Vertical | Goal |
 |--- |--- |
@@ -22,9 +22,15 @@ You select an industry vertical based on the goals of your recommendations activ
 |Lead Generation/B2B/Financial Services|Conversion with no purchase|
 |Media/Publishing|Engagement|
 
+Other criteria options change based on the industry vertical you select. You can set your default industry vertical on the **[!UICONTROL Recommendations > Settings]** page or you can specify the industry vertical for each criteria.
+
 ## Recommendation key {#section_885B3BB1B43048A88A8926F6B76FC482}
 
 The recommendation key you select determines the criteria type. There are several criteria types, which are represented as criteria cards when you set up a [!DNL Recommendations] activity.
+
+![Criteria page](/help/c-recommendations/c-algorithms/assets/criteria-page.png)
+
+The following table explains the various criteria types and their accompanying keys. Click the links for more detailed information about each key.
 
 | Criteria Type | Keys |
 |--- |--- |
@@ -32,7 +38,7 @@ The recommendation key you select determines the criteria type. There are severa
 |Custom|Recommend items based on custom attributes.<ul><li>[Custom Attribute](/help/c-recommendations/c-algorithms/base-the-recommendation-on-a-recommendation-key.md#custom)</li></ul>When you base recommendations on custom attributes, you must select the custom attribute and then select the recommendation type.|
 |Past Behavior|Recommend items based on how visitors have responded to an item in the past. For example, people who have purchased a particular brand have been more likely to purchase another item from that brand.<ul><li>[Last Purchased Item](/help/c-recommendations/c-algorithms/base-the-recommendation-on-a-recommendation-key.md#last-purchased)</li><li>[Last Viewed Item](/help/c-recommendations/c-algorithms/base-the-recommendation-on-a-recommendation-key.md#last-viewed)</li><li>[Most Viewed Item](/help/c-recommendations/c-algorithms/base-the-recommendation-on-a-recommendation-key.md#most-viewed-logic)</li><li>[Favorite Category](/help/c-recommendations/c-algorithms/base-the-recommendation-on-a-recommendation-key.md#favorite-category)</li></ul>|
 |Popularity|Recommend the most popular items, such as the most popular videos in a related category or the products that have been viewed most often on your site.<ul><li>[Popularity](/help/c-recommendations/c-algorithms/base-the-recommendation-on-a-recommendation-key.md#popularity)</li></ul>|
-|Recently Viewed Items|Recommend the items a visitor has viewed most recently, such as the items a visitor looked at the last time he or she visited your site, or the articles that are trending most highly right now.<br>The Recently Viewed Items algorithm returns results specific to a visitor’s activity within an [environment](/help/administrating-target/hosts.md). If two sites belong to different environments and a visitor switches between the two sites, the algorithm will return only recently viewed items from the appropriate site.<br>This criteria type is not limited by collections.<ul><li>[Recently Viewed Items](/help/c-recommendations/c-algorithms/base-the-recommendation-on-a-recommendation-key.md#recently-viewed)</li></ul>**Note:** You cannot use the Recently Viewed Items criteria for backup recommendations.<br>Recently Viewed Items/Media can be filtered so that only items with a particular attribute are displayed.<ul><li>Recently Viewed criteria are configurable, like other criteria in recommendations.</li><li>You can use [collections](/help/c-recommendations/c-products/collections.md), [exclusions](/help/c-recommendations/c-products/exclusions.md), and [inclusions](/help/c-recommendations/c-algorithms/use-dynamic-and-static-inclusion-rules.md) (including the special rules for Price and Inventory) in the same way as any other criteria.</li></ul>Possible use-cases include:<ul><li>A multi-national company with multiple businesses might have a visitor view items across multiple digital properties. In this case, you can limit the recently viewed items to display only for the respective property where it was viewed. This prevents Recently Viewed items from displaying on another digital property's site.</li></ul>|
+|[Recently Viewed Items](/help/c-recommendations/c-algorithms/base-the-recommendation-on-a-recommendation-key.md#recently-viewed)|Recommend items a visitor has viewed most recently, such as the items a visitor looked at the last time he or she visited your site, or the articles that are trending most highly right now.
 
 ## Using a custom recommendation key {#custom-key}
 

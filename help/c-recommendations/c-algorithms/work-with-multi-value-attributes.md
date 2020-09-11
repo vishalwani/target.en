@@ -65,7 +65,6 @@ The following operators are available for use with multi-value entity, profile, 
 >[!NOTE]
 >
 >Support for dynamic matching to multi-value attributes is currently available only in criteria when using a profile attribute matching or parameter (mbox) attribute matching rule when comparing a single value left side to a multi-value right side. Multi-value attributes are not currently supported in promotions, entity attribute matching, or for lists on the left side of inclusion rules.
->
 
 ### Example: Exclude recently watched items
 
