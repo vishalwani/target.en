@@ -257,7 +257,7 @@ This logic can be used with the following recommendation keys:
 * Last Viewed Item
 * Most Viewed Item
 
-### Most Viewed {#most-viewed}
+### Most Viewed {#most-viewed-logic}
 
 Displays the items or media that are viewed most often on your site.
 
