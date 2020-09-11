@@ -26,7 +26,7 @@ Each criteria is defined in its own tab. Traffic is split evenly across your dif
 
 The following recommendation keys are available from the [!UICONTROL Recommendation Key] drop-down list:
 
-### Current Item
+### Current Item {#current-item}
 
 The recommendation is determined by the item the visitor is currently viewing. 
 
@@ -47,7 +47,7 @@ When this option is selected, the `entity.id` value must be passed as a paramete
 * Single-item pages, such as product pages.
 * Do NOT use on null search results pages.
 
-### Current Category
+### Current Category {#current-category}
 
 The recommendation is determined by the product category that the visitor is currently viewing.
 
@@ -126,7 +126,29 @@ If your custom profile attribute doesn't directly match to a single entity ID, i
 
    ![Create new criteria dialog box 2](/help/c-recommendations/c-algorithms/assets/create-new-criteria-2.png)
 
-### Last Purchased Item
+### Favorite Category {#favorite-category}
+
+The recommendation is determined by the category that has received the most activity, using the same method used for "most viewed item" except that categories are scored instead of products.
+
+This is determined by recency/frequency criteria that works as follows:
+
+* 10 points for first category view
+* 5 points for every subsequent view
+
+Categories visited for the first time are given 10 points. 5 points are given for subsequent visits to the same category. With each visit, non-current categories that have been viewed before are decremented by 1.
+
+For example, viewing categoryA then categoryB in one session results in A: 9, B: 10. If you view the same items in the next session, the values change to A: 20 B: 9.
+
+#### Logic (Criteria)
+
+* [!UICONTROL Top Sellers]
+* [!UICONTROL Most Viewed]
+
+#### Where to use on your site
+
+* General pages, such as home or landing pages and offsite ads.
+
+### Last Purchased Item {#last-purchased}
 
 The recommendation is determined by the last item that was purchased by each unique visitor. This is captured automatically, so no values need to be passed on the page.
 
@@ -143,7 +165,7 @@ The recommendation is determined by the last item that was purchased by each uni
 * Home page, My Account page, offsite ads.
 * Do NOT use on product pages or pages relevant to purchases.
 
-### Last Viewed Item
+### Last Viewed Item {#last-viewed}
 
 The recommendation is determined by the last item that was viewed by each unique visitor. This is captured automatically, so no values need to be passed on the page.
 
@@ -160,7 +182,7 @@ The recommendation is determined by the last item that was viewed by each unique
 * Home page, My Account page, offsite ads.
 * Do NOT use on product pages or pages relevant to purchases.
 
-### Most Viewed Item
+### Most Viewed Item {#most-viewed}
 
 The recommendation is determined by the item that has been viewed most often, using the same method as used for favorite category.
 
@@ -184,29 +206,7 @@ For example, viewing surfboardA then surfboardB in one session results in A: 10,
 
 * General pages, such as home or landing pages and offsite ads.
 
-### Favorite Category
-
-The recommendation is determined by the category that has received the most activity, using the same method used for "most viewed item" except that categories are scored instead of products.
-
-This is determined by recency/frequency criteria that works as follows:
-
-* 10 points for first category view
-* 5 points for every subsequent view
-
-Categories visited for the first time are given 10 points. 5 points are given for subsequent visits to the same category. With each visit, non-current categories that have been viewed before are decremented by 1.
-
-For example, viewing categoryA then categoryB in one session results in A: 9, B: 10. If you view the same items in the next session, the values change to A: 20 B: 9.
-
-#### Logic (Criteria)
-
-* [!UICONTROL Top Sellers]
-* [!UICONTROL Most Viewed]
-
-#### Where to use on your site
-
-* General pages, such as home or landing pages and offsite ads.
-
-### Popularity
+### Popularity {#popularity}
 
 The recommendation is determined by the popularity of items on your site. Popularity includes top sellers and top viewed by mbox data and, if you use Adobe Analytics, all of the metrics available in the product report. Items are ranked based on the Recommendation Logic you select.
 
@@ -240,7 +240,7 @@ The Recently Viewed Items criteria now returns results specific to a given [envi
 
 The following recommendation logic (criteria) are available from the [!UICONTROL Recommendation Logic] drop-down list:
 
-### Items/Media with Similar Attributes
+### Items/Media with Similar Attributes {#similar-attributes}
 
 Recommends items or media similar to items or media based on current page activity or past visitor behavior.
 
@@ -257,7 +257,7 @@ This logic can be used with the following recommendation keys:
 * Last Viewed Item
 * Most Viewed Item
 
-### Most Viewed
+### Most Viewed {#most-viewed}
 
 Displays the items or media that are viewed most often on your site.
 
@@ -270,9 +270,11 @@ This logic can be used with the following recommendation keys:
 * Favorite Category
 * Popularity
 
-### People Who Bought This, Bought That
+### People Who Bought This, Bought That {#bought-bought}
 
 Recommends items that are most often purchased by customers at the same time as the specified item.
+
+This logic returns other products people purchased after buying this one; the specified product is not included in the results set.
 
 This logic lets you increase cross-selling opportunities by displaying a recommendation on a shopping cart summary page, for example, that displays items that other buyers also purchased. For example if the visitor is purchasing a suit, the recommendation could display additional items other visitors purchased along with the suit, such as ties, dress shoes, and cufflinks. As visitors review their purchases, you provide them with additional recommendations.
 
@@ -284,9 +286,11 @@ This logic can be used with the following recommendation keys:
 * Last Viewed Item
 * Most Viewed Item
 
-### People Who Viewed This, Bought That
+### People Who Viewed This, Bought That {#viewed-bought}
 
 Recommends items that are most often purchased in the same session that the specified item is viewed. This criteria returns other products people purchased after viewing this one, the specified product is not included in the results set.
+
+This logic returns other products people purchased after viewing this one; the specified product is not included in the results set.
 
 This logic lets you increase cross-selling opportunities by displaying a recommendation on a product page, for example, that displays items that other visitors who viewed the item purchased. For example if the visitor is viewing a fishing pole, the recommendation could show additional items other visitors purchased, such as tackle boxes, waders, and fishing lures. As visitors browse your site, you provide them with additional purchasing recommendations.
 
@@ -298,9 +302,11 @@ This logic can be used with the following recommendation keys:
 * Last Viewed Item
 * Most Viewed Item
 
-### People Who Viewed This, Viewed That
+### People Who Viewed This, Viewed That {#viewed-viewed}
 
 Recommends items that are most often viewed in the same session that the specified item is viewed.
+
+This logic returns other products people viewed after viewing this one; the specified product is not included in the results set.
 
 This logic lets you create additional conversion opportunities by recommending items that other visitors who viewed an item also viewed. For example, visitors who view road bikes on your site might also look at bike helmets, cycling kits, locks, and so forth. You can create a recommendation using this logic that suggests other products to help you increase revenue.
 
@@ -312,13 +318,15 @@ This logic can be used with the following recommendation keys:
 * Last Viewed Item
 * Most Viewed Item
 
-### Site Affinity
+### Site Affinity {#site-affinity}
 
 Recommends items based on the certainty of a relationship between items. You can configure this criteria to determine how much data is required before a recommendation is presented using the Inclusion Rules slider. For example, if you select very strong, the products with the strongest certainty of a match are recommended.
 
 For example, if you set a very strong affinity and your design includes five items, three of which meet the strength of connection threshold, the two items that do not meet the minimum strength requirements are not displayed in your recommendations and are replaced by your defined backup items. The items with the strongest affinity display first.
 
 For example an online retailer can recommend items in subsequent visits that a visitor has shown interest in during past sessions. Activity for each visitor's session is captured to calculate an affinity based on a recency and frequency model. As this visitor returns to your site, site affinity is used to display recommendations based on past actions on your site.
+
+Some customers with diverse product collections and diverse site behaviors might get the best results if they set a weak site affinity.
 
 This logic can be used with the following recommendation keys:
 
@@ -327,7 +335,7 @@ This logic can be used with the following recommendation keys:
 * Last Viewed Item
 * Most Viewed Item
 
-### Top Sellers
+### Top Sellers {#top-sellers}
 
 Displays the items that are included in the most completed orders. Multiple units of the same item in a single order are counted as one order.
 
@@ -338,7 +346,7 @@ This logic can be used with the following recommendation keys:
 * Favorite Category
 * Popularity
 
-### User-Based Recommendations
+### User-Based Recommendations {#user-based}
 
 Recommends items based off of each visitor's browsing, viewing, and purchasing history. These items are generally referred to as "Recommended for You."
 
