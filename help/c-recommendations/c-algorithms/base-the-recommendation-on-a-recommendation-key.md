@@ -224,7 +224,20 @@ The recommendation is determined by the popularity of items on your site. Popula
 
 Uses the visitor's history (spanning sessions) to present the last *x* items the visitor has viewed, based on the number of slots in the design.
 
-The Recently Viewed Items criteria now returns results specific to a given [environment](/help/administrating-target/hosts.md). If two sites belong to different environments and a visitor switches between the two sites, each site shows only recently viewed items from the appropriate site. If two sites are in the same environment and a visitor switches between the two sites, the visitor will see the same recently viewed items for both sites.
+The Recently Viewed Items criteria returns results specific to a given [environment](/help/administrating-target/hosts.md). If two sites belong to different environments and a visitor switches between the two sites, each site shows only recently viewed items from the appropriate site. If two sites are in the same environment and a visitor switches between the two sites, the visitor will see the same recently viewed items for both sites.
+
+>[!NOTE]
+>
+>You cannot use the [!UICONTROL Recently Viewed Items] criteria for backup recommendations.
+
+[!UICONTROL Recently Viewed Items]/Media can be filtered so that only items with a particular attribute are displayed.
+
+* Recently Viewed criteria are configurable, like other criteria in recommendations.
+* You can use [collections](/help/c-recommendations/c-products/collections.md), [exclusions](/help/c-recommendations/c-products/exclusions.md), and [inclusions](/help/c-recommendations/c-algorithms/use-dynamic-and-static-inclusion-rules.md) (including the special rules for Price and Inventory) in the same way as any other criteria.
+
+Possible use-cases include:
+
+A multi-national company with multiple businesses might have a visitor view items across multiple digital properties. In this case, you can limit the recently viewed items to display only for the respective property where it was viewed. This prevents recently viewed items from displaying on another digital property's site.
 
 #### Where to use on your site
 
@@ -232,7 +245,7 @@ The Recently Viewed Items criteria now returns results specific to a given [envi
 
 >[!NOTE]
 >
->Recently Viewed Items respects both Exclusions global settings and the selected Collection setting for the Activity. If an item is excluded by a global Exclusion, or is not contained in the selected Collection, it will not be displayed; therefore, when using a Recently Viewed Items criteria, the "All Collections" setting should generally be used.
+>[!UICONTROL Recently Viewed Items] respects both exclusions global settings and the selected collection setting for the activity. If an item is excluded by a global exclusion, or is not contained in the selected collection, it will not be displayed. Therefore, when using a [!UICONTROL Recently Viewed Items] criteria, the "All Collections" setting should generally be used.
 
 ## Recommendation logic
 

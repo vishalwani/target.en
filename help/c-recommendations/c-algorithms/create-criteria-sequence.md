@@ -57,9 +57,17 @@ The following steps assume you access the [!UICONTROL Create Criteria Sequence] 
 
    The description should help you identify the criteria sequence and might include information about its purpose.
 
-1. Select an **[!UICONTROL Industry Vertical]**.
+1. Select an industry vertical based on the goals of your recommendations activity.
 
-   Your default [industry vertical](/help/c-recommendations/c-algorithms/algorithms.md#section_936BCFCF234C49A2BEC1C38AAC2D71AF) appears automatically.
+   | Industry Vertical | Goal |
+   |--- |--- |
+   |Retail/Ecommerce|Conversion resulting in purchase|
+   |Lead Generation/B2B/Financial Services|Conversion with no purchase|
+   |Media/Publishing|Engagement|
+
+   Your default industry vertical appears automatically.
+
+   Other criteria options will change based on the industry vertical you select. 
 
 1. Select a **[!UICONTROL Page Type]**.
 
