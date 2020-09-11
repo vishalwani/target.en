@@ -3,7 +3,7 @@ keywords: recommendation key;recommendation logic;current category;custom attrib
 description: Recommendations based on keys use visitor behavior context to show relevant results in Adobe Target Recommendations activities.
 title: Base the recommendation on a recommendation key
 feature: criteria
-mini-toc-levels: 3
+mini-toc-levels: 2
 ---
 
 # Base the recommendation on a recommendation key
