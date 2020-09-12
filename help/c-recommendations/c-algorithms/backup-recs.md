@@ -1,7 +1,7 @@
 ---
 keywords: recommendation;backup;back up
 description: If you use the backup recommendation feature in Adobe Target, any recommendation that does not have enough recommended items will not display default content. Instead, recommendations display the results of the backup algorithm.
-title: Use a backup recommendation
+title: Use a backup recommendation in Adobe Target Recommendations
 feature: criteria
 uuid: 2910a844-9dd6-4e69-8652-b2215fed1545
 ---
@@ -11,6 +11,10 @@ uuid: 2910a844-9dd6-4e69-8652-b2215fed1545
 If you use the backup recommendation feature in Adobe Target, any recommendation that does not have enough recommended items will not display default content. Instead, recommendations display the results of the backup algorithm.
 
 If you do not use a backup recommendation, if a recommendation does not have enough items to fill the display, the system displays default content to the user.
+
+>[!NOTE]
+>
+>Additional information is included in the [Content section of the Create criteria](/help/c-recommendations/c-algorithms/create-new-algorithm.md#content) topic, including a matrix that explains the results you'll observe when using the [!UICONTROL Partial Design Rendering] and [!UICONTROL Show Backup Recommendations] options together or separately.
 
 The backup recommendation feature always uses the top-viewed items on the site to fill in any remaining slots after the algorithm's data is used. For example, your template is configured to show five recommended items, and you're using the *Purchase Affinities* algorithm. However, you only have enough data to fill two of the five slots, so the backup recommendation feature fills the other three spots with top-viewed items.
 
