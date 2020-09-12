@@ -74,7 +74,7 @@ The following steps assume you access the [!UICONTROL Create New Criteria] scree
    >
    >If you select **[!UICONTROL Items]**/ **[!UICONTROL Media with Similar Attributes]**, you will have the option to set [content similarity rules](#similarity).
 
-## Data Source
+## Data Source {#data-source}
 
 1. Set the **[!UICONTROL Data Range]** to determine the time range of available historical user behavior data to use when determining which recommendations to show.
 
@@ -217,7 +217,7 @@ To create a simple inclusion rule, as mentioned previously, to display only wome
 
 For more information, see [Use dynamic and static inclusion rules](/help/c-recommendations/c-algorithms/use-dynamic-and-static-inclusion-rules.md).
 
-## Attribute Weighting
+## Attribute Weighting {#weighting}
 
 You can add multiple rules to "nudge" the algorithm based on important information or metadata about the content catalog so that certain items are more likely to be shown. 
 
