@@ -1,5 +1,5 @@
 ---
-keywords: criteria sequence;multiple criteria;algorithms;criteria;recommendations criteria;sequence;
+keywords: criteria sequence;multiple criteria;algorithms;criteria;recommendations criteria;sequence;limit number of items returned
 description: Use sequences of up to five criteria to exercise greater control of the items that appear in your Adobe Target Recommendations activities.
 title: Create criteria sequences
 feature: criteria
@@ -25,7 +25,9 @@ Your criteria sequences might vary in order depending on the page type, as shown
 |Product page|<ol><li>Based on current item, from same brand</li><li>Based on current item, from all brands</li><li>Based on content similarity</li><li>Based on top sellers</li><li>Based on most-viewed items across the site</li></ol>|
 |Home page|<ol><li>Based on visitor's last purchase </li><li>Based on visitor's favorite item</li><li>Based on visitor's favorite category</li><li>Based on top sellers</li><li>Based on most-viewed across site</li></ol>|
 
-## Access the Create Criteria Sequence screen
+## Create a criteria sequence
+
+You create criteria sequences from the [!UICONTROL Create Criteria Sequence] screen.
 
 There are multiple ways to reach the [!UICONTROL Create Criteria Sequence] screen. Some screen options vary depending on how you reach the screen.
 
@@ -41,55 +43,19 @@ The following steps assume you access the [!UICONTROL Create Criteria Sequence] 
 
    ![](assets/CreateCriteriaSequence.png)
 
-## Fill in the Information section
-
-1. Type a **[!UICONTROL Name]** for the sequence.
-
-   This is the "internal" name used to describe the criteria sequence. Visitors to your site will not see this name.
-
-   ![Create Criteria Sequence information section](/help/c-recommendations/c-algorithms/assets/criteria-sequence-info.png) 
-
-1. Type a public-facing **[!UICONTROL Generic Display Title]** to appear on the page if multiple criteria in the sequence are used to fill the [!UICONTROL Recommendations] design.
-
-   For example, you might want to replace "Customers who viewed this also viewed..." with "Recommended for You" if the design might include items based on more than one [!UICONTROL Recommendations] key. 
-
-1. Type a short **[!UICONTROL Description]** of the criteria sequence.
-
-   The description should help you identify the criteria sequence and might include information about its purpose.
-
-1. Select an industry vertical based on the goals of your recommendations activity.
-
-   | Industry Vertical | Goal |
-   |--- |--- |
-   |Retail/Ecommerce|Conversion resulting in purchase|
-   |Lead Generation/B2B/Financial Services|Conversion with no purchase|
-   |Media/Publishing|Engagement|
-
-   Your default industry vertical appears automatically.
-
-   Other criteria options will change based on the industry vertical you select. 
-
-1. Select a **[!UICONTROL Page Type]**.
-
-   You can select multiple page types.
-
-   Together, the industry vertical and page types are used to categorize your saved criteria sequence, making it easier to reuse sequences for other [!UICONTROL Recommendations] activities.
-
-## Create sequence {#sequence}
-
-The sequence order defines the order in which a design is filled. If Criteria 1 does not have enough recommendations to fill your design, the remaining slots will be filled with Criteria 2, and so on.
+1. Fill in the information in the [Basic Information](/help/c-recommendations/c-algorithms/create-new-algorithm.md#info) section.
 
 1. In the **[!UICONTROL Criteria Sequence]** section, click **[!UICONTROL Add Criteria]**.
 
+   The sequence order defines the order in which a design is filled. If Criteria 1 does not have enough recommendations to fill your design, the remaining slots will be filled with Criteria 2, and so on.
+
    ![Add Criteria](/help/c-recommendations/c-algorithms/assets/add-criteria.png)
 
-1. On the [!UICONTROL Select Criteria] screen, select a criteria.
+1. On the [!UICONTROL Select Criteria] screen, select a criteria, then click **[!UICONTROL Add]**.
 
    You can use the Search box and the filter drop-downs to find the desired criteria.
 
    ![Select criteria](/help/c-recommendations/c-algorithms/assets/select-criteria.png)
-
-1. Click **[!UICONTROL Add]**.
 
 1. (Optional) Slide the **[!UICONTROL Limit the number of items returned]** toggle to the "on" position, then specify the number of items (between 1 and 50).
 
@@ -107,27 +73,7 @@ The sequence order defines the order in which a design is filled. If Criteria 1 
 
 1. Continue adding additional criteria to your sequence. You can add up to five criteria to a sequence. 
 
-## Specify backup content
-
-Choose what content is returned when there aren't enough recommendations available to fill the design template.
-
-When you create a criteria sequence, backup recommendation and partial design rendering settings are ignored for the individual criteria the make up the sequence. To use backup recommendations and partial design rendering you must enable them for the sequence. Select the appropriate toggles. If you choose to allow backup recommendations, you can also choose whether to apply inclusion rules to the backups.
-
-![Backup Content settings](/help/c-recommendations/c-algorithms/assets/backup-content-settings.png)
-
-1. (Optional) Slide the **[!UICONTROL Partial Design Rendering]** toggle to the "on" position.
-
-   As many slots as possible will be filled but the design template might include blank space for remaining slots.
-
-1. (Optional) Slide the **[!UICONTROL Backup Recommendations]** toggle to the "on" position.
-
-   Fill any remaining empty slots in the design with a random selection of most-viewed products from across your site.
-
-   For more information, see [Use a backup recommendation](/help/c-recommendations/c-algorithms/backup-recs.md).
-
-1. (Conditional) If you selected **[!UICONTROL Backup Recommendations]** in the previous step, you can select **[!UICONTROL Apply inclusion rules to backup recommendations]**.
-
-   For more information see [Use dynamic and static inclusion rules](/help/c-recommendations/c-algorithms/use-dynamic-and-static-inclusion-rules.md).
+1. Enable [Backup Content options](/help/c-recommendations/c-algorithms/create-new-algorithm.md#content).
 
 1. Click **[!UICONTROL Save]**.
 
