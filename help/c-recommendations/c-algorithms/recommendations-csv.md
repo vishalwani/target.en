@@ -32,7 +32,7 @@ The following steps assume you access the [!UICONTROL Create New Criteria] scree
 
 1. (Conditional) Fill in the information in the [Inclusion Rules](/help/c-recommendations/c-algorithms/create-new-algorithm.md#inclusion) section.
 
-1. (Conditional Fill in the information in the [Attribute Weighting](/help/c-recommendations/c-algorithms/create-new-algorithm.md#weighting) section.
+1. (Conditional) Fill in the information in the [Attribute Weighting](/help/c-recommendations/c-algorithms/create-new-algorithm.md#weighting) section.
 
 1. In the **[!UICONTROL Upload CSV]** section, select the **[!UICONTROL Location]** of your CSV file.
 
