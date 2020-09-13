@@ -1,22 +1,31 @@
 ---
 keywords: recommendations feed;feed;SAINT;ftp;csv;classifications;analytics classifications
-description: Use feeds to get entities imported into Adobe Recommendations. Entities can be sent using CSV files, the Google Product Search feed format, and/or Adobe Analytics product classifications.
-title: Feeds
+description: Use feeds to get entities imported into Adobe Target Recommendations. Entities can be sent using CSV files, the Google Product Search feed format, and/or Adobe Analytics product classifications.
+title: Feeds in Adobe Target Recommendations
 feature: data feed
 uuid: b228a0de-e201-4567-ad09-1190196babda
 ---
 
 # ![PREMIUM](/help/assets/premium.png) Feeds{#feeds}
 
-Use feeds to get entities imported into [!DNL Recommendations]. Entities can be sent using CSV files, the Google Product Search feed format, and Adobe Analytics product classifications.
+Use feeds to get entities imported into [!DNL Adobe Target Recommendations]. Entities can be sent using CSV files, the Google Product Search feed format, and Adobe Analytics product classifications.
 
 ## Feeds Overview {#concept_D1E9C7347C5D4583AA69B02E79607890}
 
 Feeds allow you to pass [Entities](/help/c-recommendations/c-products/products.md) or augment your mbox data with information that is either unavailable on the page or is unsafe to send directly from the page, such as margin, COGS, and so on.
 
-You can select which columns from your [!DNL Target] product classifications file or Google Product Search file you want to send to the [!DNL Recommendations] server. These pieces of data about each item can then be used in template display and for controlling recommendations.
+Feeds let you pass detailed item information into [!DNL Recommendations], such as product ID, category, name, message, and other attributes.
 
-If data is collected by both an entity feed and an mbox, the most recent data wins. Usually, the most recent data comes from an mbox, because it is viewed more often. In the rare event that entity feed data and mbox data hit at the same time, the mbox data is used.
+You can select which columns from your [!DNL Target] product classifications file or Google Product Search file you want to send to the [!DNL Recommendations] server. 
+
+These pieces of data about each item can then be used to:
+
+* Display values in designs
+* Define criteria inclusion rules
+* Sort items into different collections
+* Apply exclusions to recommendations
+
+Item descriptions can be passed into [!DNL Target] using feeds or mboxes. If data is collected by both an entity feed and an mbox, the most recent data wins. Usually, the most recent data comes from an mbox, because it is viewed more often. In the rare event that entity feed data and mbox data hit at the same time, the mbox data is used.
 
 The [!UICONTROL Feeds] list ( **[!UICONTROL Recommendations]** > **[!UICONTROL Feeds]**) provides information about any feeds you have created. 
 
@@ -38,9 +47,13 @@ The Feeds page contains the following columns:
 >* Your feed should run at least monthly to ensure that your catalog contents do not expire.
 >* Removing an item from your feed file does not remove that item from your catalog. To remove the item from the catalog, manually delete the item via the Target UI or API. Or, modify the item attributes (such as inventory) to ensure that the item is excluded from consideration.
 
-## CSV {#section_65CC1148C7DD448FB213FDF499D35FCA}
+## Source types
 
-You can create a `.csv` file using the Adobe proprietary CSV upload format. The file contains display information about the reserved and custom attributes for your products. To upload attributes specific to your implementation, replace `CustomN` in the header row with the name of the attribute you want to use. In the example below, `entity.Custom1` has been replaced by: `entity.availability`. You can then bulk upload the file to the [!DNL Recommendations] server.
+Entities can be sent using CSV files, the Google Product Search feed format, and Adobe Analytics product classifications.
+
+### CSV {#section_65CC1148C7DD448FB213FDF499D35FCA}
+
+You can create a .csv file using the Adobe proprietary CSV upload format. The file contains display information about the reserved and custom attributes for your products. To upload attributes specific to your implementation, replace `CustomN` in the header row with the name of the attribute you want to use. In the example below, `entity.Custom1` has been replaced by: `entity.availability`. You can then bulk upload the file to the [!DNL Recommendations] server.
 
 Using the .csv format has the following advantages over the Google Feed format:
 
@@ -70,7 +83,7 @@ The following syntax is correct:
 
 >[!NOTE]
 >
->You can't overwrite an existing value with a blank value. You have to pass another value in its place to overwrite it. In the case of sale price, a common solution is to either pass in an actual "NULL" or some other message. You can then write a template rule to exclude items with that value.
+>You can't overwrite an existing value with a blank value. You must pass another value in its place to overwrite it. In the case of sale price, a common solution is to either pass in an actual "NULL" or some other message. You can then write a template rule to exclude items with that value.
 
 The product is available in the admin interface approximately two hours after successfully uploading its entity.
 
@@ -88,7 +101,7 @@ na3456,RipCurl Watch with Titanium Dial,Watches & Sport,Cutting edge titanium wi
 na3457,RipCurl Watch with Black Dial,Watches & Sport,Cutting edge matte black with round case,https://example.com/s7/na3457_Viewer,275,https://example.com/shop/en-us/na3457_RipCurl,24,0.27,csv,"[""New"",""Web"",""Sales"",""[1,2,34,5]""]",in stock,US,CA,9.25,Shop by Category > Watches,dz1,Black,44mm,RipCurl,"075340 01060 7"
 ```
 
-## Google {#section_8EFA98B5BC064140B3F74534AA93AFFF}
+### Google {#section_8EFA98B5BC064140B3F74534AA93AFFF}
 
 The Google Product Search feed type uses the Google format. This is different from the Adobe proprietary CSV upload format.
 
@@ -98,13 +111,13 @@ If you have an existing Google product feed, you can use that as your import fil
 >
 >It is not required to use Google data. [!DNL Recommendations] just uses the same format as Google. You can use this method to upload any data you have, and use the available scheduling features. However, you must retain Google's predefined attribute names when you set up the file.
 
-Most retailers upload products to Google, so when a visitor uses Google product search, their products will show up. [!DNL Recommendations] follows Google's specification exactly for entity feeds. Entity feeds can be sent to [!DNL Recommendations] via [!DNL .xml], [!DNL .txt], or [!DNL .tsv], and can use the [attributes defined by Google](https://support.google.com/merchants/answer/188494?hl=en&topic=2473824&ctx=topic#US). The results are searchable on the [Google shopping pages](https://www.google.com/prdhp).
+Most retailers upload products to Google, so when a visitor uses Google product search, their products will show up. [!DNL Recommendations] follows Google's specification exactly for entity feeds. Entity feeds can be sent to [!DNL Recommendations] via .xml, .txt, or .tsv, and can use the [attributes defined by Google](https://support.google.com/merchants/answer/188494?hl=en&topic=2473824&ctx=topic#US). The results are searchable on the [Google shopping pages](https://www.google.com/prdhp).
 
 >[!NOTE]
 >
 >The POST method must be allowed on the server that is hosting the Google feed content.
 
-Because [!DNL Recommendations] users already configure [!DNL .xml] or [!DNL .txt] feeds to send to Google either via URL or FTP, entity feeds accept that product data and use it to build out the recommendations catalog. Specify where that feed exists and the recommendations server retrieves the data.
+Because [!DNL Recommendations] users already configure .xml or .txt feeds to send to Google either via URL or FTP, entity feeds accept that product data and use it to build out the recommendations catalog. Specify where that feed exists and the recommendations server retrieves the data.
 
 If you use Google Product Search for the entity feed upload, you still need to have a product page mbox on the page if you want to show recommendations there or track product views for algorithm delivery based on views.
 
@@ -187,17 +200,18 @@ na3454    RipCurl Watch with Titanium Dial    Cutting edge titanium with round c
 na3455    RipCurl Watch with Black Dial    Cutting edge matte black with round case    https://example.com/shop/en-us/na3455_RipCurl    275    new    in stock    https://example.com/s7/na3452_Viewer    US:CA:9.25:y    1.5 oz    US:::0.00 USD    Watches & Sport    Shop by Category > Watches    dz1    Black    44mm    male    adult    Solid    RipCurl    075340 01060 7    DZ1446
 ```
 
-## Analytics Product Classifications {#section_79E430D2C75443BEBC9AA0916A337E0A}
+### Analytics Product Classifications {#section_79E430D2C75443BEBC9AA0916A337E0A}
 
 The Analytics Product classification is the only classification available for recommendations. For more information about this classification file, see [About classifications](https://docs.adobe.com/content/help/en/analytics/components/classifications/c-classifications.html) in the *Analytics Components* guide. It's possible that not all the information you need for recommendations will be available in your current implementation, so follow this user guide if you want to add to your classifications file.
 
 >[!IMPORTANT]
 >
->Before importing entity data into Recommendations using Analytics product classifications, be aware that this is not the preferred method.
+>Before importing entity data into [!DNL Recommendations] using Analytics product classifications, be aware that this is not the preferred method.
 >
 > Be aware of the following caveats:
+>
 >* Updates to entity attributes incur an additional delay of up to 24 hours.  
->* Target supports Product Classifications only. The Analytics product SKU must map to the same level as the Recommendations `entity.id`. Custom Analytics Classifications can be engineered using Adobe Consulting Services. Please contact your Account Manager with questions.
+>* [!DNL Target] supports Product Classifications only. The Analytics product SKU must map to the same level as the [!DNL Recommendations] `entity.id`. Custom Analytics Classifications can be engineered using Adobe Consulting Services. Please contact your Account Manager with questions.
 
 ## Create Feed {#steps}
 
@@ -279,7 +293,7 @@ The following are possible statuses for a feed:
 |Waiting for Download|Target is preparing to download the Feed file.|
 |Downloading Feed File|Target is downloading the Feed file.|
 |Importing Items|Target is importing items from the feed file.|
-|Feed Imported Successfully at *time*|Target has imported the feed file into its content delivery system. Changes to item attributes have been made in the content delivery system and will shortly be reflected in delivered recommendations. If you do not see the expected changes, try again shortly and refresh the page containing recommendations.<br>*Note 1:* If changes to an item's attributes result in an item being excluded from recommendations, the exclusion will be immediately reflected. If an item is newly added, or changes to attributes result in an item being *no longer* excluded from recommendations, it will not be reflected until the next algorithm update, which will occur within 24 hours.<br>*Note 2:* When this status is displayed, updates may not yet be reflected in the Catalog Search user interface. A separate status is listed on Catalog Search indicating the last time the searchable catalog was updated.|
+|Feed Imported Successfully at *time*|Target has imported the feed file into its content delivery system. Changes to item attributes have been made in the content delivery system and will shortly be reflected in delivered recommendations. If you do not see the expected changes, try again shortly and refresh the page containing recommendations.<br>Notes:<ul><li>If changes to an item's attributes result in an item being excluded from recommendations, the exclusion will be immediately reflected. If an item is newly added, or changes to attributes result in an item being *no longer* excluded from recommendations, it will not be reflected until the next algorithm update, which will occur within 24 hours.</li><li>When this status is displayed, updates may not yet be reflected in the Catalog Search user interface. A separate status is listed on Catalog Search indicating the last time the searchable catalog was updated.</li></ul>|
 |Failed to Index|The index operation failed. Please try again.|
 |Server Not Found|FTP or URL locations are invalid or otherwise unreachable.|
 
@@ -287,7 +301,7 @@ To update a feed (for example, to make changes to your feed configuration or fee
 
 >[!IMPORTANT]
 >
->Uploaded entities expire after 61 days. This means that your feed file should be uploaded at least every 60 days to avoid a disruption to your recommendations activities. If an item is not included in a feed file (or other entity update method) at least once every 60 days, Adobe Target infers the item is no longer relevant and removes it from the catalog.
+>Uploaded entities expire after 61 days. This means that your feed file should be uploaded at least every 60 days to avoid a disruption to your recommendations activities. If an item is not included in a feed file (or other entity update method) at least once every 60 days, [!DNL Adobe Target] infers the item is no longer relevant and removes it from the catalog.
 
 ### Feed Status Indicators {#section_3C8A236C5CB84C769A9E9E36B8BFABA4}
 
@@ -299,6 +313,7 @@ The following feed status indicators display in the [!UICONTROL Status] column:
 |Yellow status indicator|When a feed or feed index is delayed by 25% of the feed frequency, a yellow status dot displays. For example, a yellow dot displays for a feed set to run daily if the index hasn't completed six hours after the scheduled time.   Note:  Once the feed status is "Waiting for Index Queue," the newly updated values are available in delivery and criteria processing.|
 |White status indicator|When a feed is not scheduled, a white status dot indicates that the feed has not run yet.|
 |Red status indicator|If the feed fails to upload data to server, a red status indicator is shown.|
+
 Consider the following examples: 
 
 **Example 1:** 
