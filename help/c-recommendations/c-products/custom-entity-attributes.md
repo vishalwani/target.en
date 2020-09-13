@@ -1,14 +1,15 @@
 ---
 keywords: multi-value entity attributes;custom entity attributes;valid JSON;entity attribute value;JSON array;multi-valued;multivalued
 description: Use single- and multi-value custom entity attributes to define additional information about items in your catalog.
-title: Custom entity attributes
+title: Custom entity attributes in Adobe Target
 feature: entities
+mini-toc-levels: 3
 uuid: ccebcd16-7d8f-468f-8474-c89b0f029bdb
 ---
 
 # ![PREMIUM](/help/assets/premium.png) Custom entity attributes{#custom-entity-attributes}
 
-Use single- and multi-value custom entity attributes to define additional information about items in your catalog.
+Use single- and multi-value custom entity attributes in [!DNL Adobe Target Recommendations] to define additional information about items in your catalog.
 
 ## Limits {#limits}
 
@@ -26,15 +27,11 @@ Custom entity attributes can contain a single value or multiple values. Entity a
 
 A custom entity attribute with a single value is formed the same way as a single-value predefined entity attribute:
 
-```
-entity.genre=genre1
-```
+`entity.genre=genre1`
 
 A multi-value custom entity attribute must be sent as a valid JSON array:
 
-```
-entity.genre=[“genre1”, “genre2”]
-```
+`entity.genre=[“genre1”, “genre2”]`
 
 Examples of valid JSON arrays supported by [!DNL Recommendations]:
 
@@ -97,7 +94,7 @@ The same catalog will look like this in a spreadsheet:
 
 ![](assets/multi-value_example_excel.png)
 
-When converting to [!DNL .csv] format, the spreadsheet software adds double quotation marks around cell contents to prevent commas within the cell from acting as column separators. It also adds double quotation marks around JSON string values you include in custom multi-value attributes. This can make working directly with the raw file unwieldy. For example:
+When converting to .csv format, the spreadsheet software adds double quotation marks around cell contents to prevent commas within the cell from acting as column separators. It also adds double quotation marks around JSON string values you include in custom multi-value attributes. This can make working directly with the raw file unwieldy. For example:
 
 * Spreadsheet: `["1","2","3"]` 
 * Raw: `"[""1"",""2"",""3""]"`
@@ -124,8 +121,7 @@ You can pass multi-value attributes using the Delivery API in an mbox parameter 
   }
 ```
 
-See the [Adobe Recommendations API documentation](http://developers.adobetarget.com/api/recommendations) for information about
-using the Delivery and Save entities APIs.
+See the [Adobe Recommendations API documentation](http://developers.adobetarget.com/api/recommendations) for information about using the Delivery and Save entities APIs.
 
 ## Using operators with multi-value attributes {#section_83C2288A805242D9A02EBC4F07DEE945}
 
@@ -133,27 +129,118 @@ When you apply operators to multi-valued custom attributes in algorithm inclusio
 
 In the following example, the rule is `message contains abc`.
 
-Case 1: `entity.genre = ["ab", "bc", "de"]`. The result is false because no value contains `abc`.
-
-Case 2: `entity.genre = ["abcde","de","ef"]`. The result is true because one value contains `abc`.
+* Case 1: `entity.genre = ["ab", "bc", "de"]`. The result is false because no value contains `abc`.
+* Case 2: `entity.genre = ["abcde","de","ef"]`. The result is true because one value contains `abc`.
 
 For negative operators, all attribute values must pass (boolean *and*). For example, if the operator is `notEquals`, the result will be *false* if any value matches.
 
-Refer to the table below for operator behavior in algorithm inclusion rules, catalog rules, and exclusion rules.
+Refer to the following sections for operator behavior in algorithm inclusion rules, catalog rules, and exclusion rules.
 
-| Operator | Behavior | Example |
-|--- |--- |--- |
-|Equals|If any attribute value equals the input value, results in true.|`genre equals abc`<br>Case 1: `entity.genre = ["ab", "bc", "de"]`. The result is false because no value is equal to `abc`.<br>Case 2: `entity.genre = ["abc", "de", "ef"]`. The result is true because one value is equal to `abc`.<br>Case 3: `entity.genre = ["abcde", "de", "ef"]`. The result is false because `abc` is not equal to any element in the list.|
-|Does not equal|If no attribute value equals the input value, results in true.|`genre not equals abc`<br>Case 1: `entity.genre = ["ab", "bc", "de"]`. The result is true because no value is equal to `abc`.<br>Case 2: `entity.genre = ["abc", "de", "ef"]`. The result is false because one value is equal to `abc`.<br>Case 3: `entity.genre = ["abcde", "de", "ef"]`. The result is true because `abc`is not equal to any element in the list.|
-|Contains|If any value of attribute contains the input value, results in true.|`genre contains abc`<br>Case 1: `entity.genre = ["ab", "bc", "de"]`. The result is false because no value contains `abc`.<br>Case 2: `entity.genre = ["abcde", "de", "ef"]`. The result is true because one value contains `abc`.|
-|Does not contain|If no value of attribute contains the input value results in true.|`genre does not contain abc`<br>Case 1: `entity.genre = ["ab", "bc", "de"]`. The result is true because no value contains `abc`.<br>Case 2: `entity.genre = ["abcde", "de", "ef"]`. The rule will result in false as one value contains`abc`.|
-|Starts with|If any value of attribute starts with the input value results in true.|`genre starts with abc`<br>Case 1: `entity.genre = ["ab", "bc", "de"]`. The result is false because no value starts with `abc`.<br>Case 2: `entity.genre = ["abcde", "de", "ef"]`. The result is true because one value starts with `abc`.<br>Case 3: `entity.genre = ["ab", "de", "abc"]`. The result is true because one value starts with `abc` (not necessarily the first element in the list).|
-|Ends with|If any value of attribute ends with the input value results in true.|`genre ends with abc`<br>Case 1: `entity.genre = ["ab", "bc", "de"]`. The result is false because no value ends with `abc`.<br>Case 2: `entity.genre = ["deabc", "de", "ef"]`. The result is true because one value ends with `abc`.|
-|Greater than or equal to (numeric values only)|Attribute value is converted to double. Attributes that cannot be converted are skipped while running the rule.<br>After processing, any attribute value greater than or equal to the input value results in true.|`price greater than or equal to 100`<br>Case 1: `entity.price = ["10", "20", "45"]`. The result is false because no value is greater than or equal to 100. The value `de` is skipped because it cannot be converted to double.<br>Case 2: `entity.price = ["100", "101", "90", "80"]`. The result is true because as two values are greater or equal to 100.|
-|Less than or equal to (numeric values only)|Attribute value is converted to double. Attributes that cannot be converted are skipped while running the rule.<br>After processing, any attribute value less than or equal to the input value results in true.|`price less than or equal to 100`<br>Case 1: `entity.price = ["101", "200", "141"]`. The result is false because no value is less than or equal to 100. The value `de` is skipped because it cannot be converted to double.<br>Case 2: `entity.price = ["100", "101", "90", "80"]`. The result is true because two values are less than or equal to 100.|
-|Dynamically matches (only available in item-based algorithms)|If any attribute value matches the input value results in true.|`genre matches abc`<br> Case 1: `entity.genre = ["ab", "bc", "de"]`. The result is false because no value matches `abc`.<br>Case 2: `entity.genre = ["abc", "de", "ef"]`. The result is true because one value matches `abc`.|
-|Dynamically does not match (only available in item-based algorithms)|If any attribute value matches the input value results in false.|`genre does not match abc`<br>Case 1: `entity.genre = ["ab", "bc", "de"]`. The result is true because no value matches `abc`.<br>Case 2: `entity.genre = ["abc", "de", "ef"]`. The rule will result in false as one value matches `abc`.|
-|Dynamically ranges (only available in item-based algorithms, numeric values only)|If any numeric attribute value lies within specified range results in true.|`price dynamically ranges in 80% to 120% of 100`<br>Case 1: `entity.price = ["101", "200", "125"]`. The result is true because `101` is in the range of 80% to 120% of 100. The value `de` is skipped because it cannot be converted to double.<br>Case 2: `entity.price = ["130", "191", "60", "75"]`. The result is false because no value is in the range of 80% to 120% of 100.|
+### Equals
+
+If any attribute value equals the input value, results in true.
+
+Example: `genre equals abc`
+
+* Case 1: `entity.genre = ["ab", "bc", "de"]`. The result is false because no value is equal to `abc`.
+* Case 2: `entity.genre = ["abc", "de", "ef"]`. The result is true because one value is equal to `abc`.
+* Case 3: `entity.genre = ["abcde", "de", "ef"]`. The result is false because `abc` is not equal to any element in the list.
+
+### Does not equal
+
+If no attribute value equals the input value, results in true.
+
+Example: `genre not equals abc`
+
+* Case 1: `entity.genre = ["ab", "bc", "de"]`. The result is true because no value is equal to `abc`.
+* Case 2: `entity.genre = ["abc", "de", "ef"]`. The result is false because one value is equal to `abc`.
+* Case 3: `entity.genre = ["abcde", "de", "ef"]`. The result is true because `abc`is not equal to any element in the list.
+
+### Contains
+
+If any value of attribute contains the input value, results in true.
+
+Example: `genre contains abc`
+
+* Case 1: `entity.genre = ["ab", "bc", "de"]`. The result is false because no value contains `abc`.
+* Case 2: `entity.genre = ["abcde", "de", "ef"]`. The result is true because one value contains `abc`.
+
+### Does not contain
+
+If no value of attribute contains the input value results in true.
+
+Example: `genre does not contain abc`
+
+* Case 1: `entity.genre = ["ab", "bc", "de"]`. The result is true because no value contains `abc`.
+* Case 2: `entity.genre = ["abcde", "de", "ef"]`. The rule will result in false as one value contains`abc`.
+
+### Starts with
+
+If any value of attribute starts with the input value results in true.
+
+Example: `genre starts with abc`
+
+* Case 1: `entity.genre = ["ab", "bc", "de"]`. The result is false because no value starts with `abc`.
+* Case 2: `entity.genre = ["abcde", "de", "ef"]`. The result is true because one value starts with `abc`.
+* Case 3: `entity.genre = ["ab", "de", "abc"]`. The result is true because one value starts with `abc` (not necessarily the first element in the list).
+
+### Ends with
+
+If any value of attribute ends with the input value results in true.
+
+Example: `genre ends with abc`
+
+* Case 1: `entity.genre = ["ab", "bc", "de"]`. The result is false because no value ends with `abc`.
+* Case 2: `entity.genre = ["deabc", "de", "ef"]`. The result is true because one value ends with `abc`.
+
+### Greater than or equal to (numeric values only)
+
+Attribute value is converted to double. Attributes that cannot be converted are skipped while running the rule.
+
+After processing, any attribute value greater than or equal to the input value results in true.
+
+Example: `price greater than or equal to 100`
+
+* Case 1: `entity.price = ["10", "20", "45"]`. The result is false because no value is greater than or equal to 100. The value `de` is skipped because it cannot be converted to double.
+* Case 2: `entity.price = ["100", "101", "90", "80"]`. The result is true because as two values are greater or equal to 100.
+
+### Less than or equal to (numeric values only)
+
+Attribute value is converted to double. Attributes that cannot be converted are skipped while running the rule.
+
+After processing, any attribute value less than or equal to the input value results in true.
+
+Example: `price less than or equal to 100`
+
+* Case 1: `entity.price = ["101", "200", "141"]`. The result is false because no value is less than or equal to 100. The value `de` is skipped because it cannot be converted to double.
+* Case 2: `entity.price = ["100", "101", "90", "80"]`. The result is true because two values are less than or equal to 100.
+
+### Dynamically matches (only available in item-based algorithms)
+
+If any attribute value matches the input value results in true.
+
+Example: `genre matches abc`
+
+* Case 1: `entity.genre = ["ab", "bc", "de"]`. The result is false because no value matches `abc`.
+* Case 2: `entity.genre = ["abc", "de", "ef"]`. The result is true because one value matches `abc`.
+
+### Dynamically does not match (only available in item-based algorithms)
+
+If any attribute value matches the input value results in false.
+
+Example: `genre does not match abc`
+
+* Case 1: `entity.genre = ["ab", "bc", "de"]`. The result is true because no value matches `abc`.
+* Case 2: `entity.genre = ["abc", "de", "ef"]`. The rule will result in false as one value matches `abc`.
+
+### Dynamically ranges (only available in item-based algorithms, numeric values only)
+
+If any numeric attribute value lies within the specified range results in true.
+
+Example: `price dynamically ranges in 80% to 120% of 100`
+
+* Case 1: `entity.price = ["101", "200", "125"]`. The result is true because `101` is in the range of 80% to 120% of 100. The value `de` is skipped because it cannot be converted to double.
+* Case 2: `entity.price = ["130", "191", "60", "75"]`. The result is false because no value is in the range of 80% to 120% of 100.
 
 >[!NOTE]
 >
@@ -161,7 +248,7 @@ Refer to the table below for operator behavior in algorithm inclusion rules, cat
 
 ## Multi-value attributes in designs {#section_F672E4F6E1D44B3196B7ADE89334ED4A}
 
-Multi-value attributes will appear as a comma-separated list when referenced in a design.
+Multi-value attributes appear as a comma-separated list when referenced in a design.
 
 Example:
 

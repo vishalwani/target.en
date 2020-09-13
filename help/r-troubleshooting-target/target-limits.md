@@ -65,7 +65,9 @@ The maximum number of entities that can be referenced in a design, either hardco
 
 ## Entity custom attributes
 
-**Limit**: The maximum length depends on the language.
+You can include up to 100 custom entity attributes
+
+**Limit**: The maximum character length depends on the language.
 
 * 15,000 characters (single-value, one- and two-byte languages)
 * 500 values, 100 characters per value (multi-value)
