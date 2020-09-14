@@ -116,7 +116,7 @@ The following metric types are unsupported as primary goal metrics:
 * [!DNL Adobe Target] engagement and revenue metrics
 * [!DNL Adobe Analytics] engagement and revenue metrics
 
-  It may be possible to select an [!DNL Analytics] engagement or revenue metric as your primary goal metric because [!DNL Target] cannot identify and exclude all engagement and revenue metrics from [!DNL Analytics]. Take caution to select only binomial conversion metrics or custom events from [!DNL Analytics].
+  It might be possible to select an [!DNL Analytics] engagement or revenue metric as your primary goal metric because [!DNL Target] cannot identify and exclude all engagement and revenue metrics from [!DNL Analytics]. Take caution to select only binomial conversion metrics or custom events from [!DNL Analytics].
 
 * [!DNL Adobe Analytics] calculated metrics
 
@@ -130,9 +130,3 @@ The following metric types are unsupported as primary goal metrics:
 * When using [!DNL Analytics] as the data source for an [!UICONTROL Auto-Target] activity, sessions are considered to be ended after six hours have elapsed. Conversions occurring after six hours will not be counted.
 
 For more information, see [Attribution models and lookback windows](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/attribution/models.html) in the *Analytics Tools Guide*.
-
-
-
-
-
-
