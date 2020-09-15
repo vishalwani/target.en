@@ -56,8 +56,8 @@ The following table shows you which activity types support [!DNL Analytics] as t
 | Activity Types | A4T Compatible? | Notes, if applicable |
 |--- |--- |--- |
 |A/B activity with manual traffic split|Yes||
-|A/B activity with Auto-Allocate|Yes|See [Analytics for Target (A4T) support for Auto-Allocate activities](/help/c-integrating-target-with-mac/a4t/campaign-creation.md#a4t-aa).|
-|A/B activity with Auto-Target|No||
+|A/B activity with Auto-Allocate|Yes|See [Analytics for Target (A4T) support for Auto-Allocate and Auto-Target activities](/help/c-integrating-target-with-mac/a4t/campaign-creation.md#a4t-aa).|
+|A/B activity with Auto-Target|Yes|See [Analytics for Target (A4T) support for Auto-Allocate and Auto-Target activities](/help/c-integrating-target-with-mac/a4t/campaign-creation.md#a4t-aa).|
 |Experience Targeting (XT)|Yes||
 |Multivariate test (MVT)|Yes|Requires mbox-based goal metric goal to get the [!UICONTROL Element Contribution] report.  The [!UICONTROL Element Contribution] report does not currently support [!DNL Analytics] metrics.|
 |Automated Personalization (AP) activity|No||
