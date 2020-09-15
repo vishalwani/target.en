@@ -59,7 +59,7 @@ You can use a simple search or an advanced search to locate items in your catalo
 
    ![Search for chain](/help/c-recommendations/c-products/assets/bike-results-4.png)
 
-### Perform an advanced search {#advanced}
+### Perform an advanced search {#advanced-search}
 
 You can use [!UICONTROL Advanced Search] to further refine your search results or to save your search results as a [collection](/help/c-recommendations/c-products/collections.md) or [exclusion](/help/c-recommendations/c-products/exclusions.md).
 
@@ -109,7 +109,7 @@ The catalog is automatically refreshed when updates are received via feed files,
 
 You can create [collections](/help/c-recommendations/c-products/collections.md) or [exclusions](/help/c-recommendations/c-products/exclusions.md) using [!UICONTROL Advanced Search] on the [!UICONTROL Catalog Search] page ([!UICONTROL Recommendations] > [!UICONTROL Catalog Search] > [!UICONTROL Advanced Search]).
 
-1. Perform an [advanced search](/#advanced).
+1. Perform an [advanced search](#advanced).
 
 1. (Optional) Click **[!UICONTROL Save As]**, then click **[!UICONTROL Collection]** or **[!UICONTROL Exclusion]**.
 
