@@ -79,7 +79,7 @@ You can use [!UICONTROL Advanced Search] to further refine your search results o
 
    ![Save as options](/help/c-recommendations/c-products/assets/save-as.png)
 
-   For more information, see [Create a collection or exclusion based on Advanced Search](/#save-as) below.
+   For more information, see [Create a collection or exclusion based on Advanced Search](#save-as) below.
 
 ## View an item's details
 
@@ -109,7 +109,7 @@ The catalog is automatically refreshed when updates are received via feed files,
 
 You can create [collections](/help/c-recommendations/c-products/collections.md) or [exclusions](/help/c-recommendations/c-products/exclusions.md) using [!UICONTROL Advanced Search] on the [!UICONTROL Catalog Search] page ([!UICONTROL Recommendations] > [!UICONTROL Catalog Search] > [!UICONTROL Advanced Search]).
 
-1. Perform an [advanced search](#advanced).
+1. Perform an [advanced search](#advanced-search).
 
 1. (Optional) Click **[!UICONTROL Save As]**, then click **[!UICONTROL Collection]** or **[!UICONTROL Exclusion]**.
 
