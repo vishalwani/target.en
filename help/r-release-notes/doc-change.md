@@ -15,6 +15,10 @@ This page lists important changes made to the [!DNL Adobe Target] product docume
 
 |Date|Topic|Changes|
 | --- | --- | --- |
+|September 15|[Target release notes (current)](/help/r-release-notes/release-notes.md)|Added information about the Target Standard/Premium 20.8.3 release, which includes Analytics for Target (A4T) support for Auto-Target activities. Support for Auto-Allocate activities was added in a previous release.|
+||[Analytics for Target (A4T) support for Auto-Allocate and Auto-Target activities](/help/c-integrating-target-with-mac/a4t/campaign-creation.md#a4t-aa).|Added information about A4T support in Auto-Target activities.|
+||[Activity QA bookmarklet](/help/c-activities/c-activity-qa/activity-qa-bookmark.md)|Updated text to indicate that the method to manually force yourself out of QA mode by loading a page on your site with the `at_preview_token` parameter with an empty value applies to at.js 1.*x* only.|
+||[Catalog search](/help/c-recommendations/c-products/catalog-search.md)|Updated entire topic.|
 |September 10|[Target release notes (current)](/help/r-release-notes/release-notes.md)|Added information about the Target Standard/Premium 20.9.2 release that includes the following new feature: Control recommendations slots within criteria sequences.|
 ||[Create criteria sequences](/help/c-recommendations/c-algorithms/create-criteria-sequence.md)|Added information about "Limit the number of items returned" feature.|
 |September 9|[Activity QA bookmarklet](/help/c-activities/c-activity-qa/activity-qa-bookmark.md)|Added JavaScript code for use with at.js 2.*x*.|

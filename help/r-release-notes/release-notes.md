@@ -25,6 +25,12 @@ These release notes provide information about features, enhancements, and fixes 
 
 The issue numbers in parentheses are for internal [!DNL Adobe] use.
 
+## Target Standard/Premium 20.8.3 (September 15, 2020)
+
+|Feature|Details|
+| --- | --- |
+|![Premium badge](/help/assets/premium.png) Analytics for Target (A4T) support for Auto-Target activities|[!UICONTROL Auto-Target] activities now support [Analytics for Target](/help/c-integrating-target-with-mac/a4t/a4t.md).<br>This integration allows you to use the [!UICONTROL Auto-Target] ensemble machine learning algorithm to choose a best experience for each visitor based on their profile, behavior, and context.<br>If you’ve already [implemented A4T](/help/c-integrating-target-with-mac/a4t/a4timplementation.md) for use with A/B Test and Experience Targeting activities, you’re all set!<br>For more information, see [Analytics for Target (A4T) support for Auto-Allocate and Auto-Target activities](/help/c-integrating-target-with-mac/a4t/campaign-creation.md#a4t-aa) in *Activity creation*.|
+
 ## Target Standard/Premium 20.8.2 (September 10, 2020)
 
 |Feature|Details|
