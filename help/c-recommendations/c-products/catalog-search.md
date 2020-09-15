@@ -63,7 +63,7 @@ You can use a simple search or an advanced search to locate items in your catalo
 
 You can use [!UICONTROL Advanced Search] to further refine your search results or to save your search results as a [collection](/help/c-recommendations/c-products/collections.md) or [exclusion](/help/c-recommendations/c-products/exclusions.md).
 
-1. Click the **[!UICONTROL Advanced Search]**.
+1. Click the **[!UICONTROL Advanced Search]** link.
 
    ![Advanced Search page](/help/c-recommendations/c-products/assets/advances-search.png)
 
@@ -101,7 +101,7 @@ All information about that item is removed from the catalog index. The item will
 
 ## Refresh the catalog
 
-The index of your catalog is automatically created when you upload your first feed, and refreshed according to the specified schedule.
+The index of your catalog is automatically created when you upload your first feed, and refreshed according to the [specified schedule](/help/c-recommendations/c-products/feeds.md#steps).
 
 The catalog is automatically refreshed when updates are received via feed files, API, or mbox updates. Updates are usually completed in an hour. If updates are in progress, the time that the most recent update started displays. If no updates are in progress, the time that the most recent update started and finished displays.
 
@@ -111,7 +111,7 @@ You can create [collections](/help/c-recommendations/c-products/collections.md) 
 
 1. Perform an [advanced search](#advanced-search).
 
-1. (Optional) Click **[!UICONTROL Save As]**, then click **[!UICONTROL Collection]** or **[!UICONTROL Exclusion]**.
+1. Click **[!UICONTROL Save As]**, then click **[!UICONTROL Collection]** or **[!UICONTROL Exclusion]**.
 
    ![Save as options](/help/c-recommendations/c-products/assets/save-as.png)
 
@@ -143,6 +143,8 @@ You can add additional filter facets to the [!UICONTROL Catalog Search] page.
 
 1. Select the desired search facets (ID, name, message, etc.).
 
+   ![Add filters](/help/c-recommendations/c-products/assets/add-filters.png)
+
 Keep in mind that the additional filter facets are available in the current session only.
 
 ### Modify columns
@@ -159,4 +161,4 @@ You can temporarily modify the active columns on the [!UICONTROL Catalog Search]
 
    You can also click the delete icon ( x ) next to the column you want to move from the active to inactive section.
 
-Keep in mind that the any changes you make apply to the current session only.
+Keep in mind that any changes you make apply to the current session only.

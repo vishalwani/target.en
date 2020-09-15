@@ -38,6 +38,12 @@ javascript:(
 )();
 ```
 
+You can also manually force yourself out of QA mode by loading a page on your site with the `at_preview_token` parameter with an empty value. 
+
+For example:
+
+`https://www.mysite.com/?at_preview_token=` 
+
 ## Activity QA bookmarklet for at.js 2.*x*
 
 In contrast to at.js 1.*x*, at.js 2.*x* does not support third-party cookies, and QA mode is only sticky for the first-party domain (by means of a first-party cookie set by at.js). Thus, in at.js 2.*x*, QA mode session is managed only on the client-side and no QA mode cookies are sent to Target. 
@@ -63,8 +69,3 @@ javascript:(
 
 Click the bookmarklet on your browser's toolbar.
 
-You can also manually force yourself out of QA mode by loading a page on your site with the `at_preview_token` parameter with an empty value. 
-
-For example:
-
-`https://www.mysite.com/?at_preview_token=` 
