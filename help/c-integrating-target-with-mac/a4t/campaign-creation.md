@@ -64,57 +64,69 @@ Creating a [!DNL Target] activity that uses [!DNL Analytics] as the reporting so
 
 1. Click **[!UICONTROL Save]**.
 
-## Analytics for Target (A4T) support for Auto-Allocate activities {#a4t-aa}
+## Analytics for Target (A4T) support for Auto-Allocate and Auto-Target activities {#a4t-aa}
 
-We’ve upgraded the Adobe Target-to-Adobe Analytics integration, known as [Analytics for Target](/help/c-integrating-target-with-mac/a4t/a4t.md).
+We’ve upgraded the Adobe Target-to-Adobe Analytics integration, known as [Analytics for Target](/help/c-integrating-target-with-mac/a4t/a4t.md). Auto-Allocate and Auto-Target activities now support Analytics for Target.
 
-[!UICONTROL Auto-Allocate] activities now support [!UICONTROL Analytics for Target]. This integration allows you to use Auto-Allocate’s multi-armed bandit capability to drive traffic to winning experiences, while using an [!DNL Adobe Analytics] goal metric and/or [!DNL Adobe Analytics] reporting and analysis capabilities. If you’ve already [implemented A4T for use with A/B Test and Experience Targeting activities](/help/c-integrating-target-with-mac/a4t/a4timplementation.md), you’re ready to go! 
+This integration allows you to:
+
+* Use [Auto-Allocate](/help/c-activities/automated-traffic-allocation/automated-traffic-allocation.md)’s multi-armed bandit capability to drive traffic to winning experiences.
+* Use [Auto-Target](/help/c-activities/auto-target-to-optimize.md)’s ensemble machine learning algorithm to choose a best experience for each visitor based on their profile, behavior and context.
+
+All while using an [!DNL Adobe Analytics] goal metric and [!DNL Adobe Analytics]’ rich reporting and analysis capabilities.
+
+If you’ve already [implemented A4T for use with A/B Test and Experience Targeting activities](/help/c-integrating-target-with-mac/a4t/a4timplementation.md), there’s no additional setup required, you’re ready to go!
 
 To get started:
 
-1. Create an A/B Test activity and select **[!UICONTROL Auto-allocate to best experience]** as the **[!UICONTROL Traffic Allocation Method]** on the [!UICONTROL Targeting] page.
-1. Select **[!UICONTROL Adobe Analytics]** for your **[!UICONTROL Reporting Source]** on the **[!UICONTROL Goals & Settings]** page and select the report suite corresponding to your desired optimization goal.
-1. Choose a Primary Goal metric. 
+1. While creating an A/B Test activity, on the **[!UICONTROL Targeting]** page, select one of the following options as the **[!UICONTROL Traffic Allocation Method]**:
 
-   Choose **[!UICONTROL Conversion]** to use [!DNL Adobe Target] to specify the optimization goal.
-   
-   Or
-   
-   Choose **[!UICONTROL Use an Analytics metric]** and then select a metric from [!DNL Analytics] for use as the optimization goal. You can use an out-of-box [!DNL Analytics] conversion metric, or an [!DNL Analytics] custom event.
+   * Auto-allocate to best experience
+   * Auto-target for personalized experiences
+
+1. Select **[!UICONTROL Adobe Analytics]** for your **[!UICONTROL Reporting Source]** on the **[!UICONTROL Goals & Settings]** page and select the report suite corresponding to your desired optimization goal.
+
+1. Choose a Primary Goal metric.
+
+   * Choose **[!UICONTROL Conversion]** to use [!DNL Adobe Target] to specify the optimization goal.
+   * Choose **[!UICONTROL Use an Analytics metric]** and then select a metric from [!DNL Analytics] for use as the optimization goal. You can use an out-of-box [!DNL Analytics] conversion metric, or an [!DNL Analytics] custom event.
 
 1. Save and activate your activity.
 
    [!UICONTROL Auto-Allocate] will use your selected metric to optimize the activity, driving visitors to the experience that maximizes your goal metric.
 
+   [!UICONTROL Auto-Target] will use your selected metric to optimize the activity, driving visitors to a personalized best experience.
+
 1. Use the **[!UICONTROL Reports]** tab to view your activity’s reporting by your choice of [!DNL Adobe Analytics] metrics. Click **[!UICONTROL View in Analytics]** to dive deep and further segment your reporting data.
 
 ### Supported goal metrics
 
-A4T for [!UICONTROL Auto-Allocate] allows you to choose any of the following metric types as your primary goal metric for optimization:
+[!UICONTROL A4T] for [!UICONTROL Auto-Allocate] and [!UICONTROL Auto-Target] allow you to choose any of the following metric types as your primary goal metric for optimization:
 
 * [!DNL Adobe Target] conversion metrics
 * [!DNL Adobe Analytics] conversion metrics
 * [!DNL Adobe Analytics] custom events
 
-A4T for [!UICONTROL Auto-Allocate] requires you to choose a metric that is based on a binomial event, that is, an event that either does or does not happen, for example a click, a conversion, an order, etc. (These types of events are also sometimes referred to as Bernoulli, binary, or discrete events.)
+[!UICONTROL A4T] for [!UICONTROL Auto-Allocate] and [!UICONTROL Auto-Target] requires you to choose a metric that is based on a binomial event, that is, an event that either does or does not happen, for example a click, a conversion, an order, etc. (These types of events are also sometimes referred to as Bernoulli, binary, or discrete events.)
 
-A4T for [!UICONTROL Auto-Allocate] does not support optimization for continuous metrics such as revenue, number of products ordered, session duration, number of page views in session, etc. (These unsupported types of metrics are also sometimes referred to as non-binomial or non-Bernoulli metrics.) 
+[!UICONTROL A4T] for [!UICONTROL Auto-Allocate] and [!UICONTROL Auto-Target] does not support optimization for continuous metrics such as revenue, number of products ordered, session duration, number of page views in session, etc. (These unsupported types of metrics are also sometimes referred to as non-binomial or non-Bernoulli metrics.)
 
 The following metric types are unsupported as primary goal metrics:
 
 * [!DNL Adobe Target] engagement and revenue metrics
 * [!DNL Adobe Analytics] engagement and revenue metrics
 
-  >[!NOTE]
-  >
-  >It might be possible to select [!DNL Analytics] engagement and revenue metrics as your primary goal metric because [!DNL Target] cannot identify all engagement and revenue metrics from [!DNL Analytics]. Take caution to select only binomial conversion metrics or custom events from [!DNL Analytics].
+  It might be possible to select an [!DNL Analytics] engagement or revenue metric as your primary goal metric because [!DNL Target] cannot identify and exclude all engagement and revenue metrics from [!DNL Analytics]. Take caution to select only binomial conversion metrics or custom events from [!DNL Analytics].
 
-* Adobe Analytics calculated metrics
+* [!DNL Adobe Analytics] calculated metrics
 
 ### Limitations and notes
 
 * The reporting source cannot be changed from [!DNL Analytics] to [!DNL Target] or vice versa once an activity has been activated.
 * Although calculated metrics are not supported as primary goal metrics, it is often possible to achieve the intended result by instead selecting a custom event as the primary goal metric. For example, if you want to optimize for a metric such as "form completions per visitor," select a custom event corresponding to "form completions" as your primary goal metric. [!DNL Target] automatically normalizes conversion metrics on a per-visit basis to account for uneven traffic distribution, so it is not necessary to use a calculated metric to perform normalization.
-* [!DNL Target] uses the "Same Touch" attribution model in the Auto-Allocate A4T implementation. 
+* [!DNL Target] uses the "Same Touch" attribution model in the [!UICONTROL Auto-Allocate] A4T implementation.
+* [!UICONTROL Auto-Allocate] models continue to train every two hours, as usual.
+* [!UICONTROL Auto-Target] models continue to train every 24 hours, as usual. However, conversion event data coming from [!DNL Analytics] is delayed by an additional six to 24 hours. This means the distribution of traffic by [!DNL Target] will trail the latest events recorded in [!DNL Adobe Analytics]. This will have the largest effect in the first 48 hours after an activity is first activated; the activity’s performance will more closely mirror [!DNL Adobe Analytics] conversion behavior after five days have elapsed. You should consider using [!UICONTROL Auto-Allocate] instead of [!UICONTROL Auto-Target] for short duration activities where most traffic occurs within the first five days of the activity’s life.
+* When using [!DNL Analytics] as the data source for an [!UICONTROL Auto-Target] activity, sessions are considered to be ended after six hours have elapsed. Conversions occurring after six hours will not be counted.
 
-For more information, see [Attribution overview](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/panels/attribution/attribution.html) in the *Analytics Tools Guide*.
+For more information, see [Attribution models and lookback windows](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/attribution/models.html) in the *Analytics Tools Guide*.
