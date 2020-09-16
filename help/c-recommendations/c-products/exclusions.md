@@ -8,13 +8,15 @@ uuid: 1970846e-37d8-4b69-a0d9-ff45bb840bef
 
 # Exclusions{#exclusions}
 
-Create an exclusion list to prevent items from being recommended.
+Create an exclusion in [!DNL Adobe Target Recommendations] to prevent products or content from being recommended to visitors.
+
+An exclusion is a subset of products or content that should not be recommended to your visitors. For example, you can use exclusions to prevent products or content from displaying in recommendations that have been discontinued or are sensitive in nature (such as movies with a rating not suitable for all ages).
 
 >[!IMPORTANT]
 >
 >Static and dynamic exclusion rules are powerful features that can help you with your marketing efforts. For detailed information, examples, and use-case scenarios, see [Use Dynamic and Static Inclusion Rules](../../c-recommendations/c-algorithms/use-dynamic-and-static-inclusion-rules.md#concept_4CB5C0FA705D4E449BD0B37B3D987F9F).
 
-**To create an exclusion:**
+## Create an exclusion
 
 1. Click **[!UICONTROL Recommendations]** > **[!UICONTROL Exclusions]** to display the list of existing exclusions.
 
@@ -42,7 +44,7 @@ You can also create exclusions using Advanced Search on the Catalog Search page 
 
 ![Save as](/help/c-recommendations/c-products/assets/save-as-dialog.png)
 
-After creating a search using "id > contains," for example, you can then click [!UICONTROL Save As] > [!UICONTROL Exclusion]. For more information, see [Catalog search](/help/c-recommendations/c-products/catalog-search.md).
+After creating a search using "id > contains," for example, you can then click [!UICONTROL Save As] > [!UICONTROL Exclusion]. For more information, see [Catalog search](/help/c-recommendations/c-products/catalog-search.md#save-as).
 
 >[!IMPORTANT]
 >
