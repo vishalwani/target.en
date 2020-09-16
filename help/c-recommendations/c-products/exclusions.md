@@ -1,6 +1,6 @@
 ---
 keywords: exclusions
-description: Create an exclusion list in Adobe Target to prevent items from being recommended.
+description: Create an exclusion in [!DNL Adobe Target Recommendations] to prevent products or content from being recommended to visitors.
 title: Exclusions in Adobe Target
 feature: entities
 uuid: 1970846e-37d8-4b69-a0d9-ff45bb840bef
@@ -10,7 +10,9 @@ uuid: 1970846e-37d8-4b69-a0d9-ff45bb840bef
 
 Create an exclusion in [!DNL Adobe Target Recommendations] to prevent products or content from being recommended to visitors.
 
-An exclusion is a subset of products or content that should not be recommended to your visitors. For example, you can use exclusions to prevent products or content from displaying in recommendations that have been discontinued or are sensitive in nature (such as movies with a rating not suitable for all ages).
+An exclusion is a subset of products or content that should not be recommended to visitors. For example, you can use exclusions to prevent products or content from displaying in recommendations that have been discontinued or are sensitive in nature (such as movies with a rating not suitable for all based on content ratings).
+
+Exclusions are available across the entire account.
 
 >[!IMPORTANT]
 >
@@ -40,15 +42,25 @@ An exclusion is a subset of products or content that should not be recommended t
 
 ## Create an exclusion using Advanced Search
 
-You can also create exclusions using Advanced Search on the Catalog Search page ( [!UICONTROL Recommendations] > [!UICONTROL Catalog Search] > [!UICONTROL Advanced Search]). 
+You can also create exclusions using [!UICONTROL Advanced Search] on the [Catalog Search](/help/c-recommendations/c-products/catalog-search.md#save-as) page ( [!UICONTROL Recommendations] > [!UICONTROL Catalog Search] > [!UICONTROL Advanced Search]). 
 
-![Save as](/help/c-recommendations/c-products/assets/save-as-dialog.png)
+![Save as dialog](/help/c-recommendations/c-products/assets/save-as.png)
 
-After creating a search using "id > contains," for example, you can then click [!UICONTROL Save As] > [!UICONTROL Exclusion]. For more information, see [Catalog search](/help/c-recommendations/c-products/catalog-search.md#save-as).
+After creating a search using "id > contains," for example, you can then click [!UICONTROL Save As] > [!UICONTROL Exclusion].
 
 >[!IMPORTANT]
 >
->The Advanced Search functionality is case-insensitive; however, products returned at the time of delivery are based on case-sensitive search. This mismatch might lead to confusion. Ensure that you consider case-sensitivity when you create exclusions based on results using the Advanced Search functionality. For example, if you perform a search for "Holiday," that initial search lists results containing "Holiday" and "holiday." If you then create an exclusion with the intent to exclude products containing "holiday," only products containing "holiday" are excluded. Products containing "Holiday" are not excluded.
+>The [!UICONTROL Advanced Search] functionality is case-insensitive; however, products returned at the time of delivery are based on case-sensitive search. This mismatch might lead to confusion. Ensure that you consider case-sensitivity when you create exclusions based on results using the Advanced Search functionality. For example, if you perform a search for "Holiday," that initial search lists results containing "Holiday" and "holiday." If you then create an exclusion with the intent to exclude products containing "holiday," only products containing "holiday" are excluded. Products containing "Holiday" are not excluded.
+
+## Edit, copy, or delete an exclusion
+
+Hover over the desired exclusion in the list, then click the appropriate icon: edit, copy, or delete.
+
+![Hover icons for an exclusion](/help/c-recommendations/c-products/assets/hover-exclusions.png)
+
+You can copy an existing exclusion to create a duplicate exclusion that you can then modify. This lets you create a similar exclusion with less effort.
+
+Be aware that exclusions are available across the entire account. Ensure that you consider this before deleting an exclusion. Deleted exclusions cannot be recovered.
 
 ## Training video: Create collections and exclusions in Recommendations (7:05) ![Tutorial badge](/help/assets/tutorial.png)
 

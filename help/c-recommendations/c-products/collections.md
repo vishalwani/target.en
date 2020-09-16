@@ -72,17 +72,29 @@ After creating a search using "id > contains," for example, you can then click [
 >
 >The Advanced Search functionality is case-insensitive; however, products returned at the time of delivery are based on case-sensitive search. This mismatch might lead to confusion. Ensure that you consider case-sensitivity when you create collections based on results using the Advanced Search functionality. For example, if you perform a search for "Holiday," that initial search lists results containing "Holiday" and "holiday." If you then create a catalog with the intent to return products containing "holiday," only products containing "holiday" are returned. Products containing "Holiday" are not returned.
 
+## Edit, copy, or delete a collection
+
+Hover over the desired collection in the list, then click the appropriate icon: edit, copy, or delete.
+
+![Hover icons for an collection](/help/c-recommendations/c-products/assets/hover-collections.png)
+
+You can copy an existing collection to create a duplicate collection that you can then modify. This lets you create a similar exclusion with less effort.
+
+Be aware that collections are available across the entire account. Ensure that you consider this before deleting a collection. Deleted collections cannot be recovered.
+
 ## Use a collection in a Recommendations activity
 
 1. Create a collection by using one of the methods mentioned above.
 
 1. Click **[!UICONTROL Activities]** and [create a new Recommendations](/help/c-recommendations/t-create-recs-activity/create-recs-activity.md) activity or edit an existing activity.
 
-1. On the **[!UICONTROL Experiences]** page (step 2 of the three-part guided workflow), click a location where you placed recommendations, then click **[!UICONTROL Change Collection]**.
+1. After you select a criteria and design, the [!UICONTROL Options] page displays were you select the desired collection.
+
+   ![Choose collection option](/help/c-recommendations/c-products/assets/choose-collection.png)
+
+1. (Conditional) To change an existing collection setting, on the **[!UICONTROL Experiences]** page (step 2 of the three-part guided workflow), click a location where you placed recommendations, click **[!UICONTROL Change Collection]**, then select the desired collection.
 
    ![Change Collection option](/help/c-recommendations/c-products/assets/change-collection.png)
-
-1. On the **[!UICONTROL Add Collection]** page, then select the desired collection.
 
 ## Training video: Create collections and exclusions in Recommendations (7:05) ![Tutorial badge](/help/assets/tutorial.png)
 
