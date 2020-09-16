@@ -8,11 +8,17 @@ uuid: 1970846e-37d8-4b69-a0d9-ff45bb840bef
 
 # Exclusions{#exclusions}
 
-Create an exclusion in [!DNL Adobe Target Recommendations] to prevent products or content from being recommended to visitors.
+Create an exclusion in [!DNL Adobe Target Recommendations] to prevent products or content from being recommended to visitors. An exclusion is a subset of products or content that should not be recommended to visitors.
 
-An exclusion is a subset of products or content that should not be recommended to visitors. For example, you can use exclusions to prevent products or content from displaying in recommendations that have been discontinued or are sensitive in nature (such as movies with a rating not suitable for all based on content ratings).
+Exclusions are available across the entire account. Unlike collections, where you specify a specific collection for each experience as you create a [!UICONTROL Recommendations] activity, exclusions apply to all activities across the account. There is no option to assign an exclusion group during activity creation.
 
-Exclusions are available across the entire account.
+Some examples of times you would use exclusions include:
+
+* Products that have been discontinued
+* Fall/Winter catalog is now the only catalog that should be present online. Any item from the Summer catalog is no longer available for purchase.
+* Items that might be inappropriate to recommend on most pages/screens (adult products, NC-17 movies, etc.)
+* Products with incomplete metadata fields (missing thumbnail, price, or other important metadata)
+* Products that should never be recommended (maybe a SKU exists in the system for something but it isn’t a purchasable item, or maybe it is a fake SKU for the QA team to simulate a purchase without actually ordering something, etc,)
 
 >[!IMPORTANT]
 >
