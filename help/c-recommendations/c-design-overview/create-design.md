@@ -29,7 +29,7 @@ This illustration shows a custom design:
 
 You can create a design during the activity-creation process from within the Visual Experience Composer (VEC) or from the design library outside of activity creation. The following sections assume you are creating designs from the library, but the steps are similar.
 
-## Create a design
+## Create designs
 
 You can create a design based on a default design or you can create a custom design.
 
