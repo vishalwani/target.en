@@ -29,7 +29,11 @@ This illustration shows a custom design:
 
 You can create a design during the activity-creation process from within the Visual Experience Composer (VEC) or from the design library outside of activity creation. The following sections assume you are creating designs from the library, but the steps are similar.
 
-## Create a design based on a default design
+## Create designs
+
+You can create a design based on a default design or you can create a custom design.
+
+### Create a design based on a default design
 
 1. Click **[!UICONTROL Recommendations]** > **[!UICONTROL Designs]** to display the [!UICONTROL Designs] library.
 
@@ -49,9 +53,9 @@ You can create a design during the activity-creation process from within the Vis
 
 1. (Conditional) Edit the design **[!UICONTROL Code]**, as desired.
 
-   Recommendation designs use the open-source Velocity design language. Information about Velocity can be found at [https://velocity.apache.org](https://velocity.apache.org).
+   Recommendation designs use the open-source Velocity design language. Information about Velocity can be found at [https://velocity.apache.org](https://velocity.apache.org) and in [Customize a design using Velocity](/help/c-recommendations/c-design-overview/customizing-a-template.md).
 
-   A design can be HTML or non-HTML. By default, HTML designs are wrapped with a <div> tag to allow for click-tracking in a Web environment. Non-HTML designs are for non-Web environments where click-tracking is not possible.
+   A design can be HTML or non-HTML. By default, HTML designs are wrapped with a <div> tag to allow for click-tracking in a Web environment. Non-HTML designs are for non-Web environments where click-tracking is not possible. Slide the [!UICONTROL HTML Design] toggle to the "off" position to use non-HTML code.
 
    >[!NOTE]
    >
@@ -59,7 +63,7 @@ You can create a design during the activity-creation process from within the Vis
 
 1. Click **[!UICONTROL Save]**.
 
-## Create a custom design
+### Create a custom design
 
 1. Click **[!UICONTROL Recommendations]** > **[!UICONTROL Designs]** to display the [!UICONTROL Designs] library.
 
@@ -74,6 +78,18 @@ You can create a design during the activity-creation process from within the Vis
    Refer to the information in Step 4 above for more information.
 
 1. Click **[!UICONTROL Save]**.
+
+## Edit, copy, or delete a design
+
+Remember that you cannot edit or copy a default design; you can only copy default designs.
+
+Hover over the desired design in the [!UICONTROL Design] library, then click the appropriate icon: edit, copy, or delete.
+
+![Hover icons for a design](/help/c-recommendations/c-design-overview/assets/hover-icons-design.png)
+
+You can copy an existing design to create a duplicate design that you can then modify. This lets you create a similar design with less effort.
+
+Be aware that designs are available across the entire account. Ensure that you consider this before deleting a design. Deleted designs cannot be recovered.
 
 ## JSON Example {#section_75BFB2537CFF4FBD9B560F59EB32C8DD}
 
