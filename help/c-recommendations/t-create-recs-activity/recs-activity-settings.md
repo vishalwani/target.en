@@ -9,7 +9,7 @@ uuid: 7c66d0e8-cecf-4d0d-8c62-5347a7d80a53
 
 # ![PREMIUM](/help/assets/premium.png) Recommendations Activity settings{#recommendations-activity-settings}
 
-Information about the settings you can use to describe and control a [!UICONTROL Recommendations] activity.
+Information about the settings you can use to describe and control a [!UICONTROL Recommendations] activity in [!DNL Adobe Target].
 
 ![Recommendations Goals & Settings page](/help/c-recommendations/t-create-recs-activity/assets/recs-settings.png)
 
@@ -30,7 +30,7 @@ The following characters are not allowed in an activity name:
 `-`
 `@`
 
-If you specify a [!UICONTROL Recommendations] activity name that already exists for another activity in [!UICONTROL Recommendations Classic], the new activity is resynced with a new name. The new name is the original name appended with a timestamp to make it unique. This new name is displayed in both Target Standard/Premium and [!UICONTROL Recommendations Classic].
+If you specify a [!UICONTROL Recommendations] activity name that already exists for another activity in [!UICONTROL Recommendations Classic], the new activity is resynced with a new name. The new name is the original name appended with a timestamp to make it unique. This new name is displayed in both [!DNL Target Standard/Premium] and [!UICONTROL Recommendations Classic].
 
 ## Objective
 
@@ -50,7 +50,7 @@ The activity can start when activated, or you can set a specific date and time. 
 
 ## Reporting Settings
 
-* **Reporting Source:** Select the reporting source: Adobe Target or [Analytics](/help/c-integrating-target-with-mac/a4t/a4t.md). Do not change the reporting source after the activity goes live. Changing the reporting source after an activity goes live causes inconsistent reporting.
+* **Reporting Source:** Select the reporting source: [!DNL Adobe Target] or [Analytics](/help/c-integrating-target-with-mac/a4t/a4t.md). Do not change the reporting source after the activity goes live. Changing the reporting source after an activity goes live causes inconsistent reporting.
 * **Goal Metric:** Select the success metric that determines whether the activity is successful.
 * **Additional Metrics:** Configure additional success metrics to be used in your reports.
 * **Audiences for Reporting:** Define audiences that can be used when filtering your reports.

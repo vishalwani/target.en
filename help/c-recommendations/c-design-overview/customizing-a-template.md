@@ -1,6 +1,6 @@
 ---
 keywords: custom design;velocity;decimal;comma;customize design
-description: Use the open-source Velocity design language to customize recommendation designs.
+description: Use the open-source Velocity design language to customize recommendation designs in Adobe Target Recommendations.
 title: Customize a design using Velocity
 feature: designs
 uuid: 80701a15-c5eb-4089-a92e-117eda11faa2
@@ -8,7 +8,7 @@ uuid: 80701a15-c5eb-4089-a92e-117eda11faa2
 
 # ![PREMIUM](/help/assets/premium.png) Customize a design using Velocity{#customize-a-design-using-velocity}
 
-Use the open-source Velocity design language to customize recommendation designs.
+Use the open-source Velocity design language to customize recommendation designs in [!DNL Adobe Target Recommendations].
 
 ## Velocity overview {#section_C431ACA940BC4210954C7AEFF6D03EA5}
 
@@ -58,7 +58,7 @@ If you use a profile script in your design, the $ preceding the script name must
 
 >[!NOTE]
 >
->The maximum number of entities that can be referenced in a design, either hardcoded or via loops, is 99. The template script length can contain up to 65,000 characters.
+>The maximum number of entities that can be referenced in a design, either hard-coded or via loops, is 99. The template script length can contain up to 65,000 characters.
 
 For example, if you want a design that displays something similar to this:
 
@@ -119,14 +119,14 @@ You can also use `algorithm.name` and `algorithm.dayCount` as variables in desig
 
 ## Working with numbers in Velocity templates
 
-By default, Velocity templates treat all entity attributes as string values. You might want to treat an entity attribute as a numeric value in order to perform a math operation or compare it to another numerical value. To do treat an entity attribute as a numeric value, follow these steps:
+By default, Velocity templates treat all entity attributes as string values. You might want to treat an entity attribute as a numeric value in order to perform a math operation or compare it to another numerical value. To treat an entity attribute as a numeric value, follow these steps:
 
-1. Declare a dummy variable and initialize it to an arbitrary integer or double value
-1. Ensure that the entity attribute you want to use is not blank (required for Target Recommendations' template parser to validate and save the template)
-1. Pass the entity attribute into the `parseInt` or `parseDouble` method on the dummy variable you created in step 1 to turn the string into an integer or double value
-1. Perform the math operation or comparison on the new numeric value
+1. Declare a dummy variable and initialize it to an arbitrary integer or double value.
+1. Ensure that the entity attribute you want to use is not blank (required for Target Recommendations' template parser to validate and save the template).
+1. Pass the entity attribute into the `parseInt` or `parseDouble` method on the dummy variable you created in step 1 to turn the string into an integer or double value.
+1. Perform the math operation or comparison on the new numeric value.
 
-**Example: Calculating a discount price**
+### Example: Calculating a discount price
 
 Suppose you want to reduce the displayed price of an item by $0.99 to apply a discount. You could use the following approach to achieve this result:
 
@@ -141,9 +141,9 @@ Suppose you want to reduce the displayed price of an item by $0.99 to apply a di
 #end
 ```
 
-**Example: Choosing the number of stars to display based on an item's rating**
+### Example: Choosing the number of stars to display based on an item's rating
 
-Suppose you wish to display an appropriate number of stars based on an item's numerical average customer rating. You could use the following approach to achieve this result:
+Suppose you want to display an appropriate number of stars based on an item's numerical average customer rating. You could use the following approach to achieve this result:
 
 ```
 #set( $Double = 0.1 )
@@ -166,7 +166,7 @@ Suppose you wish to display an appropriate number of stars based on an item's nu
 #end
 ```
 
-**Example: Calculating the time in hours and minutes based on an item's length in minutes**
+### Example: Calculating the time in hours and minutes based on an item's length in minutes
 
 Suppose you store the length of a movie in minutes, but want to display the length in hours and minutes. You could use the following approach to achieve this result:
 
