@@ -32,7 +32,7 @@ Status results include the following, as illustrated below:
 
 ## How long will the algorithm take to run?
 
-After saving an activity containing a criteria, [!DNL Target] computes recommendations based on the selected collection, criteria, design, and promotions. This computation takes some time to perform and the timeframe differs based on the selected recommendation logic, data range, number of items in your catalog, amount of behavioral data your customers have generated, and the selected behavioral data source.
+After saving an activity containing a criteria, [!DNL Target] computes recommendations based on the selected collection, criteria, design, and promotions. This computation takes some time to perform and the time-frame differs based on the selected recommendation logic, data range, number of items in your catalog, amount of behavioral data your customers have generated, and the selected behavioral data source.
 
 The behavioral data source has the largest impact on processing time, as follows:
 
@@ -68,11 +68,9 @@ Using a QA link allows you to preview the recommendations on your page:
 
 >[!NOTE]
 >
->Target QA mode is “sticky” and saved in a cookie. If you do not exit QA mode, you’ll keep seeing the QA results throughout the site. To exit QA mode, use the [bookmarklet](/help/c-activities/c-activity-qa/activity-qa-bookmark.md).
-
->[!NOTE]
+>* Target QA mode is “sticky” and saved in a cookie. If you do not exit QA mode, you’ll keep seeing the QA results throughout the site. To exit QA mode, use the [bookmarklet](/help/c-activities/c-activity-qa/activity-qa-bookmark.md).
 >
->While in QA mode, browsing the site will not affect your profile’s [!UICONTROL Recently Viewed Items] or [!UICONTROL Recently Purchased Items]" This behavior occurs by design to avoid unintentional pollution of production behavioral data. To preview results from a [!UICONTROL Recently Viewed Items] or [!UICONTROL User-Based Recommendations] criteria, first browse the site outside of QA mode, then use the same session to open a QA mode link.
+>* While in QA mode, browsing the site will not affect your profile’s [!UICONTROL Recently Viewed Items] or [!UICONTROL Recently Purchased Items]." This behavior occurs by design to avoid unintentional pollution of production behavioral data. To preview results from a [!UICONTROL Recently Viewed Items] or [!UICONTROL User-Based Recommendations] criteria, first browse the site outside of QA mode, then use the same session to open a QA mode link.
 
 ## Using the CSV download to preview recommendations
 

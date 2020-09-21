@@ -42,9 +42,15 @@ Use the Target Visual Experience Composer (VEC) to create a Recommendations acti
 
 1. Click an element on your page, then if recommendations are available where that element is located, click **[!UICONTROL Replace w/ Recommendations]**, **[!UICONTROL Insert Recommendations Before]**, or **[!UICONTROL Insert Recommendations After]**.
 
+   Visitors to your site will see the recommended content only if they qualify for the recommendation. Visitors who do not qualify for the recommendation will see default content.
+
    ![Recommendations options](/help/c-recommendations/t-create-recs-activity/assets/Menu_Replace-Insert.png)
 
-   Replacing an element with recommendations deletes the current content and replaces it with your recommendations.
+   * **[!UICONTROL Replace w/ Recommendations]**: Replacing an element with recommendations deletes the current content and replaces it with your recommendations. When visitors visit your site and qualify for the recommendation, they'll see the recommended items in the specified area instead of the existing content.
+   * **[!UICONTROL Insert Recommendations Before]**: Inserting recommendations before the selected element places the recommended content before that element. Depending on your page construction, the recommendation displays above or to the left of the selected element.
+   * **[!UICONTROL Insert Recommendations After]**: Inserting recommendations after the selected element places the recommended content after that element. Depending on your page construction, the recommendation displays below or to the right of the selected element.
+
+   The **[!UICONTROL Expand Selection]** option lets you expand the selected location (parent container) to help you easily identify and include the desired page elements more easily.
 
 1. Select a page type.
 
@@ -63,7 +69,7 @@ Use the Target Visual Experience Composer (VEC) to create a Recommendations acti
 
 1. Select one or more [criteria](/help/c-recommendations/c-algorithms/algorithms.md).
 
-   Criteria are displayed as cards that show information about each criteria. By default, the [!UICONTROL Select Criteria] screen displays criteria that are compatible with your industry vertical and the page type you selected. You can change these options to display other criteria.
+   Criteria are displayed as cards that show information about each criteria. By default, the [!UICONTROL Select Criteria] screen displays criteria that are compatible with your industry vertical and the page type you selected in the previous step. You can change these options to display other criteria.
 
    >[!NOTE]
    >
@@ -83,7 +89,7 @@ Use the Target Visual Experience Composer (VEC) to create a Recommendations acti
 1. Click **[!UICONTROL Next]**.
 1. Select a [design](/help/c-recommendations/c-design-overview/design-overview.md).
 
-   A design is a template that determines the look of the locations on your page. [!DNL Target] includes several preconfigured designs. You can also create your own custom designs. For more information, see [Create a Design](../../c-recommendations/c-design-overview/create-design.md#task_CC5BD28C364742218C1ACAF0D45E0E14) and [Customizing a Design](../../c-recommendations/c-design-overview/customizing-a-template.md#concept_94F1554C3F2E4CDB9A2C3D78F10EDA59).
+   A design is a template that determines the look of the locations on your page. [!DNL Target] includes several pre-configured designs. You can also create your own custom designs. For more information, see [Create a Design](../../c-recommendations/c-design-overview/create-design.md#task_CC5BD28C364742218C1ACAF0D45E0E14) and [Customizing a Design](../../c-recommendations/c-design-overview/customizing-a-template.md#concept_94F1554C3F2E4CDB9A2C3D78F10EDA59).
 
    ![Select Design dialog box](/help/c-recommendations/t-create-recs-activity/assets/Card_SelectDesign.png)
 
@@ -97,7 +103,8 @@ Use the Target Visual Experience Composer (VEC) to create a Recommendations acti
 
 1. Click **[!UICONTROL Next]**.
 
-   You have the option to add promotions to your recommendations. For more information about adding front and back promotions, see [Adding Promotions](../../c-recommendations/t-create-recs-activity/adding-promotions.md#task_CC5BD28C364742218C1ACAF0D45E0E14). 
+   You have the option to add promotions to your recommendations. For more information about adding front and back promotions, see [Adding Promotions](../../c-recommendations/t-create-recs-activity/adding-promotions.md#task_CC5BD28C364742218C1ACAF0D45E0E14).
+
 1. Click **[!UICONTROL Save]**.
 
    The VEC screen displays the recommendation design on your page.
@@ -151,7 +158,8 @@ Use the Target Visual Experience Composer (VEC) to create a Recommendations acti
 
    * Activate the activity 
    * Edit the activity 
-   * Pin the activity to your Experience Cloud board 
+   * Share the activity to your Experience Cloud feed
+   * QA the activity 
    * View your experience URLs 
    * Download data 
    * Change the percentage of activity entrants who see the control experience 
@@ -159,6 +167,7 @@ Use the Target Visual Experience Composer (VEC) to create a Recommendations acti
    * View the code for your designs
 
 1. (Optional) Open the [!UICONTROL Reports] page to view the report that shows the performance of your [!DNL Recommendations] activity.
+
 1. (Optional) Open the [!UICONTROL Collisions] page to view any [activity collisions](/help/c-experiences/c-visual-experience-composer/activity-collisions.md) that might occur.
 
    Activity collisions occur when multiple activities are set to deliver content to the same page, and may cause unexpected content to be displayed.
