@@ -1,4 +1,4 @@
-* ---
+---
 keywords: create recommendations;recommendations activity;new recommendations;recommendations overview
 description: Use the Target Visual Experience Composer (VEC) to create a Recommendations activity directly on a Target-enabled page and to modify portions of the page within Target.
 title: Create a Recommendations activity
