@@ -16,7 +16,7 @@ Before you decide to use this integration, review the following sections and con
 
 >[!IMPORTANT]
 >
->Before you can begin using A4T, you need to request that your account be provisioned for the integration. Use [this form](https://www.adobe.com/go/audiences) to request to be provisioned.
+>Before you can begin using A4T, you need to request that your account be provisioned for the integration. Use the [Marketing Cloud Integrations Provisioning Form](https://www.adobe.com/go/audiences) to request to be provisioned.
 
 This A4T integration requires that you implement the following library versions (or newer), depending on whether you want to use redirect offers with A4T or not:
 
@@ -75,3 +75,15 @@ When troubleshooting, be sure to confirm that the supplemental ID is present on 
 By default, when at.js, the [!DNL Experience Cloud Visitor ID Service], and appMeasurement.js are on the page, [!DNL Analytics] and [!DNL Target] correctly stitch events for reporting and analytics purposes in the backend as long as the correct supplemental ID is included from the page, as mentioned above. You won’t need to manage and perform any additional operations for A4T to function correctly.
 
 However, there are cases when you might want to have more control on when and how to send analytics data related to [!DNL Target] to [!DNL Analytics] for reporting purposes. You might have an in-house analytics tool that you leverage for internal purposes but also want to send the analytics data to [!DNL Analytics] via your in-house analytics product so that other members of your organization can continue to utilize [!DNL Analytics] as a visual reporting source. See [Step 7: Reference at.js or mbox.js on all site pages](/help/c-integrating-target-with-mac/a4t/a4timplementation.md#step7) in *Analytics for Target Implementation* for more information.
+
+## Shared audiences
+
+While filling in the [Marketing Cloud Integrations Provisioning Form](https://www.adobe.com/go/audiences), be aware of the following important information concerning the [!UICONTROL Shared Audiences] option listed under "[!UICONTROL For which capabilities are you requesting provisioning]?" 
+
+![Request form](/help/c-integrating-target-with-mac/a4t/assets/request-form.png)
+
+When you request [!UICONTROL Shared Audiences], you enable [!UICONTROL Target] and [!UICONTROL Adobe Audience Manager] (AAM) to share information, in this case audiences.
+
+>[!IMPORTANT]
+>
+>This integration between [!UICONTROL Target] and AAM comes with additional costs. You will be billed for each [!UICONTROL Target] call in AAM.
