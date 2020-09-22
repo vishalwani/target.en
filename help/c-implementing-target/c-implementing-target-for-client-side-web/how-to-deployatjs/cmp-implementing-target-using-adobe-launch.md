@@ -22,7 +22,7 @@ The following table lists the various sources where you can get more information
 |[Adobe Launch Documentation](https://docs.adobe.com/content/help/en/launch/using/intro/get-started/quick-start.html)|Information about deploying and managing all of the analytics, marketing, and advertising tags necessary to power relevant customer experiences.|
 |[Adobe Target Extension Documentation](https://docs.adobe.com/content/help/en/launch/using/extensions-ref/adobe-extension/target-extension/overview.html)|Information about implementing Target using Launch.|
 
-## Advantages of Implementing at.js Using the Target Launch Extension {#section_48B3F938B6F8491DAF798E0DB54EF304}
+## Advantages of implementing at.js using the Target Launch extension {#section_48B3F938B6F8491DAF798E0DB54EF304}
 
 The following advantages apply only if you use Adobe Launch to implement at.js. For this reason we strongly suggest that you use Adobe Launch rather than DTM or a manual implementation of at.js.
 

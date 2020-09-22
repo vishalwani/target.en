@@ -37,7 +37,7 @@ You can view the following account details. These settings cannot be changed.
 | Setting | Description |
 | --- | --- |
 |Client Code|The client code is a client-specific sequence of characters often required when using the  Target  APIs.|
-|IMS Organization ID|This ID ties your implementation to your [!DNL Adobe Experience Cloud] account.|
+|IMS Organization ID|This ID ties your implementation to your [!DNL Adobe Experience Cloud] account.
 
 ## Implementation methods
 
