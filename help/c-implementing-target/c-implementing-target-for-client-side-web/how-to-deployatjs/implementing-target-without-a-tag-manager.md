@@ -37,7 +37,7 @@ You can view the following account details. These settings cannot be changed.
 | Setting | Description |
 | --- | --- |
 |Client Code|The client code is a client-specific sequence of characters often required when using the  Target  APIs.|
-|IMS Organization ID|This ID ties your implementation to your [!DNL Adobe Experience Cloud] account.
+|IMS Organization ID|This ID ties your implementation to your [!DNL Adobe Experience Cloud] account.|
 
 ## Implementation methods
 
@@ -49,6 +49,8 @@ The following settings can be configured in the Implementation methods panel:
 >
 >These settings are applied to all [!DNL Target] .js libraries. After performing changes in the [!UICONTROL Implementation methods] section you need to download the library and update it in your implementation.
 
+|Setting|Description|
+| --- | --- |
 |Page load enabled (Auto-create global mbox|Select whether to embed the global mbox call in the at.js file to automatically fire on each page load.|
 |Global mbox|Select a name for the global mbox. By default, this name is  target-global-mbox.<br>Special characters, including ampersands (&), can be used in mbox names with at.js.|
 |Timeout (seconds)|If [!DNL Target] does not respond with content within the defined period, the server call times out and default content is displayed. Additional calls continue to be attempted during the visitor's session. The default is 5 seconds.<br>The at.js library uses the timeout setting in `XMLHttpRequest`. The timeout starts when the request is fired and stops when [!DNL Target] gets a response from the server. For more information, see [XMLHttpRequest.timeout](https://developer.mozilla.org/en-US/docs/Web/API/XMLHttpRequest/timeout) on the Mozilla Developer Network.<br>If the specified timeout occurs before receiving the response, default content is shown and the visitor might be counted as a participant in an activity because all data collection happens on the [!DNL Target] edge. If the request reaches the [!DNL Target] edge, the visitor is counted.<br>Consider the following when configuring the timeout setting:<ul><li>If the value is too low, users might see default content most of the time, although the visitor could be counted as a participant in the activity.</li><li>If the value is too high, visitors might see blank regions on your web page or blank pages if you use body hiding for extended periods of time.</li></ul>To get a better understanding of mbox response times, look at the Network tab in your browser's Developer Tools. You can also use third-party web performance monitoring tools, such as Catchpoint.<br>**Note**: The [visitorApiTimeout](/help/c-implementing-target/c-implementing-target-for-client-side-web/targetgobalsettings.md) setting ensures that [!DNL Target] doesn't wait for the Visitor API response for too long. This setting and the Timeout setting for at.js described here do not affect each other.|
