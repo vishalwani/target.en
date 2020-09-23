@@ -3,7 +3,7 @@ keywords: experience targeting;xt;metrics;set metrics;goal metric;activity setti
 description: Use metrics in an Adobe Target Experience Targeting (XT) activity to determine when a visit is successful.
 title: Set Metrics
 feature: xt
-solution: Target,standard
+solution: Target
 uuid: 5b2f6613-0773-4614-9d39-d9a408566969
 ---
 
