@@ -11,7 +11,7 @@ uuid: 35ecabbe-b8b4-479b-9266-4823c831d79a
 
 This article contains prerelease information. Release dates, features, and other information are subject to change without notice. 
 
-**Last Updated: September 15, 2020**
+**Last Updated: September 23, 2020**
 
 To view information about the current release, see [Target Release Notes](release-notes.md). The information on these pages might be the same, depending on the timing of releases. The issue numbers in parentheses are for internal [!DNL Adobe] use.
 
@@ -27,39 +27,13 @@ To view information about the current release, see [Target Release Notes](releas
 >
 >* **Target Announcements**: See the Target announcements page for information about upcoming events, including Target Skill Builder sessions, developer chats, webinars, and Target Coffee Break sessions. For more information, see [Target announcements](/help/r-release-notes/target-announcements.md).
 
-## Target Standard/Premium 20.8.3 (September 15, 2020)
+## Target Standard/Premium 20.9.1 (September 30, 2020)
 
-|Feature|Details|
-| --- | --- |
-|![Premium badge](/help/assets/premium.png) Analytics for Target (A4T) support for Auto-Target activities|[!UICONTROL Auto-Target] activities now support [Analytics for Target](/help/c-integrating-target-with-mac/a4t/a4t.md).<br>This integration allows you to use the [!UICONTROL Auto-Target] ensemble machine learning algorithm to choose a best experience for each visitor based on their profile, behavior, and context.<br>If you’ve already [implemented A4T](/help/c-integrating-target-with-mac/a4t/a4timplementation.md) for use with A/B Test and Experience Targeting activities, you’re all set!<br>For more information, see [Analytics for Target (A4T) support for Auto-Allocate and Auto-Target activities](/help/c-integrating-target-with-mac/a4t/campaign-creation.md#a4t-aa) in *Activity creation*.|
+This maintenance release contains the following enhancements, fixes, and changes:
 
-## Target Standard/Premium 20.8.2 (September 10, 2020)
-
-|Feature|Details|
-| --- | --- |
-|![Premium badge](/help/assets/premium.png) Control recommendations slots within criteria sequences|Criteria Sequences now allow you to control the number of slots taken up by each recommendations criteria, enabling you to mix and match different types of items or different algorithm logic.<br>See [Create criteria sequences](/help/c-recommendations/c-algorithms/create-criteria-sequence.md#sequence) to learn more.|
-
-## Target Standard/Premium 20.8.1 (September 2, 2020)
-
-This release contains the following enhancements, fixes, and changes:
-
-* Fixed an issue that caused errors to display when loading the new [!UICONTROL Administration] pages after switching organizations. (TGT-37730)
-* Fixed a display issue that caused the incorrect client code to display on the [!UICONTROL Administration > Implementation] page. (TGT-37849)
-* Fixed an issue that sometimes prevented users from using the editing features in the [!UICONTROL Visual Experience Composer] (VEC) after successfully loading the VEC. (TGT-37162)
-* Fixed an issue that prevented pages from loading in the VEC and Enhanced Experience Composer (EEC) even though the VEC Helper extension was installed. This was due to changes in Google Chrome 80+. Download the [updated VEC Helper extension](/help/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/issues-related-to-the-visual-experience-composer-vec-and-enhanced-experience-composer-eec.md). (TGT-37893) 
-* Fixed an issue that sometimes prevented users from downloading at.js from the [!UICONTROL Administration > Implementation] page after switching organizations. (TGT-37668)
-* The at.js download button is now disabled while loading to prevent [!DNL Target] from sending multiple requests if users click the download button multiple times. (TGT-37633)
-* Fixed an issue in [!UICONTROL Experience Targeting] (XT) activities that caused experiences to display "fetching results" for an extended period of time. (TGT-37684)
-* Improved navigation and functionality for keyboard-only users. (TGT-34479 & TGT-34473)
-* Added labels in the UI to aid users using assistive technologies. (TGT-34480)
-* Improved the error message when deleting a mobile viewport that is currently used in an activity. The error message now reads: "This viewport is currently associated to one or multiple activities. You need to remove the viewport from those activities before being able to delete it." (TGT-37030)
-* Added support in the VEC to allow click tracking on a css selector that matches more than one element in the page. (TGT-37323)
-* Fixed an issue that prevented certain users from displaying the [!UICONTROL Activity] list. The following error message was displayed: "Unable to fetch URLsuggestions." The error occurred for users using carriage returns in their FirstName (FirstName/r/n) in the Adobe Backend system. (TGT-37330)
-* Fixed an issue that prevented users from displaying the [!UICONTROL Activity] page if the workspace name (specified in the [!UICONTROL Adobe Admin Console for Enterprise]) contains an apostrophe. (TGT-37709)
-* Fixed an issue in [!UICONTROL Auto-Allocate] activities while selecting optimization and conversion metrics where an error message incorrectly informed users to select a report suite, even though a report suite was already specified. (TGT-37689)
-* Fixed an issue that sometimes caused metrics on the [!UICONTROL Goals and Settings] page to be blank after navigating to the [!UICONTROL Targeting] page and then back. (TGT-37691)
-* Fixed an issue that caused an incorrect last-modified value for [!DNL Recommendations] criteria. (TGT-37666)
-* Fixed an issue that caused mbox IDs to display in the Mboxes drop-down list instead of mbox names. (TGT-37739)
+* Improved navigation and functionality for keyboard-only users. (TGT-34487, TGT-34516, TGT-34517, TGT-34514)
+* Added labels in the UI to aid users using assistive technologies. (TGT-34500, TGT-34501, TGT-34502, TGT-24504)
+* Improved text and color contrast for images and text in UI. (TGT-34513)
 
 ## Prerelease information {#section_7B9D4AAFC6A74388B9D7DEF0658D8B63} 
 
