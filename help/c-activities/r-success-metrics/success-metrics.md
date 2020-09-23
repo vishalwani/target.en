@@ -86,7 +86,7 @@ Use the advanced settings to determine what happens after a user reaches the goa
 
 | After a User Encounters This Goal Metric | Options |
 |--- |--- |
-|[!UICONTROL Increment Count & Keep User in Activity](default)|Specify how the count is incremented:<ul><li>Once per entrant (default)</li><li>On every impression, excluding page refreshes</li><li>On every impression</li></ul>|
+|[!UICONTROL Increment Count & Keep User in Activity](the default)|Specify how the count is incremented:<ul><li>Once per entrant (default)</li><li>On every impression, excluding page refreshes</li><li>On every impression</li></ul>|
 |[!UICONTROL Increment Count, Release user, & Allow Reentry]|Select the experience the visitor sees if they reenter the activity:<ul><li>Same experience (default)</li><li>Random experience</li><li>Unseen experience</li></ul>|
 |[!UICONTROL Increment Count, Release User, & Bar from Reentry]|Determine what the user sees instead of the activity content:<ul><li>Same experience, without tracking (default)</li><li>Default content, or other activity content</li></ul>|
 
