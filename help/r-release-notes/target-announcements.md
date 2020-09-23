@@ -14,13 +14,6 @@ Announcements and information about upcoming events, including Target Skill Buil
 
 Adobe was once again named a Leader in the third-annual Gartner Magic Quadrant for Personalization Engines, 2020 report. The Gartner Magic Quadrant for Personalization Engines evaluated vendors across 15 criteria that fall into two categories: completeness of vision and ability to execute. [Read about it on The Adobe Blog](https://theblog.adobe.com/adobe-again-named-leader-in-gartner-magic-quadrant-for-personalization-engines/).
 
-## Webinar: Personalization Strategies Using Artificial Intelligence and Adobe Target
-
-* **8:00 - 9:00 a.m. (PDT)**
-* **Thursday, August 13, 2020**
-
-[Register for this webinar here](https://atskillbuilder-maxpersonalization.experienceleague.adobeevents.com/).
-
 ## Webinar: How HSBC leverages Adobe Target and AI to rapidly optimize and deliver personalization at scale
 
 * **For the next 30 days, you can click here to view the [Webinar Recording](https://seminars.adobeconnect.com/ps4ozlg7qfdy/?proto=true).**
